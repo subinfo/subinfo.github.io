@@ -502,7 +502,7 @@ function update () {
 }
 
 var exampleNodes = [
-  {"type":"Asset","id":"a","parent":null,"name":"Assets"},
+  {"type":"Asset","id":"a","parent":null,"name":"Dimensión 1"},
   {"type":"Asset","id":1,"parent":"a","number":"101","name":"Cash"},
   {"type":"Asset","id":2,"parent":"a","number":"120","name":"Accounts Receivable"},
   {"type":"Asset","id":3,"parent":"a","number":"140","name":"Merchandise Inventory"},

@@ -62,7 +62,7 @@
 <div>
 <script >
 
-var dim =document.getElementById("dimension").value;
+var dim="flare2.json";
    
 var diameter = 960,
     radius = diameter / 2,
@@ -85,6 +85,7 @@ var svg = d3.select("body").append("svg")
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
 function myfunc(){
+  dim =document.getElementById("dimension").value;
   document.getElementById("demo").innerHTML=dim;
 }
 

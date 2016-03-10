@@ -83,8 +83,8 @@ var link = svg.append("g").selectAll(".link"),
 
 function myFunction() {
    var dim =document.getElementById("dimension").value;
-  return dim;
-}
+ 
+
 
 
 d3.json(myFunction(), function(error, classes) {
@@ -149,7 +149,7 @@ d3.json(myFunction(), function(error, classes) {
     	.attr("opacity", 1.0)
     	.attr("r", function(d){ return d.size*2});
 ////////////////////////////////////////////////////////////////////
-});
+})};
 function mouseovered(d) {
   node
       .each(function(n) { n.target = n.source = false; });

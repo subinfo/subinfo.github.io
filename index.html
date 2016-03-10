@@ -83,7 +83,7 @@ var link = svg.append("g").selectAll(".link"),
 var dim =document.getElementById("dimension").value;
 document.write(dim);
 
-d3.json("flare1.json", function(error, classes) {
+d3.json(dim, function(error, classes) {
   if (error) throw error;
   var nodes = cluster.nodes(packageHierarchy(classes)),
       links = packageImports(nodes);

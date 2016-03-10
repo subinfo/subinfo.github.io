@@ -84,11 +84,7 @@ var svg = d3.select("body").append("svg")
     .attr("transform", "translate(" + radius + "," + radius + ")");
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
-function myfunc(){
-  dim =document.getElementById("dimension").value;
-  document.getElementById("demo").innerHTML=dim;
-  d3.json();
-}
+
 
 d3.json(dim, function(error, classes) {
   if (error) throw error;

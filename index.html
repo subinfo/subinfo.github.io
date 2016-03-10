@@ -85,7 +85,7 @@ var svg = d3.select("body").append("svg")
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
 function myfunc(){
-  document.write(dim);
+  document.getElementById("demo").innerHTML=dim;
 }
 
 d3.json(dim, function(error, classes) {

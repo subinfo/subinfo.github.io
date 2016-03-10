@@ -236,40 +236,40 @@ function packageImports(nodes) {
 <div>
 <script >
 
-var diameter = 960,
-    radius = diameter / 2,
-    innerRadius = radius - 300;
+var diameter2 = 960,
+    radius2 = diameter2 / 2,
+    innerRadius2 = radius2 - 300;
 
-var cluster = d3.layout.cluster()
+var cluster2 = d3.layout.cluster()
     .size([360, innerRadius])
     .sort(null)
     .value(function(d) { return d.size; });
 
-var bundle = d3.layout.bundle();
+var bundle2 = d3.layout.bundle();
 
-var line = d3.svg.line.radial()
+var line2 = d3.svg.line.radial()
     .interpolate("bundle")
     .tension(.85)
     .radius(function(d) { return d.y; })
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
-var svg = d3.select("body").append("svg")
+var svg2 = d3.select("body").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
   .append("g")
     .attr("transform", "translate(" + radius + "," + radius + ")");
 
-var link = svg.append("g").selectAll(".link"),
-    node = svg.append("g").selectAll(".node");
+var link2 = svg.append("g").selectAll(".link"),
+    node2 = svg.append("g").selectAll(".node");
 
-d3.json("flare1.json", function(error, classes) {
+d3.json("flare2.json", function(error, classes) {
   if (error) throw error;
 
-  var nodes = cluster.nodes(packageHierarchy(classes)),
-      links = packageImports(nodes);
+  var nodes2 = cluster.nodes(packageHierarchy(classes)),
+      links2 = packageImports(nodes);
 
-  link = link
-      .data(bundle(links))
+  link2 = link2
+      .data(bundle2(links2))
     .enter().append("path")
       .each(function(d) { d.source = d[0], d.target = d[d.length - 1]; })
       .attr("class", "link")
@@ -296,8 +296,8 @@ d3.json("flare1.json", function(error, classes) {
 */
 
       
-      var nodes_g = svg.selectAll("g.node")
-      .data(nodes.filter(function(n) { return !n.children; }))
+      var nodes_g2 = svg.selectAll("g.node2")
+      .data(nodes2.filter(function(n) { return !n.children; }))
       .enter().append("g")
         .attr("class", "node")
         .attr("id", function(d) { return d.name; })
@@ -318,11 +318,11 @@ d3.json("flare1.json", function(error, classes) {
 
     // set up a scale to size nodes based on xin.nodesize
 
-    var nodesizer = d3.scale.linear()
+    var nodesizer2 = d3.scale.linear()
       .domain(d3.extent(nodes.map(function(d){return d.size})))
       .range(5,20);
 
-    nodes_g.append("circle")
+    nodes_g2.append("circle")
     	.attr("cx", 0)
     	.attr("cy", 0)
     	.attr("fill", function(d,i){
@@ -336,22 +336,22 @@ d3.json("flare1.json", function(error, classes) {
 });
 
 function mouseovered(d) {
-  node
+  node2
       .each(function(n) { n.target = n.source = false; });
 
-  link
+  link2
       .classed("link--target", function(l) { if (l.target === d) return l.source.source = true; })
       .classed("link--source", function(l) { if (l.source === d) return l.target.target = true; })
     .filter(function(l) { return l.target === d || l.source === d; })
       .each(function() { this.parentNode.appendChild(this); });
 
-  node
+  node2
       .classed("node--target", function(n) { return n.target; })
       .classed("node--source", function(n) { return n.source; });
 }
 
 function mouseouted(d) {
-  link
+  link2
       .classed("link--target", false)
       .classed("link--source", false);
 
@@ -360,23 +360,23 @@ function mouseouted(d) {
       .classed("node--source", false);
 }
 
-d3.select(self.frameElement).style("height", diameter + "px");
+d3.select(self.frameElement).style("height", diameter2 + "px");
 
 // Lazily construct the package hierarchy from class names.
 function packageHierarchy(classes) {
   var map = {};
 
   function find(name, data) {
-    var node = map[name], i;
-    if (!node) {
-      node = map[name] = data || {name: name, children: []};
+    var node2 = map[name], i;
+    if (!node2) {
+      node2 = map[name] = data || {name: name, children: []};
       if (name.length) {
-        node.parent = find(name.substring(0, i = name.lastIndexOf(".")));
-        node.parent.children.push(node);
-        node.key = name.substring(i + 1);
+        node2.parent = find(name.substring(0, i = name.lastIndexOf(".")));
+        node2.parent.children.push(node2);
+        node2.key = name.substring(i + 1);
       }
     }
-    return node;
+    return node2;
   }
 
   classes.forEach(function(d) {
@@ -388,22 +388,22 @@ function packageHierarchy(classes) {
 
 // Return a list of imports for the given array of nodes.
 function packageImports(nodes) {
-  var map = {},
-      imports = [];
+  var map2 = {},
+      imports2 = [];
 
   // Compute a map from name to node.
-  nodes.forEach(function(d) {
-    map[d.name] = d;
+  nodes2.forEach(function(d) {
+    map[d.name2] = d;
   });
 
   // For each import, construct a link from the source to target node.
-  nodes.forEach(function(d) {
-    if (d.imports) d.imports.forEach(function(i) {
-      imports.push({source: map[d.name], target: map[i]});
+  nodes2.forEach(function(d) {
+    if (d.imports) d.imports2.forEach(function(i) {
+      imports2.push({source: map[d.name], target: map[i]});
     });
   });
 
-  return imports;
+  return imports2;
 }
 
 </script>

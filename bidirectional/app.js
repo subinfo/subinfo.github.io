@@ -36,12 +36,12 @@ var OPACITY = {
 
 var formatNumber = function (d) {
   var numberFormat = d3.format(",.0f"); // zero decimal places
-  return "£" + numberFormat(d);
+  return "Â£" + numberFormat(d);
 },
 
 formatFlow = function (d) {
   var flowFormat = d3.format(",.0f"); // zero decimal places with sign
-  return "£" + flowFormat(Math.abs(d)) + (d < 0 ? " CR" : " DR");
+  return "Â£" + flowFormat(Math.abs(d)) + (d < 0 ? " CR" : " DR");
 },
 
 // Used when temporarily disabling user interractions to allow animations to complete
@@ -503,96 +503,12 @@ function update () {
 
 var exampleNodes = [
   {"type":"Asset","id":"a","parent":null,"name":"Assets"},
-  {"type":"Asset","id":1,"parent":"a","number":"101","name":"Cash"},
-  {"type":"Asset","id":2,"parent":"a","number":"120","name":"Accounts Receivable"},
-  {"type":"Asset","id":3,"parent":"a","number":"140","name":"Merchandise Inventory"},
-  {"type":"Asset","id":4,"parent":"a","number":"150","name":"Supplies"},
-  {"type":"Asset","id":5,"parent":"a","number":"160","name":"Prepaid Insurance"},
-  {"type":"Asset","id":6,"parent":"a","number":"170","name":"Land"},
-  {"type":"Asset","id":7,"parent":"a","number":"175","name":"Buildings"},
-  {"type":"Asset","id":8,"parent":"a","number":"178","name":"Acc. Depreciation Buildings"},
-  {"type":"Asset","id":9,"parent":"a","number":"180","name":"Equipment"},
-  {"type":"Asset","id":10,"parent":"a","number":"188","name":"Acc. Depreciation Equipment"},
   {"type":"Liability","id":"l","parent":null,"number":"l","name":"Liabilities"},
-  {"type":"Liability","id":11,"parent":"l","number":"210","name":"Notes Payable"},
-  {"type":"Liability","id":12,"parent":"l","number":"215","name":"Accounts Payable"},
-  {"type":"Liability","id":13,"parent":"l","number":"220","name":"Wages Payable"},
-  {"type":"Liability","id":14,"parent":"l","number":"230","name":"Interest Payable"},
-  {"type":"Liability","id":15,"parent":"l","number":"240","name":"Unearned Revenues"},
-  {"type":"Liability","id":16,"parent":"l","number":"250","name":"Mortage Loan Payable"},
   {"type":"Equity","id":"eq","parent":null,"number":"eq","name":"Equity"},
   {"type":"Revenue","id":"r","parent":null,"number":"r","name":"Revenues"},
-  {"type":"Revenue","id":"or","parent":"r","number":"","name":"Operating Revenue"},
-  {"type":"Revenue","id":17,"parent":"or","number":"310","name":"Service Revenues"},
-  {"type":"Revenue","id":"nor","parent":"r","number":"","name":"Non-Operating Revenue"},
-  {"type":"Revenue","id":18,"parent":"nor","number":"810","name":"Interest Revenues"},
-  {"type":"Revenue","id":19,"parent":"nor","number":"910","name":"Asset Sale Gain"},
-  {"type":"Revenue","id":20,"parent":"nor","number":"960","name":"Asset Sale Loss"},
-  {"type":"Expense","id":"ex","parent":null,"number":"ex","name":"Expenses"},
-  {"type":"Expense","id":21,"parent":"ex","number":"500","name":"Salaries Expense"},
-  {"type":"Expense","id":22,"parent":"ex","number":"510","name":"Wages Expense"},
-  {"type":"Expense","id":23,"parent":"ex","number":"540","name":"Supplies Expense"},
-  {"type":"Expense","id":24,"parent":"ex","number":"560","name":"Rent Expense"},
-  {"type":"Expense","id":25,"parent":"ex","number":"570","name":"Utilities Expense"},
-  {"type":"Expense","id":26,"parent":"ex","number":"576","name":"Telephone Expense"},
-  {"type":"Expense","id":27,"parent":"ex","number":"610","name":"Advertising Expense"},
-  {"type":"Expense","id":28,"parent":"ex","number":"750","name":"Depreciation Expense"}
+  {"type":"Expense","id":"ex","parent":null,"number":"ex","name":"Expenses"}
 ]
 
-var exampleLinks = [
-  {"source":8, "target":28, "value":Math.floor(Math.random() * 100)},
-  {"source":17, "target":18, "value":Math.floor(Math.random() * 100)},
-  {"source":22, "target":24, "value":Math.floor(Math.random() * 100)},
-  {"source":3, "target":13, "value":Math.floor(Math.random() * 100)},
-  {"source":24, "target":24, "value":Math.floor(Math.random() * 100)},
-  {"source":5, "target":4, "value":Math.floor(Math.random() * 100)},
-  {"source":15, "target":5, "value":Math.floor(Math.random() * 100)},
-  {"source":18, "target":8, "value":Math.floor(Math.random() * 100)},
-  {"source":3, "target":20, "value":Math.floor(Math.random() * 100)},
-  {"source":17, "target":18, "value":Math.floor(Math.random() * 100)},
-  {"source":22, "target":5, "value":Math.floor(Math.random() * 100)},
-  {"source":4, "target":24, "value":Math.floor(Math.random() * 100)},
-  {"source":26, "target":16, "value":Math.floor(Math.random() * 100)},
-  {"source":27, "target":6, "value":Math.floor(Math.random() * 100)},
-  {"source":23, "target":4, "value":Math.floor(Math.random() * 100)},
-  {"source":10, "target":24, "value":Math.floor(Math.random() * 100)},
-  {"source":17, "target":16, "value":Math.floor(Math.random() * 100)},
-  {"source":5, "target":12, "value":Math.floor(Math.random() * 100)},
-  {"source":12, "target":16, "value":Math.floor(Math.random() * 100)},
-  {"source":19, "target":5, "value":Math.floor(Math.random() * 100)},
-  {"source":15, "target":24, "value":Math.floor(Math.random() * 100)},
-  {"source":27, "target":2, "value":Math.floor(Math.random() * 100)},
-  {"source":26, "target":28, "value":Math.floor(Math.random() * 100)},
-  {"source":22, "target":24, "value":Math.floor(Math.random() * 100)},
-  {"source":3, "target":18, "value":Math.floor(Math.random() * 100)},
-  {"source":18, "target":5, "value":Math.floor(Math.random() * 100)},
-  {"source":25, "target":28, "value":Math.floor(Math.random() * 100)},
-  {"source":12, "target":1, "value":Math.floor(Math.random() * 100)},
-  {"source":28, "target":21, "value":Math.floor(Math.random() * 100)},
-  {"source":9, "target":16, "value":Math.floor(Math.random() * 100)},
-  {"source":14, "target":23, "value":Math.floor(Math.random() * 100)},
-  {"source":6, "target":1, "value":Math.floor(Math.random() * 100)},
-  {"source":9, "target":15, "value":Math.floor(Math.random() * 100)},
-  {"source":16, "target":24, "value":Math.floor(Math.random() * 100)},
-  {"source":22, "target":28, "value":Math.floor(Math.random() * 100)},
-  {"source":8, "target":21, "value":Math.floor(Math.random() * 100)},
-  {"source":22, "target":7, "value":Math.floor(Math.random() * 100)},
-  {"source":18, "target":10, "value":Math.floor(Math.random() * 100)},
-  {"source":"eq", "target":1, "value":Math.floor(Math.random() * 100)},
-  {"source":1, "target":21, "value":Math.floor(Math.random() * 100)},
-  {"source":1, "target":24, "value":Math.floor(Math.random() * 100)},
-  {"source":17, "target":1, "value":Math.floor(Math.random() * 100)},
-  {"source":Math.ceil(Math.random() * 28), "target":Math.ceil(Math.random() * 28), "value":Math.floor(Math.random() * 100)},
-  {"source":Math.ceil(Math.random() * 28), "target":Math.ceil(Math.random() * 28), "value":Math.floor(Math.random() * 100)},
-  {"source":Math.ceil(Math.random() * 28), "target":Math.ceil(Math.random() * 28), "value":Math.floor(Math.random() * 100)},
-  {"source":Math.ceil(Math.random() * 28), "target":Math.ceil(Math.random() * 28), "value":Math.floor(Math.random() * 100)},
-  {"source":Math.ceil(Math.random() * 28), "target":Math.ceil(Math.random() * 28), "value":Math.floor(Math.random() * 100)},
-  {"source":Math.ceil(Math.random() * 28), "target":Math.ceil(Math.random() * 28), "value":Math.floor(Math.random() * 100)},
-  {"source":Math.ceil(Math.random() * 28), "target":Math.ceil(Math.random() * 28), "value":Math.floor(Math.random() * 100)},
-  {"source":Math.ceil(Math.random() * 28), "target":Math.ceil(Math.random() * 28), "value":Math.floor(Math.random() * 100)},
-  {"source":Math.ceil(Math.random() * 28), "target":Math.ceil(Math.random() * 28), "value":Math.floor(Math.random() * 100)},
-  {"source":Math.ceil(Math.random() * 28), "target":Math.ceil(Math.random() * 28), "value":Math.floor(Math.random() * 100)}
-]
 
 biHiSankey
   .nodes(exampleNodes)

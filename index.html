@@ -48,8 +48,8 @@
 <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <h1>CRUCE DE INDICADORES DIMENSIÓN 1 PLAN DE DESARROLLO 2016-2019</h1>
 
-<form action="action_page.php">
-  <select name="dimension" id="dimension">
+<form>
+  <select name="dimension" id="dimension" onchange="myfunc">
     <option value="flare1.json">Volvo</option>
     <option value="flare2.json">Saab</option>
     <option value="fiat">Fiat</option>
@@ -84,7 +84,9 @@ var svg = d3.select("body").append("svg")
     .attr("transform", "translate(" + radius + "," + radius + ")");
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
-
+function myfunc(){
+  document.write(dim);
+}
 
 d3.json(dim, function(error, classes) {
   if (error) throw error;

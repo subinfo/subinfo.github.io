@@ -48,20 +48,21 @@
 <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <h1>CRUCE DE INDICADORES DIMENSIÓN 1 PLAN DE DESARROLLO 2016-2019</h1>
 
-<form action="action_page.php" onchange="this.form.submit()">
+<form action="action_page.php" onchange="myFunction()">
   <select name="dimension" id="dimension">
     <option value="flare1.json">Volvo</option>
     <option value="flare2.json">Saab</option>
     <option value="fiat">Fiat</option>
     <option value="audi">Audi</option>
   </select>
+  <input type="submit" ver/>
 
 </form>
 
 <div>
 <script >
-function myFunction() {
-   var dim =document.getElementById("dimension").value;
+
+var dim =document.getElementById("dimension").value;
    
 var diameter = 960,
     radius = diameter / 2,
@@ -205,7 +206,7 @@ function packageImports(nodes) {
   });
   return imports;
 }
-}
+
 </script>
 </div>
 

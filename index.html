@@ -87,7 +87,7 @@ function myFunction() {
 
 
 
-d3.json(myFunction(), function(error, classes) {
+d3.json(dim, function(error, classes) {
   if (error) throw error;
   var nodes = cluster.nodes(packageHierarchy(classes)),
       links = packageImports(nodes);

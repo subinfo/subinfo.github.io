@@ -87,6 +87,7 @@ var link = svg.append("g").selectAll(".link"),
 function myfunc(){
   dim =document.getElementById("dimension").value;
   document.getElementById("demo").innerHTML=dim;
+  d3.json();
 }
 
 d3.json(dim, function(error, classes) {

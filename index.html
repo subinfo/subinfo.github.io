@@ -59,6 +59,9 @@
 
 <div>
 <script >
+function myFunction() {
+   var dim =document.getElementById("dimension").value;
+   
 var diameter = 960,
     radius = diameter / 2,
     innerRadius = radius - 300;
@@ -79,12 +82,6 @@ var svg = d3.select("body").append("svg")
     .attr("transform", "translate(" + radius + "," + radius + ")");
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
-
-
-function myFunction() {
-   var dim =document.getElementById("dimension").value;
- 
-
 
 
 d3.json(dim, function(error, classes) {
@@ -149,7 +146,7 @@ d3.json(dim, function(error, classes) {
     	.attr("opacity", 1.0)
     	.attr("r", function(d){ return d.size*2});
 ////////////////////////////////////////////////////////////////////
-});}
+});
 function mouseovered(d) {
   node
       .each(function(n) { n.target = n.source = false; });
@@ -206,6 +203,7 @@ function packageImports(nodes) {
     });
   });
   return imports;
+}
 }
 </script>
 </div>

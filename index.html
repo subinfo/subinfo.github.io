@@ -81,6 +81,7 @@ var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
 
 var dim =document.getElementById("dimension").value;
+document.write(dim);
 
 d3.json("flare1.json", function(error, classes) {
   if (error) throw error;

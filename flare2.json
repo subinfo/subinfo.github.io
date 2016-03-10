@@ -1,0 +1,227 @@
+[
+            {
+                "name": "1.Confianza interpersonal",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.Confianza institucional",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.Cultura Ciudadana",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.1.Ciudadanos que mejoran confianza",
+                "imports": ["1.Confianza interpersonal" , "1.Confianza institucional"],
+                "size": "2"
+            },
+            {
+                "name": "1.2.Indice de participación ciudadana",
+                "imports": ["1.Confianza interpersonal" , "1.Cultura Ciudadana"],
+                "size": "2"
+            },
+            {
+                "name": "1.2.Planeacion local y pp como escenario de pedagogia politica",
+                "imports": ["1.Confianza institucional"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.IGA",
+                "imports": ["1.Confianza institucional"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.Nivel de satisfacción ciudadana",
+                "imports": ["1.Confianza institucional"],
+                "size": "1"
+            },
+            {
+                "name": "1.1.1.Cercanía del Alcalde con la ciudadanía",
+                "imports": ["1.Confianza institucional" , "1.1.Ciudadanos que mejoran confianza"],
+                "size": "2"
+            },
+            {
+                "name": "1.1.1.ECC Pluralismo",
+                "imports": ["1.Cultura Ciudadana" , "1.1.Ciudadanos que mejoran confianza"],
+                "size": "2"
+            },
+            {
+                "name": "1.1.2.Personas que ante regla o norma les despierta un sentimiento positivo",
+                "imports": ["1.1.Ciudadanos que mejoran confianza"],
+                "size": "1"
+            },
+            {
+                "name": "1.1.3.Personas que ven televisión",
+                "imports": ["1.Cultura Ciudadana"],
+                "size": "1"
+            },
+            {
+                "name": "1.1.3.Ciudadanía movilizada a través de la comunicación  ",
+                "imports": ["1.2.Indice de participación ciudadana"],
+                "size": "1"
+            },
+            {
+                "name": "1.1.4.Razones para desobedecer la ley",
+                "imports": ["1.Cultura Ciudadana"],
+                "size": "1"
+            },
+            {
+                "name": "1.1.5.Ccomportamientos saludables en salud bucal",
+                "imports": ["1.Cultura Ciudadana"],
+                "size": "1"
+            },
+            {
+                "name": "1.1.5.Prevalencia de Consumo de  frutas y verduras",
+                "imports": ["1.Cultura Ciudadana"],
+                "size": "1"
+            },
+            {
+                "name": "1.1.5.Promedio de edad de inicio de consumo de tabaco",
+                "imports": ["1.Cultura Ciudadana"],
+                "size": "1"
+            },
+            {
+                "name": "1.1.5.Personas que perciben los beneficios de la actividad física",
+                "imports": ["1.Cultura Ciudadana"],
+                "size": "1"
+            },
+            {
+                "name": "1.1.5.Planes para la gestión de entornos saludables",
+                "imports": ["1.Cultura Ciudadana"],
+                "size": "1"
+            },
+            {
+                "name": "1.1.5.Personas atendidas con actividad física saludable ",
+                "imports": ["1.Cultura Ciudadana"],
+                "size": "1"
+            },
+            {
+                "name": "1.1.6.Grupos  atendidos en educación y cultura ambiental",
+                "imports": ["1.Cultura Ciudadana"],
+                "size": "1"
+            },
+            {
+                "name": "1.1.7.Ciudadanos integrados a través del deporte",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.2.1.Ciudadanos, instancia y organizaciones que ejercen control social a lo publico",
+                "imports": ["1.2.Indice de participación ciudadana"],
+                "size": "1"
+            },
+            {
+                "name": "1.2.2.JAL  que inciden en el control político",
+                "imports": ["1.2.Indice de participación ciudadana"],
+                "size": "1"
+            },
+            {
+                "name": "1.2.2.Organizaciones comunales que mejoran su funcioamiento interno y de gestion",
+                "imports": ["1.2.Indice de participación ciudadana"],
+                "size": "1"
+            },
+            {
+                "name": "1.2.2.Organizaciones y redes sociales  legitimadas",
+                "imports": ["1.2.Indice de participación ciudadana"],
+                "size": "1"
+            },
+            {
+                "name": "1.2.2.Red de Formación Ciudadana",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.2.3.Jovenes participantes en  PP que inciden en el desarrollo de su territorio",
+                "imports": ["1.2.Planeacion local y pp como escenario de pedagogia politica"],
+                "size": "1"
+            },
+            {
+                "name": "1.2.3.Ruta metodologica y politica del pp como estrategia pedagogica",
+                "imports": ["1.2.Planeacion local y pp como escenario de pedagogia politica"],
+                "size": "1"
+            },
+            {
+                "name": "1.2.4.Estrategias para la planeación social y económica",
+                "imports": ["1.2.Planeacion local y pp como escenario de pedagogia politica"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.1.Visibilidad de la Administración Municipal",
+                "imports": ["1.Confianza institucional" , "1.1.Ciudadanos que mejoran confianza"],
+                "size": "2"
+            },
+            {
+                "name": "1.3.1.Acuerdos y pactos logrados del Municipio de Medellín",
+                "imports": ["1.Confianza institucional"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.1.Nivel de cumplimiento de los Manuales de gestión",
+                "imports": ["1.2.Planeacion local y pp como escenario de pedagogia politica"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.1.Percepccion ciudadana con la participación",
+                "imports": ["1.Confianza institucional"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.2.Sistemas de gestión mejorados",
+                "imports": ["1.3.IGA"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.2.ITM",
+                "imports": ["1.Confianza institucional" , "1.1.Ciudadanos que mejoran confianza"],
+                "size": "2"
+            },
+            {
+                "name": "1.3.3.Calificación del Desempeño Fiscal",
+                "imports": ["1.1.Ciudadanos que mejoran confianza"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.3.Cumplimiento del nivel de rentas y recursos",
+                "imports": ["1.1.Ciudadanos que mejoran confianza"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.4.Nivel de Madurez MECI",
+                "imports": ["1.3.IGA"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.4.Desempeño de la auditoría interna",
+                "imports": ["1.3.IGA"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.4.Ahorros logrados en la adquisición",
+                "imports": ["1.1.Ciudadanos que mejoran confianza"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.5.Sentencias favorables / sentencias totales",
+                "imports": ["1.1.Ciudadanos que mejoran confianza"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.5.Clima Laboral Fortalecido",
+                "imports": ["1.1.Ciudadanos que mejoran confianza"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.5.Calidad de Vida Laboral ",
+                "imports": ["1.1.Ciudadanos que mejoran confianza"],
+                "size": "1"
+            },
+            {
+                "name": "1.3.6.Ciudadesque participan en la plataforma \"mi ciudad\"",
+                "imports": ["1.1.Ciudadanos que mejoran confianza"],
+                "size": "1"
+            }
+        ]

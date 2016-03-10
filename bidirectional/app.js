@@ -536,6 +536,8 @@ var exampleNodes = [
   {"type":"Expense","id":25,"parent":"ex","number":"570","name":"Utilities Expense"},
   {"type":"Expense","id":26,"parent":"ex","number":"576","name":"Telephone Expense"},
   {"type":"Expense","id":27,"parent":"ex","number":"610","name":"Advertising Expense"},
+  {"type":"Expense","id":28,"parent":"ex","number":"750","name":"Depreciation Expense"}
+
   
 ]
 

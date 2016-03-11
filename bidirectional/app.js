@@ -59,12 +59,13 @@ hideTooltip = function () {
 },
 
 showTooltip = function () {
-  return tooltip
+ return tooltip
+   
     .style("left", d3.event.pageX + "px")
     .style("top", d3.event.pageY + 15 + "px")
-    .transition()
-      .duration(TRANSITION_DURATION)
-      .style("opacity", 1);
+ //   .transition()
+   //   .duration(TRANSITION_DURATION)
+     // .style("opacity", 1);
 };
 
 colorScale = d3.scale.ordinal().domain(TYPES).range(TYPE_COLORS),

@@ -502,546 +502,75 @@ function update () {
 }
 
 var exampleNodes = [
-  {
-    "type": "Dimensión 1",
-    "id": "1.1",
-    "parent": "1",
-    "number": "1",
-    "name": "1.Confianza interpersonal"
-  },
-  {
-    "type": "Dimensión 1",
-    "id": "1.2",
-    "parent": "1",
-    "number": "1",
-    "name": "1.Confianza institucional"
-  },
-  {
-    "type": "Dimensión 1",
-    "id": "1.3",
-    "parent": "1",
-    "number": "1",
-    "name": "1.Indice de Cultura Ciudadana"
-  },
-  {
-    "type": "Dimensión 2",
-    "id": "2.1",
-    "parent": "2",
-    "number": "1",
-    "name": "2.Nivel de percepción de seguridad"
-  },
-  {
-    "type": "Dimensión 2",
-    "id": "2.2",
-    "parent": "2",
-    "number": "1",
-    "name": "2.Nivel de victimización"
-  },
-  {
-    "type": "Dimensión 3",
-    "id": "3.1",
-    "parent": "3",
-    "number": "1",
-    "name": "3.Percepción calidad de vida buena y muy buena"
-  },
-  {
-    "type": "Dimensión 3",
-    "id": "3.2",
-    "parent": "3",
-    "number": "1",
-    "name": "3.Indice de Progeso Social"
-  },
-  {
-    "type": "Dimensión 4",
-    "id": "4.1",
-    "parent": "4",
-    "number": "1",
-    "name": "4. Índice de Desarrollo Humano"
-  },
-  {
-    "type": "Dimensión 4",
-    "id": "4.2",
-    "parent": "4",
-    "number": "1",
-    "name": "4. Tasa de desempleo"
-  },
-  {
-    "type": "Dimensión 4",
-    "id": "4.3",
-    "parent": "4",
-    "number": "1",
-    "name": "4.Desempleo entre 18 y 28 años"
-  },
-  {
-    "type": "Dimensión 4",
-    "id": "4.4",
-    "parent": "4",
-    "number": "1",
-    "name": "4.Tasa de informalidad"
-  },
-  {
-    "type": "Dimensión 4",
-    "id": "4.5",
-    "parent": "4",
-    "number": "1",
-    "name": "4.Tasa de informalidad DANE"
-  },
-  {
-    "type": "Dimensión 4",
-    "id": "4.6",
-    "parent": "4",
-    "number": "1",
-    "name": "4.Tasa de trabajo infantil Medellín"
-  },
-  {
-    "type": "Dimensión 4",
-    "id": "4.7",
-    "parent": "4",
-    "number": "1",
-    "name": "4. Índice de competitividad urbana (ICUR)"
-  },
-  {
-    "type": "Dimensión 4",
-    "id": "4.8",
-    "parent": "4",
-    "number": "1",
-    "name": "4. Producto Interno Bruto"
-  },
-  {
-    "type": "Dimensión 4",
-    "id": "4.9",
-    "parent": "4",
-    "number": "1",
-    "name": "4.Contribución de la cultura al desarrollo"
-  },
-  {
-    "type": "Dimensión 4",
-    "id": "4.10",
-    "parent": "4",
-    "number": "1",
-    "name": "4. Años de estudio población de 15 a 24 años"
-  },
-  {
-    "type": "Dimensión 5",
-    "id": "5.1",
-    "parent": "5",
-    "number": "1",
-    "name": "5. Emisiones de CO2 dejadas de emitir"
-  },
-  {
-    "type": "Dimensión 5",
-    "id": "5.2",
-    "parent": "5",
-    "number": "1",
-    "name": "5. Tiempo Promedio de Desplazamiento "
-  },
-  {
-    "type": "Dimensión 5",
-    "id": "5.3",
-    "parent": "5",
-    "number": "1",
-    "name": "5. Distribución modal"
-  },
-  {
-    "type": "Dimensión 6",
-    "id": "6.1",
-    "parent": "6",
-    "number": "1",
-    "name": "6. Dimensión Entorno y Calidad de la Vivienda"
-  },
-  {
-    "type": "Dimensión 6",
-    "id": "6.2",
-    "parent": "6",
-    "number": "1",
-    "name": "6. Compromisos POT (en construcción)"
-  },
-  {
-    "type": "Dimensión 7",
-    "id": "7.1",
-    "parent": "7",
-    "number": "1",
-    "name": "7. Dimensión Medio Ambiente"
-  },
-  {
-    "type": "Dimensión 7",
-    "id": "7.2",
-    "parent": "7",
-    "number": "1",
-    "name": "7. Dimensión Acceso a servicios públicos"
-  },
-  {
-    "type": "Dimensión 7",
-    "id": "7.3",
-    "parent": "7",
-    "number": "1",
-    "name": "7. Índice de Sostenibilidad Ambiental"
-  },
-  {
-    "type": "d1",
-    "id": "1",
-    "name": "Dimensión 1",
-    "number": "10"
-  },
-  {
-    "type": "d2",
-    "id": "2",
-    "name": "Dimensión 2"
-  },
-  {
-    "type": "d3",
-    "id": "3",
-    "name": "Dimensión 3"
-  },
-  {
-    "type": "d4",
-    "id": "4",
-    "name": "Dimensión 4"
-  },
-  {
-    "type": "d5",
-    "id": "5",
-    "name": "Dimensión 5"
-  },
-  {
-    "type": "d6",
-    "id": "6",
-    "name": "Dimensión 6"
-  },
-  {
-    "type": "d7",
-    "id": "7",
-    "name": "Dimensión 7"
-  }
+  {"type":"Asset","id":"a","parent":null,"name":"Dimensión 1"},
+  {"type":"Asset","id":1,"parent":"a","number":"101","name":"Cash"},
+  {"type":"Asset","id":2,"parent":"a","number":"120","name":"Accounts Receivable"},
+  {"type":"Asset","id":3,"parent":"a","number":"140","name":"Merchandise Inventory"},
+  {"type":"Asset","id":4,"parent":"a","number":"150","name":"Supplies"},
+  {"type":"Asset","id":5,"parent":"a","number":"160","name":"Prepaid Insurance"},
+  {"type":"Asset","id":6,"parent":"a","number":"170","name":"Land"},
+  {"type":"Asset","id":7,"parent":"a","number":"175","name":"Buildings"},
+  {"type":"Asset","id":8,"parent":"a","number":"178","name":"Acc. Depreciation Buildings"},
+  {"type":"Asset","id":9,"parent":"a","number":"180","name":"Equipment"},
+  {"type":"Asset","id":10,"parent":"a","number":"188","name":"Acc. Depreciation Equipment"},
+  {"type":"Liability","id":"l","parent":null,"number":"l","name":"Liabilities"},
+  {"type":"Liability","id":11,"parent":"l","number":"210","name":"Notes Payable"},
+  {"type":"Liability","id":12,"parent":"l","number":"215","name":"Accounts Payable"},
+  {"type":"Liability","id":13,"parent":"l","number":"220","name":"Wages Payable"},
+  {"type":"Liability","id":14,"parent":"l","number":"230","name":"Interest Payable"},
+  {"type":"Liability","id":15,"parent":"l","number":"240","name":"Unearned Revenues"},
+  {"type":"Liability","id":16,"parent":"l","number":"250","name":"Mortage Loan Payable"},
+  {"type":"Equity","id":"eq","parent":null,"number":"eq","name":"Equity"},
+  {"type":"Revenue","id":"r","parent":null,"number":"r","name":"Revenues"},
+  {"type":"Revenue","id":"or","parent":"r","number":"","name":"Operating Revenue"},
+  {"type":"Revenue","id":17,"parent":"or","number":"310","name":"Service Revenues"},
+  {"type":"Revenue","id":"nor","parent":"r","number":"","name":"Non-Operating Revenue"},
+  {"type":"Revenue","id":18,"parent":"nor","number":"810","name":"Interest Revenues"},
+  {"type":"Revenue","id":19,"parent":"nor","number":"910","name":"Asset Sale Gain"},
+  {"type":"Revenue","id":20,"parent":"nor","number":"960","name":"Asset Sale Loss"},
+  {"type":"Expense","id":"ex","parent":null,"number":"ex","name":"Expenses"},
+  {"type":"Expense","id":21,"parent":"ex","number":"500","name":"Salaries Expense"},
+  {"type":"Expense","id":22,"parent":"ex","number":"510","name":"Wages Expense"},
+  {"type":"Expense","id":23,"parent":"ex","number":"540","name":"Supplies Expense"},
+  {"type":"Expense","id":24,"parent":"ex","number":"560","name":"Rent Expense"},
+  {"type":"Expense","id":25,"parent":"ex","number":"570","name":"Utilities Expense"},
+  {"type":"Expense","id":26,"parent":"ex","number":"576","name":"Telephone Expense"},
+  {"type":"Expense","id":27,"parent":"ex","number":"610","name":"Advertising Expense"},
+  {"type":"Expense","id":28,"parent":"ex","number":"750","name":"Depreciation Expense"}
+
+  
 ]
 
 var exampleLinks = [
-            {
-                "source": "1.1",
-                "target": "2.1",
-                "value": Math.floor(Math.random() * 100)
-            },
-            {
-                "source": "1.1",
-                "target": "3.1",
-                "value": Math.floor(Math.random() * 100)
-            },
-            {
-                "source": "1.2",
-                "target": "2.1",
-                "value": Math.floor(Math.random() * 100)
-            },
-            {
-                "source": "1.2",
-                "target": "3.1",
-                "value": Math.floor(Math.random() * 100)
-            },
-            {
-                "source": "1.2",
-                "target": "3.2",
-                "value": Math.floor(Math.random() * 100)
-            },
-            {
-                "source": "2.1",
-                "target": "1.2",
-                "value": Math.floor(Math.random() * 100)
-            },
-            {
-                "source": "2.1",
-                "target": "3.1",
-                "value": Math.floor(Math.random() * 100)
-            },
-            {
-                "source": "2.1",
-                "target": "3.2",
-                "value": Math.floor(Math.random() * 100)
-            },
-            {
-                "source": "2.2",
-                "target": "2.1",
-                "value": Math.floor(Math.random() * 100)
-            },
-            {
-                "source": "2.2",
-                "target": "3.1",
-                "value": Math.floor(Math.random() * 100)
-            },
-            {
-                "source": "2.2",
-                "target": "3.2",
-                "value": Math.floor(Math.random() * 100)
-            },
-            {
-                "source": "4.1",
-                "target": "3.1",
-                "value": Math.floor(Math.random() * 100)
-            },
-            {
-                "source": "4.1",
-                "target": "3.2",
-                "value": Math.floor(Math.random() * 100)
-            },
-            {
-                "source": "4.2",
-                "target": "1.2",
-                "value": Math.floor(Math.random() * 100)
-            },
-            {
-                "source": "4.2",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "4.2",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "4.3",
-                "target": "1.2",
-                "value": "1"
-            },
-            {
-                "source": "4.3",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "4.3",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "4.4",
-                "target": "1.2",
-                "value": "1"
-            },
-            {
-                "source": "4.4",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "4.4",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "4.5",
-                "target": "1.2",
-                "value": "1"
-            },
-            {
-                "source": "4.5",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "4.5",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "4.6",
-                "target": "1.2",
-                "value": "1"
-            },
-            {
-                "source": "4.6",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "4.6",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "4.7",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "4.7",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "4.8",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "4.8",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "4.9",
-                "target": "1.2",
-                "value": "1"
-            },
-            {
-                "source": "4.9",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "4.9",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "4.10",
-                "target": "1.2",
-                "value": "1"
-            },
-            {
-                "source": "4.10",
-                "target": "1.3",
-                "value": "1"
-            },
-            {
-                "source": "4.10",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "4.10",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "5.1",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "5.1",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "5.1",
-                "target": "4.1",
-                "value": "1"
-            },
-            {
-                "source": "5.1",
-                "target": "4.7",
-                "value": "1"
-            },
-            {
-                "source": "5.1",
-                "target": "6.2",
-                "value": "1"
-            },
-            {
-                "source": "5.1",
-                "target": "7.1",
-                "value": "1"
-            },
-            {
-                "source": "5.1",
-                "target": "7.3",
-                "value": "1"
-            },
-            {
-                "source": "5.2",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "5.2",
-                "target": "4.7",
-                "value": "1"
-            },
-            {
-                "source": "5.2",
-                "target": "6.2",
-                "value": "1"
-            },
-            {
-                "source": "5.3",
-                "target": "1.3",
-                "value": "1"
-            },
-            {
-                "source": "5.3",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "5.3",
-                "target": "6.2",
-                "value": "1"
-            },
-            {
-                "source": "6.1",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "6.1",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "6.1",
-                "target": "4.8",
-                "value": "1"
-            },
-            {
-                "source": "6.2",
-                "target": "4.7",
-                "value": "1"
-            },
-            {
-                "source": "6.2",
-                "target": "7.3",
-                "value": "1"
-            },
-            {
-                "source": "7.1",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "7.1",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "7.1",
-                "target": "4.7",
-                "value": "1"
-            },
-            {
-                "source": "7.2",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "7.2",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "7.3",
-                "target": "3.1",
-                "value": "1"
-            },
-            {
-                "source": "7.3",
-                "target": "3.2",
-                "value": "1"
-            },
-            {
-                "source": "7.3",
-                "target": "4.7",
-                "value": "1"
-            }
-        ]
+  {"source":8, "target":28, "value":Math.floor(Math.random() * 100)},
+  {"source":17, "target":18, "value":Math.floor(Math.random() * 100)},
+  {"source":22, "target":24, "value":Math.floor(Math.random() * 100)},
+  {"source":3, "target":13, "value":Math.floor(Math.random() * 100)},
+  {"source":24, "target":24, "value":Math.floor(Math.random() * 100)},
+  {"source":5, "target":4, "value":Math.floor(Math.random() * 100)},
+  {"source":15, "target":5, "value":Math.floor(Math.random() * 100)},
+  {"source":18, "target":8, "value":Math.floor(Math.random() * 100)},
+  {"source":3, "target":20, "value":Math.floor(Math.random() * 100)},
+  {"source":17, "target":18, "value":Math.floor(Math.random() * 100)},
+  {"source":22, "target":5, "value":Math.floor(Math.random() * 100)},
+  {"source":4, "target":24, "value":Math.floor(Math.random() * 100)},
+  {"source":26, "target":16, "value":Math.floor(Math.random() * 100)},
+  {"source":27, "target":6, "value":Math.floor(Math.random() * 100)},
+  {"source":23, "target":4, "value":Math.floor(Math.random() * 100)},
+  {"source":10, "target":24, "value":Math.floor(Math.random() * 100)},
+  {"source":17, "target":16, "value":Math.floor(Math.random() * 100)},
+  {"source":5, "target":12, "value":Math.floor(Math.random() * 100)},
+  {"source":12, "target":16, "value":Math.floor(Math.random() * 100)},
+  {"source":19, "target":5, "value":Math.floor(Math.random() * 100)},
+  {"source":15, "target":24, "value":Math.floor(Math.random() * 100)},
+  {"source":27, "target":2, "value":Math.floor(Math.random() * 100)},
+  {"source":26, "target":28, "value":Math.floor(Math.random() * 100)},
+  {"source":22, "target":24, "value":Math.floor(Math.random() * 100)},
+  {"source":3, "target":18, "value":Math.floor(Math.random() * 100)},
+  {"source":18, "target":5, "value":Math.floor(Math.random() * 100)},
+  {"source":25, "target":28, "value":Math.floor(Math.random() * 100)},
+  {"source":12, "target":1, "value":Math.floor(Math.random() * 100)},
+  {"source":28, "target":21, "value":Math.floor(Math.random() * 100)},
 
 
 biHiSankey

@@ -541,7 +541,7 @@ var exampleNodes = [
   
 ]
 
-]
+
 
 var exampleLinks = [
   {"source":8, "target":28, "value":10},

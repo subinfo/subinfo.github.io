@@ -686,32 +686,38 @@ var exampleNodes = [
   {
     "type": "d2",
     "id": "2",
-    "name": "Dimensión 2"
+    "name": "Dimensión 2",
+    "number": "2"
   },
   {
     "type": "d3",
     "id": "3",
-    "name": "Dimensión 3"
+    "name": "Dimensión 3",
+    "number": "3"
   },
   {
     "type": "d4",
     "id": "4",
-    "name": "Dimensión 4"
+    "name": "Dimensión 4",
+    "number": "4"
   },
   {
     "type": "d5",
     "id": "5",
-    "name": "Dimensión 5"
+    "name": "Dimensión 5",
+    "number": "5"
   },
   {
     "type": "d6",
     "id": "6",
-    "name": "Dimensión 6"
+    "name": "Dimensión 6",
+    "number": "6"
   },
   {
     "type": "d7",
     "id": "7",
-    "name": "Dimensión 7"
+    "name": "Dimensión 7",
+    "number": "7"
   }
 ]
 

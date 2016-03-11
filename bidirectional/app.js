@@ -10,7 +10,7 @@ var OPACITY = {
     LINK_FADED: 0.05,
     LINK_HIGHLIGHT: 0.9
   },
-  TYPES = ["Dimensión 1", "Dimensión 2", "Dimensión 3", "Dimensión 4", "Dimensión 5", "Dimensión 6", "Dimensión 7"],
+  TYPES = ["Dimensión1", "Dimensión2", "Dimensión3", "Dimensión4", "Dimensión5", "Dimensión6", "Dimensión7"],
   TYPE_COLORS = ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e", "#e6ab02", "#a6761d"],
   TYPE_HIGHLIGHT_COLORS = ["#66c2a5", "#fc8d62", "#8da0cb", "#e78ac3", "#a6d854", "#ffd92f", "#e5c494"],
   LINK_COLOR = "#b3b3b3",
@@ -503,218 +503,218 @@ function update () {
 
 var exampleNodes = [
   {
-    "type": "Dimensión 1",
+    "type": "Dimensión1",
     "id": "1.1",
     "parent": "1",
     "number": "1",
     "name": "1.Confianza interpersonal"
   },
   {
-    "type": "Dimensión 1",
+    "type": "Dimensión1",
     "id": "1.2",
     "parent": "1",
     "number": "1",
     "name": "1.Confianza institucional"
   },
   {
-    "type": "Dimensión 1",
+    "type": "Dimensión1",
     "id": "1.3",
     "parent": "1",
     "number": "1",
     "name": "1.Indice de Cultura Ciudadana"
   },
   {
-    "type": "Dimensión 2",
+    "type": "Dimensión2",
     "id": "2.1",
     "parent": "2",
     "number": "2",
     "name": "2.Nivel de percepción de seguridad"
   },
   {
-    "type": "Dimensión 2",
+    "type": "Dimensión2",
     "id": "2.2",
     "parent": "2",
     "number": "2",
     "name": "2.Nivel de victimización"
   },
   {
-    "type": "Dimensión 3",
+    "type": "Dimensión3",
     "id": "3.1",
     "parent": "3",
     "number": "3",
     "name": "3.Percepción calidad de vida buena y muy buena"
   },
   {
-    "type": "Dimensión 3",
+    "type": "Dimensión3",
     "id": "3.2",
     "parent": "3",
     "number": "3",
     "name": "3.Indice de Progeso Social"
   },
   {
-    "type": "Dimensión 4",
+    "type": "Dimensión4",
     "id": "4.1",
     "parent": "4",
     "number": "4",
     "name": "4. Índice de Desarrollo Humano"
   },
   {
-    "type": "Dimensión 4",
+    "type": "Dimensión4",
     "id": "4.2",
     "parent": "4",
     "number": "4",
     "name": "4. Tasa de desempleo"
   },
   {
-    "type": "Dimensión 4",
+    "type": "Dimensión4",
     "id": "4.3",
     "parent": "4",
     "number": "4",
     "name": "4.Desempleo entre 18 y 28 años"
   },
   {
-    "type": "Dimensión 4",
+    "type": "Dimensión4",
     "id": "4.4",
     "parent": "4",
     "number": "4",
     "name": "4.Tasa de informalidad"
   },
   {
-    "type": "Dimensión 4",
+    "type": "Dimensión4",
     "id": "4.5",
     "parent": "4",
     "number": "4",
     "name": "4.Tasa de informalidad DANE"
   },
   {
-    "type": "Dimensión 4",
+    "type": "Dimensión4",
     "id": "4.6",
     "parent": "4",
     "number": "4",
     "name": "4.Tasa de trabajo infantil Medellín"
   },
   {
-    "type": "Dimensión 4",
+    "type": "Dimensión4",
     "id": "4.7",
     "parent": "4",
     "number": "4",
     "name": "4. Índice de competitividad urbana (ICUR)"
   },
   {
-    "type": "Dimensión 4",
+    "type": "Dimensión4",
     "id": "4.8",
     "parent": "4",
     "number": "4",
     "name": "4. Producto Interno Bruto"
   },
   {
-    "type": "Dimensión 4",
+    "type": "Dimensión4",
     "id": "4.9",
     "parent": "4",
     "number": "4",
     "name": "4.Contribución de la cultura al desarrollo"
   },
   {
-    "type": "Dimensión 4",
+    "type": "Dimensión4",
     "id": "4.10",
     "parent": "4",
     "number": "4",
     "name": "4. Años de estudio población de 15 a 24 años"
   },
   {
-    "type": "Dimensión 5",
+    "type": "Dimensión5",
     "id": "5.1",
     "parent": "5",
     "number": "5",
     "name": "5. Emisiones de CO2 dejadas de emitir"
   },
   {
-    "type": "Dimensión 5",
+    "type": "Dimensión5",
     "id": "5.2",
     "parent": "5",
     "number": "5",
     "name": "5. Tiempo Promedio de Desplazamiento "
   },
   {
-    "type": "Dimensión 5",
+    "type": "Dimensión5",
     "id": "5.3",
     "parent": "5",
     "number": "5",
     "name": "5. Distribución modal"
   },
   {
-    "type": "Dimensión 6",
+    "type": "Dimensión6",
     "id": "6.1",
     "parent": "6",
     "number": "6",
     "name": "6. Dimensión Entorno y Calidad de la Vivienda"
   },
   {
-    "type": "Dimensión 6",
+    "type": "Dimensión6",
     "id": "6.2",
     "parent": "6",
     "number": "6",
     "name": "6. Compromisos POT (en construcción)"
   },
   {
-    "type": "Dimensión 7",
+    "type": "Dimensión7",
     "id": "7.1",
     "parent": "7",
     "number": "7",
     "name": "7. Dimensión Medio Ambiente"
   },
   {
-    "type": "Dimensión 7",
+    "type": "Dimensión7",
     "id": "7.2",
     "parent": "7",
     "number": "7",
     "name": "7. Dimensión Acceso a servicios públicos"
   },
   {
-    "type": "Dimensión 7",
+    "type": "Dimensión7",
     "id": "7.3",
     "parent": "7",
     "number": "7",
     "name": "7. Índice de Sostenibilidad Ambiental"
   },
   {
-    "type": "d1",
+    "type": "Dimensión1",
     "id": "1",
     "name": "Dimensión 1",
     "number": "10"
   },
   {
-    "type": "d2",
+    "type": "Dimensión2",
     "id": "2",
     "name": "Dimensión 2",
     "number": "2"
   },
   {
-    "type": "d3",
+    "type": "Dimensión3",
     "id": "3",
     "name": "Dimensión 3",
     "number": "3"
   },
   {
-    "type": "d4",
+    "type": "Dimensión4",
     "id": "4",
     "name": "Dimensión 4",
     "number": "4"
   },
   {
-    "type": "d5",
+    "type": "Dimensión5",
     "id": "5",
     "name": "Dimensión 5",
     "number": "5"
   },
   {
-    "type": "d6",
+    "type": "Dimensión6",
     "id": "6",
     "name": "Dimensión 6",
     "number": "6"
   },
   {
-    "type": "d7",
+    "type": "Dimensión7",
     "id": "7",
     "name": "Dimensión 7",
     "number": "7"

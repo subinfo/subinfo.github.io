@@ -10,7 +10,7 @@ var OPACITY = {
     LINK_FADED: 0.05,
     LINK_HIGHLIGHT: 0.9
   },
-  TYPES = ["Asset", "Expense", "Revenue", "Equity", "Liability"],
+  TYPES = ["Dimensión 1", "Dimensión 2", "Dimensión 3", "Dimensión 4", "Dimensión 5", "Dimensión 6", "Dimensión 7"],
   TYPE_COLORS = ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e", "#e6ab02", "#a6761d"],
   TYPE_HIGHLIGHT_COLORS = ["#66c2a5", "#fc8d62", "#8da0cb", "#e78ac3", "#a6d854", "#ffd92f", "#e5c494"],
   LINK_COLOR = "#b3b3b3",

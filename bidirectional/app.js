@@ -36,12 +36,12 @@ var OPACITY = {
 
 var formatNumber = function (d) {
   var numberFormat = d3.format(",.0f"); // zero decimal places
-  return "£" + numberFormat(d);
+  return numberFormat(d);
 },
 
 formatFlow = function (d) {
   var flowFormat = d3.format(",.0f"); // zero decimal places with sign
-  return "£" + flowFormat(Math.abs(d)) + (d < 0 ? " CR" : " DR");
+  return  flowFormat(Math.abs(d)) + (d < 0 ? " CR" : " DR");
 },
 
 // Used when temporarily disabling user interractions to allow animations to complete
@@ -256,13 +256,13 @@ function update () {
     .style("fill", "none");
 
   linkEnter.on('mouseenter', function (d) {
-    if (!isTransitioning) {
-      showTooltip().select(".value").text(function () {
-        if (d.direction > 0) {
-          return d.source.name + " ? " + d.target.name + "\n" + formatNumber(d.value);
-        }
-        return d.target.name + " ? " + d.source.name + "\n" + formatNumber(d.value);
-      });
+    //if (!isTransitioning) {
+     // showTooltip().select(".value").text(function () {
+        //if (d.direction > 0) {
+          //return d.source.name + " ? " + d.target.name + "\n" + formatNumber(d.value);
+        //}
+        //return d.target.name + " ? " + d.source.name + "\n" + formatNumber(d.value);
+     // });
 
       d3.select(this)
         .style("stroke", LINK_COLOR)

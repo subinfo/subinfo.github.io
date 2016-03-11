@@ -256,7 +256,7 @@ function update () {
     .style("fill", "none");
 
   linkEnter.on('mouseenter', function (d) {
-    //if (!isTransitioning) {
+    if (!isTransitioning) {
      // showTooltip().select(".value").text(function () {
         //if (d.direction > 0) {
           //return d.source.name + " ? " + d.target.name + "\n" + formatNumber(d.value);

@@ -681,6 +681,7 @@ var exampleNodes = [
     "type": "d1",
     "id": "1",
     "name": "Dimensión 1"
+    "number": "10"
   },
   {
     "type": "d2",

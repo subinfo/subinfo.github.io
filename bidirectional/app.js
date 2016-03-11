@@ -719,72 +719,72 @@ var exampleLinks = [
             {
                 "source": "1.1",
                 "target": "2.1",
-                "value": "1"
+                "value": Math.floor(Math.random() * 100)
             },
             {
                 "source": "1.1",
                 "target": "3.1",
-                "value": "1"
+                "value": Math.floor(Math.random() * 100)
             },
             {
                 "source": "1.2",
                 "target": "2.1",
-                "value": "1"
+                "value": Math.floor(Math.random() * 100)
             },
             {
                 "source": "1.2",
                 "target": "3.1",
-                "value": "1"
+                "value": Math.floor(Math.random() * 100)
             },
             {
                 "source": "1.2",
                 "target": "3.2",
-                "value": "1"
+                "value": Math.floor(Math.random() * 100)
             },
             {
                 "source": "2.1",
                 "target": "1.2",
-                "value": "1"
+                "value": Math.floor(Math.random() * 100)
             },
             {
                 "source": "2.1",
                 "target": "3.1",
-                "value": "1"
+                "value": Math.floor(Math.random() * 100)
             },
             {
                 "source": "2.1",
                 "target": "3.2",
-                "value": "1"
+                "value": Math.floor(Math.random() * 100)
             },
             {
                 "source": "2.2",
                 "target": "2.1",
-                "value": "1"
+                "value": Math.floor(Math.random() * 100)
             },
             {
                 "source": "2.2",
                 "target": "3.1",
-                "value": "1"
+                "value": Math.floor(Math.random() * 100)
             },
             {
                 "source": "2.2",
                 "target": "3.2",
-                "value": "1"
+                "value": Math.floor(Math.random() * 100)
             },
             {
                 "source": "4.1",
                 "target": "3.1",
-                "value": "1"
+                "value": Math.floor(Math.random() * 100)
             },
             {
                 "source": "4.1",
                 "target": "3.2",
-                "value": "1"
+                "value": Math.floor(Math.random() * 100)
             },
             {
                 "source": "4.2",
                 "target": "1.2",
-                "value": "1"
+                "value": Math.floor(Math.random() * 100)
             },
             {
                 "source": "4.2",

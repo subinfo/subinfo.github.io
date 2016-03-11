@@ -41,7 +41,7 @@ var formatNumber = function (d) {
 
 formatFlow = function (d) {
   var flowFormat = d3.format(",.0f"); // zero decimal places with sign
-  return  flowFormat(Math.abs(d)/100) + (d < 0 ? "Afecta a " : "");
+  return  flowFormat(Math.abs(d));
 },
 
 // Used when temporarily disabling user interractions to allow animations to complete
@@ -260,9 +260,9 @@ function update () {
     if (!isTransitioning) {
       showTooltip().select(".value").text(function () {
         if (d.direction > 0) {
-          return d.source.name + " ? " + d.target.name + "\n" + formatNumber(d.value/100);
+          return d.source.name + " ? " + d.target.name + "\n" + formatNumber(d.value);
         }
-        return d.target.name + " ? " + d.source.name + "\n" + formatNumber(d.value/100);
+        return d.target.name + " ? " + d.source.name + "\n" + formatNumber(d.value);
       });
 
       d3.select(this)
@@ -390,7 +390,7 @@ function update () {
           .style("opacity", 1).select(".value")
           .text(function () {
             var additionalInstructions = g.children.length ? "\n(Double click to expand)" : "";
-            return g.name + "\nCruces: " + formatFlow(g.netFlow) + additionalInstructions;
+            return g.name + "\nNet flow: " + formatFlow(g.netFlow) + additionalInstructions;
           });
     }
   });

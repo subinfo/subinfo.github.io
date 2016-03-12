@@ -259,11 +259,11 @@ function update () {
   linkEnter.on('mouseenter', function (d) {
     if (!isTransitioning) {
       showTooltip().select(".value").text(function () {
-        if (d.direction > 0) {
+        //if (d.direction > 0) {
           return d.source.name + " ? " + d.target.name + "\n" + formatNumber(d.value/100);
-        } else {
-        return d.target.name + " ? " + d.source.name + "\n" + formatNumber(d.value/100);
-     } });
+        //} 
+        //return d.target.name + " ? " + d.source.name + "\n" + formatNumber(d.value/100);
+     });
 
       d3.select(this)
         .style("stroke", LINK_COLOR)

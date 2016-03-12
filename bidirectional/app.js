@@ -390,7 +390,7 @@ function update () {
           .style("opacity", 1).select(".value")
           .text(function () {
             var additionalInstructions = g.children.length ? "\n(Double click to expand)" : "";
-            return g.name + "\nAfecta: " + g.targetLinks.length + formatFlow(g.netFlow) + additionalInstructions;
+            return g.name + "\nAfecta: " + g.sourceLinks.length/2  + additionalInstructions;
           });
     }
   });

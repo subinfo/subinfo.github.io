@@ -114,7 +114,8 @@ d3.json("flare3.json", function(error, classes) {
       .data(nodes.filter(function(n) { return !n.children; }))
       .enter().append("g")
         .attr("class", "node")
-        .attr("id", function(d) { return d.name; })
+        .attr("id", function(d) { return (d.name.length - d.key.length); })
+        //.attr("id", function(d) { return d.name; })
         .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
         .style("font-size",10);
     nodes_g.append("text")

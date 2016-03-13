@@ -1,0 +1,239 @@
+[
+            {
+                "name": "5.Emisiones contaminantes de CO2 dejadas de emitir al ambiente",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "imports": ["5.Distribución modal"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.Tiempo Promedio de Desplazamiento por modo"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.Distribución modal" , "5.3.Percepción positiva del cumplimiento de las normas de tránsito"],
+                "size": "1.33333333333333"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.1.Participación municipal en proyectos regionales"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.1.Participación municipal en proyectos regionales"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.1.1.Proyectos regionales y metropolitanos gestionados por el municipio"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "imports": ["5.Distribución modal"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral"],
+                "size": "0.888888888888889"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal"],
+                "size": "1.33333333333333"
+            },
+            {
+                "imports": ["5.Distribución modal" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.2.Mejoramiento movilidad para transporte público multimodal"],
+                "size": "2.22222222222222"
+            },
+            {
+                "imports": ["5.Distribución modal" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada"],
+                "size": "1.77777777777778"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.1.1.Proyectos regionales y metropolitanos gestionados por el municipio" , "5.2.1.Proyectos de infraestrcutura realizados"],
+                "size": "1.33333333333333"
+            },
+            {
+                "imports": ["5.1.Participación municipal en proyectos regionales" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.1.1.Proyectos regionales y metropolitanos gestionados por el municipio" , "5.2.1.Proyectos de infraestrcutura realizados"],
+                "size": "1.77777777777778"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.1.1.Proyectos regionales y metropolitanos gestionados por el municipio" , "5.2.1.Proyectos de infraestrcutura realizados"],
+                "size": "1.33333333333333"
+            },
+            {
+                "imports": ["5.1.Participación municipal en proyectos regionales" , "5.1.1.Proyectos regionales y metropolitanos gestionados por el municipio" , "5.2.1.Proyectos de infraestrcutura realizados"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.1.Participación municipal en proyectos regionales" , "5.1.1.Proyectos regionales y metropolitanos gestionados por el municipio" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.1.1.2.Recursos ejecución de Autopistas de la Prosperidad"],
+                "size": "0.888888888888889"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.1.1.3.Estudio realizado para estructurar el Sistema logístico de Carga" , "5.1.1.4.Estudios prefactibilidad para traslado de Terminal Sur "],
+                "size": "1.33333333333333"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.2.Vehículos transporte público adapatados para personas con discapacidad" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.3.3.Usuarios que utilizan el sistema encicla"],
+                "size": "1.77777777777778"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.1.1.4.Estudios prefactibilidad para traslado de Terminal Sur "],
+                "size": "1.77777777777778"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.2.Vehículos transporte público adapatados para personas con discapacidad" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.3.3.Usuarios que utilizan el sistema encicla" , "5.1.1.1.Estudios pre y/o factibilidad Sistema Férreo Multiproposito"],
+                "size": "3.11111111111111"
+            },
+            {
+                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.2.Percepción pavimentación y señalización de las vías"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.6.Implementación de prueba piloto para de carriles solo motos "],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.2.Percepción pavimentación y señalización de las vías"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.Percepción pavimentación y señalización de las vías" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada"],
+                "size": "1.77777777777778"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.Percepción pavimentación y señalización de las vías" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.3.3.Usuarios que utilizan el sistema encicla"],
+                "size": "2.66666666666667"
+            },
+            {
+                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.3.3.Usuarios que utilizan el sistema encicla" , "5.2.1.3.Proyectos de transporte masivo estructurados "],
+                "size": "2.22222222222222"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , " 5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad" , "5.2.2.3.Puentes intervenidos en la ciudad de Medellín"],
+                "size": "1.33333333333333"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.1.Infraestructura peatonal con mantenimiento" , " 5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad" , "5.2.2.3.Puentes intervenidos en la ciudad de Medellín"],
+                "size": "1.77777777777778"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.2.1.3.Proyectos de transporte masivo estructurados " , " 5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad"],
+                "size": "2.22222222222222"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , " 5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad"],
+                "size": "0.888888888888889"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.Percepción pavimentación y señalización de las vías" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , " 5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad"],
+                "size": "1.77777777777778"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.1.8.Señalización vial  mantenida en buen estado"],
+                "size": "0.888888888888889"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.Percepción pavimentación y señalización de las vías" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.2.2.1.Infraestructura peatonal con mantenimiento"],
+                "size": "1.77777777777778"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.2.Vehículos transporte público adapatados para personas con discapacidad" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.3.3.Usuarios que utilizan el sistema encicla" , "5.2.1.3.Proyectos de transporte masivo estructurados " , "5.2.2.7.Intercambios en la Av 80 para corredor de transporte masivo"],
+                "size": "3.55555555555556"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.2.1.3.Proyectos de transporte masivo estructurados " , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo "],
+                "size": "1.33333333333333"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.2.1.3.Proyectos de transporte masivo estructurados " , "5.2.2.7.Intercambios en la Av 80 para corredor de transporte masivo" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo "],
+                "size": "2.22222222222222"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo "],
+                "size": "0.888888888888889"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo " , "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público"],
+                "size": "1.77777777777778"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.2.Vehículos transporte público adapatados para personas con discapacidad"],
+                "size": "1.33333333333333"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , " 5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad" , "5.2.2.7.Intercambios en la Av 80 para corredor de transporte masivo" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo " , "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público"],
+                "size": "2.66666666666667"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo "],
+                "size": "2.22222222222222"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo "],
+                "size": "2.22222222222222"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , " 5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo " , "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público"],
+                "size": "3.11111111111111"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , " 5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo " , "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público"],
+                "size": "3.11111111111111"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados"],
+                "size": "0.444444444444444"
+            },
+            {
+                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Usuarios que utilizan el sistema encicla" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo " , "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público"],
+                "size": "2.66666666666667"
+            },
+            {
+                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Usuarios que utilizan el sistema encicla" , " 5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo " , "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público"],
+                "size": "3.11111111111111"
+            },
+            {
+                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.2.Percepción pavimentación y señalización de las vías" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Usuarios que utilizan el sistema encicla" , "5.2.1.8.Señalización vial  mantenida en buen estado" , " 5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo " , "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público"],
+                "size": "4"
+            },
+            {
+                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal"],
+                "size": "0.888888888888889"
+            },
+            {
+                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.2.Percepción pavimentación y señalización de las vías" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Usuarios que utilizan el sistema encicla" , "5.2.2.1.Infraestructura peatonal con mantenimiento"],
+                "size": "2.66666666666667"
+            }
+        ]

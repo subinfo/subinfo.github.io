@@ -25,7 +25,7 @@
                 "size": "1.33333333333333"
             },
             {
-                "name": "5.3.Tasa de mortalidad por cada 10.000 vehículos registrado",
+                "name": "5.3.Tasa de mortalidad por cada 10000 vehículos registrado",
                 "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad"],
                 "size": "0.444444444444444"
             },

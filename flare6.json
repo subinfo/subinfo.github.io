@@ -12,7 +12,7 @@
             {
                 "name": "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo",
                 "imports": ["6.Seguimiento POT corto plazo"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.2.Satisfacción de los usuarios con los servicios que ofrece los PUI",
@@ -22,12 +22,12 @@
             {
                 "name": "6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)",
                 "imports": ["6.Seguimiento POT corto plazo"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.3.Espacio público efectivo por habitante",
                 "imports": ["6.Seguimiento POT corto plazo"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.4.Percepción ciudadana de recuperación del centro",
@@ -37,22 +37,22 @@
             {
                 "name": "6.5.Hogares que superan el déficit habitacional",
                 "imports": ["6.Seguimiento POT corto plazo" , "6.Dimensión Entorno y Calidad de la Vivienda Encuesta de Calidad de Vida"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.5.Subsidios de vivienda asignados",
                 "imports": ["6.Seguimiento POT corto plazo" , "6.Dimensión Entorno y Calidad de la Vivienda Encuesta de Calidad de Vida"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.1.1.Compromisos del POT alcanzados",
                 "imports": ["6.Seguimiento POT corto plazo" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro"],
-                "size": "0.83"
+                "size": "3.33"
             },
             {
                 "name": "6.1.2.Sistema de Gestión para la equidad territorial implementado",
                 "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.1.3.Avance de gestión de la información urbanística y catastral",
@@ -62,22 +62,22 @@
             {
                 "name": "6.2.1.Instrumentos de planificación complementaria al POT de segundo nivel formulados y adoptados",
                 "imports": ["6.Seguimiento POT corto plazo" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.3.Espacio público efectivo por habitante"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados",
                 "imports": ["6.Seguimiento POT corto plazo" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.2.Satisfacción de los usuarios con los servicios que ofrece los PUI" , "6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.3.Espacio público efectivo por habitante"],
-                "size": "0.83"
+                "size": "3.33"
             },
             {
                 "name": "6.2.3.Índice Multidimensional de Condiciones de Vida en los corregimientos",
                 "imports": ["6.2.Satisfacción de los usuarios con los servicios que ofrece los PUI"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas",
                 "imports": ["6.Seguimiento POT corto plazo" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.3.2.Estrategias inmobiliarias implementadas",
@@ -87,92 +87,92 @@
             {
                 "name": "6.4.1.Espacio público generado en el centro",
                 "imports": ["6.Seguimiento POT corto plazo" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.4.2.Espacio público recuperados y rehabilitados",
                 "imports": ["6.Seguimiento POT corto plazo" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10",
                 "imports": ["6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.4.3.Espacios públicos intervenidos y recuperados",
                 "imports": ["6.Seguimiento POT corto plazo" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.3.Espacio público efectivo por habitante"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.4.4.Actividades y eventos realizados",
                 "imports": ["6.4.Percepción ciudadana de recuperación del centro"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.5.1.Sistema Municipal Habitacional fortalecido",
                 "imports": ["6.5.Subsidios de vivienda asignados"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.5.2.Proyectos para reasentamiento integral de población",
                 "imports": ["6.Dimensión Entorno y Calidad de la Vivienda Encuesta de Calidad de Vida" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.5.3.Hogares que superan el déficit cuantitativo de vivienda ",
                 "imports": ["6.5.Hogares que superan el déficit habitacional"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados",
                 "imports": ["6.Dimensión Entorno y Calidad de la Vivienda Encuesta de Calidad de Vida" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados"],
-                "size": "0.83"
+                "size": "3.33"
             },
             {
                 "name": "6.5.4.Hogares que superan el déficit cualitativo de vivienda",
                 "imports": ["6.Dimensión Entorno y Calidad de la Vivienda Encuesta de Calidad de Vida" , "6.5.Hogares que superan el déficit habitacional"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.5.4.Mejoramiento Integral de Barrios logrado",
                 "imports": ["6.Dimensión Entorno y Calidad de la Vivienda Encuesta de Calidad de Vida" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.1.1.1.Macroproyectos de transversalidades formulados y adoptados ",
                 "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.3.Espacio público efectivo por habitante" , "6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos de planificación complementaria al POT de segundo nivel formulados y adoptados"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.1.1.2.Distrito rural campesino formulado y adoptado",
                 "imports": ["6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.1.1.3.Planes especiales de manejo  y protección patrimonial operando",
                 "imports": ["6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados" , "6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.1.1.3.Bienes de Interés cultural - BIC declarados",
                 "imports": ["6.1.1.Compromisos del POT alcanzados" , "6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.1.1.4.Protocolos ambientales y urbanísticos.PAU, formulados",
                 "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.1.1.Compromisos del POT alcanzados"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.1.1.5.Estudios   de la aplicación normativa contenida en el POT,  realizados",
                 "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.1.1.Compromisos del POT alcanzados"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.1.1.6.Agenda de desarrollo regional concertada e implementada",
                 "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.1.1.6.Instancia de concertación y dialogo compartida, definida y activa",
@@ -182,67 +182,67 @@
             {
                 "name": "6.1.2.1.Guía metodológica para la formulación de los PUI del ámbito ladera elaborada",
                 "imports": ["6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.1.1.Compromisos del POT alcanzados" , "6.1.2.Sistema de Gestión para la equidad territorial implementado" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.1.2.1.Estudios de riesgo realizados",
                 "imports": ["6.1.1.Compromisos del POT alcanzados" , "6.1.2.Sistema de Gestión para la equidad territorial implementado" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.1.2.2.Intervención del suelo realizadas con los instrumentos definidos",
                 "imports": ["6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.1.2.3.Instrumentos de financiación adoptados",
                 "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.1.1.Compromisos del POT alcanzados" , "6.1.2.Sistema de Gestión para la equidad territorial implementado"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.1.3.1.Plataforma tecnológica Diseñada",
                 "imports": ["6.1.3.Avance de gestión de la información urbanística y catastral"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.1.3.2.Actualización de la Información Catastral",
                 "imports": ["6.1.3.Avance de gestión de la información urbanística y catastral"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.1.3.3.Quejas atendidas por actuaciones urbanísticas",
                 "imports": ["6.1.3.Avance de gestión de la información urbanística y catastral"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.1.3.3.Controles urbanísticos realizados",
                 "imports": ["6.1.3.Avance de gestión de la información urbanística y catastral"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.2.1.1.Viabilidad y apoyo a los proyectos del PDM",
                 "imports": ["6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados" , "6.4.2.Espacio público recuperados y rehabilitados"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.2.1.2.Macroproyectos MEDRío implementados y ejecutados en el corto plazo del POT",
                 "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.3.Espacio público efectivo por habitante" , "6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos de planificación complementaria al POT de segundo nivel formulados y adoptados"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.2.1.3.Viabilidad y apoyo a los proyectos urbanos integrales Ámbito Ladera",
                 "imports": ["6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.2.1.4.Estrategia de proyectos UrbanosIntegrales ejecutada",
                 "imports": ["6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.2.1.5.Parques del Río Medellín construido primera Etapa",
                 "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.3.Espacio público efectivo por habitante" , "6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos de planificación complementaria al POT de segundo nivel formulados y adoptados"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.2.3.1.PUI Corregimentales ejecutados",
@@ -257,7 +257,7 @@
             {
                 "name": "6.2.3.3.Subestación de Carabineros construida-Altavista",
                 "imports": ["6.1.1.Compromisos del POT alcanzados" , "6.2.3.Índice Multidimensional de Condiciones de Vida en los corregimientos"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.2.3.3.Finca instalada-San Antonio de Prado",
@@ -267,42 +267,42 @@
             {
                 "name": "6.2.3.4.Equipamientos estratégicos construidos",
                 "imports": ["6.2.3.Índice Multidimensional de Condiciones de Vida en los corregimientos"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.2.3.5.Acciones para la conservación del medio ambiente de los corregimientos realizadas",
                 "imports": ["6.2.3.Índice Multidimensional de Condiciones de Vida en los corregimientos"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.3.1.1.Espacio público nuevo generado en el cinturón verde",
                 "imports": ["6.3.Espacio público efectivo por habitante" , "6.1.1.Compromisos del POT alcanzados" , "6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.3.1.2.Instrumento financiero Aprovechamiento Económico del Espacio Público implementado",
                 "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.1.1.Compromisos del POT alcanzados"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.3.1.3.Áreas de fachadas de paisaje urbano intervenidas",
                 "imports": ["6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas" , "6.3.2.Estrategias inmobiliarias implementadas"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.3.1.3.Espacios públicos intervenidos en Áreas y Corredores de Revitalización Estratégica y Económica",
                 "imports": ["6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.3.1.4.Áreas de interés patrimonial restauradas",
                 "imports": ["6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.3.1.5.Aprovechamiento Económico de la Publicidad implementado",
                 "imports": ["6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas" , "6.3.2.Estrategias inmobiliarias implementadas"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.3.1.6.Paisajismo y silvicultura espacios públicos verdes intervenidos",
@@ -312,226 +312,226 @@
             {
                 "name": "6.3.2.1.Bienes Inmuebles del Municipio Aprovechados Económicamente por venta o arriendo",
                 "imports": ["6.3.2.Estrategias inmobiliarias implementadas"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.3.2.2.Proyectos Inmobiliario Promovido en complejos barriales ",
                 "imports": ["6.3.2.Estrategias inmobiliarias implementadas"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.3.2.2.Proyectos Inmobiliario Promovido en lotes remanentes",
                 "imports": ["6.3.2.Estrategias inmobiliarias implementadas"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.4.1.1.Inmuebles para la institucionalidad ocupados",
                 "imports": ["6.4.1.Espacio público generado en el centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.4.1.2.Plan de cultura con las instituciones de educación y cultura del centro",
                 "imports": ["6.4.Percepción ciudadana de recuperación del centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.4.Actividades y eventos realizados"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.4.2.1.Corredores importantes en el centro recuperados",
                 "imports": ["6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "0.83"
+                "size": "3.33"
             },
             {
                 "name": "6.4.2.2.Estudio para la renovación del centro tradicional formulado",
                 "imports": ["6.4.2.Espacio público recuperados y rehabilitados"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.4.2.3.Andenes y espacio público recuperado en el centro",
                 "imports": ["6.4.Percepción ciudadana de recuperación del centro" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.4.2.4.Corredor Bolívar con conectividad mejorada",
                 "imports": ["6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "0.83"
+                "size": "3.33"
             },
             {
                 "name": "6.4.2.5.Corredor Córdoba con conectividad mejorada",
                 "imports": ["6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "0.83"
+                "size": "3.33"
             },
             {
                 "name": "6.4.2.6.Vías del centro tradicional peatonalizadas",
                 "imports": ["6.4.Percepción ciudadana de recuperación del centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.4.3.1.Intervenciones del espacio público ejecutadas",
                 "imports": ["6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "0.83"
+                "size": "3.33"
             },
             {
                 "name": "6.4.3.2.Corredor Junín consolidado",
                 "imports": ["6.4.Percepción ciudadana de recuperación del centro" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "0.83"
+                "size": "3.33"
             },
             {
                 "name": "6.4.3.3.Unidades productivas implementadas",
                 "imports": ["6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.4.3.4.Espacio Público Intervenido",
                 "imports": ["6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.4.3.5.Plan maestro de San Antonio ejecutado",
                 "imports": ["6.4.Percepción ciudadana de recuperación del centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.4.4.1.Intervenciones para fortalecer la seguridad y gobernabilidad ejecutadas",
                 "imports": ["6.4.Percepción ciudadana de recuperación del centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.4.4.2.Espacios públicos ocupados para eventos de ciudad en el centro tradicional",
                 "imports": ["6.4.2.Espacio público recuperados y rehabilitados" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.4.4.3.Plan Maestro del centro tradicional consolidado",
                 "imports": ["6.4.2.Espacio público recuperados y rehabilitados" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.4.4.4.Campañas para conocer y volver al centro realizadas",
                 "imports": ["6.4.Percepción ciudadana de recuperación del centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.4.Actividades y eventos realizados"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.5.1.1.Comité de Política habitacional implementado",
                 "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.1.1.Compromisos del POT alcanzados" , "6.5.1.Sistema Municipal Habitacional fortalecido"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.5.1.2.Plan estratégico habitacional actualizado",
                 "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.1.1.Compromisos del POT alcanzados" , "6.5.2.Proyectos para reasentamiento integral de población"],
-                "size": "0.5"
+                "size": "2"
             },
             {
                 "name": "6.5.2.1.Hogares sujetos de reasentamiento por obras de utilidad pública atendidos",
                 "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados" , "6.5.2.Proyectos para reasentamiento integral de población" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "0.1"
+                "size": "4"
             },
             {
                 "name": "6.5.2.2.Hogares sujetos de reasentamiento por eventos naturales y desastres atendidos",
                 "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados" , "6.5.2.Proyectos para reasentamiento integral de población" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "0.1"
+                "size": "4"
             },
             {
                 "name": "6.5.2.3.Piloto de reasentamiento preventivo en suelo de riesgo no mitigable ejecutado",
                 "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados" , "6.5.2.Proyectos para reasentamiento integral de población" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "0.1"
+                "size": "4"
             },
             {
                 "name": "6.5.2.4.Hogares con subsidio de arrendamiento temporal atendidos",
                 "imports": ["6.5.Subsidios de vivienda asignados" , "6.5.2.Proyectos para reasentamiento integral de población" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "0.83"
+                "size": "3.33"
             },
             {
                 "name": "6.5.3.1.Viviendas construidas",
                 "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "0.83"
+                "size": "3.33"
             },
             {
                 "name": "6.5.3.1.Unidades de vivienda iniciadas",
                 "imports": ["6.5.Subsidios de vivienda asignados" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.5.3.2.Suelo de vivienda social gestionado",
                 "imports": ["6.5.1.Sistema Municipal Habitacional fortalecido"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.5.3.3.Subsidios en proyectos de iniciativas comunitarias asignados",
                 "imports": ["6.5.Subsidios de vivienda asignados" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.5.4.1.Resoluciones de cesión de título gratuito expedidas",
                 "imports": ["6.5.Subsidios de vivienda asignados"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.5.4.2.Hogares beneficiados de subsidio para el mejoramiento de vivienda",
                 "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.4.Hogares que superan el déficit cualitativo de vivienda" , "6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "0.83"
+                "size": "3.33"
             },
             {
                 "name": "6.5.4.2.Viviendas urbanas y rurales que acceden a mejoramiento",
                 "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.4.Hogares que superan el déficit cualitativo de vivienda" , "6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "0.83"
+                "size": "3.33"
             },
             {
                 "name": "6.5.4.3.Reconocimientos de edificaciones",
                 "imports": ["6.5.Subsidios de vivienda asignados"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.5.4.4.Política pública de inquilinatos implementada",
                 "imports": ["6.5.1.Sistema Municipal Habitacional fortalecido" , "6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.5.4.5.Adecuación de escenarios deportivos, recreativos y de actividad física",
                 "imports": ["6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.5.4.5.Construcción de escenarios deportivos, recreativos y de actividad física",
                 "imports": ["6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.5.4.5.Unidades de Vida Articulada construidas y puestas en funcionamiento",
                 "imports": ["6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.5.4.5.Adecuación y mantenimiento de la infraestructura física de las UVA",
                 "imports": ["6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "0.17"
+                "size": "0.66"
             },
             {
                 "name": "6.5.4.6.Espacios públicos de encuentro y esparcimiento, mantenidos y conservados ",
                 "imports": ["6.4.1.Espacio público generado en el centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.3.Espacios públicos intervenidos y recuperados" , "6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.5.4.6.Espacios públicos de encuentro y esparcimiento intervenidos Urbanos y Rurales",
                 "imports": ["6.4.1.Espacio público generado en el centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.3.Espacios públicos intervenidos y recuperados" , "6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "0.67"
+                "size": "2.66"
             },
             {
                 "name": "6.5.4.7.Viviendas con servicio de agua potable en asentamientos informales mediante pilas públicas",
                 "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.5.4.8.Viviendas que acceden a agua potable en desarrollo de obras de mitigación",
                 "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.5.4.9.Viviendas habilitadas para conexión de los servicios de acueducto y alcantarillado",
                 "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "0.33"
+                "size": "1.33"
             },
             {
                 "name": "6.5.4.10.Programas para la salvaguardia del patrimonio cultural realizados",
                 "imports": ["6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas" , "6.4.3.Espacios públicos intervenidos y recuperados" , "6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "0.5"
+                "size": "2"
             }
         ]

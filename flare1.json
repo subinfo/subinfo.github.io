@@ -1,227 +1,642 @@
 [
             {
                 "name": "1.Confianza interpersonal",
-                "imports": [],
-                "size": "0"
+                "imports": ["1.Indice de Cultura Ciudadana"],
+                "size": "0.8"
             },
             {
                 "name": "1.Confianza institucional",
+                "imports": ["1.Indice de Cultura Ciudadana"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.Indice de Cultura Ciudadana",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "1.Cultura Ciudadana",
+                "name": "1.1.Ciudadanos que mejoran sus relaciones de confianza con su entorno y las autoridades",
+                "imports": ["1.Indice de Cultura Ciudadana"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.2.Indice de participación ciudadana en Medellín",
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.1.Ciudadanos que mejoran sus relaciones de confianza con su entorno y las autoridades"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.2.Planeacion local y PP como escenario de pedagogia politica",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.Indice de Gobierno Abierto",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "1.1.Ciudadanos que mejoran confianza",
-                "imports": ["1.Confianza interpersonal" , "1.Confianza institucional"],
-                "size": "2"
-            },
-            {
-                "name": "1.2.Indice de participación ciudadana",
-                "imports": ["1.Confianza interpersonal" , "1.Cultura Ciudadana"],
-                "size": "2"
-            },
-            {
-                "name": "1.2.Planeacion local y pp como escenario de pedagogia politica",
-                "imports": ["1.Confianza institucional"],
-                "size": "1"
-            },
-            {
-                "name": "1.3.IGA",
-                "imports": ["1.Confianza institucional"],
-                "size": "1"
-            },
-            {
-                "name": "1.3.Nivel de satisfacción ciudadana",
-                "imports": ["1.Confianza institucional"],
-                "size": "1"
-            },
-            {
-                "name": "1.1.1.Cercanía del Alcalde con la ciudadanía",
-                "imports": ["1.Confianza institucional" , "1.1.Ciudadanos que mejoran confianza"],
-                "size": "2"
-            },
-            {
-                "name": "1.1.1.ECC Pluralismo",
-                "imports": ["1.Cultura Ciudadana" , "1.1.Ciudadanos que mejoran confianza"],
-                "size": "2"
-            },
-            {
-                "name": "1.1.2.Personas que ante regla o norma les despierta un sentimiento positivo",
-                "imports": ["1.1.Ciudadanos que mejoran confianza"],
-                "size": "1"
-            },
-            {
-                "name": "1.1.3.Personas que ven televisión",
-                "imports": ["1.Cultura Ciudadana"],
-                "size": "1"
-            },
-            {
-                "name": "1.1.3.Ciudadanía movilizada a través de la comunicación  ",
-                "imports": ["1.2.Indice de participación ciudadana"],
-                "size": "1"
-            },
-            {
-                "name": "1.1.4.Razones para desobedecer la ley",
-                "imports": ["1.Cultura Ciudadana"],
-                "size": "1"
-            },
-            {
-                "name": "1.1.5.Ccomportamientos saludables en salud bucal",
-                "imports": ["1.Cultura Ciudadana"],
-                "size": "1"
-            },
-            {
-                "name": "1.1.5.Prevalencia de Consumo de  frutas y verduras",
-                "imports": ["1.Cultura Ciudadana"],
-                "size": "1"
-            },
-            {
-                "name": "1.1.5.Promedio de edad de inicio de consumo de tabaco",
-                "imports": ["1.Cultura Ciudadana"],
-                "size": "1"
-            },
-            {
-                "name": "1.1.5.Personas que perciben los beneficios de la actividad física",
-                "imports": ["1.Cultura Ciudadana"],
-                "size": "1"
-            },
-            {
-                "name": "1.1.5.Planes para la gestión de entornos saludables",
-                "imports": ["1.Cultura Ciudadana"],
-                "size": "1"
-            },
-            {
-                "name": "1.1.5.Personas atendidas con actividad física saludable ",
-                "imports": ["1.Cultura Ciudadana"],
-                "size": "1"
-            },
-            {
-                "name": "1.1.6.Grupos  atendidos en educación y cultura ambiental",
-                "imports": ["1.Cultura Ciudadana"],
-                "size": "1"
-            },
-            {
-                "name": "1.1.7.Ciudadanos integrados a través del deporte",
+                "name": "1.3.Nivel de satisfacción ciudadana con la oferta institucional",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "1.2.1.Ciudadanos, instancia y organizaciones que ejercen control social a lo publico",
-                "imports": ["1.2.Indice de participación ciudadana"],
-                "size": "1"
+                "name": "1.1.1.Percepción de cercanía del Alcalde con la ciudadanía",
+                "imports": ["1.1.Ciudadanos que mejoran sus relaciones de confianza con su entorno y las autoridades"],
+                "size": "0.8"
             },
             {
-                "name": "1.2.2.JAL  que inciden en el control político",
-                "imports": ["1.2.Indice de participación ciudadana"],
-                "size": "1"
+                "name": "1.1.1.Personas que manifiestan no inconformidad de tener vecino a poblaciones vulnerables",
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.1.Ciudadanos que mejoran sus relaciones de confianza con su entorno y las autoridades"],
+                "size": "1.6"
             },
             {
-                "name": "1.2.2.Organizaciones comunales que mejoran su funcioamiento interno y de gestion",
-                "imports": ["1.2.Indice de participación ciudadana"],
-                "size": "1"
+                "name": "1.1.2.Personas que ante la palabra, regla o norma, les despierta un sentimiento positivo",
+                "imports": ["1.Indice de Cultura Ciudadana"],
+                "size": "0.8"
             },
             {
-                "name": "1.2.2.Organizaciones y redes sociales  legitimadas",
-                "imports": ["1.2.Indice de participación ciudadana"],
-                "size": "1"
+                "name": "1.1.4.Razones para desobedecer la ley.Actitudes hacia el marco normativo legal (ECC)",
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.1.Ciudadanos que mejoran sus relaciones de confianza con su entorno y las autoridades" , "1.3.Indice de Gobierno Abierto" , "1.1.2.Personas que ante la palabra, regla o norma, les despierta un sentimiento positivo"],
+                "size": "3.2"
             },
             {
-                "name": "1.2.2.Red de Formación Ciudadana",
+                "name": "1.1.4.Comportamientos saludables en salud bucal",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "1.2.3.Jovenes participantes en  PP que inciden en el desarrollo de su territorio",
-                "imports": ["1.2.Planeacion local y pp como escenario de pedagogia politica"],
-                "size": "1"
+                "name": "1.1.4.Prevalencia de Consumo de frutas y verduras en los siete días a la semana ",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "1.2.3.Ruta metodologica y politica del pp como estrategia pedagogica",
-                "imports": ["1.2.Planeacion local y pp como escenario de pedagogia politica"],
-                "size": "1"
+                "name": "1.1.4.Promedio de edad e inicio de consumo de tabaco",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "1.2.4.Estrategias para la planeación social y económica",
-                "imports": ["1.2.Planeacion local y pp como escenario de pedagogia politica"],
-                "size": "1"
+                "name": "1.1.4.Personas que perciben los beneficios de la actividad física saludable",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.3.Nivel de satisfacción ciudadana con la oferta institucional"],
+                "size": "1.6"
             },
             {
-                "name": "1.3.1.Visibilidad de la Administración Municipal",
-                "imports": ["1.Confianza institucional" , "1.1.Ciudadanos que mejoran confianza"],
-                "size": "2"
+                "name": "1.1.4.Planes para la gestión de entornos saludables formulados e implementados",
+                "imports": ["1.1.4.Personas que perciben los beneficios de la actividad física saludable"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.1.4.Personas atendidas con actividad física saludable ",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.1.5.Grupos atendidos en educación y cultura ambiental",
+                "imports": ["1.Indice de Cultura Ciudadana"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.1.6.Ciudadanos integrados a través del deporte",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.1.4.Personas que perciben los beneficios de la actividad física saludable" , "1.1.4.Personas atendidas con actividad física saludable "],
+                "size": "2.4"
+            },
+            {
+                "name": "1.2.1.JAL que inciden en la participación y la gestión del desarrollo territorial",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.2.Planeacion local y PP como escenario de pedagogia politica"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.2.1.Organizaciones comunales que mejoran su funcioamiento interno y de gestion",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.2.1.Organizaciones y redes sociales legitimadas",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.2.1.Participantes en procesos de formación que logran las transformaciones intencionadas",
+                "imports": ["1.1.Ciudadanos que mejoran sus relaciones de confianza con su entorno y las autoridades" , "1.2.Indice de participación ciudadana en Medellín" , "1.2.Planeacion local y PP como escenario de pedagogia politica" , "1.2.1.JAL que inciden en la participación y la gestión del desarrollo territorial"],
+                "size": "3.2"
+            },
+            {
+                "name": "1.2.2.Jovenes participantes en PP que inciden en el desarrollo de su territorio",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.2.Planeacion local y PP como escenario de pedagogia politica"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.2.2 Programa de PP articulado al sistema municipal de participacion y de planeacion ",
+                "imports": ["1.2.Planeacion local y PP como escenario de pedagogia politica"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.2.4.Estrategias para planeación social y económica que impactan el desarrollo municipal",
+                "imports": ["1.3.Indice de Gobierno Abierto"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.1.Visibilidad de la Administración Municipal en la Ciudadanía",
+                "imports": [],
+                "size": "0"
             },
             {
                 "name": "1.3.1.Acuerdos y pactos logrados del Municipio de Medellín",
-                "imports": ["1.Confianza institucional"],
-                "size": "1"
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "1.3.1.Nivel de cumplimiento de los Manuales de gestión",
-                "imports": ["1.2.Planeacion local y pp como escenario de pedagogia politica"],
-                "size": "1"
+                "name": "1.3.1.Nivel de cumplimiento de los Manuales del "Conglomerado Público Municipio de Medellín"",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín"],
+                "size": "0.8"
             },
             {
                 "name": "1.3.1.Percepccion ciudadana con la participación",
-                "imports": ["1.Confianza institucional"],
-                "size": "1"
+                "imports": ["1.3.Indice de Gobierno Abierto"],
+                "size": "0.8"
             },
             {
                 "name": "1.3.2.Sistemas de gestión mejorados",
-                "imports": ["1.3.IGA"],
-                "size": "1"
+                "imports": ["1.3.Indice de Gobierno Abierto"],
+                "size": "0.8"
             },
             {
-                "name": "1.3.2.ITM",
-                "imports": ["1.Confianza institucional" , "1.1.Ciudadanos que mejoran confianza"],
-                "size": "2"
+                "name": "1.3.2.ITM(Indice de Transparencia Municipal de grandes ciudades)",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.3.2.Ciudadanos, instancias y organizaciones que ejercen control social a lo público",
+                "imports": [],
+                "size": "0"
             },
             {
                 "name": "1.3.3.Calificación del Desempeño Fiscal",
-                "imports": ["1.1.Ciudadanos que mejoran confianza"],
-                "size": "1"
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "1.3.3.Cumplimiento del nivel de rentas y recursos",
-                "imports": ["1.1.Ciudadanos que mejoran confianza"],
-                "size": "1"
+                "name": "1.3.3.Cumplimiento del nivel de rentas y recursos proyectados en el plan financiero 2016-2019",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "1.3.4.Nivel de Madurez MECI",
-                "imports": ["1.3.IGA"],
-                "size": "1"
+                "name": "1.3.4.Nivel de Madurez MECI(Modelo Estándar de Control Interno)",
+                "imports": ["1.3.Indice de Gobierno Abierto"],
+                "size": "0.8"
             },
             {
                 "name": "1.3.4.Desempeño de la auditoría interna",
-                "imports": ["1.3.IGA"],
-                "size": "1"
+                "imports": ["1.3.Indice de Gobierno Abierto"],
+                "size": "0.8"
             },
             {
-                "name": "1.3.4.Ahorros logrados en la adquisición",
-                "imports": ["1.1.Ciudadanos que mejoran confianza"],
-                "size": "1"
+                "name": "1.3.4.Ahorros logrados en la adquisición función centralizada de las compras",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "1.3.5.Sentencias favorables / sentencias totales",
-                "imports": ["1.1.Ciudadanos que mejoran confianza"],
-                "size": "1"
+                "name": "1.3.5.Sentencias favorables ejecutoriadas",
+                "imports": ["1.1.Ciudadanos que mejoran sus relaciones de confianza con su entorno y las autoridades"],
+                "size": "0.8"
             },
             {
                 "name": "1.3.5.Clima Laboral Fortalecido",
-                "imports": ["1.1.Ciudadanos que mejoran confianza"],
-                "size": "1"
+                "imports": ["1.1.Ciudadanos que mejoran sus relaciones de confianza con su entorno y las autoridades"],
+                "size": "0.8"
             },
             {
-                "name": "1.3.5.Calidad de Vida Laboral ",
-                "imports": ["1.1.Ciudadanos que mejoran confianza"],
-                "size": "1"
+                "name": "1.3.5.Calidad de Vida Laboral",
+                "imports": [],
+                "size": "0"
             },
             {
                 "name": "1.3.6.Ciudadesque participan en la plataforma \"mi ciudad\"",
-                "imports": ["1.1.Ciudadanos que mejoran confianza"],
-                "size": "1"
+                "imports": ["1.Indice de Cultura Ciudadana"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.1.1.1.Campañas de pedagogía ciudadana adelantadas",
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.1.Ciudadanos que mejoran sus relaciones de confianza con su entorno y las autoridades" , "1.1.1.Percepción de cercanía del Alcalde con la ciudadanía" , "1.1.1.Personas que manifiestan no inconformidad de tener vecino a poblaciones vulnerables"],
+                "size": "3.2"
+            },
+            {
+                "name": "1.1.1.2.Voluntarios certificados por la Alcadia de Medellin",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.1.1.Percepción de cercanía del Alcalde con la ciudadanía" , "1.1.1.Personas que manifiestan no inconformidad de tener vecino a poblaciones vulnerables"],
+                "size": "2.4"
+            },
+            {
+                "name": "1.1.1.3.Comités Locales de Gobierno realizados",
+                "imports": ["1.1.1.Percepción de cercanía del Alcalde con la ciudadanía" , "1.1.1.Personas que manifiestan no inconformidad de tener vecino a poblaciones vulnerables"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.1.1.3.Consejos de Convivencia Ciudadana realizados",
+                "imports": ["1.1.1.Percepción de cercanía del Alcalde con la ciudadanía" , "1.1.1.Personas que manifiestan no inconformidad de tener vecino a poblaciones vulnerables"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.1.1.5.Herramientas de comunicación utilizadas para la movilización",
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.1.1.Percepción de cercanía del Alcalde con la ciudadanía" , "1.1.1.Personas que manifiestan no inconformidad de tener vecino a poblaciones vulnerables"],
+                "size": "2.4"
+            },
+            {
+                "name": "1.1.1.5.Estrategia de comunicación para la movilización diseñada y ejecutada",
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.2.Indice de participación ciudadana en Medellín" , "1.1.1.Percepción de cercanía del Alcalde con la ciudadanía" , "1.1.1.Personas que manifiestan no inconformidad de tener vecino a poblaciones vulnerables"],
+                "size": "3.2"
+            },
+            {
+                "name": "1.1.2.1.Plan promotor de cultura ciudadana implementado",
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.1.1.Percepción de cercanía del Alcalde con la ciudadanía" , "1.1.1.Personas que manifiestan no inconformidad de tener vecino a poblaciones vulnerables"],
+                "size": "2.4"
+            },
+            {
+                "name": "1.1.2.2.Proyectos territoriales implementados en el marco de la cultura ciudadana",
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.1.2.Personas que ante la palabra, regla o norma, les despierta un sentimiento positivo"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.1.2.2.Eventos sobre diversidad e interculturalidad realizados",
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.2.Indice de participación ciudadana en Medellín" , "1.1.2.Personas que ante la palabra, regla o norma, les despierta un sentimiento positivo"],
+                "size": "2.4"
+            },
+            {
+                "name": "1.1.2.3.Plan de formación ciudadana para el fortalecimiento de la familia",
+                "imports": ["1.1.2.Personas que ante la palabra, regla o norma, les despierta un sentimiento positivo"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.1.2.4.Procesos de difusión, promoción e integración para la población joven realizados",
+                "imports": ["1.1.Ciudadanos que mejoran sus relaciones de confianza con su entorno y las autoridades"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.1.2.4.Proyectos y programas identificados con sello joven",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.1.2.5.Ciudadanos sensibilizados en educación vial para la movilidad segura",
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.2.Indice de participación ciudadana en Medellín"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.1.2.6.Cuadras de Medellín con la estrategia "La cuadra cuenta con vos"",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.3.1.Percepccion ciudadana con la participación"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.1.3.1.IE acompañadas para el fortalecimiento de la cultura de la legalidad",
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.2.Indice de participación ciudadana en Medellín"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.1.3.2.Jornadas de Formalización de la cultura de legalidad en el ambiente empresarial",
+                "imports": ["1.1.4.Razones para desobedecer la ley.Actitudes hacia el marco normativo legal (ECC)"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.1.3.3.Eventos para visibilizar buenos comportamientos en relación con las campañas pedagógicas",
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.2.Indice de participación ciudadana en Medellín" , "1.1.4.Razones para desobedecer la ley.Actitudes hacia el marco normativo legal (ECC)"],
+                "size": "2.4"
+            },
+            {
+                "name": "1.1.4.1.Cobertura actividades información, educación, comunicación en trabajadores del sector informal",
+                "imports": ["1.1.4.Comportamientos saludables en salud bucal"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.1.4.1.Familias acompañadas para promover la cultura del cuidado en el hogar",
+                "imports": ["1.Indice de Cultura Ciudadana"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.1.4.1.Personas intervenidas para el cuidado en salud en el entorno público y comunitario",
+                "imports": ["1.1.4.Prevalencia de Consumo de frutas y verduras en los siete días a la semana " , "1.1.4.Personas que perciben los beneficios de la actividad física saludable"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.1.4.1.IE que reciben acciones para promover la cultura del cuidado en el entorno escolar",
+                "imports": ["1.1.4.Personas que perciben los beneficios de la actividad física saludable"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.1.4.2.Planes para la gestión de entornos saludables formulados e implementados",
+                "imports": ["1.1.4.Personas que perciben los beneficios de la actividad física saludable" , "1.1.4.Personas atendidas con actividad física saludable "],
+                "size": "1.6"
+            },
+            {
+                "name": "1.1.5.1.Intervenciones en buenas prácticas ambientales realizadas",
+                "imports": ["1.Indice de Cultura Ciudadana"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.1.5.2.Campañas en educación y cultura ambiental realizadas",
+                "imports": ["1.Indice de Cultura Ciudadana"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.1.6.1.Ciudadanos que mejoran sus competencias para la participación en el sector.CUAL SECTOR?",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.1.6.2.Población que participa en actividades deportivas comunitarias",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.1.6.2.Estrategias a través del deporte para promoción de convivencia y buen uso del espacio público",
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.2.Indice de participación ciudadana en Medellín"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.2.2.1.JAL acompañadas y asesoradas",
+                "imports": ["1.2.Planeacion local y PP como escenario de pedagogia politica" , "1.2.1.JAL que inciden en la participación y la gestión del desarrollo territorial" , "1.2.1.Participantes en procesos de formación que logran las transformaciones intencionadas" , "1.2.2 Programa de PP articulado al sistema municipal de participacion y de planeacion " , "1.3.2.Ciudadanos, instancias y organizaciones que ejercen control social a lo público"],
+                "size": "4"
+            },
+            {
+                "name": "1.2.1.2.Planes de trabajo de las Juntas de Acción Comunal formulados e implementados",
+                "imports": ["1.2.1.Organizaciones comunales que mejoran su funcioamiento interno y de gestion" , "1.3.2.Ciudadanos, instancias y organizaciones que ejercen control social a lo público"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.2.1.2.Procesos de vigilancia inspección y control realizados a las Juntas de accion comunal",
+                "imports": ["1.2.1.Organizaciones comunales que mejoran su funcioamiento interno y de gestion"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.2.2.3.Espacios sociales y comunitarios para apropiacion del conocimiento e investigación",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.2.1.Participantes en procesos de formación que logran las transformaciones intencionadas"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.2.2.3.Personas formadas en el marco del sistema de formacion para la participación ciudadana",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.2.1.Participantes en procesos de formación que logran las transformaciones intencionadas"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.2.1.4.Organizaciones y redes sociales promovidas y fortalecidas",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.2.1.Organizaciones y redes sociales legitimadas" , "1.3.2.Ciudadanos, instancias y organizaciones que ejercen control social a lo público"],
+                "size": "2.4"
+            },
+            {
+                "name": "1.2.1.5.Equipamientos sociales que mejoran sus condiciones de infraestructura fisica y tecnológica",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.2.1.Organizaciones comunales que mejoran su funcioamiento interno y de gestion"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.2.1.5.Telecentros comunitarios creados y fortalecidos",
+                "imports": ["1.2.1.Organizaciones comunales que mejoran su funcioamiento interno y de gestion"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.2.1.6.Agenda de participación ciudadana formulada e implementada",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.2.1.JAL que inciden en la participación y la gestión del desarrollo territorial"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.2.1.6.Instancias articuladas a través del Sistema Municipal de Participación Ciudadana",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.2.1.JAL que inciden en la participación y la gestión del desarrollo territorial" , "1.3.2.Ciudadanos, instancias y organizaciones que ejercen control social a lo público"],
+                "size": "2.4"
+            },
+            {
+                "name": "1.2.1.7.Fortalecimiento a la participación formal para la juventud",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.2.1.8.Niño(as) y jovenes que permanecen en las actividades de formación",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.2.1.Participantes en procesos de formación que logran las transformaciones intencionadas"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.2.2.1.Ruta metodologica y politica del PP para la participacion democratica",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.2.1.Participantes en procesos de formación que logran las transformaciones intencionadas" , "1.2.2.Jovenes participantes en PP que inciden en el desarrollo de su territorio" , "1.2.2 Programa de PP articulado al sistema municipal de participacion y de planeacion " , "1.3.2.Ciudadanos, instancias y organizaciones que ejercen control social a lo público"],
+                "size": "4"
+            },
+            {
+                "name": "1.2.2.2.Jovenes participantes en ejercicios de presupuestación participativo",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.2.1.Participantes en procesos de formación que logran las transformaciones intencionadas" , "1.2.2.Jovenes participantes en PP que inciden en el desarrollo de su territorio" , "1.2.2 Programa de PP articulado al sistema municipal de participacion y de planeacion "],
+                "size": "3.2"
+            },
+            {
+                "name": "1.2.3.1.Sistema Municipal de Planeación actualizado",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.2.3.1.Planes de desarrollo administrativo ajustados",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.2.3.2.Estrategias de articulación de la planeación participativa formuladas e implementadas",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.2.3.2.Sistema de seguimiento monitoreo y evaluación de los Planes de Desarrollo Local actualizados",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.2.3.3.Planes sectoriales formulados",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.2.3.3.Políticas sociales y económicas para el desarrollo posicionadas",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.3.1.1.Rendición de Cuentas realizadas",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.3.1.2.Encuentros en el territorio del alcalde y su gabinete con la ciudadanía realizados",
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.2.Indice de participación ciudadana en Medellín" , "1.1.1.Percepción de cercanía del Alcalde con la ciudadanía" , "1.3.1.Visibilidad de la Administración Municipal en la Ciudadanía" , "1.3.1.Acuerdos y pactos logrados del Municipio de Medellín"],
+                "size": "4"
+            },
+            {
+                "name": "1.3.1.3.Denuncias de corrupción trasladadas A organos de control",
+                "imports": ["1.3.1.Acuerdos y pactos logrados del Municipio de Medellín"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.1.3.Auditorias a la vista realizadas",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.3.1.4.Eventos internacionales de Relaciones Públicas y Gobierno Corporativo realizados",
+                "imports": ["1.3.1.Visibilidad de la Administración Municipal en la Ciudadanía" , "1.3.1.Acuerdos y pactos logrados del Municipio de Medellín"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.3.1.5.Comunicación dirigida a la ciudadanía y en articulación con el conglomerado público",
+                "imports": ["1.3.1.Nivel de cumplimiento de los Manuales del "Conglomerado Público Municipio de Medellín""],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.2.1.Ferias de la Transparencia realizadas en el cuatrienio",
+                "imports": ["1.3.1.Visibilidad de la Administración Municipal en la Ciudadanía"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.2.1.Oferentes que se presentaron en los procesos de contratación por convocatoria pública",
+                "imports": ["1.3.1.Visibilidad de la Administración Municipal en la Ciudadanía"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.2.2.Servicios gobierno en línea implementados",
+                "imports": ["1.3.2.Sistemas de gestión mejorados"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.2.2.Componente de procesos con soluciones tecnológicas automatizados",
+                "imports": ["1.3.2.Sistemas de gestión mejorados"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.2.3.Metodología para la medición Indice de transparencia de grandes ciudades implementada",
+                "imports": ["1.3.2.ITM(Indice de Transparencia Municipal de grandes ciudades)"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.2.4.Sistema de información diseñado y desarrollado",
+                "imports": ["1.3.2.Sistemas de gestión mejorados"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.2.5.Iniciativas de control social a lo público promovidas y fortalecidas",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.3.2.Ciudadanos, instancias y organizaciones que ejercen control social a lo público"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.3.2.5.Organizaciones sociales que realizan rendición social de cuentas",
+                "imports": ["1.2.Indice de participación ciudadana en Medellín"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.3.1.Procesos ejecutados para el control de evasion y elusion",
+                "imports": ["1.3.3.Calificación del Desempeño Fiscal"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.3.1.Rendimientos financieros ejecutados por recursos propios",
+                "imports": ["1.3.3.Cumplimiento del nivel de rentas y recursos proyectados en el plan financiero 2016-2019"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.3.2.Cartera recuperada",
+                "imports": ["1.3.3.Cumplimiento del nivel de rentas y recursos proyectados en el plan financiero 2016-2019"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.3.2.Contribuyentes con obligaciones en mora saneados",
+                "imports": ["1.3.3.Cumplimiento del nivel de rentas y recursos proyectados en el plan financiero 2016-2019"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.3.3.Datos y cifras de los diferentes instrumentos financieros",
+                "imports": ["1.3.3.Cumplimiento del nivel de rentas y recursos proyectados en el plan financiero 2016-2019"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.3.4.Alianzas Público Privadas Promovidas",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.3.4.1.Plan de auditorias desarrolladas",
+                "imports": ["1.3.4.Desempeño de la auditoría interna"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.4.3.Bienes muebles gestionados",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.3.4.3.Bienes Inmuebles gestionados",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.3.4.2.Oportunidad en el proceso de selección",
+                "imports": ["1.3.4.Ahorros logrados en la adquisición función centralizada de las compras"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.5.1.Modelo Integrado de Planeación y Gestión mejorado",
+                "imports": ["1.3.4.Nivel de Madurez MECI(Modelo Estándar de Control Interno)"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.5.2.Servicios tecnológicos implementados en beneficio de la organización",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.3.5.2.Disponibilidad plataforma TIC lograda",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.3.5.2.Servicios de atención prestados con efectividad",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.3.5.2.Gestión documental digital y electrónica Implementada",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.3.5.4.Servidores intervenidos con acciones para el desarrollo humano",
+                "imports": ["1.3.5.Clima Laboral Fortalecido" , "1.3.5.Calidad de Vida Laboral"],
+                "size": "1.6"
+            },
+            {
+                "name": "1.3.5.3.Trámites y servicios automatizados",
+                "imports": ["1.3.5.Clima Laboral Fortalecido"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.5.5.Eventos de transferencia del conocimiento realizados",
+                "imports": ["1.3.5.Sentencias favorables ejecutoriadas"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.5.5.Directrices de prevención del Daño Antijurídico y de Defensa y Protección de lo Público emitidas",
+                "imports": ["1.3.5.Sentencias favorables ejecutoriadas"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.6.1 Metodologia gestión por resultados implementada",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.3.6.2.Estrategia de participación digital construida",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "1.3.6.3.Ciudades participando en el programa de innovacion abierta",
+                "imports": ["1.3.6.Ciudadesque participan en la plataforma \"mi ciudad\""],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.6.5.Datos visibles para una ciudad competitiva y transparente",
+                "imports": ["1.3.1.Visibilidad de la Administración Municipal en la Ciudadanía"],
+                "size": "0.8"
+            },
+            {
+                "name": "1.3.6.5.Articulos indexados sobre tematicas prioritarias",
+                "imports": [],
+                "size": "0"
             }
         ]

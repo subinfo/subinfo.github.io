@@ -1,0 +1,77 @@
+
+.node {
+  font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  fill: #abb;
+}
+
+[id="2"]{
+  fill: red;
+}
+
+[id="4"]{
+  fill: orange;
+}
+[id="6"]{
+  fill: blue;
+}
+[id="8"]{
+  fill: black;
+}
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.node:hover {
+  fill: #000;
+}
+.link {
+  stroke: steelblue;
+  stroke-opacity: .4;
+  fill: none;
+  pointer-events: none;
+}
+.node:hover,
+.node--source,
+.node--target {
+  font-weight: 700;
+}
+.node--source {
+  fill: #2ca02c;
+}
+.node--target {
+  fill: #d62728;
+}
+.link--source,
+.link--target {
+  stroke-opacity: 1;
+  stroke-width: 2px;
+  
+}
+.link--source {
+  stroke: #d62728;
+}
+.link--target {
+  stroke: #2ca02c;
+}
+
+#d{
+  background-color: red;
+  color: white;
+  
+}
+#r{
+  background-color: orange;
+  color: white;
+  
+}
+#pg{
+  background-color: blue;
+  color: white;
+  
+}
+#py{
+  background-color: black;
+  color: white;
+  
+}

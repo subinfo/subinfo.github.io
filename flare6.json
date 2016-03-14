@@ -1,4 +1,6 @@
-[
+{
+    "student-data": {
+        "record": [
             {
                 "name": "6.Seguimiento POT corto plazo",
                 "imports": [],
@@ -160,7 +162,7 @@
                 "size": "2"
             },
             {
-                "name": "6.1.1.4.Protocolos ambientales y urbanísticos.PAU, formulados",
+                "name": "6.1.1.4.Protocolos ambientales y urbanísticos, formulados",
                 "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.1.1.Compromisos del POT alcanzados"],
                 "size": "2"
             },
@@ -534,4 +536,7 @@
                 "imports": ["6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas" , "6.4.3.Espacios públicos intervenidos y recuperados" , "6.5.4.Mejoramiento Integral de Barrios logrado"],
                 "size": "3"
             }
-        ]
+        ],
+        "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    }
+}

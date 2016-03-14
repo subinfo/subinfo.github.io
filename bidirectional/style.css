@@ -1,4 +1,4 @@
-body {background: url(descarga.jpg);}
+body {background: url(../descarga.jpg);}
 .node rect {
   cursor: move;
   shape-rendering: crispEdges;

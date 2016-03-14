@@ -55,7 +55,7 @@
                 "size": "0.8"
             },
             {
-                "name": "1.1.4.Razones para desobedecer la ley.Actitudes hacia el marco normativo legal (ECC)",
+                "name": "1.1.4.Razones para desobedecer la ley; Actitudes hacia el marco normativo legal (ECC)",
                 "imports": ["1.Indice de Cultura Ciudadana" , "1.1.Ciudadanos que mejoran sus relaciones de confianza con su entorno y las autoridades" , "1.3.Indice de Gobierno Abierto" , "1.1.2.Personas que ante la palabra, regla o norma, les despierta un sentimiento positivo"],
                 "size": "3.2"
             },
@@ -291,12 +291,12 @@
             },
             {
                 "name": "1.1.3.2.Jornadas de Formalización de la cultura de legalidad en el ambiente empresarial",
-                "imports": ["1.1.4.Razones para desobedecer la ley.Actitudes hacia el marco normativo legal (ECC)"],
+                "imports": ["1.1.4.Razones para desobedecer la ley; Actitudes hacia el marco normativo legal (ECC)"],
                 "size": "0.8"
             },
             {
                 "name": "1.1.3.3.Eventos para visibilizar buenos comportamientos en relación con las campañas pedagógicas",
-                "imports": ["1.Indice de Cultura Ciudadana" , "1.2.Indice de participación ciudadana en Medellín" , "1.1.4.Razones para desobedecer la ley.Actitudes hacia el marco normativo legal (ECC)"],
+                "imports": ["1.Indice de Cultura Ciudadana" , "1.2.Indice de participación ciudadana en Medellín" , "1.1.4.Razones para desobedecer la ley; Actitudes hacia el marco normativo legal (ECC)"],
                 "size": "2.4"
             },
             {

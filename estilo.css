@@ -5,10 +5,10 @@ body {background: url(./images/fondo-01.png);}
 }
 
 [id="2"]{
-  fill: red;
+  fill: #db31cb;
 }
 [id="3"]{
-  fill: red;
+  fill: #db31cb;
 }
 [id="4"]{
   fill: orange;

@@ -383,8 +383,8 @@ function update () {
         .style("fill-opacity", OPACITY.LINK_DEFAULT);
 
       tooltip
-        .style("left", g.x + MARGIN.LEFT + "px")
-        .style("top", g.y + g.height + MARGIN.TOP + 150 + "px")
+        .style("left", g.x + MARGIN.LEFT + 200 + "px")
+        .style("top", g.y + g.height + MARGIN.TOP + 300 + "px")
         .transition()
           .duration(TRANSITION_DURATION)
           .style("opacity", 1).select(".value")

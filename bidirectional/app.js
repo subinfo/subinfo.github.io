@@ -11,8 +11,8 @@ var OPACITY = {
     LINK_HIGHLIGHT: 0.9
   },
   TYPES = ["Dimensión1", "Dimensión2", "Dimensión3", "Dimensión4", "Dimensión5", "Dimensión6", "Dimensión7"],
-  TYPE_COLORS = ["#E8BA20", "#D47F23", "#AE007E", "#673C8B", "#009BDB", "#0095B0", "#7C7B7E"],
-  TYPE_HIGHLIGHT_COLORS = ["#EFCF90", "#E0A87A", "#C87AAB", "#9274AA", "#92BED6", "#77B5BD", "#ADADAD"],
+  TYPE_COLORS = ["#E8BA20", "#D47F23", "#AE007E", "#673C8B", "#009BDB", "#7C7B7E", "#0095B0"],
+  TYPE_HIGHLIGHT_COLORS = ["#EFCF90", "#E0A87A", "#C87AAB", "#9274AA", "#92BED6", "#ADADAD", "#77B5BD"],
   LINK_COLOR = "#b3b3b3",
   INFLOW_COLOR = "#2E86D1",
   OUTFLOW_COLOR = "#D63028",

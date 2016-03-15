@@ -384,7 +384,7 @@ function update () {
 
       tooltip
         .style("left", g.x + MARGIN.LEFT + "px")
-        .style("top", g.y + g.height + MARGIN.TOP + 15 + "px")
+        .style("top", g.y + g.height + MARGIN.TOP + 150 + "px")
         .transition()
           .duration(TRANSITION_DURATION)
           .style("opacity", 1).select(".value")

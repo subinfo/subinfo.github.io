@@ -726,328 +726,328 @@ var exampleLinks = [
             {
                 "source": "1.1",
                 "target": "2.1",
-                "value": 1				
+                "value": 100
             },
             {
                 "source": "1.1",
                 "target": "3.1",
-                "value": 2
+                "value": 100
             },
             {
                 "source": "1.2",
                 "target": "2.1",
-                "value": 3
+                "value": 100 
                 
             },
             {
                 "source": "1.2",
                 "target": "3.1",
-                "value": 4
+                "value": 100
             },
             {
                 "source": "1.2",
                 "target": "3.2",
-                "value": 5
+                "value": 100
             },
             {
                 "source": "2.1",
                 "target": "1.2",
-                "value": 6
+                "value": 100
             },
             {
                 "source": "2.1",
                 "target": "3.1",
-                "value": 7
+                "value": 100
             },
             {
                 "source": "2.1",
                 "target": "3.2",
-                "value": 8
+                "value": 100
             },
             {
                 "source": "2.2",
                 "target": "2.1",
-                "value": 9
+                "value": 100
             },
             {
                 "source": "2.2",
                 "target": "3.1",
-                "value": 10
+                "value": 100
             },
             {
                 "source": "2.2",
                 "target": "3.2",
-                "value": 11
+                "value": 100
             },
             {
                 "source": "4.1",
                 "target": "3.1",
-                "value": 12
+                "value": 100
             },
             {
                 "source": "4.1",
                 "target": "3.2",
-                "value": 13
+                "value": 100
             },
             {
                 "source": "4.2",
                 "target": "1.2",
-                "value": 14
+                "value": 100
             },
             {
                 "source": "4.2",
                 "target": "3.1",
-                "value": 15
+                "value": 100
             },
             {
                 "source": "4.2",
                 "target": "3.2",
-                "value": 16
+                "value": 100
             },
             {
                 "source": "4.3",
                 "target": "1.2",
-                "value": 17
+                "value": 100
             },
             {
                 "source": "4.3",
                 "target": "3.1",
-                "value": 18
+                "value": 100
             },
             {
                 "source": "4.3",
                 "target": "3.2",
-                "value": 19
+                "value": 100
             },
             {
                 "source": "4.4",
                 "target": "1.2",
-                "value": 20
+                "value": 100
             },
             {
                 "source": "4.4",
                 "target": "3.1",
-                "value": 21
+                "value": 100
             },
             {
                 "source": "4.4",
                 "target": "3.2",
-                "value": 22
+                "value": 100
             },
             {
                 "source": "4.5",
                 "target": "1.2",
-                "value": 23
+                "value": 100
             },
             {
                 "source": "4.5",
                 "target": "3.1",
-                "value": 24
+                "value": 100
             },
             {
                 "source": "4.5",
                 "target": "3.2",
-                "value": 25
+                "value": 100
             },
             {
                 "source": "4.6",
                 "target": "1.2",
-                "value": 26
+                "value": 100
             },
             {
                 "source": "4.6",
                 "target": "3.1",
-                "value": 27
+                "value": 100
             },
             {
                 "source": "4.6",
                 "target": "3.2",
-                "value": 28
+                "value": 100
             },
             {
                 "source": "4.7",
                 "target": "3.1",
-                "value": 29
+                "value": 100
             },
             {
                 "source": "4.7",
                 "target": "3.2",
-                "value": 30
+                "value": 100
             },
             {
                 "source": "4.8",
                 "target": "3.1",
-                "value": 31
+                "value": 100
             },
             {
                 "source": "4.8",
                 "target": "3.2",
-                "value": 32
+                "value": 100
             },
             {
                 "source": "4.9",
                 "target": "1.2",
-                "value": 33
+                "value": 100
             },
             {
                 "source": "4.9",
                 "target": "3.1",
-                "value": 34
+                "value": 100
             },
             {
                 "source": "4.9",
                 "target": "3.2",
-                "value": 35
+                "value": 100
             },
             {
                 "source": "4.10",
                 "target": "1.2",
-                "value": 36
+                "value": 100
             },
             {
                 "source": "4.10",
                 "target": "1.3",
-                "value": 37
+                "value": 100
             },
             {
                 "source": "4.10",
                 "target": "3.1",
-                "value": 38
+                "value": 100
             },
             {
                 "source": "4.10",
                 "target": "3.2",
-                "value": 39
+                "value": 100
             },
             {
                 "source": "5.1",
                 "target": "3.1",
-                "value": 40
+                "value": 100
             },
             {
                 "source": "5.1",
                 "target": "3.2",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "5.1",
                 "target": "4.1",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "5.1",
                 "target": "4.7",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "5.1",
                 "target": "6.2",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "5.1",
                 "target": "7.1",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "5.1",
                 "target": "7.3",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "5.2",
                 "target": "3.1",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "5.2",
                 "target": "4.7",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "5.2",
                 "target": "6.2",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "5.3",
                 "target": "1.3",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "5.3",
                 "target": "3.2",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "5.3",
                 "target": "6.2",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "6.1",
                 "target": "3.1",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "6.1",
                 "target": "3.2",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "6.1",
                 "target": "4.8",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "6.2",
                 "target": "4.7",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "6.2",
                 "target": "7.3",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "7.1",
                 "target": "3.1",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "7.1",
                 "target": "3.2",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "7.1",
                 "target": "4.7",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "7.2",
                 "target": "3.1",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "7.2",
                 "target": "3.2",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "7.3",
                 "target": "3.1",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "7.3",
                 "target": "3.2",
-                "value": 50
+                "value": 100
             },
             {
                 "source": "7.3",
                 "target": "4.7",
-                "value": 50
+                "value": 100
             }
         ]
 

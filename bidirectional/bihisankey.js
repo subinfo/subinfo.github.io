@@ -2,7 +2,7 @@ d3.biHiSankey = function () {
   "use strict";
 
   var biHiSankey = {},
-    nodeWidth = 50,
+    nodeWidth = 24,
     nodeSpacing = 8,
     linkSpacing = 5,
     arrowheadScaleFactor = 0, // Specifies the proportion of a link's stroke width to be allowed for the marker at the end of the link.
@@ -373,7 +373,7 @@ d3.biHiSankey = function () {
     function initializeNodeYPosition() {
       nodesByXPosition.forEach(function (nodes) {
         nodes.forEach(function (node, i) {
-          node.y = i;
+          node.y = 10;
           node.heightAllowance = node.value * yScaleFactor + linkSpacing * node.linkSpaceCount;
         });
       });

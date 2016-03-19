@@ -272,8 +272,8 @@ d3.biHiSankey = function () {
     xScaleFactor = (size[0] - nodeWidth) / maxX;
 
     nodes.forEach(function (node) {
-      //node.x *= xScaleFactor;
-      node.x *=2;
+      node.x *= xScaleFactor;
+     // node.x *=2;
     });
   }
 

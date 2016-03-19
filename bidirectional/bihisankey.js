@@ -2,7 +2,7 @@ d3.biHiSankey = function () {
   "use strict";
 
   var biHiSankey = {},
-    nodeWidth = 24,
+    nodeWidth = 50,
     nodeSpacing = 8,
     linkSpacing = 5,
     arrowheadScaleFactor = 0, // Specifies the proportion of a link's stroke width to be allowed for the marker at the end of the link.

@@ -343,7 +343,7 @@ function update () {
 
   nodeEnter
     .attr("transform", function (d) {
-      var startX = d._parent ? d._parent.x : d.x,
+      var startX = d._parent ? d._parent.x : 10,
           startY = d._parent ? d._parent.y : d.y;
       return "translate(" + startX + "," + startY + ")";
     })

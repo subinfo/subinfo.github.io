@@ -144,7 +144,8 @@ function update () {
   var link, linkEnter, node, nodeEnter, collapser, collapserEnter;
 
   function dragmove(node) {
-    node.x = Math.max(0, Math.min(WIDTH - node.width, d3.event.x));
+    //node.x = Math.max(0, Math.min(WIDTH - node.width, d3.event.x));
+    node.x=function (d) { return d.number; };
     node.y = Math.max(0, Math.min(HEIGHT - node.height, d3.event.y));
     d3.select(this).attr("transform", "translate(" + node.x + "," + node.y + ")");
     biHiSankey.relayout();

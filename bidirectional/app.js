@@ -392,7 +392,7 @@ function update () {
             var additionalInstructions = g.children.length ? "\n(Double click to expand)" : "";
             //return g.name + "\nAporta a " + (g.sourceLinks.length)/2 + " Indicadores"  + additionalInstructions;
           //return Math.min(WIDTH - node.width, d3.event.x);
-          return function (d) { return d.number; };
+          return g.number;
               
           });
     }

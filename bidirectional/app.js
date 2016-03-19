@@ -261,9 +261,8 @@ function update () {
     if (!isTransitioning) {
       showTooltip().select(".value").text(function () {
         //if (d.direction > 0) {
-          //return d.source.name + " > " + d.target.name + "\n" + formatNumber(d.value/100);
-          return Math.min(WIDTH - node.width, d3.event.x)
-        //} 
+          return d.source.name + " > " + d.target.name + "\n" + formatNumber(d.value/100);
+           //} 
         //return d.target.name + " ? " + d.source.name + "\n" + formatNumber(d.value/100);
      });
 
@@ -392,7 +391,9 @@ function update () {
           .style("opacity", 1).select(".value")
           .text(function () {
             var additionalInstructions = g.children.length ? "\n(Double click to expand)" : "";
-            return g.name + "\nAporta a " + (g.sourceLinks.length)/2 + " Indicadores"  + additionalInstructions;
+            //return g.name + "\nAporta a " + (g.sourceLinks.length)/2 + " Indicadores"  + additionalInstructions;
+          return Math.min(WIDTH - node.width, d3.event.x)
+              
           });
     }
   });

@@ -261,7 +261,8 @@ function update () {
     if (!isTransitioning) {
       showTooltip().select(".value").text(function () {
         //if (d.direction > 0) {
-          return d.source.name + " > " + d.target.name + "\n" + formatNumber(d.value/100);
+          //return d.source.name + " > " + d.target.name + "\n" + formatNumber(d.value/100);
+          return Math.min(WIDTH - node.width, d3.event.x)
         //} 
         //return d.target.name + " ? " + d.source.name + "\n" + formatNumber(d.value/100);
      });

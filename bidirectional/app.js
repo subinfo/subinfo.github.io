@@ -345,7 +345,8 @@ function update () {
     .attr("transform", function (d) {
       var startX = d._parent ? d._parent.x : d.x,
           startY = d._parent ? d._parent.y : d.y;
-      return "translate(" + startX + "," + startY + ")";
+     // return "translate(" + startX + "," + startY + ")";
+     return "translate(" + d.number*100 + "," + 500 + ")";
     })
     .style("opacity", 1e-6)
     .transition()

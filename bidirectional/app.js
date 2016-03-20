@@ -392,9 +392,9 @@ function update () {
           .style("opacity", 1).select(".value")
           .text(function () {
             var additionalInstructions = g.children.length ? "\n(Double click to expand)" : "";
-            //return g.name + "\nAporta a " + (g.sourceLinks.length)/2 + " Indicadores"  + additionalInstructions;
+            return g.name + "\nAporta a " + (g.sourceLinks.length)/2 + " Indicadores"  + additionalInstructions;
           //return Math.min(WIDTH - node.width, d3.event.x);
-          return g.number;
+          //return g.number;
               
           });
     }
@@ -507,12 +507,14 @@ function update () {
 
 }
   function init() {
+      nodes.forEach(function (node) {
     node.x = Math.max(0, Math.min(WIDTH - node.width, d3.event.x));
     node.y = Math.max(0, Math.min(HEIGHT - node.height, d3.event.y));
     d3.select(this).attr("transform", "translate(" + node.x + "," + node.y + ")");
     biHiSankey.relayout();
     svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
     link.attr("d", path);
+      });
   }
 
 var exampleNodes = [

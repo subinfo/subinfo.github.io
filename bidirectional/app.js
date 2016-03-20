@@ -144,7 +144,7 @@ function update () {
   var link, linkEnter, node, nodeEnter, collapser, collapserEnter;
 
   function dragmove(node) {
-    node.x = Math.max(0, Math.min(WIDTH - node.width, d3.event.x));
+    node.x = Math.max(0, Math.min(WIDTH - node.width, d.number*100));
     node.y = Math.max(0, Math.min(HEIGHT - node.height, d3.event.y));
     d3.select(this).attr("transform", "translate(" + node.x + "," + node.y + ")");
     biHiSankey.relayout();
@@ -345,8 +345,8 @@ function update () {
     .attr("transform", function (d) {
       var startX = d._parent ? d._parent.x : d.x,
           startY = d._parent ? d._parent.y : d.y;
-     // return "translate(" + startX + "," + startY + ")";
-     return "translate(" + d.number*100 + "," + 500 + ")";
+     return "translate(" + startX + "," + startY + ")";
+     
     })
     .style("opacity", 1e-6)
     .transition()

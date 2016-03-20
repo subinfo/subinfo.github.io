@@ -143,7 +143,7 @@ defs.append("marker")
 
 function update () {
   var link, linkEnter, node, nodeEnter, collapser, collapserEnter;
- 
+  init();
 
   function dragmove(node) {
     node.x = Math.max(0, Math.min(WIDTH - node.width, d3.event.x));
@@ -1084,4 +1084,4 @@ biHiSankey
 disableUserInterractions(2 * TRANSITION_DURATION);
 
 update();
-init();
+

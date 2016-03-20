@@ -512,7 +512,7 @@ function update () {
   
 }
   function init() {
-      var node, link;
+    var node, link;
     node = svg.select("#nodes").selectAll(".node");
     link = svg.select("#links").selectAll("path.link");
     node.x = node.number*100;

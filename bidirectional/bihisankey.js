@@ -273,7 +273,7 @@ d3.biHiSankey = function () {
 
     nodes.forEach(function (node) {
       node.x *= xScaleFactor;
-      node.x *=2;
+    
     });
   }
 

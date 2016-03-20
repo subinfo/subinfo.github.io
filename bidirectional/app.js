@@ -507,6 +507,11 @@ function update () {
     }
   });
 
+    node.attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+    biHiSankey.relayout();
+    svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
+    link.attr("d", path);
+
   collapser.exit().remove();
   
 }

@@ -374,7 +374,7 @@ d3.biHiSankey = function () {
     function initializeNodeYPosition() {
       nodesByXPosition.forEach(function (nodes) {
         nodes.forEach(function (node, i) {
-          node.y = i;
+          node.y = 100;
           node.heightAllowance = node.value * yScaleFactor + linkSpacing * node.linkSpaceCount;
         });
       });

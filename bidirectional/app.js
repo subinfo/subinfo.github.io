@@ -326,6 +326,7 @@ function update () {
       .attr("height", function (d) { return d.height; })
       .attr("width", biHiSankey.nodeWidth());
       
+biHiSankey.relayout();
 svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
 link.attr("d", path);
 

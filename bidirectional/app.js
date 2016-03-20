@@ -348,8 +348,8 @@ function update () {
     .attr("transform", function (d) {
       var startX = d._parent ? d._parent.x : d.x,
           startY = d._parent ? d._parent.y : d.y;
-     //return "translate(" + startX + "," + startY + ")";
-     return "translate(" + 300 + "," + 300 + ")";
+     return "translate(" + startX + "," + startY + ")";
+     
      
     })
     .style("opacity", 1e-6)

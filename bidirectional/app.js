@@ -309,12 +309,15 @@ function update () {
 
   node = svg.select("#nodes").selectAll(".node")
       .data(biHiSankey.collapsedNodes(), function (d) { return d.id; });
+      .attr("transform", "translate(" + 300 + "," + 300 + ")");
+svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
+link.attr("d", path);
+
 
 
   node.transition()
     .duration(TRANSITION_DURATION)
-    //.attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
-    .attr("transform", function (d) { return "translate(" + d.number*100 + "," + d.number*100 + ")"; })
+    .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
     .style("opacity", OPACITY.NODE_DEFAULT)
     .select("rect")
       .style("fill", function (d) {
@@ -409,7 +412,8 @@ function update () {
       restoreLinksAndNodes();
     }
   });
-
+  
+  
   node.filter(function (d) { return d.children.length; })
     .on("dblclick", showHideChildren);
 

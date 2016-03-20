@@ -507,19 +507,19 @@ function update () {
     }
   });
 
+
+  collapser.exit().remove();
+  
+}
   function init() {
     node = svg.select("#nodes").selectAll(".node")
-    node.x = Math.max(0, Math.min(WIDTH - node.width, d3.event.x));
-    node.y = Math.max(0, Math.min(HEIGHT - node.height, d3.event.y));
+    node.x = node.number*100;
+    node.y = node.number*100;
     d3.select(this).attr("transform", "translate(" + node.x + "," + node.y + ")");
     biHiSankey.relayout();
     svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
     link.attr("d", path);
   }
-
-  collapser.exit().remove();
-  
-}
 
 var exampleNodes = [
   {

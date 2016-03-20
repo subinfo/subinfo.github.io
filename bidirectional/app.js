@@ -314,7 +314,7 @@ function update () {
 
   node.transition()
     .duration(TRANSITION_DURATION)
-    .attr("transform", function (d) { return "translate(" + 300 + "," + 300 + ")"; })
+    .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
     .style("opacity", OPACITY.NODE_DEFAULT)
     .select("rect")
       .style("fill", function (d) {
@@ -326,10 +326,6 @@ function update () {
       .attr("height", function (d) { return d.height; })
       .attr("width", biHiSankey.nodeWidth());
       
-biHiSankey.relayout();
-svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
-link.attr("d", path);
-
 
   node.exit()
     .transition()
@@ -352,7 +348,8 @@ link.attr("d", path);
     .attr("transform", function (d) {
       var startX = d._parent ? d._parent.x : d.x,
           startY = d._parent ? d._parent.y : d.y;
-     return "translate(" + startX + "," + startY + ")";
+     //return "translate(" + startX + "," + startY + ")";
+     return "translate(" + 300 + "," + 300 + ")";
      
     })
     .style("opacity", 1e-6)

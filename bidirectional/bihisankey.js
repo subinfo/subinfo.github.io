@@ -287,7 +287,7 @@ d3.biHiSankey = function () {
           }
         },
         setValues = function (node) {
-          node.x = x;
+          node.x = node.number*100;
           node.width = nodeWidth;
           node.sourceLinks.forEach(addToNextNodes, node);
         };

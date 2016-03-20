@@ -309,7 +309,8 @@ function update () {
 
   node = svg.select("#nodes").selectAll(".node")
       .data(biHiSankey.collapsedNodes(), function (d) { return d.id; });
-      .attr("transform", "translate(" + 300 + "," + 300 + ")");
+       .attr("transform", function (d) { return "translate(" + 300 + "," + 300 + ")"; })
+      
 svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
 link.attr("d", path);
 

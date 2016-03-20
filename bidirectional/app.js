@@ -517,7 +517,7 @@ function update () {
     link = svg.select("#links").selectAll("path.link");
     node.x = node.number*100;
     node.y = node.number*100;
-    d3.select(this).attr("transform", "translate(" + node.x + "," + node.y + ")");
+    d3.select(this).attr("transform", "translate(" + node.number*100 + "," + node.number*100 + ")");
     biHiSankey.relayout();
     svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
     link.attr("d", path);

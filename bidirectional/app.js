@@ -143,6 +143,7 @@ defs.append("marker")
 
 function update () {
   var link, linkEnter, node, nodeEnter, collapser, collapserEnter;
+ 
 
   function dragmove(node) {
     node.x = Math.max(0, Math.min(WIDTH - node.width, d3.event.x));
@@ -312,7 +313,8 @@ function update () {
 
   node.transition()
     .duration(TRANSITION_DURATION)
-    .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+    //.attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+    .attr("transform", function (d) { return "translate(" + d.number*100 + "," + d.number*100 + ")"; })
     .style("opacity", OPACITY.NODE_DEFAULT)
     .select("rect")
       .style("fill", function (d) {
@@ -323,6 +325,7 @@ function update () {
       .style("stroke-WIDTH", "1px")
       .attr("height", function (d) { return d.height; })
       .attr("width", biHiSankey.nodeWidth());
+
 
 
   node.exit()
@@ -504,7 +507,7 @@ function update () {
   });
 
   collapser.exit().remove();
-
+  
 }
 
 var exampleNodes = [

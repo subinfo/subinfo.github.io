@@ -140,7 +140,7 @@ defs.append("marker")
   .append("path")
     .attr("d", "M 0 0 L 1 0 L 6 5 L 1 10 L 0 10 z");
 
-}
+
 function update () {
   var link, linkEnter, node, nodeEnter, collapser, collapserEnter;
 
@@ -506,6 +506,15 @@ function update () {
   collapser.exit().remove();
 
 }
+  function init() {
+      function (node){
+    node.x = Math.max(0, Math.min(WIDTH - node.width, d3.event.x));
+    node.y = Math.max(0, Math.min(HEIGHT - node.height, d3.event.y));
+    d3.select(this).attr("transform", "translate(" + node.x + "," + node.y + ")");
+    biHiSankey.relayout();
+    svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
+    link.attr("d", path);
+  }}
 
 var exampleNodes = [
   {

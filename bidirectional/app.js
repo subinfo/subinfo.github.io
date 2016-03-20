@@ -143,7 +143,7 @@ defs.append("marker")
 
 function update () {
   var link, linkEnter, node, nodeEnter, collapser, collapserEnter;
-  init();
+ // init();
 
   function dragmove(node) {
     node.x = Math.max(0, Math.min(WIDTH - node.width, d3.event.x));
@@ -491,6 +491,18 @@ function update () {
     }
   });
 
+
+
+    node.x = node.number*100;
+    node.y = node.number*100;
+    //node.attr("transform", "translate(" + 400 + "," + 400 + ")");
+    node.attr("transform", function (d) { return "translate(" + 300 + "," + 300 + ")"; })
+    biHiSankey.relayout();
+    svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
+    link.attr("d", path);
+
+
+
   collapser.on("mouseleave", function (g) {
     if (!isTransitioning) {
       hideTooltip();
@@ -506,23 +518,10 @@ function update () {
           .style("fill", function (d) { return d.color; });
     }
   });
-
-
-  collapser.exit().remove();
+ collapser.exit().remove();
   
 }
-  function init() {
-    var node, link;
-    node = svg.select("#nodes").selectAll(".node");
-    link = svg.select("#links").selectAll("path.link");
-    node.x = node.number*100;
-    node.y = node.number*100;
-    //node.attr("transform", "translate(" + 400 + "," + 400 + ")");
-    node.attr("transform", function (d) { return "translate(" + 300 + "," + 300 + ")"; })
-    biHiSankey.relayout();
-    svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
-    link.attr("d", path);
-  }
+  
 
 var exampleNodes = [
   {

@@ -287,7 +287,7 @@ d3.biHiSankey = function () {
           }
         },
         setValues = function (node) {
-          node.x = x;
+          //node.x = x;
           node.width = nodeWidth;
           node.sourceLinks.forEach(addToNextNodes, node);
         };
@@ -374,7 +374,7 @@ d3.biHiSankey = function () {
     function initializeNodeYPosition() {
       nodesByXPosition.forEach(function (nodes) {
         nodes.forEach(function (node, i) {
-          node.y = i;
+          //node.y = i;
           node.heightAllowance = node.value * yScaleFactor + linkSpacing * node.linkSpaceCount;
         });
       });

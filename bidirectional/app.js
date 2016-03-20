@@ -1084,4 +1084,4 @@ biHiSankey
 disableUserInterractions(2 * TRANSITION_DURATION);
 
 update();
-//init();
+init();

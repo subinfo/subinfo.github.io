@@ -512,8 +512,9 @@ function update () {
   
 }
   function init() {
-      var node;
-    node = svg.select("#nodes").selectAll(".node")
+      var node, link;
+    node = svg.select("#nodes").selectAll(".node");
+    link = svg.select("#links").selectAll("path.link");
     node.x = node.number*100;
     node.y = node.number*100;
     d3.select(this).attr("transform", "translate(" + node.x + "," + node.y + ")");

@@ -512,6 +512,7 @@ function update () {
   
 }
   function init() {
+      var node;
     node = svg.select("#nodes").selectAll(".node")
     node.x = node.number*100;
     node.y = node.number*100;

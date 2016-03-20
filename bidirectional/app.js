@@ -309,16 +309,12 @@ function update () {
 
   node = svg.select("#nodes").selectAll(".node")
       .data(biHiSankey.collapsedNodes(), function (d) { return d.id; });
-       .attr("transform", function (d) { return "translate(" + 300 + "," + 300 + ")"; })
-      
-svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
-link.attr("d", path);
 
 
 
   node.transition()
     .duration(TRANSITION_DURATION)
-    .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+    .attr("transform", function (d) { return "translate(" + 300 + "," + 300 + ")"; })
     .style("opacity", OPACITY.NODE_DEFAULT)
     .select("rect")
       .style("fill", function (d) {
@@ -329,7 +325,9 @@ link.attr("d", path);
       .style("stroke-WIDTH", "1px")
       .attr("height", function (d) { return d.height; })
       .attr("width", biHiSankey.nodeWidth());
-
+      
+svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
+link.attr("d", path);
 
 
   node.exit()

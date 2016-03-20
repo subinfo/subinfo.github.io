@@ -507,7 +507,7 @@ function update () {
     }
   });
 
-    node.attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+    node.attr("transform", function (d) { return "translate(" + 500 + "," + 500 + ")"; })
     biHiSankey.relayout();
     svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
     link.attr("d", path);

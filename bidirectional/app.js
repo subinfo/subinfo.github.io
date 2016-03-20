@@ -140,6 +140,7 @@ defs.append("marker")
   .append("path")
     .attr("d", "M 0 0 L 1 0 L 6 5 L 1 10 L 0 10 z");
 
+}
 function update () {
   var link, linkEnter, node, nodeEnter, collapser, collapserEnter;
 

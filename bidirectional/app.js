@@ -492,17 +492,6 @@ function update () {
   });
 
 
-
-    node.x = node.number*100;
-    node.y = node.number*100;
-    //node.attr("transform", "translate(" + 400 + "," + 400 + ")");
-    //node.attr("transform", function (d) { return "translate(" + 300 + "," + 300 + ")"; });
-    biHiSankey.relayout();
-    svg.selectAll(".node").selectAll("rect").attr("height", function (d) { return d.height; });
-    link.attr("d", path);
-
-
-
   collapser.on("mouseleave", function (g) {
     if (!isTransitioning) {
       hideTooltip();

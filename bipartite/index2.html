@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<style>
+body{
+	width:1200px;
+	margin:10px auto;
+}
+svg text{
+	font-size:12px;
+}
+rect{
+	shape-rendering:crispEdges;
+}
+</style>
+
+</head>
+<body align = "center">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="biPartite.js"></script>
+
+<script>
+var c1=[-600, 40], c2=[-50, 130], c3=[-10, 170]; //Column positions of labels.
+
+var dim1=[['Dimensión 10 que va a tener como un millón de palabras que no van a caber -_- //n dentro del espacio pequeñito','Dimensión 5',0],['Dimensión 1','Dimensión 2',2],['Dimensión 1','Dimensión 3',3],['Dimensión 2','Dimensión 1',1],['Dimensión 2','Dimensión 2',1],['Dimensión 2','Dimensión 3',4],['Dimensión 3','Dimensión 1',1],['Dimensión 4','Dimensión 1',8],['Dimensión 4','Dimensión 3',20],['Dimensión 4','Dimensión 6',3],['Dimensión 5','Dimensión 1',2],['Dimensión 5','Dimensión 3',5],['Dimensión 5','Dimensión 4',2],['Dimensión 5','Dimensión 6',3],['Dimensión 5','Dimensión 7',2],['Dimensión 6','Dimensión 3',2],['Dimensión 6','Dimensión 4',2],['Dimensión 6','Dimensión 7',1],['Dimensión 7','Dimensión 3',6],['Dimensión 7','Dimensión 4',2],['Dimensión 7','Dimensión 7',1]];
+var dim2=[['Dimensión 1','Dimensión 5',0],['Dimensión 1','Dimensión 2',2],['Dimensión 1','Dimensión 3',3],['Dimensión 2','Dimensión 1',1],['Dimensión 2','Dimensión 2',1],['Dimensión 2','Dimensión 3',4],['Dimensión 3','Dimensión 1',1],['Dimensión 4','Dimensión 1',8],['Dimensión 4','Dimensión 3',20],['Dimensión 4','Dimensión 6',3],['Dimensión 5','Dimensión 1',2],['Dimensión 5','Dimensión 3',5],['Dimensión 5','Dimensión 4',2],['Dimensión 5','Dimensión 6',3],['Dimensión 5','Dimensión 7',2],['Dimensión 6','Dimensión 3',2],['Dimensión 6','Dimensión 4',2],['Dimensión 6','Dimensión 7',1],['Dimensión 7','Dimensión 3',6],['Dimensión 7','Dimensión 4',2],['Dimensión 7','Dimensión 7',1]];
+
+var width = 1500, height = 610, margin ={b:0, t:100, l:600, r:170};
+
+
+
+
+var svg1 = d3.select("body")
+	.append("svg").attr('width',width).attr('height',(height+margin.b+margin.t))
+	.append("g").attr("transform","translate("+ margin.l+","+margin.t+")");
+
+var file = getVarsUrl();
+if (file=="Dimensión 1") {
+	dim_dim=dim1;
+}else{
+	dim_dim=dim2;
+}
+
+var data1 = [ 
+	{data:bP.partData(dim_dim,2), id:'dim_dim', header:["Dimensión","Dimensión", "Indicadores "+file]},
+	
+];
+
+
+
+bP.draw(data1, svg1);
+
+
+ function getVarsUrl(){
+    var url= location.search.replace("?", "");
+    var arrUrl = url.split("&");
+    var urlObj={};   
+    for(var i=0; i<arrUrl.length; i++){
+        var x= arrUrl[i].split("=");
+        urlObj[x[0]]=x[1]
+    }
+   // console.log(urlObj.var);
+    return decodeURI(urlObj.var);
+    
+}
+
+</script>
+</body>

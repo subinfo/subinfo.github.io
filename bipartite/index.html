@@ -17,6 +17,7 @@ rect{
 <script src="biPartite.js"></script>
 <script>
 var file = "Ciao";
+var c1=[-140, 40], c2=[-50, 130], c3=[-10, 170]; //Column positions of labels.
 
 var dim_dim=[['Dimensión 1','Dimensión 5',0],['Dimensión 1','Dimensión 2',2],['Dimensión 1','Dimensión 3',3],['Dimensión 2','Dimensión 1',1],['Dimensión 2','Dimensión 2',1],['Dimensión 2','Dimensión 3',4],['Dimensión 3','Dimensión 1',1],['Dimensión 4','Dimensión 1',8],['Dimensión 4','Dimensión 3',20],['Dimensión 4','Dimensión 6',3],['Dimensión 5','Dimensión 1',2],['Dimensión 5','Dimensión 3',5],['Dimensión 5','Dimensión 4',2],['Dimensión 5','Dimensión 6',3],['Dimensión 5','Dimensión 7',2],['Dimensión 6','Dimensión 3',2],['Dimensión 6','Dimensión 4',2],['Dimensión 6','Dimensión 7',1],['Dimensión 7','Dimensión 3',6],['Dimensión 7','Dimensión 4',2],['Dimensión 7','Dimensión 7',1]];
 
@@ -112,9 +113,9 @@ function captura_click(e) {
 	console.log(HaHechoClick.id);
 	
 
-	if (HaHechoClick.id == "Elite"){
+	if (HaHechoClick.id){
 		//window.location.replace("./index2.html")
-		//location.href='./index2.html';
+		location.href='./index2.html?var='+HaHechoClick.id;
 	}
 }
 

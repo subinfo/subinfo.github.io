@@ -3,7 +3,7 @@
 !function(){
 	var bP={};	
 	var b=30, bb=150, height=600, buffMargin=1, minHeight=14;
-	var c1=[-140, 40], c2=[-50, 130], c3=[-10, 170]; //Column positions of labels.
+	//var c1=[-140, 40], c2=[-50, 130], c3=[-10, 170]; //Column positions of labels.
 	var colors;
 	var colors1 =["#E8BA20", "#D47F23", "#AE007E", "#673C8B", "#009BDB", "#7C7B7E", "#0095B0"];
 	var colors2 =["#E8BA20", "#E8BA20","#E8BA20", "#D47F23","#D47F23","#D47F23", "#AE007E","#AE007E", "#673C8B","#673C8B","#673C8B","#673C8B","#673C8B", "#009BDB","#009BDB","#009BDB", "#7C7B7E","#7C7B7E","#7C7B7E","#7C7B7E","#7C7B7E", "#0095B0","#0095B0","#0095B0"];

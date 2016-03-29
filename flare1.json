@@ -210,7 +210,7 @@
                 "size": "0"
             },
             {
-                "name": "1.3.6.Ciudadesque participan en la plataforma "mi ciudad"",
+                "name": "1.3.6.Ciudadesque participan en la plataforma \"mi ciudad\"",
                 "imports": ["1.Indice de Cultura Ciudadana"],
                 "size": "0.8"
             },
@@ -285,7 +285,7 @@
                 "size": "1.6"
             },
             {
-                "name": "1.1.2.6.Cuadras de Medellín con la estrategia "La cuadra cuenta con vos"",
+                "name": "1.1.2.6.Cuadras de Medellín con la estrategia \"La cuadra cuenta con vos\"",
                 "imports": ["1.2.Indice de participación ciudadana en Medellín" , "1.3.1.Percepccion ciudadana con la participación"],
                 "size": "1.6"
             },
@@ -446,12 +446,12 @@
             },
             {
                 "name": "1.2.3.2.Estrategias de articulación de la planeación participativa formuladas e implementadas",
-                "imports": [\"1.2.Planeacion local y PP como escenario de pedagogia politica\"],
+                "imports": ["1.2.Planeacion local y PP como escenario de pedagogia politica"],
                 "size": "0.8"
             },
             {
                 "name": "1.2.3.2.Sistema de seguimiento monitoreo y evaluación de los Planes de Desarrollo Local actualizados",
-                "imports": [\"1.2.Planeacion local y PP como escenario de pedagogia politica"],
+                "imports": ["1.2.Planeacion local y PP como escenario de pedagogia politica"],
                 "size": "0.8"
             },
             {

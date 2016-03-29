@@ -138,7 +138,7 @@ if (id=="dim_dim" || id =="dim_reto") {
 			.attr("x", c1[p]).attr("y",function(d){ return d.middle+5;})
 			.text(function(d,i){ return data.keys[p][i];})
 			.attr("text-anchor","start" )
-			.attr("fill",function(d,i){if(/^[0-9].[0-9]/.test(data.keys[p][i])){return "red"};});
+			.attr("fill",function(d,i){if(/^[0-9].[0-9]/.test(data.keys[p][i])){return "blue"};});
 			
 		mainbar.append("text").attr("class","barvalue")
 			.attr("x", c2[p]).attr("y",function(d){ return d.middle+5;})

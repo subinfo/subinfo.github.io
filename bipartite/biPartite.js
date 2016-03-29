@@ -187,7 +187,7 @@ if (id=="dim_dim" || id =="dim_reto") {
 			h.append("text").text(header[d]).attr("x", (c1[d]-5))
 				.attr("y", -5).style("fill","grey");
 			
-			h.append("text").text("Indicadores").attr("x", (c2[d]-10))
+			h.append("text").text("Aportes").attr("x", (c2[d]-10))
 				.attr("y", -5).style("fill","grey");
 			
 			h.append("line").attr("x1",c1[d]-10).attr("y1", -2)

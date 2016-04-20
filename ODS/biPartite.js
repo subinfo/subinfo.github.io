@@ -1,6 +1,6 @@
 !function(){
 	var bP={};	
-	var b=30, bb=150, height=600, buffMargin=1, minHeight=14;
+	var b=30, bb=150, height=800, buffMargin=1, minHeight=14;
 	//var c1=[-140, 40], c2=[-50, 130], c3=[-10, 170]; //Column positions of labels.
 	var colors;
 	var colorLetra;

@@ -165,7 +165,7 @@ if (id=="dim_ods") {
 
 console.log(2+id);
 if (id=="dim_ods") {
-	colors = colors1;
+	colors = 0;
 }else if (id=="dim_dim") {
 	colors=colors2;
 }

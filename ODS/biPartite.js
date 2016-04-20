@@ -140,6 +140,7 @@ if (id=="dim_ods") {
 			.attr("x", c1[p]).attr("y",function(d){ return d.middle+5;})
 			.text(function(d,i){ return data.keys[p][i];})
 			.attr("text-anchor","start" )
+			.attr("font-family", "sans-serif")
 			// REGEX para cambiar color de texto
 			.attr("fill",function(d,i){if(/^[0-9]/.test(data.keys[p][i])){return colors[data.keys[p][i][0]-1]}else if(/^D/.test(data.keys[p][i])){return colors1[data.keys[p][i][10]-1]}else if(/^l/.test(data.keys[p][i])){return colors2[(1+data.keys[p][i][1])-1]};});
 			

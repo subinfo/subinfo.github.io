@@ -108,9 +108,7 @@ if (file=="ods1") {
 	dim_ods=ods17;
 }
 var data1 = [ 
-	{data:bP.partData(dim_ods,2), id:'dim_ods', header:["Indicador PDM","Objetivo ODS", "Objetivos ODS y Indicadores PDM]},
-	
-];
+	{data:bP.partData(dim_ods,2), id:'dim_ods', header:["Indicador PDM","Objetivo ODS", "Objetivos ODS y Indicadores PDM]},];
 bP.draw(data1, svg1);
  function getVarsUrl(){
     var url= location.search.replace("?", "");

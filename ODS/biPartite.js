@@ -169,8 +169,7 @@ if (id=="dim_ods") {
 	colors = colors1;
 }else if (id=="dim_dim") {
 	colors=colors2;
-}
-		
+
 
 		d3.select("#"+id).append("g").attr("class","edges").attr("transform","translate("+ b+",0)");
 
@@ -178,7 +177,7 @@ if (id=="dim_ods") {
 			.data(data.edges).enter().append("polygon").attr("class","edge")
 			.attr("points", edgePolygon).style("fill",function(d){return colors[d.key1];})
 			.style("opacity",0.5).each(function(d) { this._current = d; });	
-	}	
+	}	}
 	
 	function drawHeader(header, id){
 		d3.select("#"+id).append("g").attr("class","header").append("text").text(header[2])

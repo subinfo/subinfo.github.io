@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body{
+	width:1500px;
+	margin:10px auto;
+}
+svg text{
+	font-size:12px;
+}
+rect{
+	shape-rendering:crispEdges;
+}
+</style>
+
+
+<LINK href="../estilo.css" title="compacto" rel="stylesheet" type="text/css">
+<body align="center">
+
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<img src="../images/logo_PDM-01.png" width="40%"><br>
+
+<!--br>
+
+<a href="../index.html"><img src="../images/dimension1-01.png" width="10%"></a>
+<a href="../index2.html"><img src="../images/dimension2-01-01.png" width="10%"></a>
+<a href="../index3.html"><img src="../images/dimension3-01.png" width="10%"></a>
+<a href="../index4.html"><img src="../images/dimension4-01.png" width="10%"></a>
+<a href="../index5.html"><img src="../images/dimension5-01.png" width="10%"></a>
+<a href="../index6.html"><img src="../images/dimension6-01.png" width="10%"></a>
+<a href="../index7.html"><img src="../images/dimension7-01.png" width="10%"></a><br>
+<a href="../bipartite"><img src="../images/ind_impacto-02.png" width="20%"></a><br><br><br-->
+
+
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="biPartite.js"></script>
+<script>
+var file = "Ciao";
+var c1=[-300, 40], c2=[-50, 160], c3=[-10, 200]; //Column positions of labels.
+var dim_dim=[['1.Fin de la pobreza','Dimensión 3',1],['1.Fin de la pobreza','Dimensión 4',2],['l0.Reducción de las desigualdades','Dimensión 1',1],['l0.Reducción de las desigualdades','Dimensión 2',1],['l0.Reducción de las desigualdades','Dimensión 4',2],['l1.Ciudades y comunidades sostenibles','Dimensión 6',4],['l1.Ciudades y comunidades sostenibles','Dimensión 5',1],['l1.Ciudades y comunidades sostenibles','Dimensión 4',1],['l1.Ciudades y comunidades sostenibles','Dimensión 7',6],['l2.Producción y consumo responsables','Dimensión 7',6],['l2.Producción y consumo responsables','Dimensión 1',1],['l3.Acción por el clima','Dimensión 7',5],['l3.Acción por el clima','Dimensión 1',1],['l4.Vida submarina','Dimensión 1',0],['l5.Vida de ecosistemas terrestres','Dimensión 7',4],['l5.Vida de ecosistemas terrestres','Dimensión 6',1],['l6.Paz, Justicia e Instituciones sólidas','Dimensión 2',11],['l6.Paz, Justicia e Instituciones sólidas','Dimensión 6',1],['l6.Paz, Justicia e Instituciones sólidas','Dimensión 1',2],['l7.Alianzas para lograr los objetivos','Dimensión 1',1],['l7.Alianzas para lograr los objetivos','Dimensión 4',6],['l7.Alianzas para lograr los objetivos','Dimensión 6',1],['2.Hambre cero ','Dimensión 3',2],['2.Hambre cero ','Dimensión 4',3],['3.Salud y bienestar','Dimensión 3',10],['3.Salud y bienestar','Dimensión 1',1],['4.Educación de calidad','Dimensión 4',44],['5.Igualdad de género','Dimensión 3',1],['5.Igualdad de género','Dimensión 2',5],['6.Agua limpia y saneamiento ','Dimensión 7',11],['7.Energía asequible y no contaminante','Dimensión 7',1],['8.Trabajo decente y crecimiento económico ','Dimensión 4',15],['9.Industria, Innovación e Infraestructura','Dimensión 5',1],['9.Industria, Innovación e Infraestructura','Dimensión 4',8]];
+
+var width = 1500, height = 610, margin ={b:0, t:100, l:310, r:200};
+var svg1 = d3.select("body")
+	.append("svg").attr('width',width/2).attr('height',(height+margin.b+margin.t))
+	.append("g").attr("transform","translate("+ margin.l+","+margin.t+")");
+
+var data1 = [ 
+	{data:bP.partData(dim_dim,2), id:'dim_dim', header:["Objetivos ODS","Dimensiones PDM", "Objetivos ODS e Indicadores PDM"]},
+	
+];
+
+
+
+
+bP.draw(data1, svg1);
+
+</script>
+</body>
+<script type="text/javascript">
+		// Creamos un array vacio
+// Capturamos el click y lo pasamos a una funcion
+document.onclick = captura_click;
+window.onload = getVarsUrl;	
+function captura_click(e) {
+	// Funcion para capturar el click del raton
+	var HaHechoClick;
+	if (e == null) {
+		// Si hac click un elemento, lo leemos
+		HaHechoClick = event.srcElement;
+	} else {
+		// Si ha hecho click sobre un destino, lo leemos
+		HaHechoClick = e.target;
+	}
+	// Añadimos el elemento al array de elementos
+	// Una prueba con salida en consola
+	//console.log("Contenido sobre lo que ha hecho click: "+ElementosClick.innerHTML);	
+	console.log(HaHechoClick.id);
+	
+	if (HaHechoClick.id){
+		//window.location.replace("./index2.html")
+		location.href='./index2.html?var='+HaHechoClick.id;
+	}
+}
+ function getVarsUrl(){
+    var url= location.search.replace("?", "");
+    var arrUrl = url.split("&");
+    var urlObj={};   
+    for(var i=0; i<arrUrl.length; i++){
+        var x= arrUrl[i].split("=");
+        urlObj[x[0]]=x[1]
+    }
+    file = urlObj.var;
+    //console.log(file);
+}
+</script>

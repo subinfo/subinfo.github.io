@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body{
+	width:1500px;
+	margin:10px auto;
+}
+svg text{
+	font-size:12px;
+}
+rect{
+	shape-rendering:crispEdges;
+}
+</style>
+
+
+<LINK href="../estilo.css" title="compacto" rel="stylesheet" type="text/css">
+</head>
+
+<body align="center">
+<img src="../images/logo_PDM-01.png" width="40%"><br>
+
+<br>
+
+<a href="../bipartite"><img src="../images/ind_impacto-02.png" width="20%"></a><br><br><br>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="biPartite.js"></script>
+
+<script>
+var c1=[-600, 40], c2=[-50, 550], c3=[-10, 590]; //Column positions of labels.
+
+var ods1 = [['4.Programa Agropecuario Municipal formulado','1.Fin de la pobreza',1],['4.Agroempresas creadas en los corregimientos de Medellín','1.Fin de la pobreza',1],['3.Proporción de la población cubierta por los niveles-sistemas de protección social, por sexo,','1.Fin de la pobreza',1]];
+
+var ods10=[['4.Monto de Inversión Nacional y Extranjera directa anunciada para el Municipio de Medellín','10.Reducción de las desigualdades',1],['4.Inversiones y reinversiones atraídas nacional y extranjera para el desarrollo y la competitividad','10.Reducción de las desigualdades',1],['2.Población que dice haber sido víctimas de problemas de inseguridad, convivencia o violencia en Medellín','10.Reducción de las desigualdades',1],['1.Personas que manifiestan no tener inconformidad de tener como vecino a poblaciones vulnerables','10.Reducción de las desigualdades',1]];
+
+var ods11=[['7.Zonas verdes alternativas implementadas','11.Ciudades y comunidades sostenibles',1],['7.Medidas implementadas para la protección y mitigación de eventos desastrosos','11.Ciudades y comunidades sostenibles',1],['7.Material Reciclable Aprovechado','11.Ciudades y comunidades sostenibles',1],['7.Eficacia en el manejo de situaciones de emergencia o desastres','11.Ciudades y comunidades sostenibles',1],['7.Ecoparques en borde y quebradas construidos','11.Ciudades y comunidades sostenibles',1],['7.Análisis y evolución en el conocimiento del riesgo','11.Ciudades y comunidades sostenibles',1],['6.Hogares que superan el déficit cualitativo de vivienda','11.Ciudades y comunidades sostenibles',1],['6.Espacio público efectivo por habitante','11.Ciudades y comunidades sostenibles',1],['6.Compromisos del POT de corto plazo alcanzados','11.Ciudades y comunidades sostenibles',1],['|','11.Ciudades y comunidades sostenibles',1],['5.Incremento de usuarios del Transporte Público','11.Ciudades y comunidades sostenibles',1],['4.Fondos documentales conservados para la preservación de los archivos documentales del Municipio de Medellín','11.Ciudades y comunidades sostenibles',1]];
+
+var ods12 = [['7.Sitios evaluados para gestión de Residuos de la construcción y demolición, residuos Peligrosos  y aprovechamiento','12.Producción y consumo respondables',1],['7.Personas sensibilizadas en la gestión integral de residuos sólidos','12.Producción y consumo respondables',1],['7.Medidas para enfrentar el cambio climático generadas e implementadas','12.Producción y consumo respondables',1],['7.Material Reciclable Aprovechado','12.Producción y consumo respondables',1],['7.Campañas de educacion movilidad amigable, combustibles y gases móviles','12.Producción y consumo respondables',1],['7.Acciones integrales en cambio climático ejecutadas','12.Producción y consumo respondables',1],['1.Grupos atendidos en educación y cultura ambiental','12.Producción y consumo respondables',1]];
+
+var ods13 = [['7.Plan de gestión integral para el cambio climático formulado','13.Acción por el clima',1],['7.Medidas implementadas para la protección y mitigación de eventos desastrosos','13.Acción por el clima',1],['7.Emergencias y desastres atendidos','13.Acción por el clima',1],['7.Eficacia en el manejo de situaciones de emergencia o desastres','13.Acción por el clima',1],['7.Campañas de educacion movilidad amigable, combustibles y gases móviles','13.Acción por el clima',1],['1.Sensibilización sobre las buenas prácticas ambientales (aire, ruido e industria)','13.Acción por el clima',1]];
+
+var ods14 = [['7.Plan de gestión integral para el cambio climático formulado','14.Vida subamarina',0]];
+
+var ods15 = [['7.Investigaciones en biodiversidad realizadas','15.Vida de ecosistemas terrestres',1],['7.Áreas protegidas con plan de manejo adoptado y en implementación','15.Vida de ecosistemas terrestres',1],['7.Árboles Rurales Sembrados','15.Vida de ecosistemas terrestres',1],['7.Acciones integrales en cambio climático ejecutadas','15.Vida de ecosistemas terrestres',1],['6.Instrumentos de Planificacion, intervencion del suelo y financiacion gestionados','15.Vida de ecosistemas terrestres',1]];
+
+var ods16 = [['6.Intervenciones para fortalecer la seguridad y gobernabilidad ejecutadas','16.Paz, justicia e Instituciones sólidas',1],['2.Victimas de trata de personas atendidas','16.Paz, justicia e Instituciones sólidas',1],['2.Tasa lesiones personales','16.Paz, justicia e Instituciones sólidas',1],['2.Tasa de homicidios Familias víctimas del conflicto?','16.Paz, justicia e Instituciones sólidas',1],['2.Tasa de homicidios','16.Paz, justicia e Instituciones sólidas',1],['2.Tasa de delitos sexuales','16.Paz, justicia e Instituciones sólidas',1],['2.Población que dice haber sido víctimas de problemas de inseguridad, convivencia o violencia en Medellín','16.Paz, justicia e Instituciones sólidas',1],['2.Nivel de victimización','16.Paz, justicia e Instituciones sólidas',1],['2.Nivel de percepción de seguridad','16.Paz, justicia e Instituciones sólidas',1],['2.Casos de vulneración de DDHH con atención institucional y solución positiva','16.Paz, justicia e Instituciones sólidas',1],['2.Familias que recién declaran su victimización que reciben protección del derecho a la subsistencia mínima','16.Paz, justicia e Instituciones sólidas',1],['2.Atención oportuna en el servicio de Justicia formal y no formal Cercana al Ciudadano','16.Paz, justicia e Instituciones sólidas',1],['1.Nivel de satisfacción ciudadana con la oferta institucional','16.Paz, justicia e Instituciones sólidas',1],['1.Confianza institucional Confianza de los ciudadanos en las instituciones','16.Paz, justicia e Instituciones sólidas',1]];
+
+ var ods17 = [['6.Dimensión Entorno y Calidad de la Vivienda Encuesta de Calidad de Vida','17.Alianzas para lograr los objetivos',1],['4.Proyectos impactados con cooperación técnica y/o financiera a partir de las alianzas gestionadas para el Municipio de Medellín','17.Alianzas para lograr los objetivos',1],['4.Producto Interno Bruto','17.Alianzas para lograr los objetivos',1],['4.Inversiones y reinversiones atraídas nacional y extranjera para el desarrollo y la competitividad','17.Alianzas para lograr los objetivos',1],['4.Alianzas realizadas para el apoyo a proyectos de investigación','17.Alianzas para lograr los objetivos',1],['4.Alianzas internacionales realizadas','17.Alianzas para lograr los objetivos',1],['4.Alianzas de cooperación sur sur (Oferta de Cooperación) en las cuales Medellín comparta sus buenas prácticas','17.Alianzas para lograr los objetivos',1],['1.Espacios públicos con acceso gratuito a internet','17.Alianzas para lograr los objetivos',1]];
+
+ var ods2 = [['4.Tasa de cobertura del Programa Buen Comienzo','2.Hambre cero ',1],['4.Niños y niñas atendidos entre 0 y 5 años por el programa Buen Comienzo','2.Hambre cero ',1],['4.Madres gestantes y lactantes atendidas por el programa Buen Comienzo','2.Hambre cero ',1],['3.Hogares con inseguridad alimentaria','2.Hambre cero ',1],['3.Desnutrición aguda en menores de 5 años','2.Hambre cero ',1]];
+
+ var ods3 = [['3.Tasa de mortalidad materna','3.Salud y bienestar',1],['3.tasa de mortalidad en menores de cinco años','3.Salud y bienestar',1],['3.Proporción de Embarazos en niñas 15-19 años','3.Salud y bienestar',1],['3.Prevalencia de VIH','3.Salud y bienestar',1],['3.Mortalidad infantil (menores de 1 año)','3.Salud y bienestar',1],['3.Exito terapéutico de pacientes con Tuberculosis','3.Salud y bienestar',1],['3.Coberturas de Vacunación en menores de 1 año (bilógico trazador DPT)','3.Salud y bienestar',1],['3.cobertura del acceso desde la afiliación','3.Salud y bienestar',1],['3.Cobertura de afiliación al Sistema General de Seguridad Social en Salud SGSSS','3.Salud y bienestar',1],['3.asa de mortalidad por suicidio','3.Salud y bienestar',1],['1.Indice de hábitos saludables','3.Salud y bienestar',1]];
+
+ var ods4 = [['4.Tasa de cobertura neta total','4.Educación de calidad',1],['4.Tasa de cobertura del Programa Buen Comienzo','4.Educación de calidad',1],['4.Tasa de analfabetismo para personas de 15 años y mas','4.Educación de calidad',1],['4.Programas STEM (Ciencia, tecnología, ingeniería y matemáticas) realizados','4.Educación de calidad',1],['4.Población vulnerable que se vincula al mercado laboral','4.Educación de calidad',1],['4.Plantas físicas educativas ampliadas','4.Educación de calidad',1],['4.Personas graduadas en educación postsecundaria de los programas ofrecidos en la plataforma','4.Educación de calidad',1],['4.Personas en situación de discapacidad que se vincula al mercado laboral','4.Educación de calidad',1],['4.Personas con discapacidad con formación para el trabajo','4.Educación de calidad',1],['4.Personas certificadas en los cursos de @Medellín','4.Educación de calidad',1],['4.Obras de mantenimiento mayores y menores realizadas en plantas físicas, centros y jardines infantiles','4.Educación de calidad',1],['4.Nuevos jardines y centros infantiles construidos','4.Educación de calidad',1],['4.Niños y niñas atendidos entre 0 y 5 años por el programa Buen Comienzo','4.Educación de calidad',1],['4.Madres gestantes y lactantes atendidas por el programa Buen Comienzo','4.Educación de calidad',1],['4.Jóvenes y adultos víctimas del conflicto armado formados en competencias laborales para el trabajo','4.Educación de calidad',1],['4.Jóvenes y adultos formados en competencias laborales para el trabajo','4.Educación de calidad',1],['4.Jóvenes sin experiencia, que se vinculan al mercado laboral','4.Educación de calidad',1],['4.Instituciones educativas oficiales que reciben dotación','4.Educación de calidad',1],['4.Instituciones educativas oficiales con participación activa de la comunidad','4.Educación de calidad',1],['4.Instituciones educativas con estrategias para la atención diferencial a estudiantes','4.Educación de calidad',1],['4.Instituciones educativas con apropiación social de la tecnología','4.Educación de calidad',1],['4.Indice Sintético de Calidad Educativa - Secundaria','4.Educación de calidad',1],['4.Indice Sintético de Calidad Educativa - Primaria','4.Educación de calidad',1],['4.Indice Sintético de Calidad Educativa - Media','4.Educación de calidad',1],['4.Estudiantes participando en programas de desarrollo de competencias','4.Educación de calidad',1],['4.Estudiantes matriculados en jornada única','4.Educación de calidad',1],['4.Estudiantes matriculados de IE oficiales y de cobertura contratada en educación media','4.Educación de calidad',1],['4.Estudiantes K11 (ciclo regular educativo) beneficiados en el programa','4.Educación de calidad',1],['4.Estudiantes formados en competencias STEM (Ciencia, tecnología, ingeniería y matemáticas)','4.Educación de calidad',1],['4.Estudiantes en situación de vulnerabilidad atendidos con estrategias y apoyos especializados','4.Educación de calidad',1],['4.Estudiantes en niveles satisfactorio y avanzado en pensamiento ciudadano de Saber 9°','4.Educación de calidad',1],['4.Estudiantes en niveles satisfactorio y avanzado en matemáticas de Saber 5°','4.Educación de calidad',1],['4.Estudiantes en niveles satisfactorio y avanzado en lenguaje de Saber 9°','4.Educación de calidad',1],['4.Estudiantes de IE oficiales atendidos en programas de jornada complementaria','4.Educación de calidad',1],['4.Emprendimiento de las víctimas del conflicto armado sociales, culturales, deportivos y artesanales apoyados','4.Educación de calidad',1],['4.Dotación de equipos de laboratorio para la investigación y el desarrollo','4.Educación de calidad',1],['4.Docentes y directivos docentes participantes en programas de formación continua','4.Educación de calidad',1],['4.Docentes formados en segunda lengua','4.Educación de calidad',1],['4.Docentes capacitados para la implementación del bachillerato internacional','4.Educación de calidad',1],['4.Docentes beneficiados con intercambios académicos y educativos','4.Educación de calidad',1],['4.Créditos condonables otorgados a jóvenes víctimas del conflicto armado para educación superior','4.Educación de calidad',1],['4.Continuidad de los estudiantes a educación superior','4.Educación de calidad',1],['4.Construcción y reposición de plantas físicas educativas','4.Educación de calidad',1],['4.Cobertura escolar neta para educación media','4.Educación de calidad',1],['4.Becas otorgadas para educación superior','4.Educación de calidad',1]];
+
+ var ods5 = [['3.Implementación y seguimiento de la política pública para el reconocimiento de la diversidad sexual e indentidades de género','5.Igualdad de género',1],['2.Tasa lesiones personales','5.Igualdad de género',1],['2.Tasa solicitud medidas de protección violencia intrafamiliar','5.Igualdad de género',1],['2.Tasa delitos sexuales','5.Igualdad de género',1],['2.Población que dice haber sido víctima de un delito','5.Igualdad de género',1],['2.Mujeres con incidencia en escenarios de participación social y política en el marco del posconflicto  ','5.Igualdad de género',1]];
+
+ var ods6 = [['7.Sistemas comunitarios que ofrecen agua apta para el consumo humano','6.Agua limpia y saneamiento ',1],['7.Políticas para los servicios públios formuladas y gestionadas','6.Agua limpia y saneamiento ',1],['7.Índice de riesgo de la calidad del agua para consumo humano - IRCA - Zona Urbana','6.Agua limpia y saneamiento ',1],['7.Cuencas abastecidas externas intervenidas (Fondo del Agua)','6.Agua limpia y saneamiento ',1],['7.Cuencas abastecedoras de acueductos Internas al municipio con medidas de protección','6.Agua limpia y saneamiento ',1],['7.Cobertura de Alcantarillado Zona Urbana','6.Agua limpia y saneamiento ',1],['7.Cobertura de Alcantarillado Zona Rural Nucleada','6.Agua limpia y saneamiento ',1],['7.Cobertura de Acueducto Zona Urbana','6.Agua limpia y saneamiento ',1],['7.Cobertura de Acueducto Zona Rural Nucleada','6.Agua limpia y saneamiento ',1],['7.Áreas protegidas con plan de manejo adoptado y en implementación','6.Agua limpia y saneamiento ',1],['7.Árboles Rurales Sembrados','6.Agua limpia y saneamiento ',1]];
+
+ var ods7 = [['7.Campañas de educacion sobre movilidad amigable realizadas','7.Energía asequible y no contaminante',1]];
+
+ var ods8 = [['4.Tasa de trabajo infantil Medellín','8.Trabajo decente y crecimiento económico ',1],['4.Tasa de informalidad, entendida como no estar afiliado a pensiones','8.Trabajo decente y crecimiento económico ',1],['4.Tasa de informalidad según la definición del DANE','8.Trabajo decente y crecimiento económico ',1],['4.Tasa de desempleo personas entre 18 y 28 años','8.Trabajo decente y crecimiento económico ',1],['4.Producto Interno Bruto','8.Trabajo decente y crecimiento económico ',1],['4.Procesos de articulación y formación para el empleo, orientación vocacional para visibilizar los saberes juveniles','8.Trabajo decente y crecimiento económico ',1],['4.Personas formadas para el trabajo en actividades técnicas','8.Trabajo decente y crecimiento económico ',1],['4.Personas en situación de discapacidad que se vincula al mercado laboral','8.Trabajo decente y crecimiento económico ',1],['4.Personas del sector turístico capacitadas','8.Trabajo decente y crecimiento económico ',1],['4.Jóvenes y adultos formados en competencias laborales para el trabajo','8.Trabajo decente y crecimiento económico ',1],['4.Jóvenes sin experiencia, que se vinculan al mercado laboral','8.Trabajo decente y crecimiento económico ',1],['4.Inserción laboral de jóvenes y adultos formados en cursos cortos en actividades técnicas','8.Trabajo decente y crecimiento económico ',1],['4.Inserción laboral de jóvenes y adultos con educación superior','8.Trabajo decente y crecimiento económico ',1],['4.Implementación del Plan Local de Empleo','8.Trabajo decente y crecimiento económico ',1],['4.Formulación del Plan Local de Empleo','8.Trabajo decente y crecimiento económico ',1]];
+
+ var ods9 =[['5.Distribución modal de desplazamientos por modo de transporte','9.Industria, Innovación e infraestructura',1],['4.Tasa de desempleo personas entre 18 y 28 años','9.Industria, Innovación e infraestructura',1],['4.Tasa de desempleo','9.Industria, Innovación e infraestructura',1],['4.Producto Interno Bruto','9.Industria, Innovación e infraestructura',1],['4.Inversión en I+D como porcentaje del PIB','9.Industria, Innovación e infraestructura',1],['4.Inversión en Actividades en Ciencia, Tecnología e Innovación (ACTi) como porcentaje del PIB de Medellín','9.Industria, Innovación e infraestructura',1],['4.Empresas pertenecientes a Clúster estratégicos','9.Industria, Innovación e infraestructura',1],['4.Empresas constituidas en Medellín','9.Industria, Innovación e infraestructura',1],['4.Densidad de técnicos e investigadores trabajando en I+D por cada 10000 habitantes','9.Industria, Innovación e infraestructura',1]];
+
+
+
+
+var width = 1500, height = 610, margin ={b:0, t:100, l:610, r:170};
+var svg1 = d3.select("body")
+	.append("svg").attr('width',width).attr('height',(height+margin.b+margin.t))
+	.append("g").attr("transform","translate("+ margin.l+","+margin.t+")");
+var file = getVarsUrl();
+if (file=="ods1") {
+	dim_ods=ods11;
+}else if (file=="ods2"){
+	dim_ods=ods2;
+}else if (file=="ods3"){
+	dim_ods=ods3;
+}else if (file=="ods4"){
+	dim_ods=ods4;
+}else if (file=="ods5"){
+	dim_ods=ods5;
+}else if (file=="ods6"){
+	dim_ods=ods6;
+}else if (file=="ods7"){
+	dim_ods=ods7;
+}else if (file=="ods8"){
+	dim_ods=ods8;
+}else if (file=="ods9"){
+	dim_ods=ods9;
+}else if (file=="ods10"){
+	dim_ods=ods10;
+}else if (file=="ods11"){
+	dim_ods=ods11;
+}else if (file=="ods12"){
+	dim_ods=ods12;
+}else if (file=="ods13"){
+	dim_ods=ods13;
+}else if (file=="ods14"){
+	dim_ods=ods14;
+}else if (file=="ods15"){
+	dim_ods=ods15;
+}else if (file=="ods16"){
+	dim_ods=ods16;
+}else if (file=="ods17"){
+	dim_ods=ods17;
+}
+var data1 = [ 
+	{data:bP.partData(dim_ods,2), id:'dim_ods', header:["Indicador PDM","Objetivo ODS", "Objetivos ODS y Indicadores PDM]},
+	
+];
+bP.draw(data1, svg1);
+ function getVarsUrl(){
+    var url= location.search.replace("?", "");
+    var arrUrl = url.split("&");
+    var urlObj={};   
+    for(var i=0; i<arrUrl.length; i++){
+        var x= arrUrl[i].split("=");
+        urlObj[x[0]]=x[1]
+    }
+   // console.log(urlObj.var);
+    return decodeURI(urlObj.var);
+    
+}
+</script>
+</body>

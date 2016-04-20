@@ -110,7 +110,10 @@
 	function drawPart(data, id, p){
 console.log(1+id);
 if (id=="dim_ods") {
-	colors = colors1;
+	if (p==0){
+	colors = colors1;}else{
+	colors=colors2;	
+	}
 }else if (id == "dim_dim") {
 	colors=colors2;
 }

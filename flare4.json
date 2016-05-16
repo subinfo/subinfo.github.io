@@ -1,827 +1,787 @@
 [
             {
-                "name": "4.Índice de Desarrollo Humano",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.Tasa de desempleo",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.Tasa de desempleo personas entre 18 y 28 años",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.Tasa de informalidad, entendida como no estar afiliado a pensiones",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.Tasa de informalidad según la definición del DANE",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.Tasa de trabajo infantil  Medellín",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.Índice de competitividad urbana (ICUR)",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.Producto Interno Bruto",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.Índice de contribución de la cultura para el desarrollo",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.Años promedio de estudio de la población de 15 a 24 años",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.1.Índice Multidimensional de Calidad Educativa de IE oficiales",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.1.Estudiantes K11 inscritos a carreras STEM",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.2.Tasa de deserción total en edad escolar",
-                "imports": ["4.Años promedio de estudio de la población de 15 a 24 años"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.3.Participación de los hogares en actividades cultura y otros",
-                "imports": ["4.Índice de contribución de la cultura para el desarrollo"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.4.Empleos generados a partir de inversión nacional y extranjera",
-                "imports": ["4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.Tasa de informalidad, entendida como no estar afiliado a pensiones" , "4.Tasa de informalidad según la definición del DANE" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.4.Empleos generados por CT+i" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación"],
-                "size": "1.06666666666667"
-            },
-            {
-                "name": "4.4.Empleos generados por CT+i",
-                "imports": ["4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.Tasa de informalidad, entendida como no estar afiliado a pensiones" , "4.Tasa de informalidad según la definición del DANE" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.5.Densidad de técnicos e investigadores trabajando en I+D"],
-                "size": "0.933333333333333"
-            },
-            {
-                "name": "4.4.Monto de Inversión directa anunciada para el Municipio",
-                "imports": ["4.Producto Interno Bruto" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Innovaciones generadas según el modelo de la OCDE"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.5.Ocupación Hotelera",
-                "imports": ["4.Producto Interno Bruto"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.5.Reconocimiento del destino a nivel nacional e internacional en América",
-                "imports": ["4.Producto Interno Bruto" , "4.5.Ocupación Hotelera"],
-                "size": "0.266666666666667"
-            },
-            {
-                "name": "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional",
-                "imports": ["4.Producto Interno Bruto" , "4.5.Ocupación Hotelera"],
-                "size": "0.266666666666667"
-            },
-            {
-                "name": "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.5.Inversión en I+D como porcentaje del PIB",
-                "imports": ["4.4.Empleos generados por CT+i" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación"],
-                "size": "0.266666666666667"
-            },
-            {
-                "name": "4.5.Alianzas de cooperación gestionadas en función de las prioridades del PDM",
-                "imports": ["4.4.Monto de Inversión directa anunciada para el Municipio"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.5.Innovaciones generadas según el modelo de la OCDE",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT"],
-                "size": "0.933333333333333"
-            },
-            {
-                "name": "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.4.Empleos generados por CT+i" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Innovaciones generadas según el modelo de la OCDE" , "4.5.Porcentaje de empresas innovando según la EDIT"],
-                "size": "1.2"
-            },
-            {
-                "name": "4.5.Porcentaje de empresas innovando según la EDIT",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.4.Empleos generados por CT+i" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Innovaciones generadas según el modelo de la OCDE" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes"],
-                "size": "1.2"
-            },
-            {
-                "name": "4.5.Densidad de técnicos e investigadores trabajando en I+D",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Innovaciones generadas según el modelo de la OCDE" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT"],
-                "size": "1.06666666666667"
-            },
-            {
-                "name": "4.1.1.Investigaciones realizadas por maestros",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional" , "4.5.4.Publicaciones indexadas de grupos de investigación apoyados "],
-                "size": "0.933333333333333"
-            },
-            {
-                "name": "4.1.1.Estrategias Educativas diseñadas por maestros para implementar en el aula",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.1.1.Investigaciones realizadas por maestros" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional" , "4.2.1.Tasa de extraedad en secundaria"],
-                "size": "1.06666666666667"
-            },
-            {
-                "name": "4.1.2.Construcción y reposición de plantas físicas educativas",
-                "imports": ["4.2.Tasa de deserción total en edad escolar" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.2.1.Cobertura escolar neta para educación media"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín"],
-                "size": "0.266666666666667"
-            },
-            {
-                "name": "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín"],
-                "size": "0.266666666666667"
-            },
-            {
-                "name": "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar"],
-                "size": "0.266666666666667"
-            },
-            {
-                "name": "4.2.1.Tasa de cobertura del Programa Buen Comienzo",
-                "imports": ["4.2.1.Cobertura escolar neta para educación media"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.2.1.Cobertura escolar neta para educación media",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Índice de competitividad urbana (ICUR)" , "4.Índice de contribución de la cultura para el desarrollo" , "4.Años promedio de estudio de la población de 15 a 24 años" , "4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.1.2.Construcción y reposición de plantas físicas educativas" , "4.2.2.Continuidad de los estudiantes a educación superior"],
-                "size": "1.06666666666667"
-            },
-            {
-                "name": "4.2.1.Tasa de extraedad en secundaria",
-                "imports": ["4.Años promedio de estudio de la población de 15 a 24 años" , "4.2.Tasa de deserción total en edad escolar"],
-                "size": "0.266666666666667"
-            },
-            {
-                "name": "4.2.2.Continuidad de los estudiantes a educación superior",
-                "imports": ["4.Índice de competitividad urbana (ICUR)" , "4.Índice de contribución de la cultura para el desarrollo" , "4.Años promedio de estudio de la población de 15 a 24 años" , "4.1.Estudiantes K11 inscritos a carreras STEM"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.2.2.Personas graduadas educación postsecundaria de programas ofrecidos en la plataforma",
-                "imports": ["4.Índice de competitividad urbana (ICUR)" , "4.Índice de contribución de la cultura para el desarrollo" , "4.Años promedio de estudio de la población de 15 a 24 años" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.2.2.Continuidad de los estudiantes a educación superior"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "4.2.2.Inserción laboral de jóvenes y adultos con educación superior",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.Producto Interno Bruto" , "4.Índice de contribución de la cultura para el desarrollo"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "4.3.1.Beneficiarios de servicios y programas de las bibliotecas públicas",
-                "imports": ["4.Índice de contribución de la cultura para el desarrollo" , "4.3.Participación de los hogares en actividades cultura y otros" , "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos" , "4.3.3.Hogares que participan al menos en una actividad cultural al año"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos",
-                "imports": ["4.Índice de contribución de la cultura para el desarrollo" , "4.3.Participación de los hogares en actividades cultura y otros" , "4.3.1.Beneficiarios de servicios y programas de las bibliotecas públicas" , "4.3.3.Hogares que participan al menos en una actividad cultural al año"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.3.3.Hogares que participan al menos en una actividad cultural al año",
-                "imports": ["4.Índice de contribución de la cultura para el desarrollo" , "4.3.Participación de los hogares en actividades cultura y otros" , "4.3.1.Beneficiarios de servicios y programas de las bibliotecas públicas" , "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.Tasa de informalidad, entendida como no estar afiliado a pensiones" , "4.Tasa de informalidad según la definición del DANE" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Monto de Inversión directa anunciada para el Municipio" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Innovaciones generadas según el modelo de la OCDE" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.1.Empresas pertenecientes a Clúster estratégicos" , "4.4.3.Personas vinculadas al mercado laboral a través del PIL"],
-                "size": "2.66666666666667"
-            },
-            {
-                "name": "4.4.1.Empresas pertenecientes a Clúster estratégicos",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.Índice de contribución de la cultura para el desarrollo" , "4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL"],
-                "size": "2.53333333333333"
-            },
-            {
-                "name": "4.4.1.Compañías asentadas en el Distrito de Innovación",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.Tasa de informalidad, entendida como no estar afiliado a pensiones" , "4.Tasa de informalidad según la definición del DANE" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Monto de Inversión directa anunciada para el Municipio" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Innovaciones generadas según el modelo de la OCDE" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.1.Empresas pertenecientes a Clúster estratégicos" , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.4.Empresas constituidas en Medellín" , "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación"],
-                "size": "3.2"
-            },
-            {
-                "name": "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos ",
-                "imports": ["4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.4.3.Personas vinculadas al mercado laboral a través del PIL"],
+                "name": "4.1.Años promedio de estudio de la población de 15 a 24 años",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
                 "size": "0.4"
             },
             {
-                "name": "4.4.3.Personas vinculadas al mercado laboral a través del PIL",
-                "imports": ["4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos "],
+                "name": "4.2.Ingreso Per-Cápita de la Unidad de Gasto",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años"],
                 "size": "0.4"
             },
             {
-                "name": "4.4.4.Empresas constituidas en Medellín",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.Índice de contribución de la cultura para el desarrollo" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.4.1.Empresas pertenecientes a Clúster estratégicos" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín"],
+                "name": "4.1.1.1.Tasa de deserción en el sector oficial",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.1.1.2.Tasa de cobertura neta total" , "4.1.1.6.Tasa de analfabetismo para personas de 15 años y mas" , "4.2.1.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.3.1.Índice Sintético de Calidad Educativa - Primaria" , "4.2.3.2.Índice Sintético de Calidad Educativa - Secundaria" , "4.2.3.3.Índice Sintético de Calidad Educativa - Media"],
+                "size": "2.8"
+            },
+            {
+                "name": "4.1.1.2.Tasa de cobertura neta total",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.1.1.6.Tasa de analfabetismo para personas de 15 años y mas"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.1.1.3.Tasa de cobertura del Programa Buen Comienzo",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.1.1.6.Tasa de analfabetismo para personas de 15 años y mas"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.1.1.4.Tasa de cobertura neta en media",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.1.1.2.Tasa de cobertura neta total" , "4.1.1.6.Tasa de analfabetismo para personas de 15 años y mas"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.1.1.5.Tasa de extraedad en secundaria",
+                "imports": ["4.1.1.1.Tasa de deserción en el sector oficial" , "4.1.1.2.Tasa de cobertura neta total" , "4.1.1.6.Tasa de analfabetismo para personas de 15 años y mas" , "4.2.1.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.3.1.Índice Sintético de Calidad Educativa - Primaria" , "4.2.3.2.Índice Sintético de Calidad Educativa - Secundaria" , "4.2.3.3.Índice Sintético de Calidad Educativa - Media"],
+                "size": "2.8"
+            },
+            {
+                "name": "4.1.1.6.Tasa de analfabetismo para personas de 15 años y mas",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.1.2.1.Continuidad de los estudiantes a educación superior",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.2.1.1.Índice Multidimensional de Calidad Educativa de IE oficiales",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.2.1.2.Instituciones educativas que mejoran en autoevaluación institucional",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.2.1.3.Instituciones educativas oficiales en categorías A+, A y B en pruebas Saber 11",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.2.1.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.1.4.Instituciones educativas oficiales que mejoran categoría en pruebas saber 11" , "4.2.3.3.Índice Sintético de Calidad Educativa - Media"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.2.1.4.Instituciones educativas oficiales que mejoran categoría en pruebas saber 11",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.2.1.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.3.3.Índice Sintético de Calidad Educativa - Media"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.2.2.1.Investigaciones realizadas por maestros",
+                "imports": ["4.2.1.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.1.2.Instituciones educativas que mejoran en autoevaluación institucional"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.2.2.2.Estrategias Educativas diseñadas por maestros (producción académica posterior a la formación)",
+                "imports": ["4.2.1.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.1.2.Instituciones educativas que mejoran en autoevaluación institucional"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.2.3.1.Índice Sintético de Calidad Educativa - Primaria",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.2.3.2.Índice Sintético de Calidad Educativa - Secundaria",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.2.3.3.Índice Sintético de Calidad Educativa - Media",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.2.3.4.Estudiantes de instituciones educativas oficiales que alcanzan B1 y B+ en Inglés en saber 11°",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.2.3.5.Estudiantes en niveles satisfactorio y avanzado en lenguaje de Saber 9°",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.2.3.6.Estudiantes en niveles satisfactorio y avanzado en matemáticas de Saber 5°",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.2.4.1.Cupos generados por construcciones educativas nuevas",
+                "imports": ["4.1.1.2.Tasa de cobertura neta total" , "4.1.1.4.Tasa de cobertura neta en media"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.3.1.1.Alianzas interinstitucionales realizadas para ampliar el impacto de la función pública en biblioteca",
+                "imports": ["4.3.1.2.Población que participa en los programas de promoción de  Lectura, Escritura y Oralidad de Medellín"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.3.1.2.Población que participa en los programas de promoción de  Lectura, Escritura y Oralidad de Medellín",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.3.2.1.Procesos de desarrollo artístico y cultural concertados y ejecutados con la ciudadanía",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.3.3.1.Hogares que participan al menos en una actividad cultural al año",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.3.3.2.Instituciones con proyectos de emprendimiento cultural realizados para su sostenibilidad",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.4.1.1.Empleos generados a partir de inversión nacional y extranjera reportada",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.1.2.Monto de Inversión Nacional y Extranjera reportada para el desarrollo y competitividad",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.1.3.Empresas intervenidas bajo el enfoque de especialización inteligente, que mejoran su productividad",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.4.2.1.Inserción laboral de jóvenes y adultos, capacitados en competencias laborales",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.2.2.Razón del desempleo juvenil",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.3.1.Comunas y corregimientos con atención en las oficinas públicas de empleo",
+                "imports": ["4.4.3.2.Personas en situación de discapacidad que se vincula al mercado laboral" , "4.4.3.3.Población vulnerable que se vincula al mercado laboral" , "4.4.3.4.Jóvenes sin experiencia, que se vinculan al mercado laboral"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.4.3.2.Personas en situación de discapacidad que se vincula al mercado laboral",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.3.3.Población vulnerable que se vincula al mercado laboral",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.3.4.Jóvenes sin experiencia, que se vinculan al mercado laboral",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.4.1.Emprendimientos acompañados en sus diferentes etapas (preincubación- incubación)",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.4.4.2.Empresas Intervenidas en sus diferentes etapas (preincubación- incubación-aceleración)",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.4.4.3.Empresas constituidas por cada 1000 habitantes",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.4.4.Empleos generados en la ciudad o en el distrito de innovación enfocadas a CT+i",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.4.1.1.Empleos generados a partir de inversión nacional y extranjera reportada" , "4.4.2.1.Inserción laboral de jóvenes y adultos, capacitados en competencias laborales" , "4.4.2.2.Razón del desempleo juvenil"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.4.4.5.Redes de economía colaborativa que operan en la ciudad",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.5.1.1.Productos y mejoras a procesos generados en actividades productivas a partir de los laboratorios de creación",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.5.1.2.Índice de la innovación para la sociedad",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.5.2.1.Viajeros internacionales ingresando a la ciudad",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.5.2.2.Ocupación Hotelera promedio anual"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.5.2.2.Ocupación Hotelera promedio anual",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.5.2.3.Reconocimiento de Medellín como destino nivel nacional e internacional en ranking ICCA mundial",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.4.1.2.Monto de Inversión Nacional y Extranjera reportada para el desarrollo y competitividad" , "4.5.2.1.Viajeros internacionales ingresando a la ciudad" , "4.5.2.2.Ocupación Hotelera promedio anual"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.5.3.1.Eventos captados para la ciudad",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.3.3.1.Hogares que participan al menos en una actividad cultural al año" , "4.4.1.2.Monto de Inversión Nacional y Extranjera reportada para el desarrollo y competitividad" , "4.5.2.1.Viajeros internacionales ingresando a la ciudad" , "4.5.2.2.Ocupación Hotelera promedio anual"],
                 "size": "2"
             },
             {
-                "name": "4.4.5.Agroempresas creadas en los corregimientos de Medellín",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.4.Empresas constituidas en Medellín"],
-                "size": "0.933333333333333"
-            },
-            {
-                "name": "4.4.6.Nivel de penetración de internet fijo dedicado",
-                "imports": ["4.Índice de competitividad urbana (ICUR)" , "4.Índice de contribución de la cultura para el desarrollo"],
-                "size": "0.266666666666667"
-            },
-            {
-                "name": "4.4.6.Empresas intervenidas que mejoran su posición competitiva",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.Tasa de informalidad, entendida como no estar afiliado a pensiones" , "4.Tasa de informalidad según la definición del DANE" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Monto de Inversión directa anunciada para el Municipio" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Innovaciones generadas según el modelo de la OCDE" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.1.Empresas pertenecientes a Clúster estratégicos" , "4.4.3.Personas vinculadas al mercado laboral a través del PIL"],
-                "size": "2.8"
-            },
-            {
-                "name": "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.Tasa de informalidad, entendida como no estar afiliado a pensiones" , "4.Tasa de informalidad según la definición del DANE" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.Índice de contribución de la cultura para el desarrollo" , "4.Años promedio de estudio de la población de 15 a 24 años" , "4.1.Estudiantes K11 inscritos a carreras STEM" , "4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Monto de Inversión directa anunciada para el Municipio" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Alianzas de cooperación gestionadas en función de las prioridades del PDM" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.1.1.Investigaciones realizadas por maestros" , "4.2.2.Personas graduadas educación postsecundaria de programas ofrecidos en la plataforma" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "3.33333333333333"
-            },
-            {
-                "name": "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n",
-                "imports": ["4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.Tasa de informalidad, entendida como no estar afiliado a pensiones" , "4.Tasa de informalidad según la definición del DANE" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.3.Participación de los hogares en actividades cultura y otros" , "4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Monto de Inversión directa anunciada para el Municipio" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Ocupación Hotelera" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Alianzas de cooperación gestionadas en función de las prioridades del PDM" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.3.3.Hogares que participan al menos en una actividad cultural al año" , "4.5.3.Eventos captados para la ciudad" , "4.5.3.Eventos que adquieren la huella de carbono" , "4.5.3.Valoración económica de publicaciones generadas mediante freepress" , "4.5.3.Derrama económica en realización de eventos captados con el apoyo de El Bureau"],
-                "size": "3.06666666666667"
-            },
-            {
-                "name": "4.5.3.Eventos captados para la ciudad",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.Tasa de informalidad, entendida como no estar afiliado a pensiones" , "4.Tasa de informalidad según la definición del DANE" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.Índice de contribución de la cultura para el desarrollo" , "4.3.Participación de los hogares en actividades cultura y otros" , "4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Monto de Inversión directa anunciada para el Municipio" , "4.5.Ocupación Hotelera" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Alianzas de cooperación gestionadas en función de las prioridades del PDM" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos" , "4.3.3.Hogares que participan al menos en una actividad cultural al año" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación" , "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n" , "4.5.3.Eventos que adquieren la huella de carbono" , "4.5.3.Valoración económica de publicaciones generadas mediante freepress" , "4.5.3.Derrama económica en realización de eventos captados con el apoyo de El Bureau"],
-                "size": "3.73333333333333"
-            },
-            {
-                "name": "4.5.3.Alianzas de cooperación en las cuales Medellín comparta sus buenas prácticas",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Tasa de desempleo" , "4.Tasa de informalidad, entendida como no estar afiliado a pensiones" , "4.Tasa de informalidad según la definición del DANE" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.5.Ocupación Hotelera" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.4.1.Empresas pertenecientes a Clúster estratégicos" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación" , "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n" , "4.5.3.Valoración económica de publicaciones generadas mediante freepress"],
-                "size": "2.8"
-            },
-            {
-                "name": "4.5.3.Eventos que adquieren la huella de carbono",
-                "imports": ["4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Monto de Inversión directa anunciada para el Municipio" , "4.5.Ocupación Hotelera" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación" , "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n" , "4.5.3.Eventos captados para la ciudad" , "4.5.3.Derrama económica en realización de eventos captados con el apoyo de El Bureau"],
-                "size": "1.33333333333333"
-            },
-            {
-                "name": "4.5.3.Valoración económica de publicaciones generadas mediante freepress",
+                "name": "4.5.3.2.Monto de cooperación técnica y financiera nacional e internacional recibidas",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "4.5.3.Derrama económica en realización de eventos captados con el apoyo de El Bureau",
-                "imports": ["4.Índice de Desarrollo Humano" , "4.Tasa de desempleo" , "4.Tasa de desempleo personas entre 18 y 28 años" , "4.Tasa de informalidad, entendida como no estar afiliado a pensiones" , "4.Tasa de informalidad según la definición del DANE" , "4.Índice de competitividad urbana (ICUR)" , "4.Producto Interno Bruto" , "4.Índice de contribución de la cultura para el desarrollo" , "4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Monto de Inversión directa anunciada para el Municipio" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Ocupación Hotelera" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Alianzas de cooperación gestionadas en función de las prioridades del PDM" , "4.5.Innovaciones generadas según el modelo de la OCDE" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva" , "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación" , "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n" , "4.5.3.Eventos captados para la ciudad" , "4.5.3.Alianzas de cooperación en las cuales Medellín comparta sus buenas prácticas" , "4.5.3.Eventos que adquieren la huella de carbono" , "4.5.3.Valoración económica de publicaciones generadas mediante freepress"],
+                "name": "4.5.3.3.Valoración económica de las publicaciones generadas mediante la estrategia de freepress de Ciudad",
+                "imports": ["4.4.1.2.Monto de Inversión Nacional y Extranjera reportada para el desarrollo y competitividad" , "4.5.2.1.Viajeros internacionales ingresando a la ciudad" , "4.5.2.2.Ocupación Hotelera promedio anual"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.5.4.1.Publicaciones indexadas de grupos de investigación apoyados",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.1.1.1.1.Madres gestantes y lactantes atendidas por el programa Buen Comienzo",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.1.1.3.Tasa de cobertura del Programa Buen Comienzo"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.1.1.1.2.Niños y niñas atendidos entre 0 y 5 años por el programa Buen Comienzo",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.1.1.3.Tasa de cobertura del Programa Buen Comienzo"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.1.1.2.1.Estudiantes matriculados en jornada única",
+                "imports": ["4.1.1.1.Tasa de deserción en el sector oficial"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.1.1.3.1.Estudiantes en extraedad en secundaria con atención diferencial",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.1.1.1.Tasa de deserción en el sector oficial" , "4.1.1.2.Tasa de cobertura neta total" , "4.1.1.4.Tasa de cobertura neta en media" , "4.1.1.5.Tasa de extraedad en secundaria"],
+                "size": "2.4"
+            },
+            {
+                "name": "4.1.1.4.1.Instituciones educativas con estrategias implementadas para la atención diferencial a estudiantes",
+                "imports": ["4.1.1.1.Tasa de deserción en el sector oficial" , "4.1.1.2.Tasa de cobertura neta total" , "4.1.1.4.Tasa de cobertura neta en media" , "4.1.1.5.Tasa de extraedad en secundaria"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.1.1.4.2.Estudiantes en situación de vulnerabilidad atendidos con estrategias y apoyos especializados",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.1.1.1.Tasa de deserción en el sector oficial" , "4.1.1.2.Tasa de cobertura neta total" , "4.1.1.4.Tasa de cobertura neta en media"],
+                "size": "2"
+            },
+            {
+                "name": "4.1.1.5.1.Instituciones educativas que tienen convenios de articulación con instituciones de educación terciaria y/o Superior",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.1.1.1.Tasa de deserción en el sector oficial" , "4.1.2.1.Continuidad de los estudiantes a educación superior"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.1.1.5.2.Estudiantes vinculados a programas de exploración y orientación vocacional",
+                "imports": ["4.1.1.1.Tasa de deserción en el sector oficial" , "4.1.2.1.Continuidad de los estudiantes a educación superior"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.1.1.6.1.Acciones afirmativas realizadas para la permanencia de mujeres en el sistema educativo",
+                "imports": ["4.1.1.1.Tasa de deserción en el sector oficial" , "4.1.1.2.Tasa de cobertura neta total" , "4.1.1.4.Tasa de cobertura neta en media"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.1.2.1.1.Créditos condonables y becas otorgados para la educación superior",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.1.2.1.Continuidad de los estudiantes a educación superior"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.1.2.1.2.Beneficiarios de becas y créditos condonables en relación con los clúster",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.1.2.1.Continuidad de los estudiantes a educación superior"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.1.2.1.3.Créditos condonables y becas otorgadas para la educación superior a jóvenes víctimas del conflicto armado",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.1.2.1.Continuidad de los estudiantes a educación superior"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.1.2.2.1.Instituciones de educación superior públicas de carácter municipal apoyadas en procesos de acreditación y reacreditación",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.1.2.3.1.Personas certificadas en los cursos de @Medellín",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.1.2.1.Continuidad de los estudiantes a educación superior"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.1.2.3.2.Programas diseñados y ofrecidos a través de la plataforma @Medellín para personas en situación de discapacidad",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.1.2.1.Continuidad de los estudiantes a educación superior"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.1.2.3.3.Programas diseñados y ofrecidos a través de la plataforma @Medellín",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.1.2.1.Continuidad de los estudiantes a educación superior"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.2.1.1.1.Proyectos Educativos institucionales actualizados en gestión escolar",
+                "imports": ["4.2.1.2.Instituciones educativas que mejoran en autoevaluación institucional"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.2.1.2.1.Instituciones educativas acompañadas para el mejoramiento de la calidad",
+                "imports": ["4.2.1.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.1.2.Instituciones educativas que mejoran en autoevaluación institucional" , "4.2.1.3.Instituciones educativas oficiales en categorías A+, A y B en pruebas Saber 11" , "4.2.1.4.Instituciones educativas oficiales que mejoran categoría en pruebas saber 11"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.2.1.3.1.Instituciones educativas oficiales reconocidas por el mejoramiento de la calidad",
+                "imports": ["4.2.1.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.1.2.Instituciones educativas que mejoran en autoevaluación institucional" , "4.2.1.3.Instituciones educativas oficiales en categorías A+, A y B en pruebas Saber 11" , "4.2.1.4.Instituciones educativas oficiales que mejoran categoría en pruebas saber 11"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.2.2.1.1.Agentes educativos capacitados para la atención integral de la primera infancia con enfoque potenciador",
+                "imports": ["4.1.1.1.Tasa de deserción en el sector oficial" , "4.2.2.1.Investigaciones realizadas por maestros" , "4.2.2.2.Estrategias Educativas diseñadas por maestros (producción académica posterior a la formación)"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.2.2.1.2.Docentes y directivos docentes participantes en programas de formación continua",
+                "imports": ["4.1.1.1.Tasa de deserción en el sector oficial" , "4.2.2.1.Investigaciones realizadas por maestros" , "4.2.2.2.Estrategias Educativas diseñadas por maestros (producción académica posterior a la formación)"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.2.2.2.1.Docentes participantes en redes de conocimiento y comunidades de aprendizaje",
+                "imports": ["4.1.1.1.Tasa de deserción en el sector oficial" , "4.2.2.1.Investigaciones realizadas por maestros" , "4.2.2.2.Estrategias Educativas diseñadas por maestros (producción académica posterior a la formación)"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.2.2.3.1.Docentes beneficiados con programas de bienestar laboral",
+                "imports": ["4.2.1.1.Índice Multidimensional de Calidad Educativa de IE oficiales"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.2.3.1.1.Estudiantes que participan en programas de desarrollo de competencias",
+                "imports": ["4.1.2.1.Continuidad de los estudiantes a educación superior" , "4.2.1.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.1.3.Instituciones educativas oficiales en categorías A+, A y B en pruebas Saber 11" , "4.2.1.4.Instituciones educativas oficiales que mejoran categoría en pruebas saber 11" , "4.2.3.1.Índice Sintético de Calidad Educativa - Primaria" , "4.2.3.2.Índice Sintético de Calidad Educativa - Secundaria" , "4.2.3.3.Índice Sintético de Calidad Educativa - Media" , "4.2.3.4.Estudiantes de instituciones educativas oficiales que alcanzan B1 y B+ en Inglés en saber 11°" , "4.2.3.5.Estudiantes en niveles satisfactorio y avanzado en lenguaje de Saber 9°" , "4.2.3.6.Estudiantes en niveles satisfactorio y avanzado en matemáticas de Saber 5°"],
                 "size": "4"
             },
             {
-                "name": "4.5.4.Publicaciones indexadas de grupos de investigación apoyados ",
-                "imports": ["4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.1.1.Investigaciones realizadas por maestros" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.1.Compañías asentadas en el Distrito de Innovación"],
-                "size": "0.8"
-            },
-            {
-                "name": "4.1.1.1.Agentes educativos capacitados para la atención de niños(as)",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.1.1.Estrategias Educativas diseñadas por maestros para implementar en el aula" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.1.1.1.Docentes y directivos participantes en programas de formación continua",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.1.1.Investigaciones realizadas por maestros" , "4.1.1.Estrategias Educativas diseñadas por maestros para implementar en el aula" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional"],
-                "size": "1.06666666666667"
-            },
-            {
-                "name": "4.1.1.2.Docentes beneficiados con intercambios académicos y educativos",
-                "imports": ["4.1.1.Investigaciones realizadas por maestros" , "4.1.1.Estrategias Educativas diseñadas por maestros para implementar en el aula" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional"],
-                "size": "0.8"
-            },
-            {
-                "name": "4.1.1.2.Maestros que hacen pasantía pedagógica en la ciudad",
-                "imports": ["4.2.Tasa de deserción total en edad escolar" , "4.1.1.Estrategias Educativas diseñadas por maestros para implementar en el aula" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional"],
-                "size": "0.8"
-            },
-            {
-                "name": "4.1.1.3.Instituciones educativas apadrinadas para el mejoramiento de la calidad",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional"],
-                "size": "0.8"
-            },
-            {
-                "name": "4.1.1.4.IE que reciben incentivos para el mejoramiento de la calidad",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional"],
-                "size": "0.8"
-            },
-            {
-                "name": "4.1.2.1.Plantas físicas educativas ampliadas",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.1.2.Construcción y reposición de plantas físicas educativas" , "4.2.1.Cobertura escolar neta para educación media"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.1.2.1.Nuevos jardines y centros infantiles  construidos",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.1.2.Construcción y reposición de plantas físicas educativas" , "4.2.1.Tasa de cobertura del Programa Buen Comienzo"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.1.2.1.Obras de mantenimiento realizadas en plantas físicas, centros y jardines infantiles",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.1.2.Construcción y reposición de plantas físicas educativas"],
-                "size": "0.4"
-            },
-            {
-                "name": "4.1.2.2.Dotación de equipos de laboratorio para la investigación y el desarrollo",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.1.2.Construcción y reposición de plantas físicas educativas" , "4.4.6.Nivel de penetración de internet fijo dedicado"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.1.2.3.Plan de sostenibilidad elaborado e implementado ",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.1.2.3.Proyectos hitos implementados",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.1.3.1.Docentes formados en segunda lengua",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional"],
-                "size": "0.4"
-            },
-            {
-                "name": "4.1.3.2.Docentes capacitados para la implementación del bachillerato internacional",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional"],
-                "size": "0.4"
-            },
-            {
-                "name": "4.1.3.2.Instituciones oficiales en implementación del bachillerato internacional",
-                "imports": ["4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional"],
-                "size": "0.266666666666667"
-            },
-            {
-                "name": "4.1.4.1.Estudiantes que reciben formación por competencias",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional"],
-                "size": "0.8"
-            },
-            {
-                "name": "4.1.4.2.Programas STEM realizados",
-                "imports": ["4.1.Estudiantes K11 inscritos a carreras STEM" , "4.2.Tasa de deserción total en edad escolar" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.2.2.Continuidad de los estudiantes a educación superior"],
-                "size": "0.8"
-            },
-            {
-                "name": "4.1.4.2.Estudiantes K11 beneficiados en el programa",
-                "imports": ["4.1.Estudiantes K11 inscritos a carreras STEM" , "4.2.Tasa de deserción total en edad escolar" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.2.2.Continuidad de los estudiantes a educación superior"],
-                "size": "0.8"
-            },
-            {
-                "name": "4.1.4.2.Estudiantes de IE oficiales atendidos en programas de jornada complementaria",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.1.Estudiantes K11 inscritos a carreras STEM" , "4.2.Tasa de deserción total en edad escolar" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional" , "4.2.1.Tasa de extraedad en secundaria" , "4.2.2.Continuidad de los estudiantes a educación superior"],
-                "size": "1.33333333333333"
-            },
-            {
-                "name": "4.1.4.3.Encuentros de dialogo entre la comunidad educativa y la Secretaría",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.1.1.Investigaciones realizadas por maestros" , "4.1.1.Estrategias Educativas diseñadas por maestros para implementar en el aula" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "4.1.5.1.IE acompañadas en la incorporación de las TIC al currículo escolar",
-                "imports": ["4.1.Estudiantes K11 inscritos a carreras STEM" , "4.2.Tasa de deserción total en edad escolar" , "4.1.1.Estrategias Educativas diseñadas por maestros para implementar en el aula" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional" , "4.4.6.Nivel de penetración de internet fijo dedicado"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "4.1.5.2.Proyectos Educativos actualizados para foortalecer modelo de gestión pedagógica",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.1.1.Estrategias Educativas diseñadas por maestros para implementar en el aula" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional"],
-                "size": "0.933333333333333"
-            },
-            {
-                "name": "4.2.1.1.Madres gestantes y lactantes atendidas por el programa Buen Comienzo",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.2.1.Tasa de cobertura del Programa Buen Comienzo"],
-                "size": "0.4"
-            },
-            {
-                "name": "4.2.1.1.Niños(as) atendidos entre 0 y 5 años por el programa Buen Comienzo",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.2.1.Tasa de cobertura del Programa Buen Comienzo"],
-                "size": "0.4"
-            },
-            {
-                "name": "4.2.1.2.Estudiantes matriculados en jornada única",
-                "imports": ["4.2.Tasa de deserción total en edad escolar" , "4.1.2.Construcción y reposición de plantas físicas educativas" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional" , "4.2.2.Continuidad de los estudiantes a educación superior"],
-                "size": "0.933333333333333"
-            },
-            {
-                "name": "4.2.1.3.Matrícula de IE oficiales y  de cobertura contratada en media",
-                "imports": ["4.2.Tasa de deserción total en edad escolar" , "4.2.1.Cobertura escolar neta para educación media"],
-                "size": "0.266666666666667"
-            },
-            {
-                "name": "4.2.1.4.Estudiantes con talentos excepcionales que reciben atención especializada",
-                "imports": ["4.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.Tasa de deserción total en edad escolar" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional" , "4.2.2.Continuidad de los estudiantes a educación superior"],
-                "size": "0.933333333333333"
-            },
-            {
-                "name": "4.2.1.4.Estudiantes atendidos con modelos flexibles",
-                "imports": ["4.2.Tasa de deserción total en edad escolar" , "4.1.3.Estudiantes de Medellín en niveles de competencia B1 y B+ en Saber 11°" , "4.1.4.Porcentaje establecimientos oficiales categoría A+ y A pruebas saber 11" , "4.1.4.Porcentaje estudiantes en primeros 400 puestos pruebas Saber 11 Medellín" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional" , "4.2.1.Cobertura escolar neta para educación media" , "4.2.1.Tasa de extraedad en secundaria"],
-                "size": "0.933333333333333"
-            },
-            {
-                "name": "4.2.1.5.Estudiantes con discapacidad atendidos bajo la modalidad virtual",
-                "imports": ["4.2.Tasa de deserción total en edad escolar" , "4.2.1.Cobertura escolar neta para educación media" , "4.2.1.Tasa de extraedad en secundaria"],
-                "size": "0.4"
-            },
-            {
-                "name": "4.2.2.1.Becas otorgadas para educación superior",
-                "imports": ["4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.2.2.Continuidad de los estudiantes a educación superior" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior"],
-                "size": "0.4"
-            },
-            {
-                "name": "4.2.2.2.Asesorías técnicas a instituciones en proceso de acreditación y reacreditación",
-                "imports": ["4.2.2.Personas graduadas educación postsecundaria de programas ofrecidos en la plataforma"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.2.2.3.Personas certificadas en los cursos de @Medellín",
-                "imports": ["4.2.2.Personas graduadas educación postsecundaria de programas ofrecidos en la plataforma"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.2.2.3.Programas diseñados y ofrecidos a través de la plataforma",
-                "imports": ["4.2.2.Personas graduadas educación postsecundaria de programas ofrecidos en la plataforma"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.3.1.1.Personas que visitan las bibliotecas públicas",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros" , "4.3.1.Beneficiarios de servicios y programas de las bibliotecas públicas" , "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos" , "4.3.3.Hogares que participan al menos en una actividad cultural al año"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.3.1.1.Proyectos bibliotecarios, de cultura digital, de memoria y de fomento de lectura y escritura",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros" , "4.3.1.Beneficiarios de servicios y programas de las bibliotecas públicas" , "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos" , "4.3.3.Hogares que participan al menos en una actividad cultural al año"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.3.1.2.Acciones realizadas para preservar los archivos documentales",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.3.2.1.Procesos comunitarios apoyados",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros" , "4.3.1.Beneficiarios de servicios y programas de las bibliotecas públicas" , "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos" , "4.3.3.Hogares que participan al menos en una actividad cultural al año" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "4.3.2.1.Beneficiarios que participan de procesos formativos",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros" , "4.3.1.Beneficiarios de servicios y programas de las bibliotecas públicas" , "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos" , "4.3.3.Hogares que participan al menos en una actividad cultural al año"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.3.2.2.Amortización del capital pagado por adquisición de predios para el Museo de Antioquia",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.3.2.3.Estímulos otorgados a la creación Literaria mediante la convocatoria",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.3.2.3.Eventos del Libro realizados",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.3.3.1.Personas que se presentan a convocatorias de estímulos culturales",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros" , "4.3.3.Hogares que participan al menos en una actividad cultural al año"],
-                "size": "0.266666666666667"
-            },
-            {
-                "name": "4.3.3.1. Beneficiarios que se ganan convocatorias",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros" , "4.3.3.Hogares que participan al menos en una actividad cultural al año"],
-                "size": "0.266666666666667"
-            },
-            {
-                "name": "4.3.3.2.Beneficiarios de las redes de formación artística y cultural",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros" , "4.3.1.Beneficiarios de servicios y programas de las bibliotecas públicas" , "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos" , "4.3.3.Hogares que participan al menos en una actividad cultural al año"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.3.3.3.Personas que asisten a eventos culturales de ciudad",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros" , "4.3.1.Beneficiarios de servicios y programas de las bibliotecas públicas" , "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos" , "4.3.3.Hogares que participan al menos en una actividad cultural al año"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.3.3.3.Ciudadanos con ingreso gratuito a museos, teatros, parques y eventos culturales",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros" , "4.3.1.Beneficiarios de servicios y programas de las bibliotecas públicas" , "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos" , "4.3.3.Hogares que participan al menos en una actividad cultural al año"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.3.3.4.Intercambios culturales de Medellín con otras ciudades del mundo",
-                "imports": ["4.5.Ocupación Hotelera" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.5.Alianzas de cooperación gestionadas en función de las prioridades del PDM" , "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n" , "4.5.3.Eventos captados para la ciudad" , "4.5.3.Alianzas de cooperación en las cuales Medellín comparta sus buenas prácticas" , "4.5.3.Derrama económica en realización de eventos captados con el apoyo de El Bureau"],
-                "size": "1.06666666666667"
-            },
-            {
-                "name": "4.3.3.5.Fortalecimiento de Medellín en la Red de Ciudades Creativas de la Música Unesco",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n" , "4.5.3.Eventos captados para la ciudad" , "4.5.3.Alianzas de cooperación en las cuales Medellín comparta sus buenas prácticas" , "4.5.3.Derrama económica en realización de eventos captados con el apoyo de El Bureau"],
-                "size": "0.8"
-            },
-            {
-                "name": "4.3.3.5.Eventos realizados para circulación y proyección del sector musical",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros" , "4.5.Ocupación Hotelera" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos" , "4.3.3.Hogares que participan al menos en una actividad cultural al año"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "4.3.3.5.Procesos de emprendimientos musicales apoyados",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros" , "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos" , "4.3.3.Hogares que participan al menos en una actividad cultural al año" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.4.Empresas constituidas en Medellín"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "4.3.3.6.Proyectos audiovisuales apoyados",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros" , "4.4.1.Compañías asentadas en el Distrito de Innovación"],
-                "size": "0.266666666666667"
-            },
-            {
-                "name": "4.3.3.6.Cinemateca municipal creada y en funcionamiento",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.4.1.1.Empresas Medellinenses fortalecidas dentro de la estrategia clúster",
-                "imports": ["4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.1.Empresas pertenecientes a Clúster estratégicos" , "4.4.4.Empresas constituidas en Medellín" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.4.1.2.Inversiones y reinversiones en el Municipio de Medellín",
-                "imports": ["4.4.Monto de Inversión directa anunciada para el Municipio" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Ocupación Hotelera" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.4.Empresas constituidas en Medellín" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n" , "4.5.3.Derrama económica en realización de eventos captados con el apoyo de El Bureau"],
-                "size": "1.33333333333333"
-            },
-            {
-                "name": "4.4.1.3.Nuevas empresas firmantes del pacto por la innovación",
-                "imports": ["4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.4.1.4.Empresas intervenidas en buenas prácticas comerciales",
-                "imports": ["4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.1.Empresas pertenecientes a Clúster estratégicos" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.4.2.1.Personas formadas para el trabajo en actividades técnicas",
-                "imports": ["4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL"],
-                "size": "0.8"
-            },
-            {
-                "name": "4.4.2.2.Procesos de formación para el empleo y orientación vocacional juveniles",
-                "imports": ["4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín"],
-                "size": "0.933333333333333"
-            },
-            {
-                "name": "4.4.2.3.Jóvenes y adultos formados en competencias laborales",
-                "imports": ["4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "1.46666666666667"
-            },
-            {
-                "name": "4.4.2.4.Alianzas realizadas para la inserción laboral",
-                "imports": ["4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.4.Empresas constituidas en Medellín" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "1.33333333333333"
-            },
-            {
-                "name": "4.4.2.4.Alianzas realizadas para el apoyo a proyectos de investigación",
-                "imports": ["4.1.1.Investigaciones realizadas por maestros" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "4.4.2.5.Pruebas piloto realizadas sobre educación terciaria ",
-                "imports": ["4.2.2.Continuidad de los estudiantes a educación superior"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.4.3.1.Formulación el 100%  del Plan Local de Empleo",
-                "imports": ["4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.4.Empresas constituidas en Medellín" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "1.06666666666667"
-            },
-            {
-                "name": "4.4.3.1.Implementación del 50% del Plan Local de Empleo",
-                "imports": ["4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.4.Empresas constituidas en Medellín" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "1.46666666666667"
-            },
-            {
-                "name": "4.4.3.2.Mujeres intervenidas para fortalecer la autonomía económica",
-                "imports": ["4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "0.8"
-            },
-            {
-                "name": "4.4.3.3.Empresas nuevas registradas en el sistema de información del PIL ",
-                "imports": ["4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.4.Empresas constituidas en Medellín" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.4.4.1.Empresas Acompañadas en proceso de preincubación",
-                "imports": ["4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.1.Empresas pertenecientes a Clúster estratégicos" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.4.4.Empresas constituidas en Medellín" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "0.933333333333333"
-            },
-            {
-                "name": "4.4.4.1.Ideas de negocio o proyectos nuevos apoyados",
-                "imports": ["4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.4.1.Empresas pertenecientes a Clúster estratégicos" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.4.Empresas constituidas en Medellín" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "0.933333333333333"
-            },
-            {
-                "name": "4.4.4.1.Empresas acompañadas con presencia en  colombiamoda",
-                "imports": ["4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.4.4.1.Empresas con procesos de aceleración empresarial",
-                "imports": ["4.4.Empleos generados por CT+i" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.6.Empresas intervenidas que mejoran su posición competitiva" , "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación"],
-                "size": "1.33333333333333"
-            },
-            {
-                "name": "4.4.4.2.Créditos otorgados a Mipymes de la ciudad de Medellín",
-                "imports": ["4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "1.2"
-            },
-            {
-                "name": "4.4.4.3.Emprendimientos sociales, culturales, deportivos y artesanales apoyados",
-                "imports": ["4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.4.Empresas constituidas en Medellín" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "4.4.4.4.Metros cuadrados construidos en Distrito de la Innovación y Emprendimiento",
-                "imports": ["4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Monto de Inversión directa anunciada para el Municipio" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.1.Empresas pertenecientes a Clúster estratégicos" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.4.Empresas constituidas en Medellín" , "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación"],
-                "size": "2.13333333333333"
-            },
-            {
-                "name": "4.4.4.5.CEDEZOS fortalecidos con inversión financiera",
-                "imports": ["4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.4.Empresas constituidas en Medellín" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "4.4.5.1.Programa Agropecuario Municipal formulado",
-                "imports": ["4.4.5.Agroempresas creadas en los corregimientos de Medellín"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.4.5.2.Participantes de los mercados campesinos",
-                "imports": ["4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.5.Agroempresas creadas en los corregimientos de Medellín"],
-                "size": "0.4"
-            },
-            {
-                "name": "4.4.5.3.Redes de productores fortalecidas en comercialización de sus productos",
-                "imports": ["4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "4.4.6.1.Espacios públicos con acceso gratuito a internet",
-                "imports": ["4.3.Participación de los hogares en actividades cultura y otros" , "4.4.Empleos generados por CT+i" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos" , "4.3.3.Hogares que participan al menos en una actividad cultural al año" , "4.4.6.Nivel de penetración de internet fijo dedicado"],
-                "size": "1.2"
-            },
-            {
-                "name": "4.4.6.1.Diagnóstico y plan de acción para la digitalización de Medellín",
-                "imports": ["4.4.6.Nivel de penetración de internet fijo dedicado"],
-                "size": "0.133333333333333"
-            },
-            {
-                "name": "4.4.6.2.Pilotos de open data implementados en la ciudad",
-                "imports": ["4.4.Empleos generados por CT+i" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.1.1.Investigaciones realizadas por maestros" , "4.1.1.Estrategias Educativas diseñadas por maestros para implementar en el aula" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.6.Nivel de penetración de internet fijo dedicado" , "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación"],
-                "size": "1.46666666666667"
-            },
-            {
-                "name": "4.5.1.1.Proyectos de I+D cofinanciados",
-                "imports": ["4.4.Empleos generados por CT+i" , "4.4.Monto de Inversión directa anunciada para el Municipio" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Innovaciones generadas según el modelo de la OCDE" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.1.1.Investigaciones realizadas por maestros" , "4.1.1.Estrategias Educativas diseñadas por maestros para implementar en el aula" , "4.1.5.Instituciones que mejoran sus resultados en autoevaluación institucional" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.3.1.Beneficiarios de servicios y programas de las bibliotecas públicas" , "4.3.2.Beneficiarios de Red de Casas de Cultura y equipamientos culturales públicos" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.4.Empresas constituidas en Medellín" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Nivel de penetración de internet fijo dedicado" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva" , "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación"],
+                "name": "4.2.3.2.1.Estudiantes atendidos en programas de educación complementaria",
+                "imports": ["4.1.1.1.Tasa de deserción en el sector oficial" , "4.2.1.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.3.1.Índice Sintético de Calidad Educativa - Primaria" , "4.2.3.2.Índice Sintético de Calidad Educativa - Secundaria" , "4.2.3.3.Índice Sintético de Calidad Educativa - Media" , "4.2.3.4.Estudiantes de instituciones educativas oficiales que alcanzan B1 y B+ en Inglés en saber 11°" , "4.2.3.5.Estudiantes en niveles satisfactorio y avanzado en lenguaje de Saber 9°" , "4.2.3.6.Estudiantes en niveles satisfactorio y avanzado en matemáticas de Saber 5°"],
                 "size": "3.2"
             },
             {
-                "name": "4.5.1.2.Integración de la información de los diferentes aplicativos ",
-                "imports": ["4.5.Inversión en I+D como porcentaje del PIB" , "4.4.6.Nivel de penetración de internet fijo dedicado" , "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación"],
+                "name": "4.2.3.3.1.Estudiantes que reciben formación complementaria en lengua extranjera",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.2.1.3.Instituciones educativas oficiales en categorías A+, A y B en pruebas Saber 11" , "4.2.1.4.Instituciones educativas oficiales que mejoran categoría en pruebas saber 11" , "4.2.3.4.Estudiantes de instituciones educativas oficiales que alcanzan B1 y B+ en Inglés en saber 11°"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.2.3.3.2.Ciudadanos formados en lengua extranjera",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
                 "size": "0.4"
             },
             {
-                "name": "4.5.1.2.Dispositivos incrementados para la gestión, administración y control de la Movilidad",
-                "imports": ["4.5.Inversión en I+D como porcentaje del PIB" , "4.4.6.Nivel de penetración de internet fijo dedicado" , "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación"],
-                "size": "0.4"
-            },
-            {
-                "name": "4.5.1.3.Viviendas construidas ambientalmente sostenibles",
-                "imports": ["4.4.Empleos generados por CT+i" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.6.Nivel de penetración de internet fijo dedicado"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "4.5.1.4. Tecnología en salud implementada",
-                "imports": ["4.4.Empleos generados por CT+i" , "4.5.Ocupación Hotelera" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.6.Nivel de penetración de internet fijo dedicado" , "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n"],
-                "size": "1.46666666666667"
-            },
-            {
-                "name": "4.5.1.5.Proyectos desarrollados enfocados en la eficiencia energética",
-                "imports": ["4.4.Empleos generados por CT+i" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.2.2.Inserción laboral de jóvenes y adultos con educación superior" , "4.4.1.Empresas que mejoran sus capacidades competitivas con fortalecimiento empresarial" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva" , "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación"],
-                "size": "1.33333333333333"
-            },
-            {
-                "name": "4.5.1.6.Laboratorios de creación desarrollados",
-                "imports": ["4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Innovaciones generadas según el modelo de la OCDE" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.1.1.Investigaciones realizadas por maestros" , "4.1.1.Estrategias Educativas diseñadas por maestros para implementar en el aula" , "4.4.6.Nivel de penetración de internet fijo dedicado" , "4.4.6.Empresas intervenidas que mejoran su posición competitiva" , "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación"],
-                "size": "1.73333333333333"
-            },
-            {
-                "name": "4.5.1.6.Personas beneficiadas por laboratorios de creación",
-                "imports": ["4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.1.1.Investigaciones realizadas por maestros" , "4.4.6.Nivel de penetración de internet fijo dedicado" , "4.5.1.Productos y mejoras a procesos a partir de laboratorios de creación"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.5.2.1.Proyectos creados y fortalecidos",
-                "imports": ["4.5.Ocupación Hotelera" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.6.Nivel de penetración de internet fijo dedicado" , "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n" , "4.5.3.Eventos captados para la ciudad" , "4.5.3.Derrama económica en realización de eventos captados con el apoyo de El Bureau"],
-                "size": "1.2"
-            },
-            {
-                "name": "4.5.2.2.",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.5.2.3.",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.5.2.4.Personas vinculadas al sector ,capacitadas en temas afines al turismo",
-                "imports": ["4.5.Ocupación Hotelera" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.6.Nivel de penetración de internet fijo dedicado" , "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n" , "4.5.3.Eventos captados para la ciudad" , "4.5.3.Derrama económica en realización de eventos captados con el apoyo de El Bureau"],
-                "size": "1.2"
-            },
-            {
-                "name": "4.5.2.4.Empresas preparadas para la certificación de las NTS de sostenibilidad",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.5.3.1.Eventos nacionales e internacionales apoyados",
-                "imports": [],
-                "size": "0"
-            },
-            {
-                "name": "4.5.3.1.Personas participando en eventos nacionales e internacionales ",
-                "imports": ["4.5.Ocupación Hotelera" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.6.Nivel de penetración de internet fijo dedicado" , "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n" , "4.5.3.Eventos captados para la ciudad" , "4.5.3.Derrama económica en realización de eventos captados con el apoyo de El Bureau"],
-                "size": "1.2"
-            },
-            {
-                "name": "4.5.3.2.Participación en ferias y eventos atendidos por el Bureau",
-                "imports": ["4.5.Ocupación Hotelera" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.5.3.Eventos captados para la ciudad"],
-                "size": "0.533333333333333"
-            },
-            {
-                "name": "4.5.3.3.Grandes eventos  y ferias realizados en la ciudad de Medellin",
-                "imports": ["4.5.Ocupación Hotelera" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.4.6.Nivel de penetración de internet fijo dedicado" , "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n" , "4.5.3.Eventos captados para la ciudad" , "4.5.3.Alianzas de cooperación en las cuales Medellín comparta sus buenas prácticas" , "4.5.3.Eventos que adquieren la huella de carbono" , "4.5.3.Valoración económica de publicaciones generadas mediante freepress" , "4.5.3.Derrama económica en realización de eventos captados con el apoyo de El Bureau"],
-                "size": "1.33333333333333"
-            },
-            {
-                "name": "4.5.3.4.Buenas prácticas para los programas del Plan de Desarrollo",
-                "imports": ["4.4.Empleos generados por CT+i" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.5.3.Alianzas de cooperación en las cuales Medellín comparta sus buenas prácticas" , "4.5.3.Eventos que adquieren la huella de carbono" , "4.5.3.Valoración económica de publicaciones generadas mediante freepress"],
+                "name": "4.2.3.4.1.Instituciones oficiales en proceso de implementación del bachillerato internacional",
+                "imports": ["4.2.1.2.Instituciones educativas que mejoran en autoevaluación institucional" , "4.2.3.4.Estudiantes de instituciones educativas oficiales que alcanzan B1 y B+ en Inglés en saber 11°"],
                 "size": "0.8"
             },
             {
-                "name": "4.5.3.5.Eventos \"Por qué Medellín\" realizados",
-                "imports": ["4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Monto de Inversión directa anunciada para el Municipio" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Ocupación Hotelera" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Alianzas de cooperación gestionadas en función de las prioridades del PDM" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.4.1.Empresas pertenecientes a Clúster estratégicos" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.4.Empresas constituidas en Medellín" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Nivel de penetración de internet fijo dedicado" , "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n" , "4.5.3.Eventos captados para la ciudad"],
-                "size": "2.66666666666667"
+                "name": "4.2.4.1.1.Plantas físicas educativas construidas",
+                "imports": ["4.1.1.2.Tasa de cobertura neta total" , "4.1.1.4.Tasa de cobertura neta en media" , "4.2.4.1.Cupos generados por construcciones educativas nuevas"],
+                "size": "1.2"
             },
             {
-                "name": "4.5.3.6.Aportes de paisas residentes en el exterior para fortalecer desarrollo local",
-                "imports": ["4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional"],
-                "size": "0.266666666666667"
+                "name": "4.2.4.1.2.Ampliación y reposición de plantas físicas educativas realizadas",
+                "imports": ["4.1.1.2.Tasa de cobertura neta total" , "4.1.1.4.Tasa de cobertura neta en media" , "4.2.4.1.Cupos generados por construcciones educativas nuevas"],
+                "size": "1.2"
             },
             {
-                "name": "4.5.3.7.Proyectos impactados a partir de las alianzas de cooperación gestionadas",
-                "imports": ["4.4.Empleos generados a partir de inversión nacional y extranjera" , "4.4.Empleos generados por CT+i" , "4.4.Monto de Inversión directa anunciada para el Municipio" , "4.4.Empleos generados por asentamiento de compañías en el Distrito de Innovación" , "4.5.Ocupación Hotelera" , "4.5.Reconocimiento del destino a nivel nacional e internacional en América" , "4.5.Reconocimiento de Medellín como  destino a nivel nacional e internacional" , "4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.5.Compañías innovadoras desarrolladas por cada 1000 habitantes" , "4.5.Porcentaje de empresas innovando según la EDIT" , "4.5.Densidad de técnicos e investigadores trabajando en I+D" , "4.4.1.Empresas pertenecientes a Clúster estratégicos" , "4.4.1.Compañías asentadas en el Distrito de Innovación" , "4.4.2.Inserción laboral de jóvenes y adultos con cursos cortos " , "4.4.3.Personas vinculadas al mercado laboral a través del PIL" , "4.4.4.Empresas constituidas en Medellín" , "4.4.5.Agroempresas creadas en los corregimientos de Medellín" , "4.4.6.Nivel de penetración de internet fijo dedicado" , "4.5.2.Viajeros  nacionales e internacionales ingresando a la ciudad n"],
-                "size": "2.66666666666667"
+                "name": "4.2.4.1.3.jardines infantiles y centros infantiles construidos",
+                "imports": ["4.1.1.3.Tasa de cobertura del Programa Buen Comienzo"],
+                "size": "0.4"
             },
             {
-                "name": "4.5.4.1.Semilleros y grupos de investigación apoyados",
-                "imports": ["4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.1.1.Investigaciones realizadas por maestros" , "4.1.1.Estrategias Educativas diseñadas por maestros para implementar en el aula" , "4.4.6.Nivel de penetración de internet fijo dedicado"],
-                "size": "0.666666666666667"
+                "name": "4.2.4.1.4.Instituciones educativas oficiales que reciben dotación",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "4.5.4.2.Alianzas internacionales realizadas",
-                "imports": ["4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.1.1.Investigaciones realizadas por maestros" , "4.1.1.Estrategias Educativas diseñadas por maestros para implementar en el aula" , "4.4.6.Nivel de penetración de internet fijo dedicado"],
-                "size": "0.666666666666667"
+                "name": "4.2.4.2.1.Red de laboratorios de investigación científica conformada",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "4.5.4.3.Proyectos de investigación científica apoyados",
-                "imports": ["4.5.Inversión en Actividades en Ciencia, Tecnología e Innovación" , "4.5.Inversión en I+D como porcentaje del PIB" , "4.1.1.Investigaciones realizadas por maestros" , "4.1.1.Estrategias Educativas diseñadas por maestros para implementar en el aula" , "4.4.6.Nivel de penetración de internet fijo dedicado"],
-                "size": "0.666666666666667"
+                "name": "4.2.4.3.1.Plan de sostenibilidad implementado",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.2.4.3.2.Cupos ofertados en las ciudadelas",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.2.4.3.3.Ciudadelas construidas",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.3.1.1.1.Visitas registradas en las bibliotecas públicas",
+                "imports": ["4.3.1.1.Alianzas interinstitucionales realizadas para ampliar el impacto de la función pública en biblioteca" , "4.3.1.2.Población que participa en los programas de promoción de  Lectura, Escritura y Oralidad de Medellín" , "4.3.3.1.Hogares que participan al menos en una actividad cultural al año"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.3.1.1.2.Proyectos bibliotecarios, de cultura digital, de memoria y de fomento de lectura y escritura realizadas",
+                "imports": ["4.3.1.1.Alianzas interinstitucionales realizadas para ampliar el impacto de la función pública en biblioteca" , "4.3.1.2.Población que participa en los programas de promoción de  Lectura, Escritura y Oralidad de Medellín" , "4.3.3.1.Hogares que participan al menos en una actividad cultural al año" , "4.5.2.1.Viajeros internacionales ingresando a la ciudad" , "4.5.2.2.Ocupación Hotelera promedio anual"],
+                "size": "2"
+            },
+            {
+                "name": "4.3.1.1.3.Niñas(as) adolescentes y jóvenes que acceden a programas de promoción de lectoescritura en bibliotecas públicas",
+                "imports": ["4.3.1.1.Alianzas interinstitucionales realizadas para ampliar el impacto de la función pública en biblioteca" , "4.3.1.2.Población que participa en los programas de promoción de  Lectura, Escritura y Oralidad de Medellín"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.3.1.2.1.Eventos del Libro realizados",
+                "imports": ["4.3.3.1.Hogares que participan al menos en una actividad cultural al año" , "4.5.2.1.Viajeros internacionales ingresando a la ciudad" , "4.5.2.2.Ocupación Hotelera promedio anual" , "4.5.3.1.Eventos captados para la ciudad"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.3.1.2.2.Plan de Lectura, Escritura y Oralidad de Medellín 2016-2020, implementado",
+                "imports": ["4.3.1.2.Población que participa en los programas de promoción de  Lectura, Escritura y Oralidad de Medellín" , "4.5.3.1.Eventos captados para la ciudad"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.3.1.2.3.Fondo Editorial fortalecido",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.3.1.3.1.Fondos documentales del Municipio de Medellín preservados",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.3.1.4.1.Activaciones realizadas para la puesta en valor de los patrimonios y las memorias culturales",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.3.2.1.1.Procesos comunitarios apoyados en las casas de la cultura",
+                "imports": ["4.3.2.1.Procesos de desarrollo artístico y cultural concertados y ejecutados con la ciudadanía"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.3.2.1.2.Ciudadanos que participan de procesos formativos en las casas de la cultura",
+                "imports": ["4.3.2.1.Procesos de desarrollo artístico y cultural concertados y ejecutados con la ciudadanía"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.3.2.2.1.Cumplimiento obligaciones por la adquisición de predios",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.3.3.1.1.Ciudadanos beneficiados en las convocatorias de arte y cultura",
+                "imports": ["4.3.1.2.Población que participa en los programas de promoción de  Lectura, Escritura y Oralidad de Medellín" , "4.3.3.1.Hogares que participan al menos en una actividad cultural al año"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.3.3.2.1.Niñas, niños, adolescentes y jóvenes inscritos en programas de formación artística y cultural",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.3.3.2.Instituciones con proyectos de emprendimiento cultural realizados para su sostenibilidad"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.3.3.3.1.Ciudadanos asistentes a eventos culturales de ciudad",
+                "imports": ["4.3.3.2.Instituciones con proyectos de emprendimiento cultural realizados para su sostenibilidad" , "4.5.2.1.Viajeros internacionales ingresando a la ciudad" , "4.5.2.2.Ocupación Hotelera promedio anual" , "4.5.2.3.Reconocimiento de Medellín como destino nivel nacional e internacional en ranking ICCA mundial" , "4.5.3.1.Eventos captados para la ciudad"],
+                "size": "2"
+            },
+            {
+                "name": "4.3.3.3.2.Asistentes a eventos culturales en equipamientos públicos",
+                "imports": ["4.3.3.1.Hogares que participan al menos en una actividad cultural al año" , "4.5.2.1.Viajeros internacionales ingresando a la ciudad" , "4.5.2.2.Ocupación Hotelera promedio anual" , "4.5.2.3.Reconocimiento de Medellín como destino nivel nacional e internacional en ranking ICCA mundial" , "4.5.3.1.Eventos captados para la ciudad"],
+                "size": "2"
+            },
+            {
+                "name": "4.3.3.3.3.Asistentes con ingreso gratuito a museos, teatros, parques y eventos culturales especiales",
+                "imports": ["4.3.3.1.Hogares que participan al menos en una actividad cultural al año"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.3.3.4.1.Intercambios culturales de Medellín realizados con otras ciudades del mundo",
+                "imports": ["4.3.3.1.Hogares que participan al menos en una actividad cultural al año"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.3.3.5.1.Permisos ventanilla otorgados",
+                "imports": ["4.3.3.1.Hogares que participan al menos en una actividad cultural al año"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.3.3.5.2.Cinemateca municipal creada y en funcionamiento",
+                "imports": ["4.3.3.1.Hogares que participan al menos en una actividad cultural al año"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.1.1.1.Empresas intervenidas en estrategia clúster",
+                "imports": ["4.4.1.3.Empresas intervenidas bajo el enfoque de especialización inteligente, que mejoran su productividad" , "4.4.4.3.Empresas constituidas por cada 1000 habitantes" , "4.4.4.4.Empleos generados en la ciudad o en el distrito de innovación enfocadas a CT+i"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.4.1.1.2.Proyectos intercluster desarrollados",
+                "imports": ["4.4.1.3.Empresas intervenidas bajo el enfoque de especialización inteligente, que mejoran su productividad" , "4.4.4.3.Empresas constituidas por cada 1000 habitantes" , "4.4.4.4.Empleos generados en la ciudad o en el distrito de innovación enfocadas a CT+i"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.4.1.2.1.Inversiones y reinversiones nacional y extranjera realizadas para el desarrollo y competitividad",
+                "imports": ["4.4.1.1.Empleos generados a partir de inversión nacional y extranjera reportada" , "4.4.1.2.Monto de Inversión Nacional y Extranjera reportada para el desarrollo y competitividad" , "4.4.4.3.Empresas constituidas por cada 1000 habitantes" , "4.4.4.4.Empleos generados en la ciudad o en el distrito de innovación enfocadas a CT+i"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.4.1.3.1.Sistema de inteligencia de mercado implementado",
+                "imports": ["4.4.1.3.Empresas intervenidas bajo el enfoque de especialización inteligente, que mejoran su productividad" , "4.4.4.1.Emprendimientos acompañados en sus diferentes etapas (preincubación- incubación)" , "4.4.4.2.Empresas Intervenidas en sus diferentes etapas (preincubación- incubación-aceleración)" , "4.4.4.3.Empresas constituidas por cada 1000 habitantes" , "4.4.4.4.Empleos generados en la ciudad o en el distrito de innovación enfocadas a CT+i"],
+                "size": "2"
+            },
+            {
+                "name": "4.4.1.3.2.Proveedores desarrollados",
+                "imports": ["4.4.1.3.Empresas intervenidas bajo el enfoque de especialización inteligente, que mejoran su productividad" , "4.4.4.1.Emprendimientos acompañados en sus diferentes etapas (preincubación- incubación)" , "4.4.4.2.Empresas Intervenidas en sus diferentes etapas (preincubación- incubación-aceleración)" , "4.4.4.3.Empresas constituidas por cada 1000 habitantes" , "4.4.4.4.Empleos generados en la ciudad o en el distrito de innovación enfocadas a CT+i"],
+                "size": "2"
+            },
+            {
+                "name": "4.4.1.4.1.Empresas firmantes del pacto por la innovación",
+                "imports": ["4.4.1.3.Empresas intervenidas bajo el enfoque de especialización inteligente, que mejoran su productividad" , "4.4.4.4.Empleos generados en la ciudad o en el distrito de innovación enfocadas a CT+i"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.4.2.1.1.Procesos de articulación y formación para visibilizar los saberes juveniles",
+                "imports": ["4.4.2.2.Razón del desempleo juvenil"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.2.2.1.Jóvenes y adultos formados en competencias laborales para el trabajo",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.4.2.1.Inserción laboral de jóvenes y adultos, capacitados en competencias laborales" , "4.4.2.2.Razón del desempleo juvenil" , "4.4.3.1.Comunas y corregimientos con atención en las oficinas públicas de empleo" , "4.4.3.4.Jóvenes sin experiencia, que se vinculan al mercado laboral"],
+                "size": "2"
+            },
+            {
+                "name": "4.4.2.2.2.Jóvenes y adultos víctimas del conflicto armado formados en competencias laborales para el trabajo",
+                "imports": ["4.4.2.1.Inserción laboral de jóvenes y adultos, capacitados en competencias laborales" , "4.4.2.2.Razón del desempleo juvenil" , "4.4.3.1.Comunas y corregimientos con atención en las oficinas públicas de empleo"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.4.2.3.1.Alianzas estratégicas realizadas para fomentar la inserción formal laboral",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.4.1.1.Empleos generados a partir de inversión nacional y extranjera reportada" , "4.4.2.1.Inserción laboral de jóvenes y adultos, capacitados en competencias laborales" , "4.4.2.2.Razón del desempleo juvenil" , "4.4.3.1.Comunas y corregimientos con atención en las oficinas públicas de empleo" , "4.4.3.3.Población vulnerable que se vincula al mercado laboral" , "4.4.3.4.Jóvenes sin experiencia, que se vinculan al mercado laboral"],
+                "size": "2.8"
+            },
+            {
+                "name": "4.4.2.4.1.Colegios que incluyen actividades de emprendimiento en la jornada complementaria",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.1.1.1.Tasa de deserción en el sector oficial" , "4.1.1.2.Tasa de cobertura neta total" , "4.1.1.4.Tasa de cobertura neta en media" , "4.1.2.1.Continuidad de los estudiantes a educación superior" , "4.2.1.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.1.4.Instituciones educativas oficiales que mejoran categoría en pruebas saber 11" , "4.4.2.1.Inserción laboral de jóvenes y adultos, capacitados en competencias laborales" , "4.4.2.2.Razón del desempleo juvenil"],
+                "size": "3.6"
+            },
+            {
+                "name": "4.4.2.4.2.Estudiantes en grado 11 beneficiados en el programa STEM (Ciencia, tecnología, ingeniería y matemáticas)",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años" , "4.1.1.1.Tasa de deserción en el sector oficial" , "4.1.1.2.Tasa de cobertura neta total" , "4.1.1.4.Tasa de cobertura neta en media" , "4.1.2.1.Continuidad de los estudiantes a educación superior" , "4.2.1.1.Índice Multidimensional de Calidad Educativa de IE oficiales" , "4.2.1.4.Instituciones educativas oficiales que mejoran categoría en pruebas saber 11"],
+                "size": "2.8"
+            },
+            {
+                "name": "4.4.2.5.1.Estudiantes matriculados con apoyo de Sapiencia en programas tecnológicos con la posibilidad de profesionalización",
+                "imports": ["4.1.Años promedio de estudio de la población de 15 a 24 años"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.2.6.1.Alianzas realizadas para la inserción laboral",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.4.2.1.Inserción laboral de jóvenes y adultos, capacitados en competencias laborales" , "4.4.2.2.Razón del desempleo juvenil" , "4.4.3.1.Comunas y corregimientos con atención en las oficinas públicas de empleo" , "4.4.3.3.Población vulnerable que se vincula al mercado laboral" , "4.4.3.4.Jóvenes sin experiencia, que se vinculan al mercado laboral"],
+                "size": "2.4"
+            },
+            {
+                "name": "4.4.2.6.2.Alianzas realizadas para el apoyo a proyectos de investigación",
+                "imports": ["4.5.4.1.Publicaciones indexadas de grupos de investigación apoyados"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.3.1.1.Plan Local de Empleo implementado",
+                "imports": ["4.4.3.1.Comunas y corregimientos con atención en las oficinas públicas de empleo" , "4.4.3.2.Personas en situación de discapacidad que se vincula al mercado laboral" , "4.4.3.3.Población vulnerable que se vincula al mercado laboral" , "4.4.3.4.Jóvenes sin experiencia, que se vinculan al mercado laboral"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.4.3.2.1.Mujeres acompañadas y asesoradas para el fortalecimiento de su autonomía económica",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.4.3.1.Comunas y corregimientos con atención en las oficinas públicas de empleo" , "4.4.3.3.Población vulnerable que se vincula al mercado laboral"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.4.3.2.2.Madres comunitarias, hogares fami y sustitutas que reciben estímulo económico, acciones de formación y reconocimiento",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.3.3.1.Empresas nuevas registradas en el sistema de información de las oficinas publicas de empleo",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.4.4.1.1.Empresas apoyadas en procesos de incubación",
+                "imports": ["4.4.1.3.Empresas intervenidas bajo el enfoque de especialización inteligente, que mejoran su productividad" , "4.4.4.1.Emprendimientos acompañados en sus diferentes etapas (preincubación- incubación)" , "4.4.4.2.Empresas Intervenidas en sus diferentes etapas (preincubación- incubación-aceleración)" , "4.4.4.3.Empresas constituidas por cada 1000 habitantes"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.4.4.1.2.Nuevas ideas de negocio apoyadas",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.4.1.3.Empresas intervenidas bajo el enfoque de especialización inteligente, que mejoran su productividad" , "4.4.2.2.Razón del desempleo juvenil" , "4.4.4.1.Emprendimientos acompañados en sus diferentes etapas (preincubación- incubación)" , "4.4.4.2.Empresas Intervenidas en sus diferentes etapas (preincubación- incubación-aceleración)" , "4.4.4.3.Empresas constituidas por cada 1000 habitantes"],
+                "size": "2.4"
+            },
+            {
+                "name": "4.4.4.1.3.Empresas con procesos de aceleración empresarial implementadas",
+                "imports": ["4.4.1.3.Empresas intervenidas bajo el enfoque de especialización inteligente, que mejoran su productividad" , "4.4.4.1.Emprendimientos acompañados en sus diferentes etapas (preincubación- incubación)" , "4.4.4.2.Empresas Intervenidas en sus diferentes etapas (preincubación- incubación-aceleración)" , "4.4.4.3.Empresas constituidas por cada 1000 habitantes"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.4.4.2.1.Emprendedores y empresarios apoyados en los CEDEZO",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.4.2.2.Razón del desempleo juvenil" , "4.4.4.1.Emprendimientos acompañados en sus diferentes etapas (preincubación- incubación)" , "4.4.4.2.Empresas Intervenidas en sus diferentes etapas (preincubación- incubación-aceleración)" , "4.4.4.3.Empresas constituidas por cada 1000 habitantes"],
+                "size": "2"
+            },
+            {
+                "name": "4.4.4.2.2.Comunas y corregimientos con atención a emprendedores y a empresarios",
+                "imports": ["4.4.3.2.Personas en situación de discapacidad que se vincula al mercado laboral" , "4.4.3.3.Población vulnerable que se vincula al mercado laboral" , "4.4.3.4.Jóvenes sin experiencia, que se vinculan al mercado laboral" , "4.4.4.1.Emprendimientos acompañados en sus diferentes etapas (preincubación- incubación)" , "4.4.4.2.Empresas Intervenidas en sus diferentes etapas (preincubación- incubación-aceleración)"],
+                "size": "2"
+            },
+            {
+                "name": "4.4.4.3.1.Emprendimientos sociales, culturales, deportivos y artesanales apoyados",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.3.3.2.Instituciones con proyectos de emprendimiento cultural realizados para su sostenibilidad" , "4.4.4.1.Emprendimientos acompañados en sus diferentes etapas (preincubación- incubación)"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.4.4.4.1.Personas capacitadas en economía solidaria",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.4.4.5.1.Microcréditos otorgados para crear o fortalecer Microempresas",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.4.6.1.Capital inteligente per cápita",
+                "imports": ["4.2.2.1.Investigaciones realizadas por maestros"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.4.7.2.Usuarios beneficiarios de las redes de economía colaborativa",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.4.4.8.1.Empresas e instituciones instaladas en la ciudad o en el distrito de innovación enfocadas a CT+i",
+                "imports": ["4.2.Ingreso Per-Cápita de la Unidad de Gasto" , "4.4.1.1.Empleos generados a partir de inversión nacional y extranjera reportada" , "4.4.4.4.Empleos generados en la ciudad o en el distrito de innovación enfocadas a CT+i"],
+                "size": "1.2"
+            },
+            {
+                "name": "4.5.1.1.1.Proyectos apoyados por el Plan CT+i (Ciencia, Tecnología e Innovación)",
+                "imports": ["4.4.1.1.Empleos generados a partir de inversión nacional y extranjera reportada" , "4.4.4.4.Empleos generados en la ciudad o en el distrito de innovación enfocadas a CT+i"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.5.1.2.1.Sistema de información implementado",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.5.1.3.1.Tecnología en salud implementada en su primera fase",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.5.1.4.1.Laboratorios de creación desarrollados",
+                "imports": ["4.5.1.1.Productos y mejoras a procesos generados en actividades productivas a partir de los laboratorios de creación"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.5.2.1.1.Política pública de turismo implementada",
+                "imports": ["4.5.2.1.Viajeros internacionales ingresando a la ciudad" , "4.5.2.2.Ocupación Hotelera promedio anual" , "4.5.2.3.Reconocimiento de Medellín como destino nivel nacional e internacional en ranking ICCA mundial" , "4.5.3.1.Eventos captados para la ciudad"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.5.2.2.1.Empresas e instituciones turísticas fortalecidas",
+                "imports": ["4.5.2.1.Viajeros internacionales ingresando a la ciudad" , "4.5.2.2.Ocupación Hotelera promedio anual" , "4.5.2.3.Reconocimiento de Medellín como destino nivel nacional e internacional en ranking ICCA mundial" , "4.5.3.1.Eventos captados para la ciudad"],
+                "size": "1.6"
+            },
+            {
+                "name": "4.5.2.3.1.Visitantes atendidos que reciben información turística de la ciudad",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.5.2.4.1.Diseños urbanísticos desarrollados para la intervención el cerro Nutibara como atractivo turístico",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.5.2.5.1.Diseños urbanísticos desarrollados para la intervención el cerro El Volador a como atractivo turístico",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.5.3.1.1.Plan de mercadeo de ciudad formulado",
+                "imports": ["4.5.2.1.Viajeros internacionales ingresando a la ciudad"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.5.3.2.1.Participación en ferias y eventos, que generen visibilidad y/o reconocimiento para el destino",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.5.3.3.1.Ferias y eventos realizados de los cuales se generan negocios para la ciudad",
+                "imports": ["4.5.3.3.Valoración económica de las publicaciones generadas mediante la estrategia de freepress de Ciudad"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.5.3.4.1.Eventos "Por qué Medellín" realizados con aliados internacionales y empresarios estratégicos",
+                "imports": ["4.5.3.2.Monto de cooperación técnica y financiera nacional e internacional recibidas" , "4.5.3.3.Valoración económica de las publicaciones generadas mediante la estrategia de freepress de Ciudad"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.5.3.5.1.Proyectos impactados con cooperación técnica y/o financiera a partir de las alianzas de cooperación gestionadas",
+                "imports": ["4.4.1.2.Monto de Inversión Nacional y Extranjera reportada para el desarrollo y competitividad" , "4.5.3.2.Monto de cooperación técnica y financiera nacional e internacional recibidas"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.5.3.6.1.Buenas prácticas a nivel internacional gestionadas para implementar en programas de la Alcaldía de Medellín",
+                "imports": ["4.5.3.2.Monto de cooperación técnica y financiera nacional e internacional recibidas"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.5.3.6.2.Alianzas de cooperación sur sur (Oferta de Cooperación) en las cuales Medellín comparta sus buenas prácticas",
+                "imports": ["4.4.1.2.Monto de Inversión Nacional y Extranjera reportada para el desarrollo y competitividad" , "4.5.3.2.Monto de cooperación técnica y financiera nacional e internacional recibidas"],
+                "size": "0.8"
+            },
+            {
+                "name": "4.5.3.7.1.Personas participando de manera directa en eventos nacionales e internacionales apoyados por el Inder",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.5.3.7.2.Eventos nacionales e internacionales apoyados por el Inder",
+                "imports": ["4.5.3.1.Eventos captados para la ciudad"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.5.3.8.1.Aportes de paisas residentes en el exterior, que contribuyan al fortalecimiento de las apuestas de desarrollo local",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "4.5.4.1.1.Grupos y semilleros de investigación apoyados",
+                "imports": ["4.5.4.1.Publicaciones indexadas de grupos de investigación apoyados"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.5.4.2.1.Alianzas internacionales de apoyo a la educación superior realizadas",
+                "imports": ["4.5.4.1.Publicaciones indexadas de grupos de investigación apoyados"],
+                "size": "0.4"
+            },
+            {
+                "name": "4.5.4.3.1.Proyectos de investigación científica apoyados",
+                "imports": ["4.5.4.1.Publicaciones indexadas de grupos de investigación apoyados"],
+                "size": "0.4"
             }
         ]

@@ -1,497 +1,502 @@
 [
             {
-                "name": "3.Percepción de la calidad de vida como buena y muy buena",
+                "name": "3.1.1.1.Cobertura de afiliación al Sistema General de Seguridad Social en Salud SGSSS",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "3.Indice de Progeso Social",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena"],
-                "size": "0.222222222222222"
+                "name": "3.1.1.2.Años de vida potencialmente perdidos por mortalidad evitable",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.Años de vida potencialmente perdidos por mortalidad evitable",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social"],
-                "size": "0.444444444444444"
+                "name": "3.1.1.3.Oportunidad en el tiempo de la atención prehospitalaria en caso de urgencias, y en emergencias y desastres",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.Cobertura de afiliación al Sistema General de Seguridad Social en Salud SGSSS",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.7.Personas con discapacidad que mejoran sus competencias"],
-                "size": "0.888888888888889"
+                "name": "3.1.2.1.Coberturas de Vacunación en menores de 1 año (biológico trazador DPT)",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.Hogares Familia Medellín que superan pobreza extrema",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.Cobertura de afiliación al Sistema General de Seguridad Social en Salud SGSSS" , "3.2.6.Desnutrición aguda en menores de 5 años"],
-                "size": "1.11111111111111"
+                "name": "3.1.2.2.Tasa de mortalidad en niños menores de 5 años por enfermedad diarreica aguda EDA",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.Componente de vulnerabilidad del IMCV mejorado",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Hogares Familia Medellín que superan pobreza extrema"],
-                "size": "0.888888888888889"
+                "name": "3.1.2.3.Mortalidad infantil (menores de 1 año)",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.Índice de Desarrollo Juvenil",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado"],
-                "size": "0.888888888888889"
+                "name": "3.1.2.4.Mortalidad en menores de 5 años",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.1.Instituciones que han logrado nivel adecuado de PAMEC",
-                "imports": ["3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable"],
-                "size": "0.444444444444444"
+                "name": "3.1.2.5.Mortalidad por Cancer de Cuello Uterino",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.1.Oportunidad en tiempo de atención prehospitalaria en urgencias, emergencias y desastres",
-                "imports": ["3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable"],
-                "size": "0.444444444444444"
+                "name": "3.1.2.6.Mortalidad por suicidio",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.2.Mortalidad infantil (menores de 1 año)",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.6.Desnutrición aguda en menores de 5 años"],
-                "size": "1.11111111111111"
+                "name": "3.1.2.7.Mortalidad materna",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.2.Mortalidad en menores de 5 años",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado"],
-                "size": "0.888888888888889"
+                "name": "3.1.2.8.Mortalidad temprana por Diabetes Mellitus",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.2.Mortalidad por suicidio",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.Índice de Desarrollo Juvenil"],
-                "size": "1.11111111111111"
+                "name": "3.1.2.9.Proporción de Embarazos en adolescentes de 10-19 años",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.2.Proporción de Embarazos en niñas 15-19 años",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Hogares Familia Medellín que superan pobreza extrema" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.Índice de Desarrollo Juvenil" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años"],
-                "size": "1.77777777777778"
+                "name": "3.1.2.10.Mortalidad temprana causada por Hipertension arterial",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.2.Muertes tempranas por cáncer de mama",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable"],
-                "size": "0.666666666666667"
+                "name": "3.1.2.11.Edad de inicio del consumo de marihuana",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.2.Muertes tempranas por enfermedades hipertensivas",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable"],
-                "size": "0.666666666666667"
+                "name": "3.1.3.1.Instituciones y Organizaciones que implementan acciones de apropiacion social del conocimiento para el control social",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.2.Coberturas de Vacunación  en menores de 1 año (bilógico trazador DPT)",
-                "imports": ["3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.Índice de Desarrollo Juvenil" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años"],
-                "size": "1.33333333333333"
+                "name": "3.1.4.1.Exito terapéutico de pacientes con Tuberculosis TB",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "3.1.2.Mortalidad por VIH",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable"],
-                "size": "0.666666666666667"
+                "name": "3.1.4.2.Prevalencia de VIH",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.3.Instituciones que realizan acciones articuladas con la Secretaría de Salud",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.1.Instituciones que han logrado nivel adecuado de PAMEC" , "3.2.6.Desnutrición aguda en menores de 5 años" , "3.2.7.Personas con discapacidad que mejoran sus competencias"],
-                "size": "0.888888888888889"
+                "name": "3.1.4.3.Mortalidad por dengue",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.4.Exito terapéutico de pacientes con Tuberculosis",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado"],
-                "size": "0.888888888888889"
+                "name": "3.2.1.1.Niños, Niñas y Adolescentes que reducen sus condiciones de vulnerabilidad",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.4.Mortalidad por dengue",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable"],
-                "size": "0.666666666666667"
+                "name": "3.2.1.2.Tasa de fecundidad específica en niñas de 10 a 14 años",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.Cobertura de afiliación al Sistema General de Seguridad Social en Salud SGSSS" , "3.2.Hogares Familia Medellín que superan pobreza extrema" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.Índice de Desarrollo Juvenil" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años" , "3.1.2.Mortalidad por suicidio" , "3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.1.2.Coberturas de Vacunación  en menores de 1 año (bilógico trazador DPT)"],
-                "size": "2.66666666666667"
+                "name": "3.2.1.3.Tasa de fecundidad específica en adolescentes de 15 a 19 años",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.1.Plan docenal Medellín ciudad y ruralidad de niños(as) y adolesc",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.Cobertura de afiliación al Sistema General de Seguridad Social en Salud SGSSS" , "3.2.Hogares Familia Medellín que superan pobreza extrema" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.Índice de Desarrollo Juvenil" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años" , "3.1.2.Mortalidad por suicidio" , "3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.1.2.Coberturas de Vacunación  en menores de 1 año (bilógico trazador DPT)" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.6.Hogares con inseguridad alimentaria moderada y severa"],
-                "size": "3.11111111111111"
+                "name": "3.2.1.4.Niños(as) y Adolescentes en procesos de promoción y prevención que permanecen en ambientes protectores para la garantía de sus derechos",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.1.Mortalidad por desnutrición en menores de 5 años",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.6.Hogares con inseguridad alimentaria moderada y severa"],
-                "size": "1.55555555555556"
+                "name": "3.2.1.5.Tasa de trabajo infantil ",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.2.Personas mayores con restitución de derechos en redes de apoyo social",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Cobertura de afiliación al Sistema General de Seguridad Social en Salud SGSSS" , "3.2.Componente de vulnerabilidad del IMCV mejorado"],
-                "size": "0.888888888888889"
+                "name": "3.2.2.1.Personas Mayores de 50 años que favorecen su autonomía e independencia",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.2.Personas Mayores que favorecen su autonomía e independencia",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado"],
-                "size": "0.888888888888889"
+                "name": "3.2.3.1.Mujeres acompañadas por la Secretaria de las Mujeres, que acceden a derechos",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.2.Hogares Familia Medellín que superan pobreza extrema" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.1.2.Muertes tempranas por cáncer de mama"],
-                "size": "1.11111111111111"
+                "name": "3.2.4.1.Índice de Desarrollo Juvenil",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.4.Jóvenes que acceden a oportunidades",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.Cobertura de afiliación al Sistema General de Seguridad Social en Salud SGSSS" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.Índice de Desarrollo Juvenil" , "3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.2.6.Hogares con inseguridad alimentaria moderada y severa"],
-                "size": "1.77777777777778"
+                "name": "3.2.5.1.Personas que superan su situación de calle",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.5.Personas que superan su situación de calle en la ciudad de Medellín",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.1.4.Exito terapéutico de pacientes con Tuberculosis" , "3.2.2.Personas mayores con restitución de derechos en redes de apoyo social"],
-                "size": "1.33333333333333"
+                "name": "3.2.6.1.Desnutrición aguda en menores de 5 años",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.6.Hogares con inseguridad alimentaria moderada y severa",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.1.Mortalidad por desnutrición en menores de 5 años" , "3.2.2.Personas mayores con restitución de derechos en redes de apoyo social"],
-                "size": "1.55555555555556"
+                "name": "3.2.6.2.Desnutrición global en menores de 5 años",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.6.Desnutrición aguda en menores de 5 años",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.Índice de Desarrollo Juvenil" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.1.Mortalidad por desnutrición en menores de 5 años" , "3.2.4.Jóvenes que acceden a oportunidades"],
-                "size": "2.22222222222222"
+                "name": "3.2.6.3.Desnutrición crónica en menores de 5 años",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.7.Personas con discapacidad que mejoran sus competencias",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.Índice de Desarrollo Juvenil" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.2.Personas mayores con restitución de derechos en redes de apoyo social" , "3.2.2.Personas Mayores que favorecen su autonomía e independencia" , "3.2.4.Jóvenes que acceden a oportunidades"],
-                "size": "2"
+                "name": "3.2.6.4.Mortalidad por desnutrición en menores de 5 años",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.8.Personas que cambian sus estereotipos en pro de la Población Diversa Sexualmente",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.4.Jóvenes que acceden a oportunidades"],
-                "size": "1.11111111111111"
+                "name": "3.2.6.5.Hogares que se perciben con inseguriadad alimentaria",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.9.Transversalización e implementación del enfoque étnico en la Admon Mpal",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.Índice de Desarrollo Juvenil" , "3.1.3.Instituciones que realizan acciones articuladas con la Secretaría de Salud" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.2.Personas mayores con restitución de derechos en redes de apoyo social" , "3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.4.Jóvenes que acceden a oportunidades" , "3.2.6.Hogares con inseguridad alimentaria moderada y severa"],
-                "size": "2.22222222222222"
+                "name": "3.2.7.1.Personas con discapacidad y cuidadores que mejoran sus competencias, a través de procesos de habilitación y rehabilitación",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.10.Personas que mejoran sus relaciones con acompañamiento de Familia Medellín",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.Índice de Desarrollo Juvenil" , "3.1.2.Mortalidad por suicidio" , "3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.2.Personas mayores con restitución de derechos en redes de apoyo social" , "3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.4.Jóvenes que acceden a oportunidades" , "3.2.5.Personas que superan su situación de calle en la ciudad de Medellín" , "3.2.7.Personas con discapacidad que mejoran sus competencias"],
-                "size": "2.66666666666667"
+                "name": "3.2.8.1.Población LGTBI que se ha sentido discriminada por su identidad de género o su orientación sexual",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.10.Personas acompañadas que se reintegran a sus núcleos familiar ",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.Índice de Desarrollo Juvenil" , "3.1.2.Mortalidad por suicidio" , "3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.2.Personas mayores con restitución de derechos en redes de apoyo social" , "3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.4.Jóvenes que acceden a oportunidades" , "3.2.5.Personas que superan su situación de calle en la ciudad de Medellín" , "3.2.10.Personas que mejoran sus relaciones con acompañamiento de Familia Medellín"],
-                "size": "2.66666666666667"
+                "name": "3.2.8.2.Personas sensibilizadas en Diversidad sexual e identidades de género",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.1.2.Mortalidad materna evitable",
-                "imports": ["3.Percepción de la calidad de vida como buena y muy buena" , "3.Indice de Progeso Social" , "3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años" , "3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.1.Mortalidad por desnutrición en menores de 5 años" , "3.2.6.Hogares con inseguridad alimentaria moderada y severa" , "3.2.6.Desnutrición aguda en menores de 5 años"],
-                "size": "2.44444444444444"
+                "name": "3.2.9.1.Enfoque étnico (Afro e indigena) en los planes, programas y proyectos de la Administración Municipal realizado",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.1.1.Instituciones que se les realiza asistencia técnica para la salud",
-                "imports": ["3.1.1.Instituciones que han logrado nivel adecuado de PAMEC"],
-                "size": "0.222222222222222"
+                "name": "3.2.10.1.Personas que mejoran sus relaciones familiares por medio del acompañamiento de la estrategia Familia Medellín",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.1.2.Instituciones que recibieron fortalecimiento en la red",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.1.Instituciones que han logrado nivel adecuado de PAMEC" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años" , "3.1.2.Muertes tempranas por cáncer de mama" , "3.1.2.Muertes tempranas por enfermedades hipertensivas" , "3.1.2.Coberturas de Vacunación  en menores de 1 año (bilógico trazador DPT)" , "3.1.2.Mortalidad por VIH" , "3.1.4.Exito terapéutico de pacientes con Tuberculosis" , "3.1.1.2.Mortalidad materna evitable"],
-                "size": "2.22222222222222"
+                "name": "3.2.10.2.Hogares acompañados con la estrategia Familia Medellín que mejoran condiciones de vida desde la multidimensionalidad",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.1.3.Sistema atención de urgencias, emergencias y desastres operando",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.1.Oportunidad en tiempo de atención prehospitalaria en urgencias, emergencias y desastres"],
-                "size": "0.444444444444444"
+                "name": "3.2.10.3.Familias que mejoran su condición de vida a través de procesos de inclusión social",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.1.4.Cobertura de población pobre  afiliada al Régimen subsidiado",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.Cobertura de afiliación al Sistema General de Seguridad Social en Salud SGSSS" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años" , "3.1.2.Mortalidad por suicidio" , "3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.1.2.Muertes tempranas por cáncer de mama" , "3.1.2.Muertes tempranas por enfermedades hipertensivas" , "3.1.2.Coberturas de Vacunación  en menores de 1 año (bilógico trazador DPT)" , "3.1.2.Mortalidad por VIH" , "3.1.4.Exito terapéutico de pacientes con Tuberculosis" , "3.1.4.Mortalidad por dengue" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.1.Mortalidad por desnutrición en menores de 5 años" , "3.2.2.Personas mayores con restitución de derechos en redes de apoyo social" , "3.2.6.Desnutrición aguda en menores de 5 años" , "3.2.7.Personas con discapacidad que mejoran sus competencias" , "3.1.1.2.Mortalidad materna evitable"],
+                "name": "3.1.1.1.1.Instituciones prestadores de servicios de salud acompañadas con asistencia técnica en procesos de calidad",
+                "imports": ["3.1.Indice de Progeso Social"],
+                "size": "0.181818181818182"
+            },
+            {
+                "name": "3.1.1.1.2.Instituciones prestadores de servicios de salud que logran un nivel adecuado de la implementación del PAMEC",
+                "imports": ["3.1.1.2.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.3.1.Instituciones y Organizaciones que implementan acciones de apropiacion social del conocimiento para el control social"],
+                "size": "0.363636363636364"
+            },
+            {
+                "name": "3.1.1.2.1.Instituciones de la red pública fortalecidas",
+                "imports": ["3.1.1.2.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.1.3.Oportunidad en el tiempo de la atención prehospitalaria en caso de urgencias, y en emergencias y desastres" , "3.1.2.1.Coberturas de Vacunación en menores de 1 año (biológico trazador DPT)" , "3.1.2.2.Tasa de mortalidad en niños menores de 5 años por enfermedad diarreica aguda EDA" , "3.1.2.3.Mortalidad infantil (menores de 1 año)" , "3.1.2.4.Mortalidad en menores de 5 años" , "3.1.2.5.Mortalidad por Cancer de Cuello Uterino" , "3.1.2.6.Mortalidad por suicidio" , "3.1.2.7.Mortalidad materna" , "3.1.2.8.Mortalidad temprana por Diabetes Mellitus" , "3.1.2.9.Proporción de Embarazos en adolescentes de 10-19 años" , "3.1.2.10.Mortalidad temprana causada por Hipertension arterial" , "3.1.3.1.Instituciones y Organizaciones que implementan acciones de apropiacion social del conocimiento para el control social"],
+                "size": "2.36363636363636"
+            },
+            {
+                "name": "3.1.1.3.1.Sistema para la atención de Urgencias, emergencias y desastres operando las 24 horas de los 365 días del año",
+                "imports": ["3.1.Indice de Progeso Social" , "3.1.1.2.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.1.3.Oportunidad en el tiempo de la atención prehospitalaria en caso de urgencias, y en emergencias y desastres" , "3.1.2.1.Coberturas de Vacunación en menores de 1 año (biológico trazador DPT)" , "3.1.2.2.Tasa de mortalidad en niños menores de 5 años por enfermedad diarreica aguda EDA" , "3.1.2.3.Mortalidad infantil (menores de 1 año)" , "3.1.2.4.Mortalidad en menores de 5 años" , "3.1.2.5.Mortalidad por Cancer de Cuello Uterino" , "3.1.2.6.Mortalidad por suicidio" , "3.1.2.7.Mortalidad materna" , "3.1.2.8.Mortalidad temprana por Diabetes Mellitus" , "3.1.2.9.Proporción de Embarazos en adolescentes de 10-19 años" , "3.1.2.10.Mortalidad temprana causada por Hipertension arterial" , "3.1.4.1.Exito terapéutico de pacientes con Tuberculosis TB" , "3.1.4.3.Mortalidad por dengue" , "3.2.6.4.Mortalidad por desnutrición en menores de 5 años"],
+                "size": "2.90909090909091"
+            },
+            {
+                "name": "3.1.1.4.1.Deficit de cobertura del regimen subsidiado certificado por el Ministerio de Salud",
+                "imports": ["3.1.1.2.Años de vida potencialmente perdidos por mortalidad evitable"],
+                "size": "0.181818181818182"
+            },
+            {
+                "name": "3.1.1.5.1.Acceso a servicios de salud de primer nivel para la población pobre no asegurada PPNA garantizado",
+                "imports": ["3.1.Indice de Progeso Social" , "3.1.1.1.Cobertura de afiliación al Sistema General de Seguridad Social en Salud SGSSS"],
+                "size": "0.363636363636364"
+            },
+            {
+                "name": "3.1.2.1.1.Modelo integral de atención en salud MIAS implementado",
+                "imports": ["3.1.Indice de Progeso Social" , "3.1.1.2.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.2.1.Coberturas de Vacunación en menores de 1 año (biológico trazador DPT)" , "3.1.2.2.Tasa de mortalidad en niños menores de 5 años por enfermedad diarreica aguda EDA" , "3.1.2.3.Mortalidad infantil (menores de 1 año)" , "3.1.2.4.Mortalidad en menores de 5 años" , "3.1.2.5.Mortalidad por Cancer de Cuello Uterino" , "3.1.2.6.Mortalidad por suicidio" , "3.1.2.7.Mortalidad materna" , "3.1.2.8.Mortalidad temprana por Diabetes Mellitus" , "3.1.2.10.Mortalidad temprana causada por Hipertension arterial" , "3.1.4.1.Exito terapéutico de pacientes con Tuberculosis TB" , "3.1.4.3.Mortalidad por dengue" , "3.2.6.4.Mortalidad por desnutrición en menores de 5 años"],
+                "size": "2.54545454545455"
+            },
+            {
+                "name": "3.1.2.2.1.Servicios amigables implementados",
+                "imports": ["3.1.1.2.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.1.3.Oportunidad en el tiempo de la atención prehospitalaria en caso de urgencias, y en emergencias y desastres" , "3.1.2.1.Coberturas de Vacunación en menores de 1 año (biológico trazador DPT)" , "3.1.2.2.Tasa de mortalidad en niños menores de 5 años por enfermedad diarreica aguda EDA" , "3.1.2.3.Mortalidad infantil (menores de 1 año)" , "3.1.2.4.Mortalidad en menores de 5 años" , "3.1.2.5.Mortalidad por Cancer de Cuello Uterino" , "3.1.2.6.Mortalidad por suicidio" , "3.1.2.7.Mortalidad materna" , "3.1.2.8.Mortalidad temprana por Diabetes Mellitus" , "3.1.2.9.Proporción de Embarazos en adolescentes de 10-19 años" , "3.1.2.10.Mortalidad temprana causada por Hipertension arterial" , "3.1.4.1.Exito terapéutico de pacientes con Tuberculosis TB" , "3.1.4.2.Prevalencia de VIH" , "3.1.4.3.Mortalidad por dengue" , "3.2.1.2.Tasa de fecundidad específica en niñas de 10 a 14 años" , "3.2.1.3.Tasa de fecundidad específica en adolescentes de 15 a 19 años" , "3.2.6.4.Mortalidad por desnutrición en menores de 5 años"],
+                "size": "3.27272727272727"
+            },
+            {
+                "name": "3.1.2.3.1.Estrategia para la prevención del primer consumo implementada",
+                "imports": ["3.1.2.9.Proporción de Embarazos en adolescentes de 10-19 años" , "3.1.2.11.Edad de inicio del consumo de marihuana" , "3.2.1.2.Tasa de fecundidad específica en niñas de 10 a 14 años" , "3.2.1.3.Tasa de fecundidad específica en adolescentes de 15 a 19 años" , "3.2.4.1.Índice de Desarrollo Juvenil"],
+                "size": "0.909090909090909"
+            },
+            {
+                "name": "3.1.2.4.1.Ruta de atencion integral socio sanitarias para poblacion vulnerable implementada",
+                "imports": ["3.1.2.11.Edad de inicio del consumo de marihuana"],
+                "size": "0.181818181818182"
+            },
+            {
+                "name": "3.1.2.5.1.Entidades Administradoras de Planes de Beneficios (EAPB) y redes de atención integral de las Enfermedades Crónicas no Transmisibles con acompañamiento",
+                "imports": ["3.1.1.2.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.2.1.Coberturas de Vacunación en menores de 1 año (biológico trazador DPT)" , "3.1.2.2.Tasa de mortalidad en niños menores de 5 años por enfermedad diarreica aguda EDA" , "3.1.2.3.Mortalidad infantil (menores de 1 año)" , "3.1.2.6.Mortalidad por suicidio" , "3.1.2.7.Mortalidad materna" , "3.1.2.9.Proporción de Embarazos en adolescentes de 10-19 años" , "3.1.2.11.Edad de inicio del consumo de marihuana" , "3.1.4.1.Exito terapéutico de pacientes con Tuberculosis TB" , "3.1.4.2.Prevalencia de VIH" , "3.1.4.3.Mortalidad por dengue" , "3.2.1.1.Niños, Niñas y Adolescentes que reducen sus condiciones de vulnerabilidad" , "3.2.1.2.Tasa de fecundidad específica en niñas de 10 a 14 años" , "3.2.1.3.Tasa de fecundidad específica en adolescentes de 15 a 19 años" , "3.2.1.4.Niños(as) y Adolescentes en procesos de promoción y prevención que permanecen en ambientes protectores para la garantía de sus derechos" , "3.2.4.1.Índice de Desarrollo Juvenil" , "3.2.5.1.Personas que superan su situación de calle" , "3.2.6.1.Desnutrición aguda en menores de 5 años" , "3.2.6.2.Desnutrición global en menores de 5 años" , "3.2.6.3.Desnutrición crónica en menores de 5 años" , "3.2.6.4.Mortalidad por desnutrición en menores de 5 años" , "3.2.7.1.Personas con discapacidad y cuidadores que mejoran sus competencias, a través de procesos de habilitación y rehabilitación"],
                 "size": "4"
             },
             {
-                "name": "3.1.1.5.Garantía de acceso a servicios de salud para población pobre no asegurada",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.1.Instituciones que han logrado nivel adecuado de PAMEC" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años" , "3.1.2.Mortalidad por suicidio" , "3.1.2.Muertes tempranas por enfermedades hipertensivas" , "3.1.2.Coberturas de Vacunación  en menores de 1 año (bilógico trazador DPT)" , "3.1.4.Exito terapéutico de pacientes con Tuberculosis" , "3.1.4.Mortalidad por dengue" , "3.2.1.Mortalidad por desnutrición en menores de 5 años" , "3.1.1.2.Mortalidad materna evitable"],
-                "size": "2.44444444444444"
+                "name": "3.1.3.1.1.Comunas acompañadas en gestión territorial y participación social en salud",
+                "imports": ["3.1.1.2.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.2.5.Mortalidad por Cancer de Cuello Uterino" , "3.1.2.8.Mortalidad temprana por Diabetes Mellitus" , "3.1.2.10.Mortalidad temprana causada por Hipertension arterial"],
+                "size": "0.727272727272727"
             },
             {
-                "name": "3.1.2.1.Plan de Abordaje Integral para prevención del embarazo adolescente ",
-                "imports": ["3.2.Índice de Desarrollo Juvenil" , "3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.4.Jóvenes que acceden a oportunidades" , "3.1.1.2.Mortalidad materna evitable"],
-                "size": "1.33333333333333"
+                "name": "3.1.3.2.1.Instituciones que reportan al sistema de información para la vigilancia en salud",
+                "imports": ["3.1.Indice de Progeso Social" , "3.1.3.1.Instituciones y Organizaciones que implementan acciones de apropiacion social del conocimiento para el control social"],
+                "size": "0.363636363636364"
             },
             {
-                "name": "3.1.2.2.Plan de atención integral para el centro de atención de la mujer y la familia",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.1.2.Muertes tempranas por cáncer de mama" , "3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.7.Personas con discapacidad que mejoran sus competencias" , "3.1.1.2.Mortalidad materna evitable"],
-                "size": "1.33333333333333"
+                "name": "3.1.3.3.1.Instituciones que realizan acciones articuladas con la Secretaría de Salud",
+                "imports": ["3.1.4.1.Exito terapéutico de pacientes con Tuberculosis TB" , "3.1.4.2.Prevalencia de VIH" , "3.1.4.3.Mortalidad por dengue"],
+                "size": "0.545454545454545"
             },
             {
-                "name": "3.1.2.3.Plan de Abordaje Integral sociosanitario para poblaciones especiales ",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.2.Personas mayores con restitución de derechos en redes de apoyo social" , "3.2.5.Personas que superan su situación de calle en la ciudad de Medellín" , "3.2.7.Personas con discapacidad que mejoran sus competencias" , "3.2.8.Personas que cambian sus estereotipos en pro de la Población Diversa Sexualmente" , "3.2.9.Transversalización e implementación del enfoque étnico en la Admon Mpal" , "3.2.10.Personas acompañadas que se reintegran a sus núcleos familiar "],
-                "size": "2"
+                "name": "3.1.4.1.1.Vigilancia del acceso implementada",
+                "imports": ["3.1.3.1.Instituciones y Organizaciones que implementan acciones de apropiacion social del conocimiento para el control social"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.1.2.4.PAI para atención sociosanitaria en salud mental y adicciones ",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.Índice de Desarrollo Juvenil" , "3.1.2.Mortalidad por suicidio" , "3.1.3.Instituciones que realizan acciones articuladas con la Secretaría de Salud" , "3.1.4.Exito terapéutico de pacientes con Tuberculosis" , "3.2.4.Jóvenes que acceden a oportunidades" , "3.2.5.Personas que superan su situación de calle en la ciudad de Medellín" , "3.2.10.Personas acompañadas que se reintegran a sus núcleos familiar "],
-                "size": "2"
+                "name": "3.1.4.2.1.Intervenciones de vigilancia epidemiológica realizadas",
+                "imports": ["3.1.1.1.Cobertura de afiliación al Sistema General de Seguridad Social en Salud SGSSS" , "3.1.3.1.Instituciones y Organizaciones que implementan acciones de apropiacion social del conocimiento para el control social"],
+                "size": "0.363636363636364"
             },
             {
-                "name": "3.1.2.5.PAI de prevención de las enfermedades crónicas no transmisibles",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.1.Instituciones que han logrado nivel adecuado de PAMEC" , "3.1.2.Muertes tempranas por cáncer de mama" , "3.1.2.Muertes tempranas por enfermedades hipertensivas" , "3.1.2.Mortalidad por VIH"],
-                "size": "1.11111111111111"
+                "name": "3.1.4.3.1.Sistema de vigilancia en salud ambiental implementado",
+                "imports": ["3.1.2.2.Tasa de mortalidad en niños menores de 5 años por enfermedad diarreica aguda EDA" , "3.1.4.1.Exito terapéutico de pacientes con Tuberculosis TB" , "3.1.4.2.Prevalencia de VIH" , "3.1.4.3.Mortalidad por dengue"],
+                "size": "0.727272727272727"
             },
             {
-                "name": "3.1.3.1.Comunas con acompañamiento en gestión territorial y participación social en salud",
-                "imports": ["3.1.3.Instituciones que realizan acciones articuladas con la Secretaría de Salud"],
-                "size": "0.222222222222222"
+                "name": "3.2.1.1.1.Niños, niñas y adolescentes con derechos inobsevados, amenazados y/o vulnerados atendidos y acompañados",
+                "imports": ["3.1.3.1.Instituciones y Organizaciones que implementan acciones de apropiacion social del conocimiento para el control social" , "3.1.4.3.Mortalidad por dengue"],
+                "size": "0.363636363636364"
             },
             {
-                "name": "3.1.3.2.Instituciones que reportan al sistema de información para la vigilancia en salud",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.2.Mortalidad por VIH" , "3.1.4.Exito terapéutico de pacientes con Tuberculosis" , "3.1.4.Mortalidad por dengue"],
-                "size": "0.888888888888889"
+                "name": "3.2.1.2.1.Política Pública de infancia y adolescencia implementada y monitoreada",
+                "imports": ["3.1.Indice de Progeso Social" , "3.1.2.1.Coberturas de Vacunación en menores de 1 año (biológico trazador DPT)" , "3.1.2.2.Tasa de mortalidad en niños menores de 5 años por enfermedad diarreica aguda EDA" , "3.1.2.3.Mortalidad infantil (menores de 1 año)" , "3.1.2.4.Mortalidad en menores de 5 años" , "3.1.2.9.Proporción de Embarazos en adolescentes de 10-19 años" , "3.1.2.11.Edad de inicio del consumo de marihuana" , "3.2.1.2.Tasa de fecundidad específica en niñas de 10 a 14 años" , "3.2.1.3.Tasa de fecundidad específica en adolescentes de 15 a 19 años" , "3.2.1.4.Niños(as) y Adolescentes en procesos de promoción y prevención que permanecen en ambientes protectores para la garantía de sus derechos" , "3.2.1.5.Tasa de trabajo infantil " , "3.2.4.1.Índice de Desarrollo Juvenil" , "3.2.6.1.Desnutrición aguda en menores de 5 años" , "3.2.6.2.Desnutrición global en menores de 5 años" , "3.2.6.3.Desnutrición crónica en menores de 5 años" , "3.2.6.4.Mortalidad por desnutrición en menores de 5 años"],
+                "size": "2.90909090909091"
             },
             {
-                "name": "3.1.3.3.Implementación de las redes integradas de salud ",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.1.Oportunidad en tiempo de atención prehospitalaria en urgencias, emergencias y desastres" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años" , "3.1.2.Mortalidad por suicidio" , "3.1.3.Instituciones que realizan acciones articuladas con la Secretaría de Salud" , "3.1.1.2.Mortalidad materna evitable"],
-                "size": "1.55555555555556"
+                "name": "3.2.1.3.1.Estímulos otorgados a niños talentosos",
+                "imports": ["3.1.2.1.Coberturas de Vacunación en menores de 1 año (biológico trazador DPT)" , "3.1.2.2.Tasa de mortalidad en niños menores de 5 años por enfermedad diarreica aguda EDA" , "3.1.2.3.Mortalidad infantil (menores de 1 año)" , "3.1.2.4.Mortalidad en menores de 5 años" , "3.1.2.9.Proporción de Embarazos en adolescentes de 10-19 años" , "3.1.2.11.Edad de inicio del consumo de marihuana" , "3.2.1.2.Tasa de fecundidad específica en niñas de 10 a 14 años" , "3.2.1.3.Tasa de fecundidad específica en adolescentes de 15 a 19 años" , "3.2.1.4.Niños(as) y Adolescentes en procesos de promoción y prevención que permanecen en ambientes protectores para la garantía de sus derechos" , "3.2.1.5.Tasa de trabajo infantil " , "3.2.4.1.Índice de Desarrollo Juvenil" , "3.2.6.1.Desnutrición aguda en menores de 5 años" , "3.2.6.2.Desnutrición global en menores de 5 años" , "3.2.6.3.Desnutrición crónica en menores de 5 años" , "3.2.6.4.Mortalidad por desnutrición en menores de 5 años"],
+                "size": "2.72727272727273"
             },
             {
-                "name": "3.1.4.1.Implementación y evaluación de acciones en Vigilancia del Acceso ",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.Cobertura de afiliación al Sistema General de Seguridad Social en Salud SGSSS" , "3.1.1.Instituciones que han logrado nivel adecuado de PAMEC" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.3.Instituciones que realizan acciones articuladas con la Secretaría de Salud" , "3.1.4.Exito terapéutico de pacientes con Tuberculosis" , "3.1.1.2.Mortalidad materna evitable"],
-                "size": "1.55555555555556"
+                "name": "3.2.1.4.1.Puntos funcionando con actividades recreativas para la población de 6 a 12 años",
+                "imports": ["3.2.1.1.Niños, Niñas y Adolescentes que reducen sus condiciones de vulnerabilidad" , "3.2.1.4.Niños(as) y Adolescentes en procesos de promoción y prevención que permanecen en ambientes protectores para la garantía de sus derechos"],
+                "size": "0.363636363636364"
             },
             {
-                "name": "3.1.4.2.Intervenciones de vigilancia epidemiológica realizadas",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.2.Mortalidad por VIH" , "3.1.3.Instituciones que realizan acciones articuladas con la Secretaría de Salud" , "3.1.4.Exito terapéutico de pacientes con Tuberculosis" , "3.1.4.Mortalidad por dengue" , "3.1.1.2.Mortalidad materna evitable"],
-                "size": "1.33333333333333"
+                "name": "3.2.1.5.1.Población de primera infancia (0 a 5 años) participando en estrategias deportivas, recreativas y de actividad fisica",
+                "imports": ["3.1.2.9.Proporción de Embarazos en adolescentes de 10-19 años" , "3.1.2.11.Edad de inicio del consumo de marihuana" , "3.2.1.1.Niños, Niñas y Adolescentes que reducen sus condiciones de vulnerabilidad" , "3.2.1.2.Tasa de fecundidad específica en niñas de 10 a 14 años" , "3.2.1.3.Tasa de fecundidad específica en adolescentes de 15 a 19 años" , "3.2.1.4.Niños(as) y Adolescentes en procesos de promoción y prevención que permanecen en ambientes protectores para la garantía de sus derechos" , "3.2.1.5.Tasa de trabajo infantil " , "3.2.4.1.Índice de Desarrollo Juvenil"],
+                "size": "1.45454545454545"
             },
             {
-                "name": "3.1.4.3.Implementación del sistema de vigilancia en salud ambiental  ",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.1.3.Instituciones que realizan acciones articuladas con la Secretaría de Salud" , "3.1.4.Exito terapéutico de pacientes con Tuberculosis" , "3.1.4.Mortalidad por dengue"],
-                "size": "0.888888888888889"
+                "name": "3.2.1.6.1.Niños, niñas y adolescentes atendidos en procesos de promocion y prevención",
+                "imports": ["3.2.1.1.Niños, Niñas y Adolescentes que reducen sus condiciones de vulnerabilidad"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.1.1.Niños(as) y adolesc  atendidos con derechos inobservados, vulnerados y amenazados",
-                "imports": ["3.2.Índice de Desarrollo Juvenil" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años" , "3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.1.Plan docenal Medellín ciudad y ruralidad de niños(as) y adolesc" , "3.2.1.Mortalidad por desnutrición en menores de 5 años" , "3.2.4.Jóvenes que acceden a oportunidades" , "3.2.6.Desnutrición aguda en menores de 5 años"],
-                "size": "2"
+                "name": "3.2.2.1.1.Política Pública de Envejecimiento y Vejez implementada",
+                "imports": ["3.1.2.9.Proporción de Embarazos en adolescentes de 10-19 años" , "3.1.2.11.Edad de inicio del consumo de marihuana" , "3.2.1.1.Niños, Niñas y Adolescentes que reducen sus condiciones de vulnerabilidad" , "3.2.1.2.Tasa de fecundidad específica en niñas de 10 a 14 años" , "3.2.1.3.Tasa de fecundidad específica en adolescentes de 15 a 19 años" , "3.2.1.4.Niños(as) y Adolescentes en procesos de promoción y prevención que permanecen en ambientes protectores para la garantía de sus derechos" , "3.2.1.5.Tasa de trabajo infantil " , "3.2.4.1.Índice de Desarrollo Juvenil"],
+                "size": "1.45454545454545"
             },
             {
-                "name": "3.2.1.2.Eventos  de arte o cultura  para la niñez talentosa realizados",
-                "imports": ["3.2.Índice de Desarrollo Juvenil" , "3.2.1.Plan docenal Medellín ciudad y ruralidad de niños(as) y adolesc" , "3.2.4.Jóvenes que acceden a oportunidades"],
-                "size": "0.666666666666667"
+                "name": "3.2.2.2.1.Personas Mayores de 50 años que participan en las actividades que promueven el envejecimiento digno",
+                "imports": ["3.2.2.1.Personas Mayores de 50 años que favorecen su autonomía e independencia"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.1.2.Estímulos otorgados a niños talentosos",
-                "imports": ["3.2.Índice de Desarrollo Juvenil" , "3.2.1.Plan docenal Medellín ciudad y ruralidad de niños(as) y adolesc"],
-                "size": "0.444444444444444"
+                "name": "3.2.2.2.2.Personas mayores beneficiarias de servicios que favorecen la permanencia en el nucleo familiar y social",
+                "imports": ["3.2.2.1.Personas Mayores de 50 años que favorecen su autonomía e independencia" , "3.2.5.1.Personas que superan su situación de calle" , "3.2.6.5.Hogares que se perciben con inseguriadad alimentaria" , "3.2.10.2.Hogares acompañados con la estrategia Familia Medellín que mejoran condiciones de vida desde la multidimensionalidad"],
+                "size": "0.727272727272727"
             },
             {
-                "name": "3.2.1.3.Niños(as) y adolesc que ocupan su tiempo libre en actividades recreativas",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Índice de Desarrollo Juvenil" , "3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.1.2.Muertes tempranas por enfermedades hipertensivas" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.1.Plan docenal Medellín ciudad y ruralidad de niños(as) y adolesc" , "3.2.4.Jóvenes que acceden a oportunidades"],
-                "size": "1.55555555555556"
+                "name": "3.2.2.3.1.Centro vidas para personas mayores habilitados",
+                "imports": ["3.2.2.1.Personas Mayores de 50 años que favorecen su autonomía e independencia" , "3.2.5.1.Personas que superan su situación de calle" , "3.2.6.5.Hogares que se perciben con inseguriadad alimentaria" , "3.2.10.2.Hogares acompañados con la estrategia Familia Medellín que mejoran condiciones de vida desde la multidimensionalidad"],
+                "size": "0.727272727272727"
             },
             {
-                "name": "3.2.1.4.Escenarios de incidencia y seguimiento a la política pública logrados",
-                "imports": ["3.2.Índice de Desarrollo Juvenil" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.1.Plan docenal Medellín ciudad y ruralidad de niños(as) y adolesc" , "3.2.4.Jóvenes que acceden a oportunidades"],
-                "size": "0.888888888888889"
+                "name": "3.2.2.3.2.Personas mayores de 60 años en situación de vulnerabilidad social atendidos con modelos de atención diurna, nocturna y de larga estanci",
+                "imports": ["3.2.2.1.Personas Mayores de 50 años que favorecen su autonomía e independencia" , "3.2.5.1.Personas que superan su situación de calle" , "3.2.10.2.Hogares acompañados con la estrategia Familia Medellín que mejoran condiciones de vida desde la multidimensionalidad" , "3.2.10.3.Familias que mejoran su condición de vida a través de procesos de inclusión social"],
+                "size": "0.727272727272727"
             },
             {
-                "name": "3.2.1.5.Madres gestantes, niños(as) menores de 12 años que participan de actividades recreativas ",
-                "imports": ["3.2.1.Plan docenal Medellín ciudad y ruralidad de niños(as) y adolesc"],
-                "size": "0.222222222222222"
+                "name": "3.2.3.1.1.Personas formadas en la Escuela itinerante de gobierno y equidad para las mujeres",
+                "imports": ["3.2.2.1.Personas Mayores de 50 años que favorecen su autonomía e independencia" , "3.2.5.1.Personas que superan su situación de calle" , "3.2.10.2.Hogares acompañados con la estrategia Familia Medellín que mejoran condiciones de vida desde la multidimensionalidad" , "3.2.10.3.Familias que mejoran su condición de vida a través de procesos de inclusión social"],
+                "size": "0.727272727272727"
             },
             {
-                "name": "3.2.1.6.Niños(as) y adolesc atendidos en prevención de drogadicción, reclutamiento y delincuencia",
-                "imports": ["3.2.Índice de Desarrollo Juvenil" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.1.Plan docenal Medellín ciudad y ruralidad de niños(as) y adolesc" , "3.2.4.Jóvenes que acceden a oportunidades"],
-                "size": "0.888888888888889"
+                "name": "3.2.3.2.1.Centros de Equidad de Género creados, fortalecidos y trabajando en red",
+                "imports": ["3.2.3.1.Mujeres acompañadas por la Secretaria de las Mujeres, que acceden a derechos"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.2.1.Comités para seguimiento de Política Publica de Envejecimiento y Vejez",
-                "imports": ["3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.2.Personas mayores con restitución de derechos en redes de apoyo social" , "3.2.2.Personas Mayores que favorecen su autonomía e independencia"],
-                "size": "0.666666666666667"
+                "name": "3.2.3.3.1.Dependencias de la administración municipal capacitadas y fortalecidas para la incorporación del enfoque de genero",
+                "imports": ["3.2.3.1.Mujeres acompañadas por la Secretaria de las Mujeres, que acceden a derechos"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.2.2.Personas Mayores de 60 años que participan en actividades de envejecimiento digno",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.2.Personas Mayores que favorecen su autonomía e independencia"],
-                "size": "0.666666666666667"
+                "name": "3.2.3.3.2.Política Pública de las mujeres actualizada",
+                "imports": ["3.2.3.1.Mujeres acompañadas por la Secretaria de las Mujeres, que acceden a derechos"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.2.3.Personas mayores con atención integral en modelos institucionalizados",
-                "imports": ["3.1.Años de vida potencialmente perdidos por mortalidad evitable" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.2.Personas mayores con restitución de derechos en redes de apoyo social"],
-                "size": "0.666666666666667"
+                "name": "3.2.4.1.1.Aliados internos y externos capacitados para tranversalizar enfoque juventud",
+                "imports": ["3.2.3.1.Mujeres acompañadas por la Secretaria de las Mujeres, que acceden a derechos"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.3.1.Personas que participan en promoción de empoderamiento de mujeres",
-                "imports": ["3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.1.2.Muertes tempranas por cáncer de mama" , "3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres"],
-                "size": "0.888888888888889"
+                "name": "3.2.4.2.1.Orientaciones para acceso, oferta y oportunidades para jóvenes realizadas",
+                "imports": ["3.2.4.1.Índice de Desarrollo Juvenil"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.3.1.Organizaciones de mujeres rurales y urbanas  acompañadas para su fortalecimiento",
-                "imports": ["3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.4.Jóvenes que acceden a oportunidades"],
-                "size": "0.666666666666667"
+                "name": "3.2.4.2.2.Personas que acceden a oportunidades o servicios de ciudad a través de la estrategia Medellín Joven",
+                "imports": ["3.2.4.1.Índice de Desarrollo Juvenil"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.3.2.Centros de Equidad de Género creados y fortalecidos",
-                "imports": ["3.2.8.Personas que cambian sus estereotipos en pro de la Población Diversa Sexualmente"],
-                "size": "0.222222222222222"
+                "name": "3.2.4.2.3.Jóvenes multiplicadores que acceden a recorridos para apropiación de ciudad",
+                "imports": ["3.2.4.1.Índice de Desarrollo Juvenil"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.3.3.Política pública para mujeres actualizada",
-                "imports": ["3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres"],
-                "size": "0.222222222222222"
+                "name": "3.2.5.1.1.Política Pública implementada y monitoreada",
+                "imports": ["3.2.4.1.Índice de Desarrollo Juvenil"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.3.3.Dependencias de la admon sensibilizadas en incorporación del enfoque de genero ",
-                "imports": ["3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.4.Jóvenes que acceden a oportunidades"],
-                "size": "0.444444444444444"
+                "name": "3.2.5.2.1.Habitantes de y en calle beneficiados con atención básica",
+                "imports": ["3.2.5.1.Personas que superan su situación de calle"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.3.4.Mujeres que participan en estrategias de permanencia en el sistema educativo  ",
-                "imports": ["3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.4.Jóvenes que acceden a oportunidades"],
-                "size": "0.666666666666667"
+                "name": "3.2.5.2.2.Habitantes de calle con transtorno mental atendidos integralmente",
+                "imports": ["3.1.Indice de Progeso Social" , "3.1.4.1.Exito terapéutico de pacientes con Tuberculosis TB" , "3.2.5.1.Personas que superan su situación de calle"],
+                "size": "0.545454545454545"
             },
             {
-                "name": "3.2.3.4.Personas que participan en promoción de relaciones no sexistas en ámbito educativo",
-                "imports": ["3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.8.Personas que cambian sus estereotipos en pro de la Población Diversa Sexualmente"],
-                "size": "0.444444444444444"
+                "name": "3.2.5.3.1.Granjas comunitarias implementadas",
+                "imports": ["3.1.4.1.Exito terapéutico de pacientes con Tuberculosis TB" , "3.2.5.1.Personas que superan su situación de calle"],
+                "size": "0.363636363636364"
             },
             {
-                "name": "3.2.4.1.Acciones de transversalización y articulación realizadas para población joven ",
-                "imports": ["3.2.Índice de Desarrollo Juvenil" , "3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.4.Jóvenes que acceden a oportunidades"],
-                "size": "0.888888888888889"
+                "name": "3.2.5.4.1.Grupos funcionando con actividades deportivas, recreativas y de actividad fisica para la población en riesgo social",
+                "imports": ["3.2.5.1.Personas que superan su situación de calle"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.4.1.Aliados para tranversalizar enfoque juventud capacitados",
-                "imports": ["3.2.Índice de Desarrollo Juvenil" , "3.2.4.Jóvenes que acceden a oportunidades"],
-                "size": "0.444444444444444"
+                "name": "3.2.6.1.1.Politica Pública de Seguridad Alimentaria y nutricional monitoreada y evaluada",
+                "imports": ["3.2.5.1.Personas que superan su situación de calle"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.4.2.Orientaciones para acceso, oferta y oportunidades para jóvenes ",
-                "imports": ["3.2.Índice de Desarrollo Juvenil" , "3.1.2.Proporción de Embarazos en niñas 15-19 años" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.4.Jóvenes que acceden a oportunidades"],
-                "size": "0.888888888888889"
+                "name": "3.2.6.2.1.Personas atendidas en programas o proyectos de complementación o asistencia alimentaria",
+                "imports": ["3.2.1.4.Niños(as) y Adolescentes en procesos de promoción y prevención que permanecen en ambientes protectores para la garantía de sus derechos" , "3.2.6.1.Desnutrición aguda en menores de 5 años" , "3.2.6.2.Desnutrición global en menores de 5 años" , "3.2.6.3.Desnutrición crónica en menores de 5 años" , "3.2.6.4.Mortalidad por desnutrición en menores de 5 años" , "3.2.6.5.Hogares que se perciben con inseguriadad alimentaria" , "3.2.10.2.Hogares acompañados con la estrategia Familia Medellín que mejoran condiciones de vida desde la multidimensionalidad" , "3.2.10.3.Familias que mejoran su condición de vida a través de procesos de inclusión social"],
+                "size": "1.45454545454545"
             },
             {
-                "name": "3.2.4.2.Jóvenes y multiplicadores que acceden a rutas para apropiación de ciudad ",
-                "imports": ["3.2.Índice de Desarrollo Juvenil" , "3.2.4.Jóvenes que acceden a oportunidades"],
-                "size": "0.444444444444444"
+                "name": "3.2.6.2.2.Hogares víctimas del desplazamiento forzado que disponen de alimentos aptos para el consumo y acceden a una cantidad suficiente de los mismos",
+                "imports": ["3.1.Indice de Progeso Social" , "3.2.1.4.Niños(as) y Adolescentes en procesos de promoción y prevención que permanecen en ambientes protectores para la garantía de sus derechos" , "3.2.6.1.Desnutrición aguda en menores de 5 años" , "3.2.6.2.Desnutrición global en menores de 5 años" , "3.2.6.3.Desnutrición crónica en menores de 5 años" , "3.2.6.4.Mortalidad por desnutrición en menores de 5 años" , "3.2.6.5.Hogares que se perciben con inseguriadad alimentaria" , "3.2.10.2.Hogares acompañados con la estrategia Familia Medellín que mejoran condiciones de vida desde la multidimensionalidad" , "3.2.10.3.Familias que mejoran su condición de vida a través de procesos de inclusión social"],
+                "size": "1.63636363636364"
             },
             {
-                "name": "3.2.5.1.Plan Estratégico de la Política Pública para habitantes de calle",
-                "imports": ["3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.5.Personas que superan su situación de calle en la ciudad de Medellín" , "3.2.10.Personas acompañadas que se reintegran a sus núcleos familiar "],
-                "size": "0.666666666666667"
+                "name": "3.2.6.3.1.Personas capacitadas en temas de alimentación y nutrición",
+                "imports": ["3.1.Indice de Progeso Social" , "3.2.1.4.Niños(as) y Adolescentes en procesos de promoción y prevención que permanecen en ambientes protectores para la garantía de sus derechos" , "3.2.6.1.Desnutrición aguda en menores de 5 años" , "3.2.6.2.Desnutrición global en menores de 5 años" , "3.2.6.3.Desnutrición crónica en menores de 5 años" , "3.2.6.4.Mortalidad por desnutrición en menores de 5 años" , "3.2.6.5.Hogares que se perciben con inseguriadad alimentaria" , "3.2.10.2.Hogares acompañados con la estrategia Familia Medellín que mejoran condiciones de vida desde la multidimensionalidad" , "3.2.10.3.Familias que mejoran su condición de vida a través de procesos de inclusión social"],
+                "size": "1.63636363636364"
             },
             {
-                "name": "3.2.5.2.Habitantes de calle beneficados con atención básica ",
-                "imports": ["3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.1.4.Exito terapéutico de pacientes con Tuberculosis" , "3.2.5.Personas que superan su situación de calle en la ciudad de Medellín"],
-                "size": "0.666666666666667"
+                "name": "3.2.6.4.1.Huertas para el autoconsumo y/o comercialización establecidas",
+                "imports": ["3.2.1.4.Niños(as) y Adolescentes en procesos de promoción y prevención que permanecen en ambientes protectores para la garantía de sus derechos" , "3.2.6.1.Desnutrición aguda en menores de 5 años" , "3.2.6.2.Desnutrición global en menores de 5 años" , "3.2.6.3.Desnutrición crónica en menores de 5 años" , "3.2.6.4.Mortalidad por desnutrición en menores de 5 años" , "3.2.6.5.Hogares que se perciben con inseguriadad alimentaria" , "3.2.10.2.Hogares acompañados con la estrategia Familia Medellín que mejoran condiciones de vida desde la multidimensionalidad" , "3.2.10.3.Familias que mejoran su condición de vida a través de procesos de inclusión social"],
+                "size": "1.45454545454545"
             },
             {
-                "name": "3.2.5.2.Habitantes de calle con transtorno mental atendidos integralmente",
-                "imports": ["3.1.2.Mortalidad por suicidio" , "3.2.5.Personas que superan su situación de calle en la ciudad de Medellín"],
-                "size": "0.444444444444444"
+                "name": "3.2.6.4.2.Huertas para autoconsumo y/o comercialización gestionadas",
+                "imports": ["3.2.1.4.Niños(as) y Adolescentes en procesos de promoción y prevención que permanecen en ambientes protectores para la garantía de sus derechos" , "3.2.6.1.Desnutrición aguda en menores de 5 años" , "3.2.6.2.Desnutrición global en menores de 5 años" , "3.2.6.3.Desnutrición crónica en menores de 5 años" , "3.2.6.4.Mortalidad por desnutrición en menores de 5 años" , "3.2.6.5.Hogares que se perciben con inseguriadad alimentaria" , "3.2.10.2.Hogares acompañados con la estrategia Familia Medellín que mejoran condiciones de vida desde la multidimensionalidad" , "3.2.10.3.Familias que mejoran su condición de vida a través de procesos de inclusión social"],
+                "size": "1.45454545454545"
             },
             {
-                "name": "3.2.5.3.Puntos con actividades recreativas para la población en Riesgo social",
-                "imports": ["3.1.2.Mortalidad por suicidio" , "3.2.5.Personas que superan su situación de calle en la ciudad de Medellín"],
-                "size": "0.444444444444444"
+                "name": "3.2.7.1.1.Monitoreo de la política pública de discapacidad realizado",
+                "imports": ["3.2.1.4.Niños(as) y Adolescentes en procesos de promoción y prevención que permanecen en ambientes protectores para la garantía de sus derechos" , "3.2.6.1.Desnutrición aguda en menores de 5 años" , "3.2.6.2.Desnutrición global en menores de 5 años" , "3.2.6.3.Desnutrición crónica en menores de 5 años" , "3.2.6.4.Mortalidad por desnutrición en menores de 5 años" , "3.2.6.5.Hogares que se perciben con inseguriadad alimentaria" , "3.2.10.2.Hogares acompañados con la estrategia Familia Medellín que mejoran condiciones de vida desde la multidimensionalidad" , "3.2.10.3.Familias que mejoran su condición de vida a través de procesos de inclusión social"],
+                "size": "1.45454545454545"
             },
             {
-                "name": "3.2.5.4.Granjas comunitarias implementadas",
-                "imports": ["3.2.5.Personas que superan su situación de calle en la ciudad de Medellín" , "3.2.10.Personas acompañadas que se reintegran a sus núcleos familiar "],
-                "size": "0.444444444444444"
+                "name": "3.2.7.1.2.Actores que participan en espacios que contribuyen a la garantía de derechos en el marco de la Politica pública de Discapacidad",
+                "imports": ["3.2.7.1.Personas con discapacidad y cuidadores que mejoran sus competencias, a través de procesos de habilitación y rehabilitación"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.6.1.Huertas para el autoconsumo y/o comercialización establecidas",
-                "imports": ["3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años" , "3.2.1.Mortalidad por desnutrición en menores de 5 años" , "3.2.2.Personas Mayores que favorecen su autonomía e independencia" , "3.2.6.Hogares con inseguridad alimentaria moderada y severa" , "3.2.6.Desnutrición aguda en menores de 5 años"],
-                "size": "1.55555555555556"
+                "name": "3.2.7.2.1.Personas con discapacidad, familiares y cuidadores atendidos en procesos de habilitación, rehabilitación y equiparación de oportunidades",
+                "imports": ["3.2.7.1.Personas con discapacidad y cuidadores que mejoran sus competencias, a través de procesos de habilitación y rehabilitación" , "3.2.10.3.Familias que mejoran su condición de vida a través de procesos de inclusión social"],
+                "size": "0.363636363636364"
             },
             {
-                "name": "3.2.6.2.Personas participantes en  complementación o asistencia alimentaria",
-                "imports": ["3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años" , "3.2.1.Mortalidad por desnutrición en menores de 5 años" , "3.2.2.Personas Mayores que favorecen su autonomía e independencia" , "3.2.6.Hogares con inseguridad alimentaria moderada y severa" , "3.2.6.Desnutrición aguda en menores de 5 años"],
-                "size": "1.55555555555556"
+                "name": "3.2.7.3.1.Grupos funcionando con actividades deportivas, recreativas y de actividad fisica para la población en situacion de discapacidad",
+                "imports": ["3.1.Indice de Progeso Social" , "3.2.7.1.Personas con discapacidad y cuidadores que mejoran sus competencias, a través de procesos de habilitación y rehabilitación" , "3.2.10.3.Familias que mejoran su condición de vida a través de procesos de inclusión social"],
+                "size": "0.545454545454545"
             },
             {
-                "name": "3.2.6.3.Personas participantes en temas de alimentación y nutrición  ",
-                "imports": ["3.1.2.Mortalidad infantil (menores de 1 año)" , "3.1.2.Mortalidad en menores de 5 años" , "3.2.1.Mortalidad por desnutrición en menores de 5 años" , "3.2.6.Hogares con inseguridad alimentaria moderada y severa" , "3.2.6.Desnutrición aguda en menores de 5 años"],
-                "size": "1.11111111111111"
+                "name": "3.2.8.1.1.Personas LGBTI que reciben orientación juridica y psicosocial",
+                "imports": ["3.2.7.1.Personas con discapacidad y cuidadores que mejoran sus competencias, a través de procesos de habilitación y rehabilitación" , "3.2.10.3.Familias que mejoran su condición de vida a través de procesos de inclusión social"],
+                "size": "0.363636363636364"
             },
             {
-                "name": "3.2.6.4.Comités de Seguridad Alimentaria establecidos",
-                "imports": ["3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.1.Mortalidad por desnutrición en menores de 5 años" , "3.2.6.Hogares con inseguridad alimentaria moderada y severa" , "3.2.6.Desnutrición aguda en menores de 5 años"],
-                "size": "0.888888888888889"
+                "name": "3.2.8.2.1.Grupos y colectivos LGBTI fortalecidos para ejercicio de sus derechos",
+                "imports": ["3.2.8.1.Población LGTBI que se ha sentido discriminada por su identidad de género o su orientación sexual" , "3.2.8.2.Personas sensibilizadas en Diversidad sexual e identidades de género"],
+                "size": "0.363636363636364"
             },
             {
-                "name": "3.2.7.1.PcD atendidos en habilitación, rehabilitación y equiparación de oportunidades",
-                "imports": ["3.2.7.Personas con discapacidad que mejoran sus competencias"],
-                "size": "0.222222222222222"
+                "name": "3.2.8.2.2.Plan estratégico de la Política Pública implementado y monitoreado",
+                "imports": ["3.2.8.1.Población LGTBI que se ha sentido discriminada por su identidad de género o su orientación sexual" , "3.2.8.2.Personas sensibilizadas en Diversidad sexual e identidades de género"],
+                "size": "0.363636363636364"
             },
             {
-                "name": "3.2.7.2.Personas que participan en sensibilización de garantía de derechos de PcD",
-                "imports": ["3.2.7.Personas con discapacidad que mejoran sus competencias"],
-                "size": "0.222222222222222"
+                "name": "3.2.9.1.1.Estrategias de etnoeducación implementadas",
+                "imports": ["3.2.8.1.Población LGTBI que se ha sentido discriminada por su identidad de género o su orientación sexual" , "3.2.8.2.Personas sensibilizadas en Diversidad sexual e identidades de género"],
+                "size": "0.363636363636364"
             },
             {
-                "name": "3.2.7.3.Usuarios de Deporte sin Limite que participan en actividades deportivas ",
-                "imports": ["3.2.7.Personas con discapacidad que mejoran sus competencias"],
-                "size": "0.222222222222222"
+                "name": "3.2.9.2.1.Política Pública Afrodescendiente implementada",
+                "imports": ["3.2.9.1.Enfoque étnico (Afro e indigena) en los planes, programas y proyectos de la Administración Municipal realizado"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.7.3.Juegos Deportivos y Recreativos para personas con discapacidad realizados",
-                "imports": ["3.2.7.Personas con discapacidad que mejoran sus competencias"],
-                "size": "0.222222222222222"
+                "name": "3.2.9.3.1.Política Pública para población indígena formulada y reglamentada",
+                "imports": ["3.2.9.1.Enfoque étnico (Afro e indigena) en los planes, programas y proyectos de la Administración Municipal realizado"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.8.1.Personas LGBTI que reciben orientación  en inclusión laboral",
-                "imports": ["3.2.8.Personas que cambian sus estereotipos en pro de la Población Diversa Sexualmente"],
-                "size": "0.222222222222222"
+                "name": "3.2.10.1.1.Centros Integrales para la familia funcionando",
+                "imports": ["3.2.9.1.Enfoque étnico (Afro e indigena) en los planes, programas y proyectos de la Administración Municipal realizado"],
+                "size": "0.181818181818182"
             },
             {
-                "name": "3.2.8.1.Personas sensibilizadas en Diversidad sexual e identidades de género",
-                "imports": ["3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.8.Personas que cambian sus estereotipos en pro de la Población Diversa Sexualmente"],
-                "size": "0.444444444444444"
+                "name": "3.2.10.2.1.Hogares con acompañamiento familiar para la superación de la pobreza extrema desde la medición multidimensional",
+                "imports": ["3.2.2.1.Personas Mayores de 50 años que favorecen su autonomía e independencia" , "3.2.3.1.Mujeres acompañadas por la Secretaria de las Mujeres, que acceden a derechos" , "3.2.7.1.Personas con discapacidad y cuidadores que mejoran sus competencias, a través de procesos de habilitación y rehabilitación" , "3.2.8.1.Población LGTBI que se ha sentido discriminada por su identidad de género o su orientación sexual" , "3.2.8.2.Personas sensibilizadas en Diversidad sexual e identidades de género" , "3.2.10.1.Personas que mejoran sus relaciones familiares por medio del acompañamiento de la estrategia Familia Medellín" , "3.2.10.2.Hogares acompañados con la estrategia Familia Medellín que mejoran condiciones de vida desde la multidimensionalidad" , "3.2.10.3.Familias que mejoran su condición de vida a través de procesos de inclusión social"],
+                "size": "1.45454545454545"
             },
             {
-                "name": "3.2.8.2.Grupos y colectivos LGBTI fortalecidos para ejercicio de sus derechos ",
-                "imports": ["3.2.8.Personas que cambian sus estereotipos en pro de la Población Diversa Sexualmente"],
-                "size": "0.222222222222222"
+                "name": "3.2.10.3.1.Personas en situación de vulnerabilidad social acompañadas con la estrategia Volver a Casa",
+                "imports": ["3.1.Indice de Progeso Social" , "3.2.10.3.Familias que mejoran su condición de vida a través de procesos de inclusión social"],
+                "size": "0.363636363636364"
             },
             {
-                "name": "3.2.8.2.Instituciones educativas sensibilizadas en diversidad sexual e identidades de género ",
-                "imports": ["3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.8.Personas que cambian sus estereotipos en pro de la Población Diversa Sexualmente"],
-                "size": "0.444444444444444"
-            },
-            {
-                "name": "3.2.9.1.Centro de Integración Afro fortalecido",
-                "imports": ["3.2.9.Transversalización e implementación del enfoque étnico en la Admon Mpal"],
-                "size": "0.222222222222222"
-            },
-            {
-                "name": "3.2.9.2.Implementación de política pública Afrodescendiente y plan Etnodesarrollo",
-                "imports": ["3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.4.Jóvenes que acceden a oportunidades" , "3.2.9.Transversalización e implementación del enfoque étnico en la Admon Mpal"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "3.2.9.3.Formulación e implementación de  política pública para población indígena ",
-                "imports": ["3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.4.Jóvenes que acceden a oportunidades" , "3.2.9.Transversalización e implementación del enfoque étnico en la Admon Mpal"],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "3.2.10.1.Hogares en pobreza extrema acercados a Centro Integral para la Familia",
-                "imports": ["3.2.Hogares Familia Medellín que superan pobreza extrema" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.1.Mortalidad por desnutrición en menores de 5 años" , "3.2.2.Personas mayores con restitución de derechos en redes de apoyo social" , "3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.4.Jóvenes que acceden a oportunidades" , "3.2.6.Hogares con inseguridad alimentaria moderada y severa" , "3.2.6.Desnutrición aguda en menores de 5 años" , "3.2.10.Personas que mejoran sus relaciones con acompañamiento de Familia Medellín"],
-                "size": "2.22222222222222"
-            },
-            {
-                "name": "3.2.10.2.Hogares con acompañamiento para la superación de la pobreza extrema",
-                "imports": ["3.2.Hogares Familia Medellín que superan pobreza extrema" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.1.Mortalidad por desnutrición en menores de 5 años" , "3.2.2.Personas mayores con restitución de derechos en redes de apoyo social" , "3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.4.Jóvenes que acceden a oportunidades" , "3.2.6.Hogares con inseguridad alimentaria moderada y severa" , "3.2.6.Desnutrición aguda en menores de 5 años" , "3.2.10.Personas que mejoran sus relaciones con acompañamiento de Familia Medellín"],
-                "size": "2.22222222222222"
-            },
-            {
-                "name": "3.2.10.2.Centros integrales para la familia funcionando en comunas y corregimientos",
-                "imports": ["3.2.Hogares Familia Medellín que superan pobreza extrema"],
-                "size": "0.222222222222222"
-            },
-            {
-                "name": "3.2.10.2.Familias que mejoran su calidad de vida a través de procesos de inclusión social",
-                "imports": ["3.2.Hogares Familia Medellín que superan pobreza extrema" , "3.2.Componente de vulnerabilidad del IMCV mejorado" , "3.2.1.Niños(as) y Adolesc que reducen sus condiciones de vulnerabilidad" , "3.2.2.Personas mayores con restitución de derechos en redes de apoyo social" , "3.2.2.Personas Mayores que favorecen su autonomía e independencia" , "3.2.3.Mujeres empoderadas que acceden a derechos por el acompañamiento de la Sec de Mujeres" , "3.2.4.Jóvenes que acceden a oportunidades" , "3.2.7.Personas con discapacidad que mejoran sus competencias" , "3.2.10.Personas que mejoran sus relaciones con acompañamiento de Familia Medellín" , "3.2.10.Personas acompañadas que se reintegran a sus núcleos familiar "],
-                "size": "2.22222222222222"
-            },
-            {
-                "name": "3.2.10.3.Personas acompañadas para su reintegración familiar",
-                "imports": ["3.2.Hogares Familia Medellín que superan pobreza extrema" , "3.2.10.Personas que mejoran sus relaciones con acompañamiento de Familia Medellín" , "3.2.10.Personas acompañadas que se reintegran a sus núcleos familiar "],
-                "size": "0.666666666666667"
-            },
-            {
-                "name": "3.2.10.3.Seguimiento a personas reintegradas familiarmente",
-                "imports": ["3.2.10.Personas que mejoran sus relaciones con acompañamiento de Familia Medellín" , "3.2.10.Personas acompañadas que se reintegran a sus núcleos familiar "],
-                "size": "0.444444444444444"
+                "name": "0",
+                "imports": ["3.1.Indice de Progeso Social" , "3.2.3.1.Mujeres acompañadas por la Secretaria de las Mujeres, que acceden a derechos" , "3.2.5.1.Personas que superan su situación de calle"],
+                "size": "0.545454545454545"
             }
         ]

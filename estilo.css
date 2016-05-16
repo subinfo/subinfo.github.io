@@ -4,28 +4,28 @@ body {background: url(./images/fondo-01.png);}
   fill: #abb;
 }
 
-[id="2"]{
-  fill: #db31cb;
-}
-[id="3"]{
-  fill: #db31cb;
-}
 [id="4"]{
-  fill: orange;
+  fill: #db31cb;
 }
 [id="5"]{
-  fill: orange;
+  fill: #db31cb;
 }
 [id="6"]{
-  fill: blue;
+  fill: orange;
 }
 [id="7"]{
-  fill: blue;
+  fill: orange;
 }
 [id="8"]{
-  fill: black;
+  fill: blue;
 }
 [id="9"]{
+  fill: blue;
+}
+[id="10"]{
+  fill: black;
+}
+[id="11"]{
   fill: black;
 }
 .Aligner {

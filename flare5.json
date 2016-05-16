@@ -1,297 +1,342 @@
 [
             {
-                "name": "5.Emisiones contaminantes de CO2 dejadas de emitir al ambiente",
+                "name": "5.1.Distribución modal de desplazamientos por modo de transporte",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "5.Tiempo Promedio de Desplazamiento por modo",
-                "imports": ["5.Distribución modal"],
-                "size": "0.444444444444444"
-            },
-            {
-                "name": "5.Distribución modal",
-                "imports": ["5.Tiempo Promedio de Desplazamiento por modo"],
-                "size": "0.444444444444444"
-            },
-            {
-                "name": "5.1.Participación municipal en proyectos regionales",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad"],
-                "size": "0.444444444444444"
-            },
-            {
-                "name": "5.2.Medidas implementadas para el mejoramiento de la movilidad",
-                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.Distribución modal" , "5.3.Percepción positiva del cumplimiento de las normas de tránsito"],
-                "size": "1.33333333333333"
-            },
-            {
-                "name": "5.3.Tasa de mortalidad por cada 10000 vehículos registrado",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad"],
-                "size": "0.444444444444444"
-            },
-            {
-                "name": "5.3.Percepción positiva del cumplimiento de las normas de tránsito",
-                "imports": ["5.1.Participación municipal en proyectos regionales"],
-                "size": "0.444444444444444"
-            },
-            {
-                "name": "5.1.1.Proyectos regionales y metropolitanos gestionados por el municipio",
-                "imports": ["5.1.Participación municipal en proyectos regionales"],
-                "size": "0.444444444444444"
-            },
-            {
-                "name": "5.2.1.Proyectos de infraestrcutura realizados",
-                "imports": ["5.1.1.Proyectos regionales y metropolitanos gestionados por el municipio"],
-                "size": "0.444444444444444"
-            },
-            {
-                "name": "5.2.2.Percepción pavimentación y señalización de las vías",
+                "name": "5.1.1.1.Participación municipal en proyectos regionales",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles",
+                "name": "5.2.1.1.Integración multimodal del sistema de transporte público de la ciudad",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.2.2.1.Estado de la malla vial",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral",
-                "imports": ["5.Distribución modal"],
-                "size": "0.444444444444444"
+                "name": "5.2.3.1.Percepción positiva sobre el estado de andenes, separadores y calles",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "5.3.2.Mejoramiento movilidad para transporte público multimodal",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral"],
-                "size": "0.888888888888889"
+                "name": "5.2.4.1.Vías construidas para vos",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "size": "0.666666666666667"
             },
             {
-                "name": "5.3.2.Vehículos transporte público adapatados para personas con discapacidad",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal"],
+                "name": "5.3.1.1.Usuarios movilizados en transporte público",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.3.1.2.Nivel de percepción positiva de la cobertura del transporte público",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.3.2.2.Velocidad comercial del transporte público colectivo",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.3.4.1.Tasa de mortalidad por cada 10000 vehículos registrados",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "5.3.5.1.Emisiones de PM2,5 en el sistema Transporte Público de Medellín (TPM)",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "5.3.5.2.Emisiones de CO2 en el sistema Transporte Público de Medellin",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "5.3.5.3.Emisiones Evitadas de CO2 en sistemas eléctricos de transporte público masivo-pasajero",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "5.1.1.1.1.Recursos desembolsados para la ejecución de Autopistas de la Prosperidad",
+                "imports": ["5.1.1.1.Participación municipal en proyectos regionales"],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.1.1.1.2.Cumplimiento en recursos de cofinanciación",
+                "imports": ["5.1.1.1.Participación municipal en proyectos regionales"],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.1.1.1.3.Estudio realizado para estructurar el Sistema logístico de Carga",
+                "imports": ["5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo"],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.1.1.1.4.Estudios realizados de prefactibilidad y factibilidad del Sistema Férreo Multiproposito",
+                "imports": ["5.2.1.1.Integración multimodal del sistema de transporte público de la ciudad"],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.1.1.1.5.Gestión realizada para el traslado de la Terminal Sur a la Centralidad Sur",
+                "imports": ["5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo"],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.1.1.1.6.Estudios realizados de prefactibilidad y factibilidad para el Túnel de Oriente",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "5.2.1.1.1.Plan Integral de Movilidad Sostenible formulado",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.2.1.1.Integración multimodal del sistema de transporte público de la ciudad" , "5.2.4.1.Vías construidas para vos" , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo"],
+                "size": "3.33333333333333"
+            },
+            {
+                "name": "5.2.1.1.2.Plan integral de intervenciones sobre los corredores de transporte formulado",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo"],
                 "size": "1.33333333333333"
             },
             {
-                "name": "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada",
-                "imports": ["5.Distribución modal" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.2.Mejoramiento movilidad para transporte público multimodal"],
-                "size": "2.22222222222222"
+                "name": "5.2.1.1.3.Estudios realizados para el corredor de la avenida 34 para transporte masivo",
+                "imports": ["5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo"],
+                "size": "0.666666666666667"
             },
             {
-                "name": "5.3.3.Usuarios que utilizan el sistema encicla",
-                "imports": ["5.Distribución modal" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada"],
-                "size": "1.77777777777778"
+                "name": "5.2.1.1.4.Estudios realizados para la estación Entre orillas",
+                "imports": ["5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo"],
+                "size": "0.666666666666667"
             },
             {
-                "name": "5.1.1.1.Estudios pre y/o factibilidad Sistema Férreo Multiproposito",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.1.1.Proyectos regionales y metropolitanos gestionados por el municipio" , "5.2.1.Proyectos de infraestrcutura realizados"],
+                "name": "5.2.1.1.5.Estudios realizados para corredores de transporte masivo transverales al a Av El Poblado",
+                "imports": ["5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo"],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.2.1.1.6.Prueba piloto de carriles especiales para motos implementada",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.2.2.1.1.Sitios neurálgicos intervenidos para el mejoramiento de la red de movilidad",
+                "imports": ["5.3.2.2.Velocidad comercial del transporte público colectivo" , "5.3.4.1.Tasa de mortalidad por cada 10000 vehículos registrados" , "5.3.5.1.Emisiones de PM2,5 en el sistema Transporte Público de Medellín (TPM)" , "5.3.5.2.Emisiones de CO2 en el sistema Transporte Público de Medellin" , "5.3.5.3.Emisiones Evitadas de CO2 en sistemas eléctricos de transporte público masivo-pasajero"],
+                "size": "3.33333333333333"
+            },
+            {
+                "name": "5.2.2.1.2.Infraestructura peatonal mantenida",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.2.3.1.Percepción positiva sobre el estado de andenes, separadores y calles" , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados"],
+                "size": "2"
+            },
+            {
+                "name": "5.2.2.1.3.Infraestructura vial mantenidas",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.2.2.1.Estado de la malla vial" , "5.2.4.1.Vías construidas para vos"],
+                "size": "2"
+            },
+            {
+                "name": "5.2.2.1.4.Puentes intervenidos en la ciudad de Medellín",
+                "imports": ["5.2.2.1.Estado de la malla vial"],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.2.2.1.5.Autopista Regional Norte Margen Oriental construida",
+                "imports": ["5.2.2.1.Estado de la malla vial" , "5.2.4.1.Vías construidas para vos"],
                 "size": "1.33333333333333"
             },
             {
-                "name": "5.1.1.2.Recursos ejecución de Autopistas de la Prosperidad",
-                "imports": ["5.1.Participación municipal en proyectos regionales" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.1.1.Proyectos regionales y metropolitanos gestionados por el municipio" , "5.2.1.Proyectos de infraestrcutura realizados"],
-                "size": "1.77777777777778"
+                "name": "5.2.2.1.6.Puente de la Madre Laura y sus obras complementarias construidas",
+                "imports": ["5.2.4.1.Vías construidas para vos"],
+                "size": "0.666666666666667"
             },
             {
-                "name": "5.1.1.3.Estudio realizado para estructurar el Sistema logístico de Carga",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.1.1.Proyectos regionales y metropolitanos gestionados por el municipio" , "5.2.1.Proyectos de infraestrcutura realizados"],
+                "name": "5.2.2.1.7.Intercambios ejecutados en la Av 80 necesarios para la implementación del corredor de transporte masivo",
+                "imports": ["5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo"],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.2.2.1.8.Intercambio de la Avenida El Poblado con la Calle 4 Sur construido",
+                "imports": ["5.2.4.1.Vías construidas para vos"],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.2.2.1.9.Obras de Valorización del Poblado ejecutadas",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.2.4.1.Vías construidas para vos"],
                 "size": "1.33333333333333"
             },
             {
-                "name": "5.1.1.4.Estudios prefactibilidad para traslado de Terminal Sur ",
-                "imports": ["5.1.Participación municipal en proyectos regionales" , "5.1.1.Proyectos regionales y metropolitanos gestionados por el municipio" , "5.2.1.Proyectos de infraestrcutura realizados"],
-                "size": "0.444444444444444"
+                "name": "5.2.2.1.10.Gestión realizada para llevar a cabo conexión bajo el Aeropuerto Olaya Herrera",
+                "imports": ["5.2.4.1.Vías construidas para vos"],
+                "size": "0.666666666666667"
             },
             {
-                "name": "5.1.1.5.Porcentaje cumplido en los recursos de cofinanciación",
-                "imports": ["5.1.Participación municipal en proyectos regionales" , "5.1.1.Proyectos regionales y metropolitanos gestionados por el municipio" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.1.1.2.Recursos ejecución de Autopistas de la Prosperidad"],
-                "size": "0.888888888888889"
+                "name": "5.2.2.1.11.Vía de Altos del Rodeo ampliada",
+                "imports": ["5.2.4.1.Vías construidas para vos"],
+                "size": "0.666666666666667"
             },
             {
-                "name": "5.1.1.6.Estudios pre y/o factibilidad  para desarrollo de obras de movilidad",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.1.1.3.Estudio realizado para estructurar el Sistema logístico de Carga" , "5.1.1.4.Estudios prefactibilidad para traslado de Terminal Sur "],
+                "name": "5.2.2.1.12.Lateral Sur de la Quebrada Altavista construida",
+                "imports": ["5.2.4.1.Vías construidas para vos"],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.3.1.1.1.Acciones implementadas para mejoramiento de la prestación del servicio de Transporte Público Másivo",
+                "imports": ["5.2.1.1.Integración multimodal del sistema de transporte público de la ciudad" , "5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo"],
                 "size": "1.33333333333333"
             },
             {
-                "name": "5.1.1.7.Estudios pre y/o factibilidad Obras de Movilidad",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados"],
-                "size": "0.444444444444444"
+                "name": "5.3.1.1.2.Sistema de recaudo electrónico implementado en el transporte público colectivo",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.2.2.Velocidad comercial del transporte público colectivo"],
+                "size": "1.33333333333333"
             },
             {
-                "name": "5.2.1.1.Plan Integral de Movilidad Sostenible formulado",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.2.Vehículos transporte público adapatados para personas con discapacidad" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.3.3.Usuarios que utilizan el sistema encicla"],
-                "size": "1.77777777777778"
+                "name": "5.3.1.1.3.Lotes públicos (propiedad) aledaños al sistema Metro habilitados para el uso de estacionamiento",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "5.2.1.2.Plan integral de intervenciones sobre los corredores de transporte",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.1.1.4.Estudios prefactibilidad para traslado de Terminal Sur "],
-                "size": "1.77777777777778"
+                "name": "5.3.1.1.4.Modernización de flota",
+                "imports": ["5.3.5.1.Emisiones de PM2,5 en el sistema Transporte Público de Medellín (TPM)" , "5.3.5.2.Emisiones de CO2 en el sistema Transporte Público de Medellin" , "5.3.5.3.Emisiones Evitadas de CO2 en sistemas eléctricos de transporte público masivo-pasajero"],
+                "size": "2"
             },
             {
-                "name": "5.2.1.3.Proyectos de transporte masivo estructurados ",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.2.Vehículos transporte público adapatados para personas con discapacidad" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.3.3.Usuarios que utilizan el sistema encicla" , "5.1.1.1.Estudios pre y/o factibilidad Sistema Férreo Multiproposito"],
-                "size": "3.11111111111111"
-            },
-            {
-                "name": "5.2.1.6.Implementación de prueba piloto para de carriles solo motos ",
-                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.2.Percepción pavimentación y señalización de las vías"],
-                "size": "0.444444444444444"
-            },
-            {
-                "name": "5.2.1.7.Operativos realizados anualmente para el control de la movilidad",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.6.Implementación de prueba piloto para de carriles solo motos "],
-                "size": "0.444444444444444"
-            },
-            {
-                "name": "5.2.1.8.Señalización vial  mantenida en buen estado",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.2.Percepción pavimentación y señalización de las vías"],
-                "size": "0.444444444444444"
-            },
-            {
-                "name": "5.2.2.1.Infraestructura peatonal con mantenimiento",
-                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.Percepción pavimentación y señalización de las vías" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada"],
-                "size": "1.77777777777778"
-            },
-            {
-                "name": "5.2.2.1.Infraestructura vial (ciclorrutas y vías) mantenidas",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.Percepción pavimentación y señalización de las vías" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.3.3.Usuarios que utilizan el sistema encicla"],
+                "name": "5.3.1.1.5.Acciones implementadas para el mejoramiento del servicio de Transporte Público de Medellín",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.1.2.Nivel de percepción positiva de la cobertura del transporte público" , "5.3.2.2.Velocidad comercial del transporte público colectivo"],
                 "size": "2.66666666666667"
             },
             {
-                "name": "5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad",
-                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.3.3.Usuarios que utilizan el sistema encicla" , "5.2.1.3.Proyectos de transporte masivo estructurados "],
-                "size": "2.22222222222222"
+                "name": "5.3.1.1.6.Medios tecnológicos de gestión y control de flota implementados en el transporte público colectivo",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "size": "0.666666666666667"
             },
             {
-                "name": "5.2.2.3.Puentes intervenidos en la ciudad de Medellín",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados"],
-                "size": "0.444444444444444"
+                "name": "n5.3.1.1.7.Vehículos de transporte público adaptados para personas con condición de discapacidadn",
+                "imports": ["5.3.1.1.Usuarios movilizados en transporte público"],
+                "size": "0.666666666666667"
             },
             {
-                "name": "5.2.2.4.Autopista Regional Norte Margen Oriental  construida",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados"],
-                "size": "0.444444444444444"
+                "name": "5.3.1.1.8.Recursos aportados para garantizar la operación de Transporte sostenible",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "5.2.2.5.Puente de la Madre Laura y sus obras complementarias construidas",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad" , "5.2.2.3.Puentes intervenidos en la ciudad de Medellín"],
+                "name": "5.3.2.1.1.Primera fase del corredor de transporte de la 80 construido",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.2.4.1.Vías construidas para vos"],
                 "size": "1.33333333333333"
             },
             {
-                "name": "5.2.2.6.Intersecciones intervenidas en el corredor de la Quebrada La Iguaná",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.1.Infraestructura peatonal con mantenimiento" , "5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad" , "5.2.2.3.Puentes intervenidos en la ciudad de Medellín"],
-                "size": "1.77777777777778"
+                "name": "5.3.2.1.2.Tranvía Ayacucho y los dos metrocables construidos",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.1.2.Nivel de percepción positiva de la cobertura del transporte público"],
+                "size": "2"
             },
             {
-                "name": "5.2.2.7.Intercambios en la Av 80 para corredor de transporte masivo",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.2.1.3.Proyectos de transporte masivo estructurados " , "5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad"],
-                "size": "2.22222222222222"
+                "name": "5.3.2.1.3.Cable Picacho construido",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.1.2.Nivel de percepción positiva de la cobertura del transporte público"],
+                "size": "2"
             },
             {
-                "name": "5.2.2.8.Intercambio de la Avenida El Poblado con la Calle 4 Sur construido",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad"],
-                "size": "0.888888888888889"
+                "name": "5.3.2.1.4.Centros Logísticos de Transporte para la operación de Metroplús construidos",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "size": "0.666666666666667"
             },
             {
-                "name": "5.2.2.9.Obras de Valorización del Poblado ejecutadas",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.Percepción pavimentación y señalización de las vías" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad"],
-                "size": "1.77777777777778"
+                "name": "5.3.2.1.5.Diseños terminados y obras complementarias ejecutadas del corredor Avenida Oriental de Metroplús",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "5.2.2.10.Vía Altos del Rodeo ampliada",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.1.8.Señalización vial  mantenida en buen estado"],
-                "size": "0.888888888888889"
-            },
-            {
-                "name": "5.2.2.11.Mejoramiento infraestructura en movilidad  en los corregimientos",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.Percepción pavimentación y señalización de las vías" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.2.2.1.Infraestructura peatonal con mantenimiento"],
-                "size": "1.77777777777778"
-            },
-            {
-                "name": "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo ",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.2.Vehículos transporte público adapatados para personas con discapacidad" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.3.3.Usuarios que utilizan el sistema encicla" , "5.2.1.3.Proyectos de transporte masivo estructurados " , "5.2.2.7.Intercambios en la Av 80 para corredor de transporte masivo"],
-                "size": "3.55555555555556"
-            },
-            {
-                "name": "5.3.1.2.Recursos desembolsados para Metroplús cuencas 3 y 6",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.2.1.3.Proyectos de transporte masivo estructurados " , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo "],
+                "name": "5.3.2.1.6.Corredor del Sur de Metroplús en Medellín construido",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.2.4.1.Vías construidas para vos"],
                 "size": "1.33333333333333"
             },
             {
-                "name": "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.2.1.3.Proyectos de transporte masivo estructurados " , "5.2.2.7.Intercambios en la Av 80 para corredor de transporte masivo" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo "],
-                "size": "2.22222222222222"
+                "name": "5.3.2.1.7.Corredor Avenida Guayabal Construido en Fase I",
+                "imports": ["5.2.4.1.Vías construidas para vos"],
+                "size": "0.666666666666667"
             },
             {
-                "name": "5.3.1.4.Vehículos racionalizados por implementación de otros sistemas de transporte",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo "],
-                "size": "0.888888888888889"
+                "name": "5.3.2.1.8.Estudios realizados de prefactibilidad y factibilidad del Corredor de transporte de la Av El Poblado",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "5.3.1.5.Equipamentos para parqueo adyacente a sistemas de transporte público ",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo " , "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público"],
-                "size": "1.77777777777778"
+                "name": "5.3.3.1.1.Ciclorrutas construidas",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados" , "5.3.5.1.Emisiones de PM2,5 en el sistema Transporte Público de Medellín (TPM)" , "5.3.5.2.Emisiones de CO2 en el sistema Transporte Público de Medellin" , "5.3.5.3.Emisiones Evitadas de CO2 en sistemas eléctricos de transporte público masivo-pasajero"],
+                "size": "3.33333333333333"
             },
             {
-                "name": "5.3.1.6.Sistema de recaudo electrónico en el transporte público colectivo",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.2.Vehículos transporte público adapatados para personas con discapacidad"],
+                "name": "5.3.3.1.2.Ciclorrutas mantenidas",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados"],
                 "size": "1.33333333333333"
             },
             {
-                "name": "5.3.2.1.Primera fase del corredor de transporte de la 80  construido",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad" , "5.2.2.7.Intercambios en la Av 80 para corredor de transporte masivo" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo " , "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público"],
-                "size": "2.66666666666667"
+                "name": "5.3.3.1.3.Cicloparqueaderos instalados",
+                "imports": ["5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados"],
+                "size": "0.666666666666667"
             },
             {
-                "name": "5.3.2.2.Tranvía Ayacucho y los dos metrocables construidos",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo "],
-                "size": "2.22222222222222"
+                "name": "5.3.3.1.4.Ciclorrutas diseñadas",
+                "imports": ["5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados"],
+                "size": "0.666666666666667"
             },
             {
-                "name": "5.3.2.3.Centros Logísticos de Transporte para operación de Metroplús",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo "],
-                "size": "2.22222222222222"
-            },
-            {
-                "name": "5.3.2.4.Corredor Troncal Metroplús Av Oriental construida",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo " , "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público"],
-                "size": "3.11111111111111"
-            },
-            {
-                "name": "5.3.2.5.Cable Picacho y su complementario al cerro el Picacho construidos",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Intervenciones para mejoramiento de la movilidad no motorizada" , "5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo " , "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público"],
-                "size": "3.11111111111111"
-            },
-            {
-                "name": "5.3.2.6.Corredor Troncal Sur Medellín construido",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados"],
-                "size": "0.444444444444444"
-            },
-            {
-                "name": "5.3.2.7.Corredor Pretroncal Avenida Guayabal  Construido  n",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.1.Proyectos de infraestrcutura realizados"],
-                "size": "0.444444444444444"
-            },
-            {
-                "name": "5.3.3.1.Estaciones implemetadas en el sistema Encicla",
-                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Usuarios que utilizan el sistema encicla" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo " , "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público"],
-                "size": "2.66666666666667"
-            },
-            {
-                "name": "5.3.3.1.Bicicletas en funcionamiento dentro del sistema Encicla",
-                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Usuarios que utilizan el sistema encicla" , "5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo " , "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público"],
-                "size": "3.11111111111111"
-            },
-            {
-                "name": "5.3.3.2.Ciclorutas construidos",
-                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.2.Percepción pavimentación y señalización de las vías" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Usuarios que utilizan el sistema encicla" , "5.2.1.8.Señalización vial  mantenida en buen estado" , "5.2.2.2.Sitios neurálgicos intervenidos para mejoramiento de red de movilidad" , "5.3.1.1.Mejoramiento prestación servicio de Transporte Público Másivo " , "5.3.1.3.Mejoramiento de la prestación del servicio de Transporte Público"],
+                "name": "5.3.3.1.5.Modelo de promoción de la movilidad sostenible implementado",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados" , "5.3.5.1.Emisiones de PM2,5 en el sistema Transporte Público de Medellín (TPM)" , "5.3.5.2.Emisiones de CO2 en el sistema Transporte Público de Medellin" , "5.3.5.3.Emisiones Evitadas de CO2 en sistemas eléctricos de transporte público masivo-pasajero"],
                 "size": "4"
             },
             {
-                "name": "5.3.3.2.Cicloparqueaderos instalados en espacio público",
-                "imports": ["5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal"],
-                "size": "0.888888888888889"
+                "name": "5.3.3.1.6.Red caminera generada, mejorada y restituida",
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.2.3.1.Percepción positiva sobre el estado de andenes, separadores y calles" , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados"],
+                "size": "2"
             },
             {
-                "name": "5.3.3.3.Conectividad peatonal intervenida",
-                "imports": ["5.Tiempo Promedio de Desplazamiento por modo" , "5.2.Medidas implementadas para el mejoramiento de la movilidad" , "5.2.2.Percepción pavimentación y señalización de las vías" , "5.2.2.Percepción posisitiva sobre el estado de andenes, separadores y calles" , "5.3.1.Usuarios de transporte Público movilizados en un día típico laboral" , "5.3.2.Mejoramiento movilidad para transporte público multimodal" , "5.3.3.Usuarios que utilizan el sistema encicla" , "5.2.2.1.Infraestructura peatonal con mantenimiento"],
-                "size": "2.66666666666667"
+                "name": "5.3.4.1.1.Vías con señalización mantenida",
+                "imports": ["5.3.4.1.Tasa de mortalidad por cada 10000 vehículos registrados"],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.3.4.1.2.Cruces semaforizados mantenidos",
+                "imports": ["5.3.4.1.Tasa de mortalidad por cada 10000 vehículos registrados"],
+                "size": "0.666666666666667"
+            },
+            {
+                "name": "5.3.4.1.3.Operativos realizados anualmente para el control de la movilidad",
+                "imports": ["5.3.5.1.Emisiones de PM2,5 en el sistema Transporte Público de Medellín (TPM)" , "5.3.5.2.Emisiones de CO2 en el sistema Transporte Público de Medellin" , "5.3.5.3.Emisiones Evitadas de CO2 en sistemas eléctricos de transporte público masivo-pasajero"],
+                "size": "2"
+            },
+            {
+                "name": "5.3.5.1.1.Vehículos con tecnología limpia funcionando",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "5.3.5.1.2.Campañas informativas en movilidad sostenible realizadas",
+                "imports": ["5.3.1.1.Usuarios movilizados en transporte público" , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados"],
+                "size": "1.33333333333333"
+            },
+            {
+                "name": "5.3.5.1.3.Iniciativas ejecutadas para el impulso de la movilidad Eléctrica",
+                "imports": ["5.3.5.1.Emisiones de PM2,5 en el sistema Transporte Público de Medellín (TPM)" , "5.3.5.2.Emisiones de CO2 en el sistema Transporte Público de Medellin" , "5.3.5.3.Emisiones Evitadas de CO2 en sistemas eléctricos de transporte público masivo-pasajero"],
+                "size": "2"
+            },
+            {
+                "name": "5.3.5.1.4.Estudios de carga de enfermedad por contaminantes del aire realizados",
+                "imports": ["5.3.5.1.Emisiones de PM2,5 en el sistema Transporte Público de Medellín (TPM)" , "5.3.5.2.Emisiones de CO2 en el sistema Transporte Público de Medellin" , "5.3.5.3.Emisiones Evitadas de CO2 en sistemas eléctricos de transporte público masivo-pasajero"],
+                "size": "2"
             }
         ]

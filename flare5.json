@@ -11,7 +11,7 @@
             },
             {
                 "name": "5.2.1.1.Integración multimodal del sistema de transporte público de la ciudad",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte"],
                 "size": "0.666666666666667"
             },
             {
@@ -26,32 +26,32 @@
             },
             {
                 "name": "5.2.4.1.Vías construidas para vos",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte"],
                 "size": "0.666666666666667"
             },
             {
                 "name": "5.3.1.1.Usuarios movilizados en transporte público",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte"],
                 "size": "0.666666666666667"
             },
             {
                 "name": "5.3.1.2.Nivel de percepción positiva de la cobertura del transporte público",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte"],
                 "size": "0.666666666666667"
             },
             {
                 "name": "5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte"],
                 "size": "0.666666666666667"
             },
             {
                 "name": "5.3.2.2.Velocidad comercial del transporte público colectivo",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte"],
                 "size": "0.666666666666667"
             },
             {
                 "name": "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte"],
                 "size": "0.666666666666667"
             },
             {
@@ -106,12 +106,12 @@
             },
             {
                 "name": "5.2.1.1.1.Plan Integral de Movilidad Sostenible formulado",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.2.1.1.Integración multimodal del sistema de transporte público de la ciudad" , "5.2.4.1.Vías construidas para vos" , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.2.1.1.Integración multimodal del sistema de transporte público de la ciudad" , "5.2.4.1.Vías construidas para vos" , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo"],
                 "size": "3.33333333333333"
             },
             {
                 "name": "5.2.1.1.2.Plan integral de intervenciones sobre los corredores de transporte formulado",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.3.2.1.Corredores intervenidos para el sistema de transporte público masivo"],
                 "size": "1.33333333333333"
             },
             {
@@ -131,7 +131,7 @@
             },
             {
                 "name": "5.2.1.1.6.Prueba piloto de carriles especiales para motos implementada",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte"],
                 "size": "0.666666666666667"
             },
             {
@@ -141,12 +141,12 @@
             },
             {
                 "name": "5.2.2.1.2.Infraestructura peatonal mantenida",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.2.3.1.Percepción positiva sobre el estado de andenes, separadores y calles" , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.2.3.1.Percepción positiva sobre el estado de andenes, separadores y calles" , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados"],
                 "size": "2"
             },
             {
                 "name": "5.2.2.1.3.Infraestructura vial mantenidas",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.2.2.1.Estado de la malla vial" , "5.2.4.1.Vías construidas para vos"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.2.2.1.Estado de la malla vial" , "5.2.4.1.Vías construidas para vos"],
                 "size": "2"
             },
             {
@@ -176,7 +176,7 @@
             },
             {
                 "name": "5.2.2.1.9.Obras de Valorización del Poblado ejecutadas",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.2.4.1.Vías construidas para vos"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.2.4.1.Vías construidas para vos"],
                 "size": "1.33333333333333"
             },
             {
@@ -201,7 +201,7 @@
             },
             {
                 "name": "5.3.1.1.2.Sistema de recaudo electrónico implementado en el transporte público colectivo",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.2.2.Velocidad comercial del transporte público colectivo"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.3.2.2.Velocidad comercial del transporte público colectivo"],
                 "size": "1.33333333333333"
             },
             {
@@ -216,12 +216,12 @@
             },
             {
                 "name": "5.3.1.1.5.Acciones implementadas para el mejoramiento del servicio de Transporte Público de Medellín",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.1.2.Nivel de percepción positiva de la cobertura del transporte público" , "5.3.2.2.Velocidad comercial del transporte público colectivo"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.1.2.Nivel de percepción positiva de la cobertura del transporte público" , "5.3.2.2.Velocidad comercial del transporte público colectivo"],
                 "size": "2.66666666666667"
             },
             {
                 "name": "5.3.1.1.6.Medios tecnológicos de gestión y control de flota implementados en el transporte público colectivo",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte"],
                 "size": "0.666666666666667"
             },
             {
@@ -236,22 +236,22 @@
             },
             {
                 "name": "5.3.2.1.1.Primera fase del corredor de transporte de la 80 construido",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.2.4.1.Vías construidas para vos"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.2.4.1.Vías construidas para vos"],
                 "size": "1.33333333333333"
             },
             {
                 "name": "5.3.2.1.2.Tranvía Ayacucho y los dos metrocables construidos",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.1.2.Nivel de percepción positiva de la cobertura del transporte público"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.1.2.Nivel de percepción positiva de la cobertura del transporte público"],
                 "size": "2"
             },
             {
                 "name": "5.3.2.1.3.Cable Picacho construido",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.1.2.Nivel de percepción positiva de la cobertura del transporte público"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.1.2.Nivel de percepción positiva de la cobertura del transporte público"],
                 "size": "2"
             },
             {
                 "name": "5.3.2.1.4.Centros Logísticos de Transporte para la operación de Metroplús construidos",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte."],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte"],
                 "size": "0.666666666666667"
             },
             {
@@ -261,7 +261,7 @@
             },
             {
                 "name": "5.3.2.1.6.Corredor del Sur de Metroplús en Medellín construido",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.2.4.1.Vías construidas para vos"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.2.4.1.Vías construidas para vos"],
                 "size": "1.33333333333333"
             },
             {
@@ -276,12 +276,12 @@
             },
             {
                 "name": "5.3.3.1.1.Ciclorrutas construidas",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados" , "5.3.5.1.Emisiones de PM2,5 en el sistema Transporte Público de Medellín (TPM)" , "5.3.5.2.Emisiones de CO2 en el sistema Transporte Público de Medellin" , "5.3.5.3.Emisiones Evitadas de CO2 en sistemas eléctricos de transporte público masivo-pasajero"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados" , "5.3.5.1.Emisiones de PM2,5 en el sistema Transporte Público de Medellín (TPM)" , "5.3.5.2.Emisiones de CO2 en el sistema Transporte Público de Medellin" , "5.3.5.3.Emisiones Evitadas de CO2 en sistemas eléctricos de transporte público masivo-pasajero"],
                 "size": "3.33333333333333"
             },
             {
                 "name": "5.3.3.1.2.Ciclorrutas mantenidas",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados"],
                 "size": "1.33333333333333"
             },
             {
@@ -296,12 +296,12 @@
             },
             {
                 "name": "5.3.3.1.5.Modelo de promoción de la movilidad sostenible implementado",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados" , "5.3.5.1.Emisiones de PM2,5 en el sistema Transporte Público de Medellín (TPM)" , "5.3.5.2.Emisiones de CO2 en el sistema Transporte Público de Medellin" , "5.3.5.3.Emisiones Evitadas de CO2 en sistemas eléctricos de transporte público masivo-pasajero"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.3.1.1.Usuarios movilizados en transporte público" , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados" , "5.3.5.1.Emisiones de PM2,5 en el sistema Transporte Público de Medellín (TPM)" , "5.3.5.2.Emisiones de CO2 en el sistema Transporte Público de Medellin" , "5.3.5.3.Emisiones Evitadas de CO2 en sistemas eléctricos de transporte público masivo-pasajero"],
                 "size": "4"
             },
             {
                 "name": "5.3.3.1.6.Red caminera generada, mejorada y restituida",
-                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte." , "5.2.3.1.Percepción positiva sobre el estado de andenes, separadores y calles" , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados"],
+                "imports": ["5.1.Distribución modal de desplazamientos por modo de transporte" , "5.2.3.1.Percepción positiva sobre el estado de andenes, separadores y calles" , "5.3.3.1.Personas que se desplazan a su lugar de trabajo en modos de transporte no motorizados"],
                 "size": "2"
             },
             {

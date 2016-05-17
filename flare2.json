@@ -1,467 +1,437 @@
-[
+ [
             {
-                "name": "2.Nivel de percepción de seguridad",
+                "name": "2.1.Nivel de percepción de seguridad n",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "2.Nivel de victimización",
-                "imports": ["2.Nivel de percepción de seguridad"],
-                "size": "0.210526315789474"
+                "name": "2.2.Nivel de victimización",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "2.1.Tasa de homicidios",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización"],
-                "size": "0.421052631578947"
+                "name": "2.1.1.1.Tasa de homicidios",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización"],
+                "size": "0.5"
             },
             {
-                "name": "2.1.Tasa de hurto a personas",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios"],
-                "size": "0.631578947368421"
+                "name": "2.1.1.2.Tasa de hurto a personas",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización"],
+                "size": "0.5"
             },
             {
-                "name": "2.1.Vehículos hurtados",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Tasa de hurto a personas"],
-                "size": "0.842105263157895"
+                "name": "2.1.1.3.Tasa de Vehículos hurtados",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización"],
+                "size": "0.5"
             },
             {
-                "name": "2.1.Motocicletas hurtadas",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Tasa de hurto a personas"],
-                "size": "0.842105263157895"
+                "name": "2.1.1.4.Motocicletas hurtadas",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización"],
+                "size": "0.5"
             },
             {
-                "name": "2.1.Tasa de delitos sexuales",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización"],
-                "size": "0.421052631578947"
+                "name": "2.1.1.5.Hurto a entidades comerciales",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización"],
+                "size": "0.5"
             },
             {
-                "name": "2.1.Denuncias por Extorsión",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización"],
-                "size": "0.421052631578947"
+                "name": "2.1.1.6.Hurto a recidencias",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización"],
+                "size": "0.5"
             },
             {
-                "name": "2.1.Tasa de feminicidios",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios"],
-                "size": "0.631578947368421"
+                "name": "2.1.1.7.Nivel de victimización según extorsión",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización"],
+                "size": "0.5"
             },
             {
-                "name": "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Tasa de delitos sexuales" , "2.1.Tasa de feminicidios"],
-                "size": "1.05263157894737"
+                "name": "2.1.2.1.Infraestructura para la seguridad construidas",
+                "imports": ["2.1.Nivel de percepción de seguridad n"],
+                "size": "0.25"
             },
             {
-                "name": "2.2.Tasa de contravenciones de Policía",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Denuncias por Extorsión" , "2.1.Tasa de feminicidios" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar"],
-                "size": "1.26315789473684"
+                "name": "2.1.2.2.Dispositivos tecnológicos para la seguridad implementados",
+                "imports": ["2.1.Nivel de percepción de seguridad n"],
+                "size": "0.25"
             },
             {
-                "name": "2.2.Tasa de lesiones personales",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Tasa de delitos sexuales" , "2.1.Tasa de feminicidios" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía"],
-                "size": "1.47368421052632"
+                "name": "2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización"],
+                "size": "0.5"
             },
             {
-                "name": "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia ",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Tasa de feminicidios" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales"],
-                "size": "1.47368421052632"
+                "name": "2.1.4.1.Tasa de feminicidios",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización"],
+                "size": "0.5"
             },
             {
-                "name": "2.2.Porcentaje de hogares con problemas de entorno entre vecinos",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Tasa de feminicidios" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia "],
-                "size": "1.47368421052632"
+                "name": "2.1.4.2.Tasa de delitos sexuales",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización"],
+                "size": "0.5"
             },
             {
-                "name": "2.2.Porcentaje de hogares con problemas de riñas entre vecinos",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Tasa de feminicidios" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos"],
-                "size": "1.68421052631579"
+                "name": "2.2.1.1.Oportunidad en la atención en el servicio de Justicia formal y no formal Cercana al Ciudadano",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "2.3.Indice de condiciones para la reconciliacion nacional",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Tasa de hurto a personas" , "2.1.Vehículos hurtados" , "2.1.Motocicletas hurtadas" , "2.1.Tasa de delitos sexuales" , "2.1.Denuncias por Extorsión" , "2.1.Tasa de feminicidios" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos"],
-                "size": "3.15789473684211"
+                "name": "2.2.2.1.Conocimiento del Manual de Convivencia ciudadana en la ciudad de Medellín",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género "],
-                "size": "0.421052631578947"
+                "name": "2.2.2.2.Ocurrencia de riñas en la ciudad de Medellín",
+                "imports": ["2.1.Nivel de percepción de seguridad n"],
+                "size": "0.25"
             },
             {
-                "name": "2.1.2.Plan Maestro de Infraestructura para la seguridad y la convivencia",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia" , "2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género " , "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas"],
-                "size": "0.842105263157895"
+                "name": "2.2.3.1.Comerciantes informales beneficiados con las estrategias implementadas",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Denuncias por Extorsión" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas"],
-                "size": "1.68421052631579"
+                "name": "2.2.4.1.Adolescentes infractores intervenidos SRPA(Sistema de responsabilidad penal para adolescentes)",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género ",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de delitos sexuales" , "2.1.Tasa de feminicidios" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia "],
-                "size": "1.68421052631579"
+                "name": "2.2.4.2.Tasa personas víctimas de acoso sexual (art 210 cp)",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización"],
+                "size": "0.5"
             },
             {
-                "name": "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.1.Denuncias por Extorsión" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia"],
-                "size": "1.89473684210526"
+                "name": "2.2.4.3.Tasa de solicitud de medidas de protección por violencia intrafamiliar",
+                "imports": ["2.2.Nivel de victimización"],
+                "size": "0.25"
             },
             {
-                "name": "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Tasa de delitos sexuales" , "2.1.Tasa de feminicidios" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia" , "2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género "],
-                "size": "3.15789473684211"
+                "name": "2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "2.2.3.Cuadras intervenidas para la recuperación de espacio publico",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Tasa de hurto a personas" , "2.1.Vehículos hurtados" , "2.1.Motocicletas hurtadas" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales"],
-                "size": "1.68421052631579"
+                "name": "2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "2.2.4.Tasa de adolescentes infractores",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Tasa de hurto a personas" , "2.1.Vehículos hurtados" , "2.1.Motocicletas hurtadas" , "2.1.Tasa de delitos sexuales" , "2.1.Denuncias por Extorsión" , "2.1.Tasa de feminicidios" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos"],
-                "size": "3.15789473684211"
+                "name": "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Tasa de delitos sexuales" , "2.1.Tasa de feminicidios" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género " , "2.2.3.Cuadras intervenidas para la recuperación de espacio publico" , "2.2.4.Tasa de adolescentes infractores"],
-                "size": "3.15789473684211"
+                "name": "2.3.3.1.Percepción positiva del Museo Casa de la Memoria como facilitador de procesos de construcción de paz en el territorio",
+                "imports": [],
+                "size": "0"
             },
             {
-                "name": "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  ",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Tasa de hurto a personas" , "2.1.Vehículos hurtados" , "2.1.Motocicletas hurtadas" , "2.1.Tasa de delitos sexuales" , "2.1.Denuncias por Extorsión" , "2.1.Tasa de feminicidios" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género " , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva"],
+                "name": "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio",
+                "imports": [],
+                "size": "0"
+            },
+            {
+                "name": "2.3.5.1.Familias victimas del conflicto armado con derechos reestablecidos",
+                "imports": ["2.2.Nivel de victimización"],
+                "size": "0.25"
+            },
+            {
+                "name": "2.1.1.1.1.Modelo de seguimiento y evaluación de los escenarios de la Política pública de Seguridad y Convivencia de Medellín implementado",
+                "imports": ["2.1.1.1.Tasa de homicidios" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional"],
+                "size": "0.5"
+            },
+            {
+                "name": "2.1.1.2.1.Plan Integral de Seguridad y Convivencia (PISC) implementado",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización" , "2.1.1.1.Tasa de homicidios" , "2.1.1.2.Tasa de hurto a personas" , "2.1.1.3.Tasa de Vehículos hurtados" , "2.1.1.4.Motocicletas hurtadas" , "2.1.1.5.Hurto a entidades comerciales" , "2.1.1.6.Hurto a recidencias" , "2.1.1.7.Nivel de victimización según extorsión" , "2.1.4.1.Tasa de feminicidios" , "2.1.4.2.Tasa de delitos sexuales" , "2.2.2.2.Ocurrencia de riñas en la ciudad de Medellín" , "2.2.4.2.Tasa personas víctimas de acoso sexual (art 210 cp)" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional"],
+                "size": "3.5"
+            },
+            {
+                "name": "2.1.1.3.1.Investigaciones académicas sobre seguridad, convivencia y DDHH",
+                "imports": ["2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional"],
+                "size": "0.5"
+            },
+            {
+                "name": "2.1.1.4.1.Instrumentos de territorialización implementados",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.1.1.1.Tasa de homicidios" , "2.1.1.2.Tasa de hurto a personas" , "2.1.1.3.Tasa de Vehículos hurtados" , "2.1.1.4.Motocicletas hurtadas" , "2.1.1.5.Hurto a entidades comerciales" , "2.1.1.6.Hurto a recidencias" , "2.1.1.7.Nivel de victimización según extorsión" , "2.1.2.1.Infraestructura para la seguridad construidas" , "2.1.2.2.Dispositivos tecnológicos para la seguridad implementados" , "2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC" , "2.1.4.1.Tasa de feminicidios" , "2.1.4.2.Tasa de delitos sexuales" , "2.2.4.2.Tasa personas víctimas de acoso sexual (art 210 cp)" , "2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional"],
                 "size": "4"
             },
             {
-                "name": "2.3.3.Percepción positiva del Museo Casa de la memoria para construcción de paz",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional"],
-                "size": "0.210526315789474"
+                "name": "2.1.1.5.1.Consejos Metropolitanos de Seguridad realizados",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.1.1.1.Tasa de homicidios" , "2.1.1.2.Tasa de hurto a personas" , "2.1.1.3.Tasa de Vehículos hurtados" , "2.1.1.4.Motocicletas hurtadas" , "2.1.1.5.Hurto a entidades comerciales" , "2.1.1.6.Hurto a recidencias" , "2.1.1.7.Nivel de victimización según extorsión" , "2.1.2.1.Infraestructura para la seguridad construidas" , "2.1.2.2.Dispositivos tecnológicos para la seguridad implementados" , "2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC" , "2.1.4.1.Tasa de feminicidios" , "2.1.4.2.Tasa de delitos sexuales" , "2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional"],
+                "size": "3.75"
             },
             {
-                "name": "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos ",
-                "imports": ["2.Nivel de percepción de seguridad" , "2.Nivel de victimización" , "2.1.Tasa de homicidios" , "2.1.Tasa de hurto a personas" , "2.1.Vehículos hurtados" , "2.1.Motocicletas hurtadas" , "2.1.Tasa de delitos sexuales" , "2.1.Denuncias por Extorsión" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia" , "2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género " , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  "],
-                "size": "4"
+                "name": "2.1.2.1.1.Plan Maestro de Infraestructura para la seguridad y la convivencia implementado",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.1.2.1.Infraestructura para la seguridad construidas" , "2.1.2.2.Dispositivos tecnológicos para la seguridad implementados"],
+                "size": "0.75"
             },
             {
-                "name": "2.1.1.1.Seguimiento y evaluación Política pública de Seguridad y Convivencia",
-                "imports": ["2.1.Tasa de homicidios" , "2.1.Tasa de hurto a personas" , "2.1.Vehículos hurtados" , "2.1.Motocicletas hurtadas" , "2.1.Tasa de delitos sexuales" , "2.1.Denuncias por Extorsión" , "2.1.Tasa de feminicidios" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia"],
-                "size": "3.15789473684211"
+                "name": "2.1.2.1.2.Plan Maestro de TIC para la seguridad y la convivencia formulado e implementado",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.1.2.1.Infraestructura para la seguridad construidas" , "2.1.2.2.Dispositivos tecnológicos para la seguridad implementados"],
+                "size": "0.75"
             },
             {
-                "name": "2.1.1.2.Plan integral de seguridad y convivencia formulado e implementado",
-                "imports": ["2.1.Tasa de homicidios" , "2.1.Tasa de hurto a personas" , "2.1.Vehículos hurtados" , "2.1.Motocicletas hurtadas" , "2.1.Tasa de delitos sexuales" , "2.1.Denuncias por Extorsión" , "2.1.Tasa de feminicidios" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.2.Plan Maestro de Infraestructura para la seguridad y la convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana" , "2.2.3.Cuadras intervenidas para la recuperación de espacio publico"],
-                "size": "4"
+                "name": "2.1.2.2.1.Plan de integración y fortalecimiento del SIES-M implementado",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.1.2.1.Infraestructura para la seguridad construidas" , "2.1.2.2.Dispositivos tecnológicos para la seguridad implementados"],
+                "size": "0.75"
             },
             {
-                "name": "2.1.1.3.Diseño metodológico para seguimiento y prevención de violaciones DDHH",
-                "imports": ["2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia" , "2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género " , "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "1.47368421052632"
+                "name": "2.1.3.1.1.Planes de mejoramiento a la gestión de delitos priorizados",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.1.2.1.Infraestructura para la seguridad construidas" , "2.1.2.2.Dispositivos tecnológicos para la seguridad implementados" , "2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC" , "2.2.1.1.Oportunidad en la atención en el servicio de Justicia formal y no formal Cercana al Ciudadano"],
+                "size": "1.25"
             },
             {
-                "name": "2.1.1.3.Modelo de evaluación de impacto intervenciones Secretaría de Seguridad ",
-                "imports": ["2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.2.Plan Maestro de Infraestructura para la seguridad y la convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia"],
-                "size": "0.631578947368421"
+                "name": "2.1.3.2.1.Grupos especiales de respuesta creados por tipo de delito",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC"],
+                "size": "0.5"
             },
             {
-                "name": "2.1.1.3.Investigaciones sobre seguridad, convivencia y DDHH",
-                "imports": ["2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.2.Plan Maestro de Infraestructura para la seguridad y la convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia" , "2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género " , "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana" , "2.2.3.Cuadras intervenidas para la recuperación de espacio publico" , "2.2.4.Tasa de adolescentes infractores" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.3.Percepción positiva del Museo Casa de la memoria para construcción de paz" , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "2.52631578947368"
+                "name": "2.1.3.3.1.Puntos de acceso a la justicia creados",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC"],
+                "size": "0.5"
             },
             {
-                "name": "2.1.1.4.Instrumentos de territorialización diseñados e implementados",
-                "imports": ["2.1.Tasa de homicidios" , "2.1.Tasa de hurto a personas" , "2.1.Vehículos hurtados" , "2.1.Motocicletas hurtadas" , "2.1.Tasa de delitos sexuales" , "2.1.Denuncias por Extorsión" , "2.1.Tasa de feminicidios" , "2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia" , "2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género " , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana" , "2.2.3.Cuadras intervenidas para la recuperación de espacio publico" , "2.2.4.Tasa de adolescentes infractores" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva" , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "3.15789473684211"
+                "name": "2.1.3.4.1.Modelo de incentivos para los organismos de seguridad y justicia creado e implementado",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC"],
+                "size": "0.5"
             },
             {
-                "name": "2.1.1.5.Consejos Metropolitanos de Seguridad realizados",
-                "imports": ["2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia"],
-                "size": "0.421052631578947"
+                "name": "2.1.3.5.1.Sedes habilitadas para la atención de mujeres jóvenes infractoras",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC" , "2.2.4.1.Adolescentes infractores intervenidos SRPA(Sistema de responsabilidad penal para adolescentes)" , "2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna"],
+                "size": "1"
             },
             {
-                "name": "2.1.2.1.Nueva infraestructura para la seguridad construidas",
-                "imports": ["2.1.2.Plan Maestro de Infraestructura para la seguridad y la convivencia"],
-                "size": "0.210526315789474"
+                "name": "2.1.3.6.1.Personas en situación de cárcel y pos penadas atendidas por el programa de intervención social en cárceles",
+                "imports": ["2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC" , "2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna"],
+                "size": "0.5"
             },
             {
-                "name": "2.1.2.1.Plan Maestro de TIC para la seguridad y la convivencia",
-                "imports": ["2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia" , "2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género "],
-                "size": "0.631578947368421"
+                "name": "2.1.3.6.2.Familiares de personas en situación de cárcel y pos penados atendidos por el programa de intervención social a cárceles",
+                "imports": ["2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC" , "2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna"],
+                "size": "0.5"
             },
             {
-                "name": "2.1.2.3.Plan de integración y fortalecimiento del SIES-M formulado e implementado",
-                "imports": ["2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.2.Plan Maestro de Infraestructura para la seguridad y la convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia" , "2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género " , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana"],
-                "size": "1.05263157894737"
+                "name": "2.1.4.1.1.Comunas recuperadas y apropiadas para la garantía de condiciones de seguridad para las mujeres",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización" , "2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC" , "2.1.4.1.Tasa de feminicidios" , "2.1.4.2.Tasa de delitos sexuales" , "2.2.1.1.Oportunidad en la atención en el servicio de Justicia formal y no formal Cercana al Ciudadano" , "2.2.2.1.Conocimiento del Manual de Convivencia ciudadana en la ciudad de Medellín"],
+                "size": "1.75"
             },
             {
-                "name": "2.1.3.1.Grupos especiales de respuesta creados por delito",
-                "imports": ["2.1.Tasa de homicidios" , "2.1.Tasa de hurto a personas" , "2.1.Vehículos hurtados" , "2.1.Motocicletas hurtadas" , "2.1.Tasa de delitos sexuales" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia" , "2.2.4.Tasa de adolescentes infractores"],
-                "size": "1.89473684210526"
+                "name": "2.1.4.2.1.Mujeres en alto riesgo y victimas de violencias basadas en género que acceden a la ruta de atención y prevención",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización" , "2.1.4.1.Tasa de feminicidios" , "2.1.4.2.Tasa de delitos sexuales" , "2.2.4.3.Tasa de solicitud de medidas de protección por violencia intrafamiliar"],
+                "size": "1.25"
             },
             {
-                "name": "2.1.3.1.Grupos especiales de respuesta al delito fortalecidos",
-                "imports": ["2.1.Tasa de homicidios" , "2.1.Tasa de hurto a personas" , "2.1.Vehículos hurtados" , "2.1.Motocicletas hurtadas" , "2.1.Tasa de delitos sexuales" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia" , "2.2.4.Tasa de adolescentes infractores"],
-                "size": "1.89473684210526"
+                "name": "2.1.4.3.1.Estrategias de comunicación pública implementadas para promuever el empoderamiento de las mujeres",
+                "imports": ["2.2.2.1.Conocimiento del Manual de Convivencia ciudadana en la ciudad de Medellín"],
+                "size": "0.25"
             },
             {
-                "name": "2.1.3.2.Jueces capacitados en el marco del direccionamiento de la Política criminal",
-                "imports": ["2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia" , "2.2.4.Tasa de adolescentes infractores" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "1.26315789473684"
+                "name": "2.2.1.1.1.Instituciones de justicia cercana al ciudadano fortalecidas integralmente",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC" , "2.2.1.1.Oportunidad en la atención en el servicio de Justicia formal y no formal Cercana al Ciudadano"],
+                "size": "0.75"
             },
             {
-                "name": "2.1.3.3.Miembros de organismos de seguridad beneficiados por sistema de estímulos",
-                "imports": ["2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia"],
-                "size": "0.210526315789474"
+                "name": "2.2.1.1.2.Diseño e Implementación del Sistema de Justicia Cercana al Ciudadano",
+                "imports": ["2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC" , "2.2.1.1.Oportunidad en la atención en el servicio de Justicia formal y no formal Cercana al Ciudadano"],
+                "size": "0.5"
             },
             {
-                "name": "2.1.3.4.Nuevos puntos de acceso a la justicia creados",
-                "imports": ["2.1.2.Plan Maestro de Infraestructura para la seguridad y la convivencia" , "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas" , "2.2.4.Tasa de adolescentes infractores" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "1.26315789473684"
+                "name": "2.2.1.2.1.Conciliadores en equidad que apoyan la resolución pacífica de conflictos",
+                "imports": ["2.2.2.2.Ocurrencia de riñas en la ciudad de Medellín" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional" , "2.3.5.1.Familias victimas del conflicto armado con derechos reestablecidos"],
+                "size": "0.75"
             },
             {
-                "name": "2.1.3.5.Centros de atención fortalecidos para adolescentes infractores en conflicto",
-                "imports": ["2.2.4.Tasa de adolescentes infractores" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "0.842105263157895"
+                "name": "2.2.1.2.2.Conciliadores en derecho que apoyan la resolución pacífica de conflictos",
+                "imports": ["2.2.2.2.Ocurrencia de riñas en la ciudad de Medellín" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional" , "2.3.5.1.Familias victimas del conflicto armado con derechos reestablecidos"],
+                "size": "0.75"
             },
             {
-                "name": "2.1.3.5.Sedes para atención de mujeres infractoras y jóvenes egresados del SRPA",
-                "imports": ["2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia"],
-                "size": "0.210526315789474"
+                "name": "2.2.2.1.1.Grupos de ciudadanos formados para la convivencia ciudadana",
+                "imports": ["2.2.4.1.Adolescentes infractores intervenidos SRPA(Sistema de responsabilidad penal para adolescentes)"],
+                "size": "0.25"
             },
             {
-                "name": "2.1.3.6.Personas atendidas por el programa de intervención social en cárceles",
-                "imports": ["2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva"],
-                "size": "0.631578947368421"
+                "name": "2.2.2.2.1.Grupos de Escuelas de Adrenalina funcionando",
+                "imports": ["2.2.2.2.Ocurrencia de riñas en la ciudad de Medellín"],
+                "size": "0.25"
             },
             {
-                "name": "2.1.3.6.Personas atendidas por programa de intervención social a cárceles",
-                "imports": ["2.1.1.Instrumentos de planeación para garantizar la seguridad y convivencia" , "2.1.3.Organismos de justicia articulados al Plan Integral de seguridad y convivencia" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva"],
-                "size": "0.631578947368421"
+                "name": "2.2.2.3.1.Acompañamiento social de proyectos Vivienda de Interes Prioritario (VIP) - Vivienda de Interes Social (VIS)",
+                "imports": ["2.2.4.1.Adolescentes infractores intervenidos SRPA(Sistema de responsabilidad penal para adolescentes)" , "2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna"],
+                "size": "0.5"
             },
             {
-                "name": "2.1.4.1.Recuperación de espacios públicos para garantizar seguridad para las mujeres",
-                "imports": ["2.2.3.Cuadras intervenidas para la recuperación de espacio publico"],
-                "size": "0.210526315789474"
+                "name": "2.2.3.1.1.Intervenciones de regulación, vigilancia y control para la recuperación del espacio público efectuadas",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.1.1.2.Tasa de hurto a personas" , "2.1.1.5.Hurto a entidades comerciales" , "2.1.2.2.Dispositivos tecnológicos para la seguridad implementados" , "2.2.3.1.Comerciantes informales beneficiados con las estrategias implementadas"],
+                "size": "1.25"
             },
             {
-                "name": "2.1.4.2.Mujeres en riesgo y victimas que acceden a atención y prevención",
-                "imports": ["2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género " , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  "],
-                "size": "0.631578947368421"
+                "name": "2.2.3.2.1.Comerciantes informales regulados para regular y mejorar la calidad del espacio público",
+                "imports": ["2.1.1.2.Tasa de hurto a personas" , "2.1.1.5.Hurto a entidades comerciales" , "2.2.3.1.Comerciantes informales beneficiados con las estrategias implementadas"],
+                "size": "0.75"
             },
             {
-                "name": "2.1.4.3.Personas que participan de estrategias de comunicación sobre empoderamiento de las mujeres",
-                "imports": ["2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género "],
-                "size": "0.210526315789474"
+                "name": "2.2.4.1.1.Estrategias de socialización de rutas implementadas para la atención a delitos",
+                "imports": ["2.1.3.1.Organismos de justicia articulados al Plan Integral de Seguridad y Convivencia PISC" , "2.2.1.1.Oportunidad en la atención en el servicio de Justicia formal y no formal Cercana al Ciudadano" , "2.2.2.1.Conocimiento del Manual de Convivencia ciudadana en la ciudad de Medellín" , "2.2.4.1.Adolescentes infractores intervenidos SRPA(Sistema de responsabilidad penal para adolescentes)" , "2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna"],
+                "size": "1.25"
             },
             {
-                "name": "2.2.1.1.Plan ajuste y mejoramiento Comisarías de Familia, inspecciones, y casas de justicia",
-                "imports": ["2.1.Tasa de delitos sexuales" , "2.1.Tasa de feminicidios" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva"],
-                "size": "2.10526315789474"
+                "name": "2.2.4.2.1.Niños, niñas, adolescentes beneficiarios de las intervenciones realizadas en prevencion del delito",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.Nivel de victimización" , "2.2.4.2.Tasa personas víctimas de acoso sexual (art 210 cp)"],
+                "size": "0.75"
             },
             {
-                "name": "2.2.1.2.Conciliadores en equidad que apoyan la resolución pacífica de conflictos",
-                "imports": ["2.1.Tasa de delitos sexuales" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana"],
-                "size": "1.47368421052632"
+                "name": "2.2.4.2.2.Multiplicadores de Convivencia y prevención del delito certificados",
+                "imports": ["2.2.2.1.Conocimiento del Manual de Convivencia ciudadana en la ciudad de Medellín" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio"],
+                "size": "0.75"
             },
             {
-                "name": "2.2.1.2.Conciliadores en derechos que apoyan la resolución pacífica de conflictos",
-                "imports": ["2.1.Tasa de delitos sexuales" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana"],
-                "size": "1.47368421052632"
+                "name": "2.2.4.3.1.Personas sensibilizadas en prevencion de trata",
+                "imports": ["2.2.4.1.Adolescentes infractores intervenidos SRPA(Sistema de responsabilidad penal para adolescentes)" , "2.2.4.2.Tasa personas víctimas de acoso sexual (art 210 cp)"],
+                "size": "0.5"
             },
             {
-                "name": "2.2.2.1.Grupos de ciudadanos formados para la convivencia ciudadana",
-                "imports": ["2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana"],
-                "size": "0.842105263157895"
+                "name": "2.2.4.3.2.Victimas de trata de personas atendidas con atencion inmediata y mediata, acompañadas",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.2.4.2.Tasa personas víctimas de acoso sexual (art 210 cp)"],
+                "size": "0.5"
             },
             {
-                "name": "2.2.2.2.Ciudadanos certificados en competencias ciudadanas para la convivencia",
-                "imports": ["2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana"],
-                "size": "0.842105263157895"
+                "name": "2.2.4.3.3.Personas atendidas para el restablecimiento de los derechos y garantias de las victimas de violencia sexual",
+                "imports": ["2.2.4.2.Tasa personas víctimas de acoso sexual (art 210 cp)" , "2.2.4.3.Tasa de solicitud de medidas de protección por violencia intrafamiliar"],
+                "size": "0.5"
             },
             {
-                "name": "2.2.2.3.Estrategia de acompañamiento metodológico para la convivencia en el futbol",
-                "imports": ["2.1.Tasa de homicidios" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana"],
-                "size": "1.47368421052632"
+                "name": "2.3.1.1.1.Medidas para la promoción, prevención y protección de los DDHH implementadas",
+                "imports": ["2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional"],
+                "size": "0.5"
             },
             {
-                "name": "2.2.2.4.Eventos de Adrenalina realizados",
-                "imports": ["2.1.Tasa de homicidios" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana"],
-                "size": "1.47368421052632"
+                "name": "2.3.1.2.1.Personas beneficiadas con acciones pedagógicas para la construcción de una cultura de los DDHH",
+                "imports": ["2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional"],
+                "size": "0.5"
             },
             {
-                "name": "2.2.2.4.Grupos de Escuelas de Adrenalina funcionando",
-                "imports": ["2.1.Tasa de homicidios" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana"],
-                "size": "1.47368421052632"
+                "name": "2.3.1.3.1.Mesas acompañadas y fortalecidas para el ejercicio de los derechos humanos",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna" , "2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible"],
+                "size": "0.75"
             },
             {
-                "name": "2.2.2.5.Copropiedades conformadas",
-                "imports": ["2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana"],
-                "size": "1.05263157894737"
+                "name": "2.3.1.4.1.Víctimas o testigos de delitos de alto impacto social atendidos integralmente",
+                "imports": ["2.2.4.3.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio"],
+                "size": "1"
             },
             {
-                "name": "2.2.2.5.Acompañamiento a las copropiedades conformadas",
-                "imports": ["2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana"],
-                "size": "1.05263157894737"
+                "name": "2.3.1.5.1.Restos humanos identificados",
+                "imports": ["2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna"],
+                "size": "0.25"
             },
             {
-                "name": "2.2.3.1.Intervenciones para la recuperación del espacio público",
-                "imports": ["2.2.Tasa de contravenciones de Policía" , "2.2.3.Cuadras intervenidas para la recuperación de espacio publico"],
-                "size": "0.421052631578947"
+                "name": "2.3.1.5.2. Familias  con acompañamiento digno en la entrega de los cuerpos identificados ",
+                "imports": ["2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna"],
+                "size": "0.25"
             },
             {
-                "name": "2.2.3.2.Comerciantes informales con acompañamiento para la regulación del espacio público",
-                "imports": ["2.2.Tasa de contravenciones de Policía" , "2.2.3.Cuadras intervenidas para la recuperación de espacio publico"],
-                "size": "0.421052631578947"
+                "name": "2.3.1.6.1.Personas en ejercicio de prostitución orientadas y atendidas para el desarrollo de sus capacidades",
+                "imports": ["2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna"],
+                "size": "0.25"
             },
             {
-                "name": "2.2.4.1.Instituciones certificadas como entornos protectores",
-                "imports": ["2.2.Tasa de contravenciones de Policía" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana" , "2.2.4.Tasa de adolescentes infractores"],
-                "size": "1.05263157894737"
+                "name": "2.3.2.1.1.Medidas gestionadas que fomentan la cultura de paz y la transformación sociocultural desde las garantías de no repetición",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio"],
+                "size": "1"
             },
             {
-                "name": "2.2.4.2.Niños, niñas, adolescentes beneficiaros  en prevencion del delito",
-                "imports": ["2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.4.Tasa de adolescentes infractores"],
-                "size": "0.631578947368421"
+                "name": "2.3.2.2.1.Personas atendidas con reintegracion educativa",
+                "imports": ["2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional"],
+                "size": "0.5"
             },
             {
-                "name": "2.2.4.2.Gestores de Convivencia y prevención del delito certificados",
-                "imports": ["2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.4.Tasa de adolescentes infractores"],
-                "size": "0.631578947368421"
+                "name": "2.3.2.2.2.Personas en situacion de vulnerabilidad con reintegración social, intervenidas",
+                "imports": ["2.3.2.2.Índice de Condiciones para la Reconciliación Nacional"],
+                "size": "0.25"
             },
             {
-                "name": "2.2.4.3.Campañas prevención trata y explotación sexual de niños, niña y adolescentes",
-                "imports": ["2.1.Tasa de delitos sexuales" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.4.Tasa de adolescentes infractores"],
-                "size": "0.842105263157895"
+                "name": "2.3.3.1.1.Memorias participativas construidas",
+                "imports": ["2.3.2.2.Índice de Condiciones para la Reconciliación Nacional"],
+                "size": "0.25"
             },
             {
-                "name": "2.2.4.3.Personas sensibilizadas en trata de personas y ESCNNA",
-                "imports": ["2.1.Tasa de delitos sexuales" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.4.Tasa de adolescentes infractores"],
-                "size": "0.842105263157895"
+                "name": "2.3.3.2.1.Personas que interactúan con los contenidos del Museo Casa de la Memoria",
+                "imports": ["2.3.3.1.Percepción positiva del Museo Casa de la Memoria como facilitador de procesos de construcción de paz en el territorio"],
+                "size": "0.25"
             },
             {
-                "name": "2.2.4.3.Victimas de trata de personas atendidas",
-                "imports": ["2.1.Tasa de delitos sexuales" , "2.2.4.Tasa de adolescentes infractores"],
-                "size": "0.421052631578947"
+                "name": "2.3.3.3.1.Actores públicos y privados vinculados en procesos de construcción de paz",
+                "imports": ["2.1.Nivel de percepción de seguridad n" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional" , "2.3.3.1.Percepción positiva del Museo Casa de la Memoria como facilitador de procesos de construcción de paz en el territorio" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio"],
+                "size": "1"
             },
             {
-                "name": "2.2.4.4.Rutas para acceso a oportunidades y restablecimiento de derechos de los jóvenes",
-                "imports": ["2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana" , "2.2.4.Tasa de adolescentes infractores" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva"],
-                "size": "1.05263157894737"
+                "name": "2.3.3.4.1.Plan de fortalecimiento institucional del Museo Casa de la Memoria implementado",
+                "imports": ["2.3.3.1.Percepción positiva del Museo Casa de la Memoria como facilitador de procesos de construcción de paz en el territorio"],
+                "size": "0.25"
             },
             {
-                "name": "2.3.1.1.Medidas para promoción-prevención-protección de los DDHH",
-                "imports": ["2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género " , "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana" , "2.2.4.Tasa de adolescentes infractores" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "2.94736842105263"
+                "name": "2.3.4.1.1.Iniciativas desarrolladas para la formación, organización, movilización y comunicación que contribuyan a la construcción de paz",
+                "imports": ["2.3.2.2.Índice de Condiciones para la Reconciliación Nacional" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio" , "2.3.5.1.Familias victimas del conflicto armado con derechos reestablecidos"],
+                "size": "0.75"
             },
             {
-                "name": "2.3.1.2.Personas beneficiadas con acciones pedagógicas para construcción de cultura de DDHH",
-                "imports": ["2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.1.4.Mujeres que conocen mecanismos  y denuncian violencias basadas en género " , "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana" , "2.2.4.Tasa de adolescentes infractores" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "2.94736842105263"
+                "name": "2.3.4.2.1.Instituciones educativas acompañadas en mediación escolar",
+                "imports": ["2.3.2.2.Índice de Condiciones para la Reconciliación Nacional" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio"],
+                "size": "0.5"
             },
             {
-                "name": "2.3.1.3.Escenarios de riesgo de violación DDHH atendidos",
-                "imports": ["2.1.Tasa de homicidios" , "2.1.Tasa de hurto a personas" , "2.1.Vehículos hurtados" , "2.1.Motocicletas hurtadas" , "2.1.Tasa de delitos sexuales" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.2.Tasa de contravenciones de Policía" , "2.2.Tasa de lesiones personales" , "2.2.Porcentaje de hogares donde se han presentado problemas de convivencia " , "2.2.Porcentaje de hogares con problemas de entorno entre vecinos" , "2.2.Porcentaje de hogares con problemas de riñas entre vecinos" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva"],
-                "size": "2.94736842105263"
+                "name": "2.3.4.3.1.Iniciativas productivas para la paz, apoyadas",
+                "imports": ["2.3.2.2.Índice de Condiciones para la Reconciliación Nacional" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio"],
+                "size": "0.5"
             },
             {
-                "name": "2.3.1.4.Mesas de DDHH  acompañados y fortalecidos para el ejercicio de los DDHH",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva"],
-                "size": "0.421052631578947"
+                "name": "2.3.4.4.1.Jóvenes que acceden a atención integral para la construccion de su proyecto de vida",
+                "imports": ["2.3.2.2.Índice de Condiciones para la Reconciliación Nacional" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio"],
+                "size": "0.5"
             },
             {
-                "name": "2.3.1.5.Cuerpos humanos que están en el Jardín Cementerio Universal, dignificados",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva"],
-                "size": "0.421052631578947"
+                "name": "2.3.4.5.1.Mujeres vinculadas a los procesos de pedagogia de paz en el marco del posacuerdo y posconflicto",
+                "imports": ["2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio"],
+                "size": "0.75"
             },
             {
-                "name": "2.3.1.6.Víctimas y/o testigos de delitos de alto impacto social, con atención integral",
-                "imports": ["2.1.Tasa de homicidios" , "2.1.Tasa de hurto a personas" , "2.1.Vehículos hurtados" , "2.1.Motocicletas hurtadas" , "2.1.Tasa de delitos sexuales" , "2.1.Denuncias por Extorsión" , "2.1.Tasa de feminicidios" , "2.2.Tasa de solicitud de medidas de protección por violencia intrafamiliar" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "2.52631578947368"
+                "name": "2.3.5.1.1.Familias que declaran su victimización que reciben protección del derecho a la subsistencia mínima",
+                "imports": ["2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna" , "2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio" , "2.3.5.1.Familias victimas del conflicto armado con derechos reestablecidos"],
+                "size": "1.25"
             },
             {
-                "name": "2.3.1.7.Personas en ejercicio de prostitución integradas laboralmente",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva"],
-                "size": "0.421052631578947"
+                "name": "2.3.5.1.2.Familias víctimas de desplazamiento forzado beneficiados con medidas de generación de ingresos",
+                "imports": ["2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna" , "2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible" , "2.3.5.1.Familias victimas del conflicto armado con derechos reestablecidos"],
+                "size": "0.75"
             },
             {
-                "name": "2.3.2.1.Medidas que fomentan la cultura de paz y DDHH desde garantias de no repetición",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva" , "2.3.3.Percepción positiva del Museo Casa de la memoria para construcción de paz" , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "0.842105263157895"
+                "name": "2.3.5.1.3.Personas víctimas del conflicto armado beneficiadas con medidas de rehabilitación o satisfacción",
+                "imports": ["2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna" , "2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible" , "2.3.2.2.Índice de Condiciones para la Reconciliación Nacional" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio" , "2.3.5.1.Familias victimas del conflicto armado con derechos reestablecidos"],
+                "size": "1.25"
             },
             {
-                "name": "2.3.2.2.Personas desmovilizadas con reintegración social sostenible",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "0.631578947368421"
+                "name": "2.3.5.1.4.Familias víctimas de desplazamiento forzado cobijadas con medidas de restitución para Medellín que son acompañadas institucionalmente",
+                "imports": ["2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna" , "2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible" , "2.3.3.1.Percepción positiva del Museo Casa de la Memoria como facilitador de procesos de construcción de paz en el territorio" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio" , "2.3.5.1.Familias victimas del conflicto armado con derechos reestablecidos"],
+                "size": "1.25"
             },
             {
-                "name": "2.3.3.1.Memorias participativas construidas",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.3.Percepción positiva del Museo Casa de la memoria para construcción de paz"],
-                "size": "0.421052631578947"
+                "name": "2.3.5.2.1.Casos de riesgo de violación de derechos humanos identificados y atendidos con oportunidad y efectividad",
+                "imports": ["2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna" , "2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible" , "2.3.3.1.Percepción positiva del Museo Casa de la Memoria como facilitador de procesos de construcción de paz en el territorio" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio" , "2.3.5.1.Familias victimas del conflicto armado con derechos reestablecidos"],
+                "size": "1.25"
             },
             {
-                "name": "2.3.3.2.Personas que interactúan con los contenidos del Museo Casa de la Memoria",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.3.Percepción positiva del Museo Casa de la memoria para construcción de paz"],
-                "size": "0.421052631578947"
+                "name": "2.3.5.3.1.Infraestructura mejorada para la atención humanitaria a las víctimas",
+                "imports": ["2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna" , "2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible" , "2.3.3.1.Percepción positiva del Museo Casa de la Memoria como facilitador de procesos de construcción de paz en el territorio" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio" , "2.3.5.1.Familias victimas del conflicto armado con derechos reestablecidos"],
+                "size": "1.25"
             },
             {
-                "name": "2.3.3.3.Actores públicos y privados vinculados en procesos de construcción de paz",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.3.Percepción positiva del Museo Casa de la memoria para construcción de paz" , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "0.842105263157895"
+                "name": "2.3.5.4.1.Hogares víctimas de desplazamiento forzado retornados o reubicados",
+                "imports": ["2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna" , "2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible" , "2.3.3.1.Percepción positiva del Museo Casa de la Memoria como facilitador de procesos de construcción de paz en el territorio" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio" , "2.3.5.1.Familias victimas del conflicto armado con derechos reestablecidos"],
+                "size": "1.25"
             },
             {
-                "name": "2.3.3.4.Plan de fortalecimiento Museo Casa de la Memoria",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.3.Percepción positiva del Museo Casa de la memoria para construcción de paz"],
-                "size": "0.421052631578947"
-            },
-            {
-                "name": "2.3.3.5.Mujeres con participación social y política en el marco del posconflicto  ",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  "],
-                "size": "0.421052631578947"
-            },
-            {
-                "name": "2.3.3.6.Espacios para la ampliación de la democracia y el pluralismos promovidos",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  "],
-                "size": "0.421052631578947"
-            },
-            {
-                "name": "2.3.3.7.Instituciones educativas a acompañadas en mediación escolar",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva"],
-                "size": "0.631578947368421"
-            },
-            {
-                "name": "2.3.3.8.Jóvenes que acceden a atención integral para la construccion de su proyecto de vida",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.2.2.Plan de formación y ruta de acción para la convivencia ciudadana"],
-                "size": "0.421052631578947"
-            },
-            {
-                "name": "2.3.4.1.Familias que reciben protección del derecho a la subsistencia mínima",
-                "imports": ["2.1.Tasa de hurto a personas" , "2.1.Vehículos hurtados" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "1.05263157894737"
-            },
-            {
-                "name": "2.3.4.1.Familias víctimas de desplazamiento forzado con medidas de generación de ingresos",
-                "imports": ["2.1.Tasa de hurto a personas" , "2.1.Vehículos hurtados" , "2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "1.05263157894737"
-            },
-            {
-                "name": "2.3.4.1.Víctimas del conflicto armado beneficiadas rehabilitación y/o satisfacción",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "0.631578947368421"
-            },
-            {
-                "name": "2.3.4.1.Familias víctimas de desplazamiento forzado restituidas y acompañadas",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "0.842105263157895"
-            },
-            {
-                "name": "2.3.4.2.Hogares víctimas de desplazamiento forzado retornados o reubicados",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "0.631578947368421"
-            },
-            {
-                "name": "2.3.4.2.Alcaldías fortalecidas en gestión para Atención a las víctimas retornadas o re-ubicadas",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.3.2.Intervenciones realizadas con medidas en garantías de no repetición  " , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "0.631578947368421"
-            },
-            {
-                "name": "2.3.4.3.Mejoramientos en infraestructura para atención humanitaria a víctimas",
-                "imports": ["2.3.Indice de condiciones para la reconciliacion nacional" , "2.2.1.Comisarías de Familia, Inspecciones, y Casas de Justicia fortalecidas" , "2.3.1.Casos de vulneración de DDHH con atención institucional y solución positiva" , "2.3.4.Familias victimas del conflicto armado con derechos reestablecidos "],
-                "size": "0.842105263157895"
+                "name": "2.3.5.4.2.Alcaldías fortalecidas en materia de gestión para la Atención a las víctimas retornadas o re-ubicadas",
+                "imports": ["2.3.1.1.Casos de vulneración de DDHH con atencion institucional oportuna" , "2.3.2.1.Intervenciones realizadas con medidas en garantías de no repetición y reintegracion sostenible" , "2.3.3.1.Percepción positiva del Museo Casa de la Memoria como facilitador de procesos de construcción de paz en el territorio" , "2.3.4.1.Iniciativas para la paz promovidas o desarrolladas por la ciudadanía en el territorio" , "2.3.5.1.Familias victimas del conflicto armado con derechos reestablecidos"],
+                "size": "1.25"
             }
         ]

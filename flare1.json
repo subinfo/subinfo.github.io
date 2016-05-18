@@ -160,7 +160,7 @@
                 "size": "1.45454545454545"
             },
             {
-                "name": "1.1.3.2.1.Cuadras de las comunas y veredas con la estrategia "La cuadra cuenta con vos" implementada",
+                "name": "1.1.3.2.1.Cuadras de las comunas y veredas con la estrategia \"La cuadra cuenta con vos\" implementada",
                 "imports": ["1.1.Índice de Cultura Ciudadana" , "1.2.Índice de Participación Ciudadana" , "1.1.1.1.Placer por cumplir con la propia conciencia (norma moral)" , "1.1.2.1.Confianza institucional (Confianza de los ciudadanos en las instituciones: maestros, alcaldía, funcionarios y policía)" , "1.1.3.1.Confianza interpersonal-Confianza que los ciudadanos tienen en los demás" , "1.1.4.2.Hogares que manifiestan que en su barrio o vereda se han presentado problemas de convivencia durante los últimos doce meses" , "1.1.5.1.Personas que esgrimen alguna razón para desobedecer la Ley"],
                 "size": "2.54545454545455"
             },

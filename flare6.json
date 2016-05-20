@@ -1,537 +1,642 @@
 [
             {
-                "name": "6.Seguimiento POT corto plazo",
+                "name": "6.1.Índice de Desarrollo Territorial (IDET)",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "6.Dimensión Entorno y Calidad de la Vivienda Encuesta de Calidad de Vida",
+                "name": "6.1.1.1.Cumplimiento del programa de ejecución del Plan de Ordenamiento Territorial en el corto plazo",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
+            },
+            {
+                "name": "6.1.2.1.Instrumentos de planificación complementaria del sistema de gestión para la equidad territorial formulados y adoptados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
+            },
+            {
+                "name": "6.1.3.1.Verificacion de la ocupacion real del territorio respecto al modelo vigente",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
+            },
+            {
+                "name": "6.1.4.1.Agenda de desarrollo regional concertada e implementada",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo",
-                "imports": ["6.Seguimiento POT corto plazo"],
-                "size": "0.66"
+                "name": "6.2.1.1.Instrumentos de planificación gestionados para su implementación",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.2.Satisfacción de los usuarios con los servicios que ofrece los PUI",
+                "name": "6.2.2.1.Proyectos estratégicos implementados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
+            },
+            {
+                "name": "6.3.1.1.Uso de los escenarios deportivos, recreativos y de actividad física administrados por el Inder Medellín",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)",
-                "imports": ["6.Seguimiento POT corto plazo"],
-                "size": "0.66"
-            },
-            {
-                "name": "6.3.Espacio público efectivo por habitante",
-                "imports": ["6.Seguimiento POT corto plazo"],
-                "size": "0.66"
-            },
-            {
-                "name": "6.4.Percepción ciudadana de recuperación del centro",
+                "name": "6.3.2.1.Personas jurídicas y naturales que aprovechan económicamente el espacio público",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "6.5.Hogares que superan el déficit habitacional",
-                "imports": ["6.Seguimiento POT corto plazo" , "6.Dimensión Entorno y Calidad de la Vivienda Encuesta de Calidad de Vida"],
-                "size": "1.33"
+                "name": "6.3.3.1.Proyectos inmobiliarios promovidos",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.5.Subsidios de vivienda asignados",
-                "imports": ["6.Seguimiento POT corto plazo" , "6.Dimensión Entorno y Calidad de la Vivienda Encuesta de Calidad de Vida"],
-                "size": "1.33"
-            },
-            {
-                "name": "6.1.1.Compromisos del POT alcanzados",
-                "imports": ["6.Seguimiento POT corto plazo" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro"],
-                "size": "3.33"
-            },
-            {
-                "name": "6.1.2.Sistema de Gestión para la equidad territorial implementado",
-                "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo"],
-                "size": "0.66"
-            },
-            {
-                "name": "6.1.3.Avance de gestión de la información urbanística y catastral",
+                "name": "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "6.2.1.Instrumentos de planificación complementaria al POT de segundo nivel formulados y adoptados",
-                "imports": ["6.Seguimiento POT corto plazo" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.3.Espacio público efectivo por habitante"],
-                "size": "2.66"
+                "name": "6.4.2.1.Conectividad peatonal restituida",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados",
-                "imports": ["6.Seguimiento POT corto plazo" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.2.Satisfacción de los usuarios con los servicios que ofrece los PUI" , "6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.3.Espacio público efectivo por habitante"],
-                "size": "3.33"
+                "name": "6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.2.3.Índice Multidimensional de Condiciones de Vida en los corregimientos",
-                "imports": ["6.2.Satisfacción de los usuarios con los servicios que ofrece los PUI"],
-                "size": "0.66"
+                "name": "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas",
-                "imports": ["6.Seguimiento POT corto plazo" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro"],
-                "size": "2.66"
-            },
-            {
-                "name": "6.3.2.Estrategias inmobiliarias implementadas",
+                "name": "6.4.4.1.Tasa de homicidios en la Comuna 10",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "6.4.1.Espacio público generado en el centro",
-                "imports": ["6.Seguimiento POT corto plazo" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro"],
-                "size": "2.66"
-            },
-            {
-                "name": "6.4.2.Espacio público recuperados y rehabilitados",
-                "imports": ["6.Seguimiento POT corto plazo" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro"],
-                "size": "2.66"
-            },
-            {
-                "name": "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10",
-                "imports": ["6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro"],
-                "size": "1.33"
-            },
-            {
-                "name": "6.4.3.Espacios públicos intervenidos y recuperados",
-                "imports": ["6.Seguimiento POT corto plazo" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.3.Espacio público efectivo por habitante"],
-                "size": "2"
-            },
-            {
-                "name": "6.4.4.Actividades y eventos realizados",
-                "imports": ["6.4.Percepción ciudadana de recuperación del centro"],
-                "size": "0.66"
-            },
-            {
-                "name": "6.5.1.Sistema Municipal Habitacional fortalecido",
-                "imports": ["6.5.Subsidios de vivienda asignados"],
-                "size": "0.66"
-            },
-            {
-                "name": "6.5.2.Proyectos para reasentamiento integral de población",
-                "imports": ["6.Dimensión Entorno y Calidad de la Vivienda Encuesta de Calidad de Vida" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados"],
-                "size": "2.66"
-            },
-            {
-                "name": "6.5.3.Hogares que superan el déficit cuantitativo de vivienda ",
-                "imports": ["6.5.Hogares que superan el déficit habitacional"],
-                "size": "0.66"
-            },
-            {
-                "name": "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados",
-                "imports": ["6.Dimensión Entorno y Calidad de la Vivienda Encuesta de Calidad de Vida" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados"],
-                "size": "3.33"
-            },
-            {
-                "name": "6.5.4.Hogares que superan el déficit cualitativo de vivienda",
-                "imports": ["6.Dimensión Entorno y Calidad de la Vivienda Encuesta de Calidad de Vida" , "6.5.Hogares que superan el déficit habitacional"],
-                "size": "1.33"
-            },
-            {
-                "name": "6.5.4.Mejoramiento Integral de Barrios logrado",
-                "imports": ["6.Dimensión Entorno y Calidad de la Vivienda Encuesta de Calidad de Vida" , "6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados"],
-                "size": "2.66"
-            },
-            {
-                "name": "6.1.1.1.Macroproyectos de transversalidades formulados y adoptados ",
-                "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.3.Espacio público efectivo por habitante" , "6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos de planificación complementaria al POT de segundo nivel formulados y adoptados"],
-                "size": "2.66"
-            },
-            {
-                "name": "6.1.1.2.Distrito rural campesino formulado y adoptado",
-                "imports": ["6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados"],
-                "size": "1.33"
-            },
-            {
-                "name": "6.1.1.3.Planes especiales de manejo  y protección patrimonial operando",
-                "imports": ["6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados" , "6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas"],
-                "size": "2"
-            },
-            {
-                "name": "6.1.1.3.Bienes de Interés cultural - BIC declarados",
-                "imports": ["6.1.1.Compromisos del POT alcanzados" , "6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas"],
-                "size": "1.33"
-            },
-            {
-                "name": "6.1.1.4.Protocolos ambientales y urbanísticos, formulados",
-                "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.1.1.Compromisos del POT alcanzados"],
-                "size": "1.33"
-            },
-            {
-                "name": "6.1.1.5.Estudios   de la aplicación normativa contenida en el POT,  realizados",
-                "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.1.1.Compromisos del POT alcanzados"],
-                "size": "1.33"
-            },
-            {
-                "name": "6.1.1.6.Agenda de desarrollo regional concertada e implementada",
-                "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo"],
-                "size": "0.66"
-            },
-            {
-                "name": "6.1.1.6.Instancia de concertación y dialogo compartida, definida y activa",
+                "name": "6.4.4.2.Tasa de hurtos a establecimientos comerciales en la Comuna 10",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "6.1.2.1.Guía metodológica para la formulación de los PUI del ámbito ladera elaborada",
-                "imports": ["6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.1.1.Compromisos del POT alcanzados" , "6.1.2.Sistema de Gestión para la equidad territorial implementado" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados"],
-                "size": "2.66"
+                "name": "6.5.1.1.Sistema Municipal habitacional fortalecido",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.1.2.1.Estudios de riesgo realizados",
-                "imports": ["6.1.1.Compromisos del POT alcanzados" , "6.1.2.Sistema de Gestión para la equidad territorial implementado" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados"],
-                "size": "2"
+                "name": "6.5.2.1.Proyectos para reasentamiento integral de población implementados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.1.2.2.Intervención del suelo realizadas con los instrumentos definidos",
-                "imports": ["6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados"],
-                "size": "1.33"
+                "name": "6.5.3.1.Hogares que superan el déficit cuantitativo de vivienda",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.1.2.3.Instrumentos de financiación adoptados",
-                "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.1.1.Compromisos del POT alcanzados" , "6.1.2.Sistema de Gestión para la equidad territorial implementado"],
-                "size": "2"
+                "name": "6.5.3.2.Hogares que superan el déficit habitacional",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.1.3.1.Plataforma tecnológica Diseñada",
-                "imports": ["6.1.3.Avance de gestión de la información urbanística y catastral"],
-                "size": "0.66"
+                "name": "6.5.4.1.Hogares que acceden a soluciones de suministro de agua potable dentro de la iniciativa unidos por el agua",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.1.3.2.Actualización de la Información Catastral",
-                "imports": ["6.1.3.Avance de gestión de la información urbanística y catastral"],
-                "size": "0.66"
+                "name": "6.5.4.2.Hogares que superan el déficit cualitativo de vivienda",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.1.3.3.Quejas atendidas por actuaciones urbanísticas",
-                "imports": ["6.1.3.Avance de gestión de la información urbanística y catastral"],
-                "size": "0.66"
+                "name": "6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.1.3.3.Controles urbanísticos realizados",
-                "imports": ["6.1.3.Avance de gestión de la información urbanística y catastral"],
-                "size": "0.66"
+                "name": "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.2.1.1.Viabilidad y apoyo a los proyectos del PDM",
-                "imports": ["6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados" , "6.4.2.Espacio público recuperados y rehabilitados"],
-                "size": "1.33"
-            },
-            {
-                "name": "6.2.1.2.Macroproyectos MEDRío implementados y ejecutados en el corto plazo del POT",
-                "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.3.Espacio público efectivo por habitante" , "6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos de planificación complementaria al POT de segundo nivel formulados y adoptados"],
-                "size": "2.66"
-            },
-            {
-                "name": "6.2.1.3.Viabilidad y apoyo a los proyectos urbanos integrales Ámbito Ladera",
-                "imports": ["6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados"],
-                "size": "2"
-            },
-            {
-                "name": "6.2.1.4.Estrategia de proyectos UrbanosIntegrales ejecutada",
-                "imports": ["6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados"],
-                "size": "2"
-            },
-            {
-                "name": "6.2.1.5.Parques del Río Medellín construido primera Etapa",
-                "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.3.Espacio público efectivo por habitante" , "6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos de planificación complementaria al POT de segundo nivel formulados y adoptados"],
-                "size": "2.66"
-            },
-            {
-                "name": "6.2.3.1.PUI Corregimentales ejecutados",
-                "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.2.Proyectos integrales ejecutados (Consultar si en 1 proyecto o varios)" , "6.3.Espacio público efectivo por habitante" , "6.1.1.Compromisos del POT alcanzados" , "6.2.1.Instrumentos complementarios al POT de tercer nivel formulados, adoptados e implementados" , "6.2.3.Índice Multidimensional de Condiciones de Vida en los corregimientos"],
-                "size": "0.1"
-            },
-            {
-                "name": "6.2.3.2.Predios con asignación de nomenclatura en los corregimientos",
+                "name": "6.6.3.1.Unidades productivas agropecuarias y agroindustriales que mejoran sus capacidades productivas y empresariales",
                 "imports": [],
                 "size": "0"
             },
             {
-                "name": "6.2.3.3.Subestación de Carabineros construida-Altavista",
-                "imports": ["6.1.1.Compromisos del POT alcanzados" , "6.2.3.Índice Multidimensional de Condiciones de Vida en los corregimientos"],
-                "size": "1.33"
+                "name": "6.1.1.1.1.Protocolos Ambientales Urbanísticos formulados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.1.1.Cumplimiento del programa de ejecución del Plan de Ordenamiento Territorial en el corto plazo" , "6.2.2.1.Proyectos estratégicos implementados" , "6.5.3.2.Hogares que superan el déficit habitacional"],
+                "size": "1.77777777777778"
             },
             {
-                "name": "6.2.3.3.Finca instalada-San Antonio de Prado",
-                "imports": [],
-                "size": "0"
+                "name": "6.1.1.2.1.Normas y estudios complementarios al POT desarrollados y actualizados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.1.1.Cumplimiento del programa de ejecución del Plan de Ordenamiento Territorial en el corto plazo" , "6.2.2.1.Proyectos estratégicos implementados"],
+                "size": "1.33333333333333"
             },
             {
-                "name": "6.2.3.4.Equipamientos estratégicos construidos",
-                "imports": ["6.2.3.Índice Multidimensional de Condiciones de Vida en los corregimientos"],
-                "size": "0.66"
+                "name": "6.1.2.1.1.Macroproyectos de transversalidades y de borde formulados y adoptados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.2.1.Instrumentos de planificación complementaria del sistema de gestión para la equidad territorial formulados y adoptados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.2.3.5.Acciones para la conservación del medio ambiente de los corregimientos realizadas",
-                "imports": ["6.2.3.Índice Multidimensional de Condiciones de Vida en los corregimientos"],
-                "size": "0.66"
+                "name": "6.1.2.2.1.nGuía metodológica para la formulación de los Proyectos Urbanos Integrales del ámbito ladera - PUIAL elaborada",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.2.1.Instrumentos de planificación complementaria del sistema de gestión para la equidad territorial formulados y adoptados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.3.1.1.Espacio público nuevo generado en el cinturón verde",
-                "imports": ["6.3.Espacio público efectivo por habitante" , "6.1.1.Compromisos del POT alcanzados" , "6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas"],
-                "size": "2"
+                "name": "6.1.2.2.2.Distrito rural campesino formulado y adoptado",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.2.1.Instrumentos de planificación complementaria del sistema de gestión para la equidad territorial formulados y adoptados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.3.1.2.Instrumento financiero Aprovechamiento Económico del Espacio Público implementado",
-                "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.1.1.Compromisos del POT alcanzados"],
-                "size": "1.33"
+                "name": "6.1.2.2.3.Proyectos Urbano Integrales del ámbito ladera - PUIs formulados y adoptados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.2.1.Instrumentos de planificación complementaria del sistema de gestión para la equidad territorial formulados y adoptados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.3.1.3.Áreas de fachadas de paisaje urbano intervenidas",
-                "imports": ["6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas" , "6.3.2.Estrategias inmobiliarias implementadas"],
-                "size": "1.33"
+                "name": "6.1.2.2.4.Planes Parciales de corto plazo formulados y adoptados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.2.1.Instrumentos de planificación complementaria del sistema de gestión para la equidad territorial formulados y adoptados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.3.1.3.Espacios públicos intervenidos en Áreas y Corredores de Revitalización Estratégica y Económica",
-                "imports": ["6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas"],
-                "size": "0.66"
+                "name": "6.1.2.2.5.Planes de Legalización y Regularización Urbanística de corto plazo - PLRU - formulados y adoptados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.2.1.Instrumentos de planificación complementaria del sistema de gestión para la equidad territorial formulados y adoptados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.3.1.4.Áreas de interés patrimonial restauradas",
-                "imports": ["6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "2.66"
+                "name": "6.1.2.2.6.Planes Maestros de corto plazo formulados y adoptados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.2.1.Instrumentos de planificación complementaria del sistema de gestión para la equidad territorial formulados y adoptados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.3.1.5.Aprovechamiento Económico de la Publicidad implementado",
-                "imports": ["6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas" , "6.3.2.Estrategias inmobiliarias implementadas"],
-                "size": "1.33"
+                "name": "6.1.2.2.7.Unidades de Planificación Rural de corto plazo - UPR - formuladas y adoptadas",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.2.1.Instrumentos de planificación complementaria del sistema de gestión para la equidad territorial formulados y adoptados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.3.1.6.Paisajismo y silvicultura espacios públicos verdes intervenidos",
-                "imports": ["6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas" , "6.3.2.Estrategias inmobiliarias implementadas" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "0.1"
+                "name": "6.1.2.2.8.Planes Especiales de Manejo y Protección del Patrimonio de corto plazo - PEMP - formulados y adoptados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.2.1.Instrumentos de planificación complementaria del sistema de gestión para la equidad territorial formulados y adoptados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.3.2.1.Bienes Inmuebles del Municipio Aprovechados Económicamente por venta o arriendo",
-                "imports": ["6.3.2.Estrategias inmobiliarias implementadas"],
-                "size": "0.66"
+                "name": "6.1.2.2.9.Estudios de amenaza y riesgo y/o estudio de clasificación geológica del suelo realizados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.2.1.Instrumentos de planificación complementaria del sistema de gestión para la equidad territorial formulados y adoptados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.3.2.2.Proyectos Inmobiliario Promovido en complejos barriales ",
-                "imports": ["6.3.2.Estrategias inmobiliarias implementadas"],
-                "size": "0.66"
+                "name": "6.1.2.2.10.Plan de infraestructura de los servicios públicos formulado y adoptado",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.2.1.Instrumentos de planificación complementaria del sistema de gestión para la equidad territorial formulados y adoptados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.3.2.2.Proyectos Inmobiliario Promovido en lotes remanentes",
-                "imports": ["6.3.2.Estrategias inmobiliarias implementadas"],
-                "size": "0.66"
+                "name": "6.1.2.3.1.Estudios de aplicabilidad de los instrumentos de intervención del suelo y financiación realizados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.2.1.Instrumentos de planificación complementaria del sistema de gestión para la equidad territorial formulados y adoptados" , "6.3.3.1.Proyectos inmobiliarios promovidos"],
+                "size": "1.33333333333333"
             },
             {
-                "name": "6.4.1.1.Inmuebles para la institucionalidad ocupados",
-                "imports": ["6.4.1.Espacio público generado en el centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10"],
-                "size": "1.33"
+                "name": "6.1.2.3.2.Instrumentos de financiación formulados y adoptados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.2.1.Instrumentos de planificación complementaria del sistema de gestión para la equidad territorial formulados y adoptados" , "6.3.3.1.Proyectos inmobiliarios promovidos"],
+                "size": "1.33333333333333"
             },
             {
-                "name": "6.4.1.2.Plan de cultura con las instituciones de educación y cultura del centro",
-                "imports": ["6.4.Percepción ciudadana de recuperación del centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.4.Actividades y eventos realizados"],
-                "size": "2"
+                "name": "6.1.3.1.1.Plataforma tecnológica para el seguimiento de las transformaciones territoriales elaborada",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.3.1.Verificacion de la ocupacion real del territorio respecto al modelo vigente"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.4.2.1.Corredores importantes en el centro recuperados",
-                "imports": ["6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "3.33"
+                "name": "6.1.3.2.1.Información catastral actualizada",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.3.1.Verificacion de la ocupacion real del territorio respecto al modelo vigente"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.4.2.2.Estudio para la renovación del centro tradicional formulado",
-                "imports": ["6.4.2.Espacio público recuperados y rehabilitados"],
-                "size": "0.66"
+                "name": "6.1.3.3.1.Obligaciones urbanísticas analizadas",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.3.1.Verificacion de la ocupacion real del territorio respecto al modelo vigente"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.4.2.3.Andenes y espacio público recuperado en el centro",
-                "imports": ["6.4.Percepción ciudadana de recuperación del centro" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "2.66"
+                "name": "6.1.3.3.2.Solicitudes de licencia urbanística revisadas",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.3.1.Verificacion de la ocupacion real del territorio respecto al modelo vigente"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.4.2.4.Corredor Bolívar con conectividad mejorada",
-                "imports": ["6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "3.33"
+                "name": "6.1.4.1.1.Acuerdos o instancias realizados para la gestión del desarrollo articulado de la región",
+                "imports": ["6.1.4.1.Agenda de desarrollo regional concertada e implementada"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.4.2.5.Corredor Córdoba con conectividad mejorada",
-                "imports": ["6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "3.33"
+                "name": "6.1.4.2.1.Capacitaciones realizadas para el fortalecimiento institucional en las diferentes escalas supramunicipales",
+                "imports": ["6.1.4.1.Agenda de desarrollo regional concertada e implementada"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.4.2.6.Vías del centro tradicional peatonalizadas",
-                "imports": ["6.4.Percepción ciudadana de recuperación del centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "2"
+                "name": "6.2.1.1.1.Operadores urbanos designados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.2.1.1.Instrumentos de planificación gestionados para su implementación"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.4.3.1.Intervenciones del espacio público ejecutadas",
-                "imports": ["6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "3.33"
+                "name": "6.2.1.2.1.Política pública formulada para la protección a moradores, actividades económicas y productivas",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.2.1.1.Instrumentos de planificación gestionados para su implementación"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.4.3.2.Corredor Junín consolidado",
-                "imports": ["6.4.Percepción ciudadana de recuperación del centro" , "6.4.1.Espacio público generado en el centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "3.33"
+                "name": "6.2.2.1.1.Vías intervenidas en los PUI",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.2.2.1.Proyectos estratégicos implementados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.4.3.3.Unidades productivas implementadas",
-                "imports": ["6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "1.33"
+                "name": "6.2.2.1.2.Espacio público generado en los PUI",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.2.2.1.Proyectos estratégicos implementados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.4.3.4.Espacio Público Intervenido",
-                "imports": ["6.3.Espacio público efectivo por habitante" , "6.4.Percepción ciudadana de recuperación del centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "2.66"
+                "name": "6.2.2.2.1.Áreas de fachadas de paisaje urbano cualificadas",
+                "imports": ["6.2.2.1.Proyectos estratégicos implementados" , "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.4.3.5.Plan maestro de San Antonio ejecutado",
-                "imports": ["6.4.Percepción ciudadana de recuperación del centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "2"
+                "name": "6.2.2.2.2.Espacios públicos mejorados en áreas y corredores de revitalización estratégica y económica",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.2.2.1.Proyectos estratégicos implementados" , "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro"],
+                "size": "1.33333333333333"
             },
             {
-                "name": "6.4.4.1.Intervenciones para fortalecer la seguridad y gobernabilidad ejecutadas",
-                "imports": ["6.4.Percepción ciudadana de recuperación del centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10"],
-                "size": "1.33"
+                "name": "6.2.2.3.1.Primera etapa de Parques del Río Medellín construida",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.2.2.1.Proyectos estratégicos implementados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.4.4.2.Espacios públicos ocupados para eventos de ciudad en el centro tradicional",
-                "imports": ["6.4.2.Espacio público recuperados y rehabilitados" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "2"
+                "name": "6.2.2.4.1.Plan parcial de Moravia implementado en el programa de ejecución del corto plazo del POT",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.2.2.1.Proyectos estratégicos implementados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.4.4.3.Plan Maestro del centro tradicional consolidado",
-                "imports": ["6.4.2.Espacio público recuperados y rehabilitados" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.3.Espacios públicos intervenidos y recuperados"],
-                "size": "2"
+                "name": "6.2.2.4.2.Estudios hidrológicos e hidráulicos elaborados para quebradas con Plan Parcial",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.2.2.1.Proyectos estratégicos implementados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.4.4.4.Campañas para conocer y volver al centro realizadas",
-                "imports": ["6.4.Percepción ciudadana de recuperación del centro" , "6.4.2.Percepción del estado de andenes y separadores de calle en la Comuna 10" , "6.4.4.Actividades y eventos realizados"],
-                "size": "2"
+                "name": "6.2.2.4.3.Estudios técnicos ambientales de detalle elaborados, para las Unidades de Actuación Urbanística priorizadas del sector El Bosque",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.2.2.1.Proyectos estratégicos implementados"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.5.1.1.Comité de Política habitacional implementado",
-                "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.1.1.Compromisos del POT alcanzados" , "6.5.1.Sistema Municipal Habitacional fortalecido"],
-                "size": "2"
+                "name": "6.3.1.1.1.Plan de intervención de borde formulado",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.1.1.Cumplimiento del programa de ejecución del Plan de Ordenamiento Territorial en el corto plazo" , "6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "1.77777777777778"
             },
             {
-                "name": "6.5.1.2.Plan estratégico habitacional actualizado",
-                "imports": ["6.1.Plan de Ordenamiento Territorial ejecutado en el corto plazo" , "6.1.1.Compromisos del POT alcanzados" , "6.5.2.Proyectos para reasentamiento integral de población"],
-                "size": "2"
+                "name": "6.3.1.2.1.Espacios públicos mejorados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.5.2.1.Hogares sujetos de reasentamiento por obras de utilidad pública atendidos",
-                "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados" , "6.5.2.Proyectos para reasentamiento integral de población" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
+                "name": "6.3.1.2.2.Espacios públicos mantenidos",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10"],
+                "size": "0.888888888888889"
+            },
+            {
+                "name": "6.3.1.3.1.Escenarios deportivos y recreativos administrados",
+                "imports": ["6.3.1.1.Uso de los escenarios deportivos, recreativos y de actividad física administrados por el Inder Medellín"],
+                "size": "0.444444444444444"
+            },
+            {
+                "name": "6.3.1.4.1.Conexión construida entre la Unidad Deportiva de Belén con la Pista BMX Mariana Pajón, Carlos Mauro Hoyos y María Luisa Calle",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.3.1.1.Uso de los escenarios deportivos, recreativos y de actividad física administrados por el Inder Medellín"],
+                "size": "0.888888888888889"
+            },
+            {
+                "name": "6.3.2.1.1.Gestión del aprovechamiento económico del espacio público implementada",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10"],
+                "size": "0.888888888888889"
+            },
+            {
+                "name": "6.3.2.2.1.Bienes Inmuebles de Interés Cultural valorados (LICBIC) que pasan a ser declarados",
+                "imports": ["6.1.1.1.Cumplimiento del programa de ejecución del Plan de Ordenamiento Territorial en el corto plazo"],
+                "size": "0.444444444444444"
+            },
+            {
+                "name": "6.3.2.3.1.Plan maestro del aprovechamiento económico de la publicidad implementado",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.3.2.1.Personas jurídicas y naturales que aprovechan económicamente el espacio público"],
+                "size": "0.888888888888889"
+            },
+            {
+                "name": "6.3.2.4.1.Paisajismo, silvicultura y espacios públicos verdes cualificados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.1.1.Cumplimiento del programa de ejecución del Plan de Ordenamiento Territorial en el corto plazo" , "6.3.2.1.Personas jurídicas y naturales que aprovechan económicamente el espacio público"],
+                "size": "1.33333333333333"
+            },
+            {
+                "name": "6.3.3.1.1.Oportunidades inmobiliarias generadas",
+                "imports": ["6.3.3.1.Proyectos inmobiliarios promovidos"],
+                "size": "0.444444444444444"
+            },
+            {
+                "name": "6.3.3.2.1.Proyectos inmobiliarios gestionados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.3.3.1.Proyectos inmobiliarios promovidos"],
+                "size": "0.888888888888889"
+            },
+            {
+                "name": "6.4.1.1.1.Plan Maestro consolidado para rehabitar el Centro tradicional",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10" , "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro" , "6.4.4.1.Tasa de homicidios en la Comuna 10" , "6.4.4.2.Tasa de hurtos a establecimientos comerciales en la Comuna 10"],
+                "size": "2.22222222222222"
+            },
+            {
+                "name": "6.4.1.2.1.Plan de cultura formulado e implementado con las instituciones de educación y cultura del Centro",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10" , "6.4.4.1.Tasa de homicidios en la Comuna 10" , "6.4.4.2.Tasa de hurtos a establecimientos comerciales en la Comuna 10"],
+                "size": "1.77777777777778"
+            },
+            {
+                "name": "6.4.2.1.1.Corredores intervenidos en el Centro",
+                "imports": ["6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10" , "6.4.2.1.Conectividad peatonal restituida" , "6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10"],
+                "size": "1.33333333333333"
+            },
+            {
+                "name": "6.4.2.2.1.Espacio público recuperado en Galería Bolívar",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10" , "6.4.2.1.Conectividad peatonal restituida" , "6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10"],
+                "size": "1.77777777777778"
+            },
+            {
+                "name": "6.4.2.3.1.Espacio público generado con peatonalización de vías en el Centro",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10" , "6.4.2.1.Conectividad peatonal restituida" , "6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10"],
+                "size": "1.77777777777778"
+            },
+            {
+                "name": "6.4.3.1.1.Corredores en el barrio Prado Centro mejorados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10" , "6.4.2.1.Conectividad peatonal restituida" , "6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10" , "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro"],
+                "size": "2.22222222222222"
+            },
+            {
+                "name": "6.4.3.1.2.Áreas de interés patrimonial restauradas",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10" , "6.4.2.1.Conectividad peatonal restituida" , "6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10" , "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro"],
+                "size": "2.22222222222222"
+            },
+            {
+                "name": "6.4.3.2.1.Plan Especial de San Antonio ejecutado",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10" , "6.4.2.1.Conectividad peatonal restituida" , "6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10" , "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro"],
+                "size": "2.22222222222222"
+            },
+            {
+                "name": "6.4.3.3.1.Áreas de fachadas de paisaje urbano mejoradas en el Centro",
+                "imports": ["6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10" , "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro"],
+                "size": "0.888888888888889"
+            },
+            {
+                "name": "6.4.3.3.2.Espacios públicos mejorados en áreas y corredores de revitalización estratégica y económica en el Centro",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10" , "6.4.2.1.Conectividad peatonal restituida" , "6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10" , "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro"],
+                "size": "2.22222222222222"
+            },
+            {
+                "name": "6.4.3.4.1.Corredores en el Centro mejorados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10" , "6.4.2.1.Conectividad peatonal restituida" , "6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10" , "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro"],
+                "size": "2.22222222222222"
+            },
+            {
+                "name": "6.4.3.5.1.Espacio público mejorado de parques ubicados en el Centro",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10" , "6.4.2.1.Conectividad peatonal restituida" , "6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10" , "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro"],
+                "size": "2.22222222222222"
+            },
+            {
+                "name": "6.4.3.6.1.Sombras naturales y superficies de jardín intervenidas en el Centro",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10" , "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro"],
+                "size": "1.33333333333333"
+            },
+            {
+                "name": "6.4.4.1.1.Intervenciones para fortalecer la seguridad y gobernabilidad ejecutadas",
+                "imports": ["6.4.4.1.Tasa de homicidios en la Comuna 10" , "6.4.4.2.Tasa de hurtos a establecimientos comerciales en la Comuna 10"],
+                "size": "0.888888888888889"
+            },
+            {
+                "name": "6.4.4.2.1.Rehabitación de vivienda gestionada y estructurada en el Centro",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.4.1.Tasa de homicidios en la Comuna 10" , "6.4.4.2.Tasa de hurtos a establecimientos comerciales en la Comuna 10"],
+                "size": "1.33333333333333"
+            },
+            {
+                "name": "6.4.4.3.1.Campañas para conocer y volver al Centro realizadas",
+                "imports": ["6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10" , "6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10" , "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro" , "6.4.4.1.Tasa de homicidios en la Comuna 10" , "6.4.4.2.Tasa de hurtos a establecimientos comerciales en la Comuna 10"],
+                "size": "2.22222222222222"
+            },
+            {
+                "name": "6.4.4.4.1.Espacios públicos utilizados para eventos de ciudad en el Centro tradicional",
+                "imports": ["6.4.4.1.Tasa de homicidios en la Comuna 10" , "6.4.4.2.Tasa de hurtos a establecimientos comerciales en la Comuna 10"],
+                "size": "0.888888888888889"
+            },
+            {
+                "name": "6.4.4.5.1.Venteros informales vinculados a cadenas productivas",
+                "imports": ["6.3.2.1.Personas jurídicas y naturales que aprovechan económicamente el espacio público" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10" , "6.4.2.1.Conectividad peatonal restituida" , "6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10" , "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro" , "6.4.4.1.Tasa de homicidios en la Comuna 10" , "6.4.4.2.Tasa de hurtos a establecimientos comerciales en la Comuna 10"],
+                "size": "3.11111111111111"
+            },
+            {
+                "name": "6.5.1.1.1.Consejo de política habitacional implementado",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.5.1.1.Sistema Municipal habitacional fortalecido"],
+                "size": "0.888888888888889"
+            },
+            {
+                "name": "6.5.1.2.1.Plan Estratégico Habitacional de Medellín ajustado",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.1.1.Cumplimiento del programa de ejecución del Plan de Ordenamiento Territorial en el corto plazo" , "6.1.3.1.Verificacion de la ocupacion real del territorio respecto al modelo vigente" , "6.5.1.1.Sistema Municipal habitacional fortalecido" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "2.22222222222222"
+            },
+            {
+                "name": "6.5.1.3.1. Política pública de inquilinatos adoptada y reglamentada",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.1.1.Cumplimiento del programa de ejecución del Plan de Ordenamiento Territorial en el corto plazo" , "6.5.1.1.Sistema Municipal habitacional fortalecido"],
+                "size": "1.33333333333333"
+            },
+            {
+                "name": "6.5.2.1.1.Subsidios para vivienda definitiva asignados a hogares sujetos de reasentamiento por eventos naturales, riesgo y desastres",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.3.1.Verificacion de la ocupacion real del territorio respecto al modelo vigente" , "6.5.2.1.Proyectos para reasentamiento integral de población implementados" , "6.5.3.1.Hogares que superan el déficit cuantitativo de vivienda" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "2.22222222222222"
+            },
+            {
+                "name": "6.5.2.1.2.Hogares sujetos de reasentamiento por obras de utilidad pública atendidos",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.3.1.Verificacion de la ocupacion real del territorio respecto al modelo vigente" , "6.5.2.1.Proyectos para reasentamiento integral de población implementados" , "6.5.3.2.Hogares que superan el déficit habitacional" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "2.22222222222222"
+            },
+            {
+                "name": "6.5.2.2.1.Subsidios para vivienda definitiva asignados a la población de arrendamiento temporal",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.3.1.Verificacion de la ocupacion real del territorio respecto al modelo vigente" , "6.5.2.1.Proyectos para reasentamiento integral de población implementados" , "6.5.3.1.Hogares que superan el déficit cuantitativo de vivienda" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "2.22222222222222"
+            },
+            {
+                "name": "6.5.2.3.1.Subsidios asignados para pago de arrendamiento temporal",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.5.2.1.Proyectos para reasentamiento integral de población implementados"],
+                "size": "0.888888888888889"
+            },
+            {
+                "name": "6.5.3.1.1.Subsidios para vivienda nueva asignados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.3.1.Verificacion de la ocupacion real del territorio respecto al modelo vigente" , "6.5.1.1.Sistema Municipal habitacional fortalecido" , "6.5.3.1.Hogares que superan el déficit cuantitativo de vivienda" , "6.5.3.2.Hogares que superan el déficit habitacional" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "2.66666666666667"
+            },
+            {
+                "name": "6.5.3.1.2.Subsidios para vivienda nueva asignados a hogares víctimas de desplazamiento forzado, vía integración local y retorno",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.3.1.Verificacion de la ocupacion real del territorio respecto al modelo vigente" , "6.5.1.1.Sistema Municipal habitacional fortalecido" , "6.5.3.1.Hogares que superan el déficit cuantitativo de vivienda" , "6.5.3.2.Hogares que superan el déficit habitacional" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "2.66666666666667"
+            },
+            {
+                "name": "6.5.3.1.3. Vivienda de interés social construida",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.3.1.Verificacion de la ocupacion real del territorio respecto al modelo vigente" , "6.5.1.1.Sistema Municipal habitacional fortalecido" , "6.5.3.1.Hogares que superan el déficit cuantitativo de vivienda" , "6.5.3.2.Hogares que superan el déficit habitacional" , "6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "3.11111111111111"
+            },
+            {
+                "name": "6.5.3.2.1.Suelo para vivienda social gestionado",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.3.1.Verificacion de la ocupacion real del territorio respecto al modelo vigente" , "6.5.1.1.Sistema Municipal habitacional fortalecido" , "6.5.3.1.Hogares que superan el déficit cuantitativo de vivienda" , "6.5.3.2.Hogares que superan el déficit habitacional"],
+                "size": "2.22222222222222"
+            },
+            {
+                "name": "6.5.3.3.1.Subsidios asignados en proyectos de autoconstrucción e iniciativas comunitarias",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.1.3.1.Verificacion de la ocupacion real del territorio respecto al modelo vigente" , "6.5.1.1.Sistema Municipal habitacional fortalecido" , "6.5.3.1.Hogares que superan el déficit cuantitativo de vivienda" , "6.5.3.2.Hogares que superan el déficit habitacional" , "6.5.4.2.Hogares que superan el déficit cualitativo de vivienda" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "3.11111111111111"
+            },
+            {
+                "name": "6.5.4.1.1.Subsidios para mejoramiento de vivienda asignados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.5.3.1.Hogares que superan el déficit cuantitativo de vivienda" , "6.5.3.2.Hogares que superan el déficit habitacional" , "6.5.4.1.Hogares que acceden a soluciones de suministro de agua potable dentro de la iniciativa unidos por el agua" , "6.5.4.2.Hogares que superan el déficit cualitativo de vivienda" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "2.66666666666667"
+            },
+            {
+                "name": "6.5.4.1.2.Subsidios para mejoramiento de vivienda asignados a víctimas de desplazamiento forzado",
+                "imports": ["6.5.3.2.Hogares que superan el déficit habitacional" , "6.5.4.1.Hogares que acceden a soluciones de suministro de agua potable dentro de la iniciativa unidos por el agua" , "6.5.4.2.Hogares que superan el déficit cualitativo de vivienda" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "1.77777777777778"
+            },
+            {
+                "name": "6.5.4.1.3.Mejoramientos de vivienda ejecutados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.5.3.2.Hogares que superan el déficit habitacional" , "6.5.4.1.Hogares que acceden a soluciones de suministro de agua potable dentro de la iniciativa unidos por el agua" , "6.5.4.2.Hogares que superan el déficit cualitativo de vivienda" , "6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "2.66666666666667"
+            },
+            {
+                "name": "6.5.4.1.4.Viviendas que acceden a agua potable en desarrollo de obras de mitigación",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.5.3.2.Hogares que superan el déficit habitacional" , "6.5.4.1.Hogares que acceden a soluciones de suministro de agua potable dentro de la iniciativa unidos por el agua" , "6.5.4.2.Hogares que superan el déficit cualitativo de vivienda" , "6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "2.66666666666667"
+            },
+            {
+                "name": "6.5.4.2.1.Espacio público del entorno barrial mejorado",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.4.1.1.Nivel de percepción positiva de la libertad para movilizarse en la Comuna 10" , "6.4.2.1.Conectividad peatonal restituida" , "6.4.2.2.Nivel de percepción positiva del estado de los andenes y separadores de calles en la Comuna 10" , "6.4.3.1.Espacio público y patrimonio rehabilitado en el Centro" , "6.5.4.2.Hogares que superan el déficit cualitativo de vivienda" , "6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "3.55555555555556"
+            },
+            {
+                "name": "6.5.4.3.1.Predios titulados para favorecer a las familias más vulnerables",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.5.1.1.Sistema Municipal habitacional fortalecido" , "6.5.2.1.Proyectos para reasentamiento integral de población implementados" , "6.5.3.1.Hogares que superan el déficit cuantitativo de vivienda" , "6.5.3.2.Hogares que superan el déficit habitacional" , "6.5.4.2.Hogares que superan el déficit cualitativo de vivienda" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "3.11111111111111"
+            },
+            {
+                "name": "6.5.4.3.2.Predios titulados a víctimas de desplazamiento forzado",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.5.1.1.Sistema Municipal habitacional fortalecido" , "6.5.2.1.Proyectos para reasentamiento integral de población implementados" , "6.5.3.1.Hogares que superan el déficit cuantitativo de vivienda" , "6.5.3.2.Hogares que superan el déficit habitacional" , "6.5.4.2.Hogares que superan el déficit cualitativo de vivienda" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "3.11111111111111"
+            },
+            {
+                "name": "6.5.4.4.1.Edificaciones reconocidas por resolución de curaduría",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.5.1.1.Sistema Municipal habitacional fortalecido" , "6.5.3.1.Hogares que superan el déficit cuantitativo de vivienda" , "6.5.3.2.Hogares que superan el déficit habitacional" , "6.5.4.2.Hogares que superan el déficit cualitativo de vivienda" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "2.66666666666667"
+            },
+            {
+                "name": "6.5.4.4.2.Viviendas habilitadas para conexión de los servicios de acueducto y alcantarillado",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.5.1.1.Sistema Municipal habitacional fortalecido" , "6.5.2.1.Proyectos para reasentamiento integral de población implementados" , "6.5.3.1.Hogares que superan el déficit cuantitativo de vivienda" , "6.5.3.2.Hogares que superan el déficit habitacional" , "6.5.4.1.Hogares que acceden a soluciones de suministro de agua potable dentro de la iniciativa unidos por el agua" , "6.5.4.2.Hogares que superan el déficit cualitativo de vivienda" , "6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
                 "size": "4"
             },
             {
-                "name": "6.5.2.2.Hogares sujetos de reasentamiento por eventos naturales y desastres atendidos",
-                "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados" , "6.5.2.Proyectos para reasentamiento integral de población" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "4"
+                "name": "6.5.4.5.1.Viviendas escrituradas por saneamiento predial",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.5.1.1.Sistema Municipal habitacional fortalecido" , "6.5.3.1.Hogares que superan el déficit cuantitativo de vivienda" , "6.5.3.2.Hogares que superan el déficit habitacional" , "6.5.4.1.Hogares que acceden a soluciones de suministro de agua potable dentro de la iniciativa unidos por el agua" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "2.66666666666667"
             },
             {
-                "name": "6.5.2.3.Piloto de reasentamiento preventivo en suelo de riesgo no mitigable ejecutado",
-                "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados" , "6.5.2.Proyectos para reasentamiento integral de población" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "4"
+                "name": "6.5.4.6.1.Viviendas con sistemas alternativos de agua potable que se ubican en asentamientos informales",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.5.4.1.Hogares que acceden a soluciones de suministro de agua potable dentro de la iniciativa unidos por el agua" , "6.5.4.2.Hogares que superan el déficit cualitativo de vivienda"],
+                "size": "1.33333333333333"
             },
             {
-                "name": "6.5.2.4.Hogares con subsidio de arrendamiento temporal atendidos",
-                "imports": ["6.5.Subsidios de vivienda asignados" , "6.5.2.Proyectos para reasentamiento integral de población" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "3.33"
+                "name": "6.6.1.1.1.Eventos de ciudad realizados con presencia en los territorios rurales",
+                "imports": ["6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.5.3.1.Viviendas construidas",
-                "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "3.33"
+                "name": "6.6.1.2.1.Campañas publicitarias realizadas para la promoción de prácticas campesinas, saberes ancestrales y tradición popular",
+                "imports": ["6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.5.3.1.Unidades de vivienda iniciadas",
-                "imports": ["6.5.Subsidios de vivienda asignados" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "2.66"
+                "name": "6.6.1.2.2.Corregimientos con señalización informativa y patrimonial instalada",
+                "imports": ["6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.5.3.2.Suelo de vivienda social gestionado",
-                "imports": ["6.5.1.Sistema Municipal Habitacional fortalecido"],
-                "size": "0.66"
+                "name": "6.6.1.3.1.Diagnóstico de los jóvenes rurales realizado",
+                "imports": ["6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio"],
+                "size": "0.444444444444444"
             },
             {
-                "name": "6.5.3.3.Subsidios en proyectos de iniciativas comunitarias asignados",
-                "imports": ["6.5.Subsidios de vivienda asignados" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.3.Nuevos desarrrollos habitacionales de Vivienda Social gestionados" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "2.66"
+                "name": "6.6.2.1.1.Planes de apropiación y mantenimiento de escenarios públicos implementados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.5.4.1.Resoluciones de cesión de título gratuito expedidas",
-                "imports": ["6.5.Subsidios de vivienda asignados"],
-                "size": "0.66"
+                "name": "6.6.2.1.2.nProyectos Integrales Corregimentales ejecutados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "1.33333333333333"
             },
             {
-                "name": "6.5.4.2.Hogares beneficiados de subsidio para el mejoramiento de vivienda",
-                "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.4.Hogares que superan el déficit cualitativo de vivienda" , "6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "3.33"
+                "name": "6.6.2.2.1.Acueductos veredales ampliados y optimizados",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "1.33333333333333"
             },
             {
-                "name": "6.5.4.2.Viviendas urbanas y rurales que acceden a mejoramiento",
-                "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.Subsidios de vivienda asignados" , "6.5.3.Hogares que superan el déficit cuantitativo de vivienda " , "6.5.4.Hogares que superan el déficit cualitativo de vivienda" , "6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "3.33"
+                "name": "6.6.2.2.2.Nuevas viviendas conectadas al sistema de acueducto y saneamiento básico en corregimientos",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "1.33333333333333"
             },
             {
-                "name": "6.5.4.3.Reconocimientos de edificaciones",
-                "imports": ["6.5.Subsidios de vivienda asignados"],
-                "size": "0.66"
+                "name": "6.6.2.3.1.Residuos sólidos aprovechados en zona rural",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.5.4.4.Política pública de inquilinatos implementada",
-                "imports": ["6.5.1.Sistema Municipal Habitacional fortalecido" , "6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "1.33"
+                "name": "6.6.2.4.1.Predios con asignación de nomenclatura en los corregimientos",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "1.33333333333333"
             },
             {
-                "name": "6.5.4.5.Adecuación de escenarios deportivos, recreativos y de actividad física",
-                "imports": ["6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "0.66"
+                "name": "6.6.2.5.1.Cámaras de seguridad instaladas",
+                "imports": ["6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.5.4.5.Construcción de escenarios deportivos, recreativos y de actividad física",
-                "imports": ["6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "0.66"
+                "name": "6.6.2.6.1.Vías Intervenidas para mejorar la movilidad en los corregimientos",
+                "imports": ["6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.5.4.5.Unidades de Vida Articulada construidas y puestas en funcionamiento",
-                "imports": ["6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "0.66"
+                "name": "6.6.3.1.1 .Pequeños productores que reciben asistencia técnica",
+                "imports": ["6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.3.1.Unidades productivas agropecuarias y agroindustriales que mejoran sus capacidades productivas y empresariales"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.5.4.5.Adecuación y mantenimiento de la infraestructura física de las UVA",
-                "imports": ["6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "0.66"
+                "name": "6.6.3.1.2.Programa Agropecuario Municipal (PAM) implementado",
+                "imports": ["6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas" , "6.6.3.1.Unidades productivas agropecuarias y agroindustriales que mejoran sus capacidades productivas y empresariales"],
+                "size": "1.33333333333333"
             },
             {
-                "name": "6.5.4.6.Espacios públicos de encuentro y esparcimiento, mantenidos y conservados ",
-                "imports": ["6.4.1.Espacio público generado en el centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.3.Espacios públicos intervenidos y recuperados" , "6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "2.66"
+                "name": "6.6.3.2.1.Pequeños productores agropecuarios y emprendedores rurales participantes de mercados campesinos",
+                "imports": ["6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.3.1.Unidades productivas agropecuarias y agroindustriales que mejoran sus capacidades productivas y empresariales"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.5.4.6.Espacios públicos de encuentro y esparcimiento intervenidos Urbanos y Rurales",
-                "imports": ["6.4.1.Espacio público generado en el centro" , "6.4.2.Espacio público recuperados y rehabilitados" , "6.4.3.Espacios públicos intervenidos y recuperados" , "6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "2.66"
+                "name": "6.6.3.2.2.Escenarios y espacios públicos donde se realizan mercados campesinos",
+                "imports": ["6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.3.1.Unidades productivas agropecuarias y agroindustriales que mejoran sus capacidades productivas y empresariales"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.5.4.7.Viviendas con servicio de agua potable en asentamientos informales mediante pilas públicas",
-                "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "1.33"
+                "name": "6.6.3.3.1.Emprendimientos agropecuarios rurales apoyados",
+                "imports": ["6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.3.1.Unidades productivas agropecuarias y agroindustriales que mejoran sus capacidades productivas y empresariales"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.5.4.8.Viviendas que acceden a agua potable en desarrollo de obras de mitigación",
-                "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "1.33"
+                "name": "6.6.3.4.1.Nuevas centralidades construídas para el comercio localn",
+                "imports": ["6.1.Índice de Desarrollo Territorial (IDET)" , "6.6.3.1.Unidades productivas agropecuarias y agroindustriales que mejoran sus capacidades productivas y empresariales"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.5.4.9.Viviendas habilitadas para conexión de los servicios de acueducto y alcantarillado",
-                "imports": ["6.5.Hogares que superan el déficit habitacional" , "6.5.4.Hogares que superan el déficit cualitativo de vivienda"],
-                "size": "1.33"
+                "name": "6.6.3.4.2.Sistemas agroalimentarios de proximidad territorial integrados y fortalecidos en cada corregimienton",
+                "imports": ["6.6.2.1.Brecha del Índice Multidimensional de Calidad de Vida entre corregimientos y comunas" , "6.6.3.1.Unidades productivas agropecuarias y agroindustriales que mejoran sus capacidades productivas y empresariales"],
+                "size": "0.888888888888889"
             },
             {
-                "name": "6.5.4.10.Programas para la salvaguardia del patrimonio cultural realizados",
-                "imports": ["6.3.1.Áreas de espacio publico y patrimoniales intervenidas y/o restauradas" , "6.4.3.Espacios públicos intervenidos y recuperados" , "6.5.4.Mejoramiento Integral de Barrios logrado"],
-                "size": "2"
+                "name": "6.6.3.5.1.Planes de promoción de los sitios de interés en cada corregimiento formulados",
+                "imports": ["6.6.1.1.Personas que reconocen la importancia del territorio rural para el municipio" , "6.6.3.1.Unidades productivas agropecuarias y agroindustriales que mejoran sus capacidades productivas y empresariales"],
+                "size": "0.888888888888889"
             }
         ]

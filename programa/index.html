@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body{
+	width:1500px;
+	margin:10px auto;
+}
+svg text{
+	font-size:12px;
+}
+rect{
+	shape-rendering:crispEdges;
+}
+</style>
+
+
+<LINK href="../estilo.css" title="compacto" rel="stylesheet" type="text/css">
+<body align="center">
+
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<a href="http://subinfo.github.io"><img src="../images/logo_PDM-01.png" width="40%"></a><br>
+
+<!--br>
+<a href="../index.html"><img src="../images/dimension1-01.png" width="10%"></a>
+<a href="../index2.html"><img src="../images/dimension2-01-01.png" width="10%"></a>
+<a href="../index3.html"><img src="../images/dimension3-01.png" width="10%"></a>
+<a href="../index4.html"><img src="../images/dimension4-01.png" width="10%"></a>
+<a href="../index5.html"><img src="../images/dimension5-01.png" width="10%"></a>
+<a href="../index6.html"><img src="../images/dimension6-01.png" width="10%"></a>
+<a href="../index7.html"><img src="../images/dimension7-01.png" width="10%"></a><br>
+<a href="../bipartite"><img src="../images/ind_impacto-02.png" width="20%"></a><br><br><br-->
+
+
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="biPartite.js"></script>
+<script>
+var file = "Ciao";
+//var c1=[-300, 40], c2=[-50, 400], c3=[-10, 450]; //Column positions of labels.
+var c1=[-650, 40], c2=[-50, 350], c3=[-10, 390];
+var dim_dim=[['Dimensión 1', 'Dimensión 1', 41],['Dimensión 1', 'Dimensión 2', 15],['Dimensión 1', 'Dimensión 3', 4],['Dimensión 1', 'Dimensión 4', 1],['Dimensión 1', 'Dimensión 5', 1],['Dimensión 1', 'Dimensión 6', 2],['Dimensión 1', 'Dimensión 7', 0],['Dimensión 2', 'Dimensión 1', 19],['Dimensión 2', 'Dimensión 2', 58],['Dimensión 2', 'Dimensión 3', 10],['Dimensión 2', 'Dimensión 4', 0],['Dimensión 2', 'Dimensión 5', 0],['Dimensión 2', 'Dimensión 6', 4],['Dimensión 2', 'Dimensión 7', 0],['Dimensión 3', 'Dimensión 1', 10],['Dimensión 3', 'Dimensión 2', 8],['Dimensión 3', 'Dimensión 3', 97],['Dimensión 3', 'Dimensión 4', 20],['Dimensión 3', 'Dimensión 5', 0],['Dimensión 3', 'Dimensión 6', 8],['Dimensión 3', 'Dimensión 7', 0],['Dimensión 4', 'Dimensión 1', 31],['Dimensión 4', 'Dimensión 2', 30],['Dimensión 4', 'Dimensión 3', 104],['Dimensión 4', 'Dimensión 4', 46],['Dimensión 4', 'Dimensión 5', 5],['Dimensión 4', 'Dimensión 6', 22],['Dimensión 4', 'Dimensión 7', 1],['Dimensión 5', 'Dimensión 1', 10],['Dimensión 5', 'Dimensión 2', 0],['Dimensión 5', 'Dimensión 3', 5],['Dimensión 5', 'Dimensión 4', 3],['Dimensión 5', 'Dimensión 5', 24],['Dimensión 5', 'Dimensión 6', 7],['Dimensión 5', 'Dimensión 7', 6],['Dimensión 6', 'Dimensión 1', 28],['Dimensión 6', 'Dimensión 2', 35],['Dimensión 6', 'Dimensión 3', 9],['Dimensión 6', 'Dimensión 4', 21],['Dimensión 6', 'Dimensión 5', 25],['Dimensión 6', 'Dimensión 6', 165],['Dimensión 6', 'Dimensión 7', 112],['Dimensión 7', 'Dimensión 1', 11],['Dimensión 7', 'Dimensión 2', 5],['Dimensión 7', 'Dimensión 3', 7],['Dimensión 7', 'Dimensión 4', 0],['Dimensión 7', 'Dimensión 5', 3],['Dimensión 7', 'Dimensión 6', 10],['Dimensión 7', 'Dimensión 7', 17]];
+var width = 1500, height = 810, margin ={b:0, t:100, l:660, r:170};
+var svg1 = d3.select("body")
+	.append("svg").attr('width',width).attr('height',(height+margin.b+margin.t))
+	.append("g").attr("transform","translate("+ margin.l+","+margin.t+")");
+var data1 = [ 
+	{data:bP.partData(dim_dim,2), id:'dim_dim', header:["Indicadores de Programa que aportan (click)","Indicadores de Dimensioón a los que aportan", "Análisis Indicadores de Programa y de Dimensión"]},
+	
+];
+bP.draw(data1, svg1);
+</script>
+</body>
+<script type="text/javascript">
+		// Creamos un array vacio
+// Capturamos el click y lo pasamos a una funcion
+document.onclick = captura_click;
+window.onload = getVarsUrl;	
+function captura_click(e) {
+	// Funcion para capturar el click del raton
+	var HaHechoClick;
+	if (e == null) {
+		// Si hac click un elemento, lo leemos
+		HaHechoClick = event.srcElement;
+	} else {
+		// Si ha hecho click sobre un destino, lo leemos
+		HaHechoClick = e.target;
+	}
+	// Añadimos el elemento al array de elementos
+	// Una prueba con salida en consola
+	//console.log("Contenido sobre lo que ha hecho click: "+ElementosClick.innerHTML);	
+	console.log(HaHechoClick.id);
+	
+	if (/^D/.test(HaHechoClick.id)){
+		//window.location.replace("./index2.html")
+		location.href='./index2.html?var='+HaHechoClick.id;
+	}
+}
+ function getVarsUrl(){
+    var url= location.search.replace("?", "");
+    var arrUrl = url.split("&");
+    var urlObj={};   
+    for(var i=0; i<arrUrl.length; i++){
+        var x= arrUrl[i].split("=");
+        urlObj[x[0]]=x[1]
+    }
+    file = urlObj.var;
+    //console.log(file);
+}
+</script>

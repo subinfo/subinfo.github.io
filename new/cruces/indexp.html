@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Read Only by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<LINK href="assets/css/estilo.css" title="compacto" rel="stylesheet" type="text/css">
+		<style>
+body{
+	width:95%;
+	margin:0px auto;
+}
+svg text{
+	font-size:12px;
+}
+rect{
+	shape-rendering:crispEdges;
+}
+</style>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<h1>Cruce de Indicadores</h1>
+					<p>Cruce entre Indicadores de Dimensión, Programa y Dimensión-Programa, para el análisis entre las diferentes dimensiones</p>
+
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="./" >Indicadores de Dimensión</a></li>
+						<li><a href="indexp.html" class="active">Indicadores de Programa</a></li>
+						<li><a href="indexdp.html">Indicadores de Dimensión y Programa</a></li><br/>
+						
+					</ul>
+
+				</nav>
+				<header>
+					<ul class="icons">
+						<li><a href="../" class="icon fa-home"> Inicio</a></li>
+					
+					</ul>
+				</header>
+				
+
+				
+			</section>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="on">
+							
+<script src="biPartite2.js"></script>
+<script>
+var file = "Ciao";
+//var c1=[-300, 40], c2=[-50, 400], c3=[-10, 450]; //Column positions of labels.
+var c1=[-350, 40], c2=[-50, 350], c3=[-10, 390];
+var dim_dim=[['Dimensión 1', 'Dimensión 1', 41],['Dimensión 1', 'Dimensión 2', 15],['Dimensión 1', 'Dimensión 3', 4],['Dimensión 1', 'Dimensión 4', 1],['Dimensión 1', 'Dimensión 5', 1],['Dimensión 1', 'Dimensión 6', 2],['Dimensión 1', 'Dimensión 7', 0],['Dimensión 2', 'Dimensión 1', 19],['Dimensión 2', 'Dimensión 2', 58],['Dimensión 2', 'Dimensión 3', 10],['Dimensión 2', 'Dimensión 4', 0],['Dimensión 2', 'Dimensión 5', 0],['Dimensión 2', 'Dimensión 6', 4],['Dimensión 2', 'Dimensión 7', 0],['Dimensión 3', 'Dimensión 1', 10],['Dimensión 3', 'Dimensión 2', 8],['Dimensión 3', 'Dimensión 3', 97],['Dimensión 3', 'Dimensión 4', 20],['Dimensión 3', 'Dimensión 5', 0],['Dimensión 3', 'Dimensión 6', 8],['Dimensión 3', 'Dimensión 7', 0],['Dimensión 4', 'Dimensión 1', 31],['Dimensión 4', 'Dimensión 2', 30],['Dimensión 4', 'Dimensión 3', 104],['Dimensión 4', 'Dimensión 4', 46],['Dimensión 4', 'Dimensión 5', 5],['Dimensión 4', 'Dimensión 6', 22],['Dimensión 4', 'Dimensión 7', 1],['Dimensión 5', 'Dimensión 1', 10],['Dimensión 5', 'Dimensión 2', 0],['Dimensión 5', 'Dimensión 3', 5],['Dimensión 5', 'Dimensión 4', 3],['Dimensión 5', 'Dimensión 5', 24],['Dimensión 5', 'Dimensión 6', 7],['Dimensión 5', 'Dimensión 7', 6],['Dimensión 6', 'Dimensión 1', 28],['Dimensión 6', 'Dimensión 2', 35],['Dimensión 6', 'Dimensión 3', 9],['Dimensión 6', 'Dimensión 4', 21],['Dimensión 6', 'Dimensión 5', 25],['Dimensión 6', 'Dimensión 6', 165],['Dimensión 6', 'Dimensión 7', 112],['Dimensión 7', 'Dimensión 1', 11],['Dimensión 7', 'Dimensión 2', 5],['Dimensión 7', 'Dimensión 3', 7],['Dimensión 7', 'Dimensión 4', 0],['Dimensión 7', 'Dimensión 5', 3],['Dimensión 7', 'Dimensión 6', 10],['Dimensión 7', 'Dimensión 7', 17]];
+var width = 1500, height = 810, margin ={b:0, t:100, l:360, r:170};
+var svg1 = d3.select("body")
+	.append("svg").attr('width',width).attr('height',(height+margin.b+margin.t))
+	.append("g").attr("transform","translate("+ margin.l+","+margin.t+")");
+var data1 = [ 
+	{data:bP.partData(dim_dim,2), id:'dim_dim', header:["Indicadores de Programa que aportan (click)","Indicadores de Dimensioón a los que aportan", "Análisis Indicadores de Programa"]},
+	
+];
+bP.draw(data1, svg1);
+</script>
+</body>
+<script type="text/javascript">
+		// Creamos un array vacio
+// Capturamos el click y lo pasamos a una funcion
+document.onclick = captura_click;
+window.onload = getVarsUrl;	
+function captura_click(e) {
+	// Funcion para capturar el click del raton
+	var HaHechoClick;
+	if (e == null) {
+		// Si hac click un elemento, lo leemos
+		HaHechoClick = event.srcElement;
+	} else {
+		// Si ha hecho click sobre un destino, lo leemos
+		HaHechoClick = e.target;
+	}
+	// Añadimos el elemento al array de elementos
+	// Una prueba con salida en consola
+	//console.log("Contenido sobre lo que ha hecho click: "+ElementosClick.innerHTML);	
+	console.log(HaHechoClick.id);
+	
+	if (/^D/.test(HaHechoClick.id)){
+		//window.location.replace("./index2.html")
+		location.href='./index2p.html?var='+HaHechoClick.id;
+	}
+}
+ function getVarsUrl(){
+    var url= location.search.replace("?", "");
+    var arrUrl = url.split("&");
+    var urlObj={};   
+    for(var i=0; i<arrUrl.length; i++){
+        var x= arrUrl[i].split("=");
+        urlObj[x[0]]=x[1]
+    }
+    file = urlObj.var;
+    //console.log(file);
+}
+</script>					
+
+					
+
+					</div>
+
+				<!-- Footer -->
+			
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

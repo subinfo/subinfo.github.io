@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Read Only by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<LINK href="assets/css/estilo.css" title="compacto" rel="stylesheet" type="text/css">
+		<style>
+body{
+	width:95%;
+	margin:0px auto;
+}
+svg text{
+	font-size:12px;
+}
+rect{
+	shape-rendering:crispEdges;
+}
+</style>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<h1>Cruce de Indicadores</h1>
+					<p>Cruce entre Indicadores de Dimensión, Programa y Dimensión-Programa, para el análisis entre las diferentes dimensiones</p>
+
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="./" class="active">Indicadores de Dimensión</a></li>
+						<li><a href="indexp.html">Indicadores de Programa</a></li>
+						<li><a href="indexdp.html">Indicadores de Dimensión y Programa</a></li><br/>
+						
+					</ul>
+
+				</nav>
+				<header>
+					<ul class="icons">
+						<li><a href="../" class="icon fa-home"> Inicio</a></li>
+					
+					</ul>
+				</header>
+				
+
+				
+			</section>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="on">
+							
+<script src="biPartite1.js"></script>
+<script>
+var file = "Ciao";
+var c1=[-450, 40], c2=[-50, 400], c3=[-10, 450]; //Column positions of labels.
+var dim_dim=[['1.1.Indice de Cultura Ciudadana','3.1.Indice de Progeso Social',1],['1.2.Índice de Participación Ciudadana','6.1.Índice de Desarrollo Territorial (IDET)',1],['2.1.Nivel de percepción de seguridad','1.1.Indice de Cultura Ciudadana',1] , ['2.1.Nivel de percepción de seguridad','2.2.Nivel de victimización',1],['2.2.Nivel de victimización','2.1.Nivel de percepción de seguridad',1] , ['2.2.Nivel de victimización','3.1.Indice de Progeso Social',1],['3.1.Indice de Progeso Social','7.1.Índice de desempeño ambiental',0],['4.1.Años promedio de estudio de la población de 15 a 24 años','1.1.Indice de Cultura Ciudadana',1] , ['4.1.Años promedio de estudio de la población de 15 a 24 años','3.1.Indice de Progeso Social',1] , ['4.1.Años promedio de estudio de la población de 15 a 24 años','4.2.Ingreso Per-Cápita de la Unidad de Gasto',1],['4.2.Ingreso Per-Cápita de la Unidad de Gasto','3.1.Indice de Progeso Social',1] , ['4.2.Ingreso Per-Cápita de la Unidad de Gasto','4.1.Años promedio de estudio de la población de 15 a 24 años',1] , ['4.2.Ingreso Per-Cápita de la Unidad de Gasto','5.1.Distribución modal de desplazamientos por modo de transporte',1],['5.1.Distribución modal de desplazamientos por modo de transporte','1.1.Indice de Cultura Ciudadana',1] , ['5.1.Distribución modal de desplazamientos por modo de transporte','1.2.Índice de Participación Ciudadana',1] , ['5.1.Distribución modal de desplazamientos por modo de transporte','3.1.Indice de Progeso Social',1] , ['5.1.Distribución modal de desplazamientos por modo de transporte','6.1.Índice de Desarrollo Territorial (IDET)',1],['6.1.Índice de Desarrollo Territorial (IDET)','1.2.Índice de Participación Ciudadana',1] , ['6.1.Índice de Desarrollo Territorial (IDET)','3.1.Indice de Progeso Social',1] , ['6.1.Índice de Desarrollo Territorial (IDET)','5.1.Distribución modal de desplazamientos por modo de transporte',1],['7.1.Índice de desempeño ambiental','3.1.Indice de Progeso Social',1] , ['7.1.Índice de desempeño ambiental','6.1.Índice de Desarrollo Territorial (IDET)',1]];
+var width = 1500, height = 810, margin ={b:0, t:100, l:460, r:170};
+var svg1 = d3.select("body")
+	.append("svg").attr('width',width).attr('height',(height+margin.b+margin.t))
+	.append("g").attr("transform","translate("+ margin.l+","+margin.t+")");
+var data1 = [ 
+	{data:bP.partData(dim_dim,2), id:'dim_dim', header:["Indicadores de Dimensión que aportan","Indicadores de Dimensión a los que aportan", "Análisis Indicadores de Dimensión"]},
+	
+];
+bP.draw(data1, svg1);
+</script>
+</body>
+<script type="text/javascript">
+		// Creamos un array vacio
+// Capturamos el click y lo pasamos a una funcion
+//document.onclick = captura_click;
+window.onload = getVarsUrl;	
+function captura_click(e) {
+	// Funcion para capturar el click del raton
+	var HaHechoClick;
+	if (e == null) {
+		// Si hac click un elemento, lo leemos
+		HaHechoClick = event.srcElement;
+	} else {
+		// Si ha hecho click sobre un destino, lo leemos
+		HaHechoClick = e.target;
+	}
+	// Añadimos el elemento al array de elementos
+	// Una prueba con salida en consola
+	//console.log("Contenido sobre lo que ha hecho click: "+ElementosClick.innerHTML);	
+	console.log(HaHechoClick.id);
+	
+	if (HaHechoClick.id){
+		//window.location.replace("./index2.html")
+		location.href='./index2.html?var='+HaHechoClick.id;
+	}
+}
+ function getVarsUrl(){
+    var url= location.search.replace("?", "");
+    var arrUrl = url.split("&");
+    var urlObj={};   
+    for(var i=0; i<arrUrl.length; i++){
+        var x= arrUrl[i].split("=");
+        urlObj[x[0]]=x[1]
+    }
+    file = urlObj.var;
+    //console.log(file);
+}
+</script>					
+
+					
+
+					</div>
+
+				<!-- Footer -->
+			
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

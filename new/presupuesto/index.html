@@ -96,7 +96,7 @@ d3.json("./flare2.json", function(error, root) {
       .data(partition.nodes(root))
     .enter().append("path")
       .attr("d", arc)
-      .style("fill", function(d) { console.log(color(hola));return color((d.children ? d : d.parent).name); })
+      .style("fill", function(d) {return color((d.children ? d : d.parent).name); })
       .on("click", click)
     .append("title")
       .text(function(d) { return d.name + "\n" + formatNumber(d.value); });

@@ -90,7 +90,7 @@ var svg = d3.select("body").append("svg")
     .attr("height", height)
   .append("g")
     .attr("transform", "translate(" + width / 2 + "," + (height / 2) + ")");
-d3.json("./flare.json", function(error, root) {
+d3.json("./flare2.json", function(error, root) {
   if (error) throw error;
   svg.selectAll("path")
       .data(partition.nodes(root))

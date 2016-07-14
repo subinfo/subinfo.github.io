@@ -99,6 +99,7 @@
 	.icon {
 		text-decoration: none;
 		position: relative;
+		text-align: -webkit-center;
 	}
 
 		.icon:before {

@@ -111,7 +111,8 @@
 		}
 
 		.icon > .label {
-			display: none;
+			/*display: none;*/
+			align:left;
 		}
 
 /* Wrapper */

@@ -1,4 +1,4 @@
-t{
+{
     "timeline":
     {
         "headline":"Sh*t People Say",
@@ -10,10 +10,10 @@ t{
                 "startDate":"2011,12,12",
 				"endDate":"2012,1,27",
                 "headline":"Vine",
-                "text":"<p>Vine Test</p>",
+                "text":"<p>Vine Test texto largooooooooo</p>",
                 "asset":
                 {
-                    "media":"http://youtu.be/u4XpeU9erbg",
+                    "media":"./image.png",
                     "credit":"",
                     "caption":""
                 }

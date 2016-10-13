@@ -13,7 +13,7 @@
                 "text":"<p>Vine Test</p>",
                 "asset":"./image.png"
                 {
-                    "media":"https://vine.co/v/b55LOA1dgJU",
+                    "media":"./image.png",
                     "credit":"",
                     "caption":""
                 }

@@ -11,7 +11,7 @@
 				"endDate":"2012,1,27",
                 "headline":"Vine",
                 "text":"<p>Vine Test</p>",
-                "asset":
+                "asset":"./image.png"
                 {
                     "media":"https://vine.co/v/b55LOA1dgJU",
                     "credit":"",

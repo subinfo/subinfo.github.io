@@ -2,7 +2,7 @@
 class BubbleChart
   constructor: (data) ->
     @data = data
-    @width = 940
+    @width = 1500
     @height = 600
 
     @tooltip = CustomTooltip("gates_tooltip", 240)
@@ -12,9 +12,10 @@ class BubbleChart
     # used
     @center = {x: @width / 2, y: @height / 2}
     @year_centers = {
-      "2008": {x: @width / 3, y: @height / 2},
-      "2009": {x: @width / 2, y: @height / 2},
-      "2010": {x: 2 * @width / 3, y: @height / 2}
+      "Mesa 1": {x: @width / 5, y: @height / 2},
+      "Mesa 2": {x: 2 * @width / 6, y: @height / 2},
+      "Mesa 3": {x: 3 * @width / 6, y: @height / 2},
+      "Mesa 4": {x: 3 * @width / 4, y: @height / 2}
     }
 
     # used when setting up force and
@@ -31,7 +32,7 @@ class BubbleChart
     # nice looking colors - no reason to buck the trend
     @fill_color = d3.scale.ordinal()
       .domain(["low", "medium", "high"])
-      .range(["#d84b2a", "#beccae", "#7aa25c"])
+      .range(["rgb(183,71,144)", "rgb(233,192,101)", "rgb(0,149,176)"])
 
     # use the max total_amount in the data as the max in the scale's domain
     max_amount = d3.max(@data, (d) -> parseInt(d.total_amount))
@@ -54,6 +55,8 @@ class BubbleChart
         org: d.organization
         group: d.group
         year: d.start_year
+        proyectos: d.start_month
+        indicadores: d.indicadores
         x: Math.random() * 900
         y: Math.random() * 800
       }
@@ -157,7 +160,7 @@ class BubbleChart
 
   # Method to display year titles
   display_years: () =>
-    years_x = {"2008": 160, "2009": @width / 2, "2010": @width - 160}
+    years_x = {"Mesa 1": @width / 9,"Mesa 2": 2 * @width / 7, "Mesa 3": 4 * @width / 8, "Mesa 4": 8 * @width / 10}
     years_data = d3.keys(years_x)
     years = @vis.selectAll(".years")
       .data(years_data)
@@ -175,9 +178,11 @@ class BubbleChart
 
   show_details: (data, i, element) =>
     d3.select(element).attr("stroke", "black")
-    content = "<span class=\"name\">Title:</span><span class=\"value\"> #{data.name}</span><br/>"
-    content +="<span class=\"name\">Amount:</span><span class=\"value\"> $#{addCommas(data.value)}</span><br/>"
-    content +="<span class=\"name\">Year:</span><span class=\"value\"> #{data.year}</span>"
+    content = "<span class=\"name\"></span><span class=\"value\"> #{data.name}</span><br/>"
+    content +="<span class=\"name\">Avance 2016:</span><span class=\"value\"> #{data.value}</span><br/>"
+    content +="<span class=\"name\">Proyectos:</span><span class=\"value\"> #{data.proyectos}</span><br/>"
+    content +="<span class=\"name\">Indicadores:</span><span class=\"value\"> #{data.indicadores}</span><br/>"
+    
     @tooltip.showTooltip(content,d3.event)
 
 

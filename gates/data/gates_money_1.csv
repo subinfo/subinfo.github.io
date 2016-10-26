@@ -1,0 +1,28 @@
+grant_title,id,organization,total_amount,group,Grant start date,start_month,start_day,start_year
+Secretaría de lnfraestructura Física,1,Secretaría de lnfraestructura Física,27%,high,a,b,c,Mesa 1
+Secretaría de Medio Ambiente,1,Secretaría de Medio Ambiente,23%,medium,a,b,c,Mesa 1
+Secretaría de Movilidad,1,Secretaría de Movilidad,18%,medium,a,b,c,Mesa 1
+Departamento Administrativo de planeación,1,Departamento Administrativo de planeación,13%,low,a,b,c,Mesa 1
+Secretaría de Gestión y Control Territorial,1,Secretaría de Gestión y Control Territorial,57%,high,a,b,c,Mesa 1
+lnstituto Social de Vivienda y Hábitat de Medellín -lsvimed-,1,lnstituto Social de Vivienda y Hábitat de Medellín -lsvimed-,7%,low,a,b,c,Mesa 1
+Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público - Privadas,1,Agencia para la Gestión del Paisaje, el Patrimonio y las Alianzas Público - Privadas,12%,low,a,b,c,Mesa 1
+Secretaría de Educación,1,Secretaría de Educación,21%,medium,a,b,c,Mesa 2
+Secretaría de Desarrollo Económico,1,Secretaría de Desarrollo Económico,19%,medium,a,b,c,Mesa 2
+Agencia para la Educación Superior -SAPIENCIA-,1,Agencia para la Educación Superior -SAPIENCIA-,13%,low,a,b,c,Mesa 2
+Secretaría de Participación Ciudadana,1,Secretaría de Participación Ciudadana,29%,high,a,b,c,Mesa 3
+Secretaría de Cultura Ciudadana,1,Secretaría de Cultura Ciudadana,24%,medium,a,b,c,Mesa 3
+Secretaría de Salud,1,Secretaría de Salud,24%,medium,a,b,c,Mesa 3
+Secretaría de Inclusión social, Familia y Derechos Humanos,1,Secretaría de Inclusión social, Familia y Derechos Humanos,27%,high,a,b,c,Mesa 3
+Secretaría de las Mujeres,1,Secretaría de las Mujeres,23%,medium,a,b,c,Mesa 3
+Secretaría de la Juventud,1,Secretaría de la Juventud,24%,medium,a,b,c,Mesa 3
+Secretaría de Seguridad y Convivencia,1,Secretaría de Seguridad y Convivencia,30%,high,a,b,c,Mesa 3
+lnstituto de Deportes y Recreación de Medellín -INDER-,1,lnstituto de Deportes y Recreación de Medellín -INDER-,20%,medium,a,b,c,Mesa 3
+Museo Casa de la Memoria,1,Museo Casa de la Memoria,33%,high,a,b,c,Mesa 3
+Secretaría Privada,1,Secretaría Privada,10%,low,a,b,c,Mesa 4
+Secretaría de Comunicaciones,1,Secretaría de Comunicaciones,54%,high,a,b,c,Mesa 4
+Secretaría de Evaluación y Control,1,Secretaría de Evaluación y Control,68%,high,a,b,c,Mesa 4
+Secretaría de Hacienda,1,Secretaría de Hacienda,27%,high,a,b,c,Mesa 4
+Secretaría General,1,Secretaría General,54%,high,a,b,c,Mesa 4
+Secretaría de Gestión Humana y Servicio a la Ciudadanía,1,Secretaría de Gestión Humana y Servicio a la Ciudadanía,68,70%,high,a,b,c,Mesa 4
+Secretaría de Suministros y Servicios,1,Secretaría de Suministros y Servicios,14%,low,a,b,c,Mesa 4
+Departamento Administrativo de Gestión del Riesgo de Desastres,1,Departamento Administrativo de Gestión del Riesgo de Desastres,20%,medium,a,b,c,Mesa 4
